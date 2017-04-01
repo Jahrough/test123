@@ -1,0 +1,276 @@
+/* ================================================================== */
+/* General Layout                                                     */
+/* ================================================================== */
+#search-container {
+    float: none;
+}
+#report_content {
+    padding-bottom: 10px;
+}
+.report_section {
+    margin-top: 15px;
+}
+.section_range {
+    text-align: right;
+}
+.filtered {
+    display: none !important;
+}
+header p {
+    margin: 0;
+}
+
+/* ================================================================== */
+/* Property Meta Data                                                 */
+/* ================================================================== */
+#properymeta ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#properymeta .prop-hri {
+    padding: 10px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    margin: 10px 15px 0;
+}
+#properymeta .prop-hri:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#properymeta .prop-hri > button {
+    float: right;
+}
+
+/* ================================================================== */
+/* Timeline                                                           */
+/* ================================================================== */
+#timeline-info header {
+    margin-bottom: 16px;
+}
+#timeline-info header:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#timeline-info header > div {
+    margin-bottom: 10px;
+}
+#timeline-info header .pull-right {
+    margin-left: 5px;
+}
+.timeline-container {
+    overflow: auto;
+    margin: 0 0 10px;
+    padding-bottom: 30px;
+}
+.timeline {
+    display: table;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.timeline > li {
+    display: table-cell;
+    text-align: center;
+    padding: 0 5px 15px;
+    vertical-align: top;
+    position: relative;
+    border-bottom: solid 2px #f00;
+}
+.timeline > li > div {
+    display: inline-block;
+    border: solid 1px #ccc;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px; 
+    border-radius: 5px;
+    padding: 5px;
+    
+    background-image: -webkit-linear-gradient(top, #ffffff 0%, #f1f1f1 100%);
+    background-image: -moz-linear-gradient(top, #ffffff 0%, #f1f1f1 100%);
+    background-image: -ms-linear-gradient(top, #ffffff 0%, #f1f1f1 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f1f1f1',GradientType=0 );
+    background-image: -o-linear-gradient(top, #ffffff 0% ,#f1f1f1 100%);
+    background-image: linear-gradient(top, #ffffff 0%, #f1f1f1 100%);    
+    
+    -moz-box-shadow: 0px 3px 5px #ccc;
+    -webkit-box-shadow: 0px 3px 5px #ccc;
+    box-shadow: 0px 3px 5px #ccc;    
+}
+.timeline-meta {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    margin-bottom: 8px;
+}
+.timeline-meta > li {
+    display: inline-block;
+}
+.timeline p {
+    margin: 0;
+    font-size: 0.7692em;
+    white-space: nowrap;
+}
+.timeline .timeline-date {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    margin-bottom: -29px;
+}
+.timeline .timeline-date:before {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -2.5px;
+    margin-bottom: 10px;
+    border: 4px solid #f00;
+}
+.icon_table {
+    text-align: right;
+}
+
+/* ================================================================== */
+/* Property Information                                               */
+/* ================================================================== */
+.property-maps {
+    list-style-type: none;
+    text-align: center;
+    white-space: nowrap;
+    padding: 0;
+}
+.property-maps:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.property-maps .modal {
+    white-space: normal;
+}
+.property-maps > li {
+    display: inline-block;
+    max-width: 50%;
+    text-align: center;
+    padding: 0 10px;
+}
+.property-maps .preview img {
+    max-width: 100%;
+}
+.property-maps .preview + button {
+    margin-top: 10px;
+}
+
+.property-maps + .property-metadata {
+    margin-top: 15px;
+}
+.property-metadata:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.property-metadata > dl {
+    float: left;
+    width: 50%;
+    display: table;
+    padding: 0 10px;
+}
+.property-metadata > dl > div {
+    display: table-row;
+}
+.property-metadata > dl dt,
+.property-metadata > dl dd {
+    display: table-cell;
+    vertical-align: top;
+    padding: 10px 5px;
+}
+.property-metadata > dl dt:after {
+    content: ":";
+}
+.property-metadata > dl > div + div dt,
+.property-metadata > dl > div + div dd {
+    border-top: solid 1px #ccc;
+}
+
+/* ================================================================== */
+/* Transaction History                                                */
+/* ================================================================== */
+.transaction-range {
+    list-style-type: none;
+    padding: 0;
+    margin: 25px 0 15px;
+}
+.transaction-range:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.transaction-range > li {
+    float: left;
+    width: 50%;
+}
+.transaction-range > li + li {
+    text-align: right;
+}
+
+#transhistory em {
+    display: block;
+    font-style: normal;
+    color: #c03;
+    white-space: nowrap;
+    font-size: .8462em
+}
+
+#transhistory ul {
+    list-style-type: none;
+    padding: 0;
+}
+#transhistory .popover-content ul {
+    list-style-type: initial;
+    padding-left: 20px;
+}
+
+#transhistory .expando {
+    white-space: nowrap;
+}
+#transhistory .expando:before {
+    vertical-align: middle;
+}
+#transhistory h4.expando {
+    margin-bottom: 0;
+}
+#transhistory h4.expando button {
+    color: #000;
+}
+#transhistory .dupe > td {
+    background: #eaffcb;
+}
+#transhistory  .popover-prop-history {
+    width: 300px;
+    font-size: 10px;
+    font-size: 1rem;
+}
+#transhistory  .popover-title {
+    font-size: 12px;
+    font-size: 1.2rem;
+    padding: 4px 14px;
+}
+#transhistory  .popover-title .close {
+    margin-top: -3px;
+}
+
+
+.history_chart {
+    overflow: hidden;
+    text-align: center;
+}
+.history_chart > div {
+    height: 200px;
+    width: 100%;
+}

@@ -1,0 +1,307 @@
+.mainMenuWrapper{
+    width:1250px;
+    margin:auto;
+}
+
+table.mainMenuTable{
+    margin:0;
+}
+table.mainMenuTable > tbody > tr > td{
+    vertical-align:top;
+}
+table.mainMenuSection{
+    background:#fff;
+    border-radius:5px;
+    overflow:hidden;
+    width:100%;
+}
+table.mainMenuSection > thead > tr > th{
+    background:#ed1c24;
+    color:#fff;
+    height:30px;
+    font:normal 18px Calibri, Arial;
+    padding:0;
+}
+table.mainMenuSection > tbody > tr > td{
+    vertical-align: top;
+}
+.minMax{
+    height: 22px;
+    width: 22px;
+    background: #fff;
+    border-radius:11px;
+}
+table.mainMenuSection i{
+    display: inline-block;
+    margin-top: 1px;
+    margin-right: 6px;
+    float: left;
+}
+table.mainMenuSection > thead > tr{
+    background:#ed1c24;
+}
+table.mainMenuSection.mm-myacc > thead > tr{
+    background:#6d6e71;
+}
+table.mainMenuSection > thead > tr > th{
+    width:31px;
+}
+table.mainMenuSection > thead > tr > th.sectionLabel{
+    width:auto !important;
+    min-width:75px;
+}
+table.mainMenuSection.mm-myacc .collapseExpandCon,
+table.mainMenuSection.mm-myacc .mm-customizeLink{
+    width:55px !important;
+}
+table.mainMenuSection.mm-myacc > thead > tr > th.sectionLabel{
+    width:auto !important;
+}
+table.mainMenuSection ul {
+    padding-left: 25px;
+    margin-top: 7px;
+    font-size: 14px;
+    font-family: Calibri, Arial;
+    font-weight: normal;
+    color: #6d6e71;
+}
+th.sectionLabel{
+    width:255px;
+}
+table.mainMenuTable > tbody > tr > td{
+    width:20%;
+}
+th.collapseExpandCon{
+    width:31px;
+}
+table.mainMenuSection.mm-myacc > thead > tr > th.collapseExpandCon{
+    width:40px;
+}
+th.collapseExpandCon > i{
+    float:left;
+    margin-top:1px;
+    margin-left:7px;
+}
+th.sectionLabel{
+    width: 100%;
+    text-align: center;
+    height: 30px;
+}
+th.sectionLabel > div{
+    width: auto;
+    display: inline-block;
+}
+th.sectionLabel > div > i{
+    margin-top:2px;
+}
+th.sectionLabel > div > span{
+    margin-top:3px;
+    display: inline-block;
+}
+th.mm-customizeLink > div{
+    font-size:14px;
+    margin-left: 0;
+    display: inline-block;
+	text-decoration:underline;
+}
+th.mm-customizeLink{
+    text-align:center;
+    cursor:pointer;
+}
+table.mainMenuSection li > span {
+    margin-left: -6px;
+}
+table.mainMenuSection li {
+    margin-bottom: 3px;
+}
+table.mainMenuTable>tbody>tr>td{
+    padding-right:14px;
+}
+table.mainMenuTable>tbody>tr>td#rightNavTeaserCell{
+    padding-right:0;
+}
+div.mainMenuSectionWrapper{
+    overflow:hidden;
+    border-radius:5px;
+    margin-bottom:14px;
+}
+.mainMenuSection a:hover{
+    text-decoration:underline;
+}
+#rightNavTeaserCell .ad{
+    border-radius:5px;
+    margin-bottom:14px;
+    background-color: #ffffff;
+}
+
+table.mm-myacc > thead > tr > th{
+    background:#6D6E71;
+}
+.pageFooterCon{
+    background:#fff;
+    border-radius:5px;
+    width:100%;
+    color:#6d6e71;
+}
+.pageFooterCon a{color: #0096ec;}
+.pageFooterCon a:hover{text-decoration:underline;}
+.pageFooterCon,.pageFooterCon>span{
+    display: inline-block;
+}
+.pageFooterCon li{
+    float:left;
+    list-style-type: none;
+    font:normal 12px Calibri, Arial;
+    margin: 2px 8px 10px 0;
+}
+.pageFooterCon li.divider{
+    font-size:14px;
+    margin-top:0;
+}
+
+/* Main Menu Label Icons */
+.mm-people-ico{
+    background: url(../../images/v3/redesign_temp/mm_people_ico.png) no-repeat;
+    width:10px;
+    height:26px;
+}
+.mm-analysis-ico{
+    background: url(../../images/v3/redesign_temp/mm_analysis_ico.png) no-repeat;
+    width:16px;
+    height:26px;
+}
+.mm-assets-ico{
+    background: url(../../images/v3/redesign_temp/mm_assets_ico.png) no-repeat;
+    width:8px;
+    height:26px;
+}
+.mm-health-ico{
+    background: url(../../images/v3/redesign_temp/mm_health_ico.png) no-repeat;
+    width:12px;
+    height:26px;
+}
+.mm-courts-ico{
+    background: url(../../images/v3/redesign_temp/mm_courts_ico.png) no-repeat;
+    width:16px;
+    height:26px;
+}
+.mm-license-ico{
+    background: url(../../images/v3/redesign_temp/mm_license_ico.png) no-repeat;
+    width:17px;
+    height:26px;
+}
+.mm-batch-ico{
+    background: url(../../images/v3/redesign_temp/mm_batch_ico.png) no-repeat;
+    width:10px;
+    height:26px;
+}
+.mm-siris-ico{
+    background: url(../../images/v3/redesign_temp/mm_siris_ico.png) no-repeat;
+    width:10px;
+    height:26px;
+}
+.mm-record-ico{
+    background: url(../../images/v3/redesign_temp/mm_record_ico.png) no-repeat;
+    width:16px;
+    height:26px;
+}
+.mm-news-ico{
+    background: url(../../images/v3/redesign_temp/mm_news_ico.png) no-repeat;
+    width:18px;
+    height:26px;
+}
+.mm-business-ico{
+    background: url(../../images/v3/redesign_temp/mm_business_ico.png) no-repeat;
+    width:13px;
+    height:26px;
+}
+.mm-phones-ico{
+    background: url(../../images/v3/redesign_temp/mm_phones_ico.png) no-repeat;
+    width:14px;
+    height:26px;
+}
+.mm-intl-ico{
+    background: url(../../images/v3/redesign_temp/mm_intl_ico.png) no-repeat;
+    width:15px;
+    height:26px;
+}
+.mm-myacc-ico{
+    background: url(../../images/v3/redesign_temp/mm_myacc_ico.png) no-repeat;
+    width:14px;
+    height:26px;
+}
+.mm-fcra-ico{
+    background: url(../../images/v3/redesign_temp/mm_fcra_ico.png) no-repeat;
+    width:15px;
+    height:16px;
+    margin-top: 6px !important;
+}
+
+/* Collapse Control Styles */
+.collapseControlsCon{
+    width: 1250px;
+    margin:15px auto;
+    text-align:center;
+}
+.collapseControlsCon > div{
+    display:inline-block;
+}
+.rolloverToggle,
+.collapseExpandAll-expand,
+.collapseExpandAll-collapse{
+    width:150px;
+    height:34px;
+}
+.collapseExpandAll-expand:hover,
+.collapseExpandAll-collapse:hover{
+    cursor:pointer;
+    opacity:0.4;
+    filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+.collapseExpandAll-collapse{
+    background: url(../../images/v3/redesign_temp/button_collapse_all.png) no-repeat;
+}
+.collapseExpandAll-expand{
+    background: url(../../images/v3/redesign_temp/button_expand_all.png) no-repeat;
+}
+.rolloverToggle{
+    font:normal 12px Calibri, Arial;
+}
+.rolloverToggle > *{
+    float:left;
+}
+.rolloverToggle > input{margin: 11px 6px 0 5px;}
+.rolloverToggle > div{margin-top: 11px;}
+table.mainMenuSection th.collapseExpandCon > i,
+table.mainMenuSection th.mm-customizeLink > div{
+    cursor:pointer;
+}
+.mainMenuSectionWrapper.rolloverEnabled:hover{
+    height:auto !important;
+}
+.mm-customizeLink:hover > div{
+    text-decoration:underline;
+}
+.mm-searches {
+    padding-left: 10px;
+    margin-top: 7px;
+    margin-bottom: 14px;
+}
+.mm-search {
+    font-family:Calibri, Arial;
+    color:#464646;
+    font-size:14px;
+    margin-bottom:3px;
+    max-width:230px;
+}
+.mm-search > span:first-child{
+    margin-right:4px;
+    font-size:10px;
+}
+#mainMenu > span{
+    height:0px;
+    display:none;
+}
+#mainMenu > div > div.th:first-child{
+    border-top:0;
+}

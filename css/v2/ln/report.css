@@ -1,0 +1,240 @@
+/* Background Styles */
+body { background-color: #FCFAF5; }
+
+/* Link Colors */
+
+a:link, a:visited, a:active { 
+    color: #0000ff; text-decoration: none;
+}
+a:hover { 
+    color: #0000ff; font-weight: bold; text-decoration: none;
+}
+a.searchresultslink:link, a.searchresultslink:visited, a.searchresultslink:active { 
+    color: #0000ff; text-decoration: none;
+}
+a.searchresultslink:hover { 
+    color: #0000ff; font-weight: bold; text-decoration: none;
+}
+
+/* public records discalimer */
+.discalimertitle {
+    font-family: arial; font-size: 8pt; color: blue; font-weight: bold;
+}
+.disclaimerbody {
+    font-family: arial; font-size: 8pt; color: black;
+}
+
+/* packaged reports */
+#main_report_container {
+    margin: 10px 10px 10px 10px;
+}
+.report_subsection_title {
+    font-size: 10pt; font-family: arial; font-weight: bold; color:#ed1c24;
+}
+.report_small_subsection_title {
+    font-size: 8pt; font-family: arial; font-weight: bold;
+}
+.report_medium_subsection_title {
+    font-size: 10pt; font-family: arial; font-weight: bold;
+}
+.report_font {
+    font-size: 8pt; font-family: arial;
+}
+.report_smallfont {
+    font-size: 7pt; font-family: arial;
+}
+.report_smallfontred {
+    font-size: 7pt; font-family: arial; color: #ed1c24;
+}
+.banner3 {
+    font-size: 14pt; font-family: arial; COLOR: #003399; 
+}
+
+/* misc report */
+.reportheader1 {
+    font-size: 14pt; font-family: arial; COLOR: #003399; font-weight: bold;
+}
+.reportheader2 {
+    font-size: 12pt; font-family: arial; color: #003399; font-weight: bold;
+}
+.reportheader3 {
+    font-size: 10pt; font-family: arial; color: #003399; font-weight: bold;
+}
+.reportheader4 {
+    font-size: 9pt; font-family: arial; color: #003399; font-weight: bold;
+}
+.lxrepbodyfont1 {FONT-SIZE: 9pt; FONT-FAMILY: Arial, Helvetica, sans-serif; }
+
+
+.rb { color: #000000; height: 32px; width: 160px; font-weight: bold; font-family: arial,helvetica; font-size: 8pt; background: #BCC1A9; cursor:pointer; cursor:hand; border-width: 3px; border-style: solid; border-color: #E8EAE0 #828575 #828575 #E8EAE0; }
+.rbd { color: #000000; height: 32px; width: 160px; font-weight: bold; font-family: arial,helvetica; font-size: 8pt; background: #BCC1A9; cursor:pointer; cursor:hand; border-width: 3px; border-style: solid; border-color: #828575 #E8EAE0 #E8EAE0 #828575; }
+
+.preload {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ed1c24;
+    text-align: center;
+	border: 1px solid #000;
+	padding: 5px;
+}
+.redHead { /* used to be bighead */
+	color: #ed1c24;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 0 0 .5em 0;
+	clear:both;
+}
+
+table.biz_credit_report {
+    color: #000000;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 0px;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+}
+
+table.biz_credit_report .simple_border{
+    border: 1px solid #000;
+}
+
+table.biz_credit_report .label_column{
+    background-color: #DDDDDD;
+}
+
+table.biz_credit_report th {   
+    font-weight: bold;
+    text-align: center;
+    background-color: #99CCFF;
+}
+
+table.biz_credit_report td.heading {
+    font-weight: bold;
+    background-color: #99CCFF;
+}
+
+#report_logo, #report_logo img{
+    display: none;
+}
+
+#report_logo_footer, #report_logo_footer img{
+    display: none;
+}
+
+#contact_card_container {
+    width: 750px;
+}
+div.contact_card_report_key {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    width: 95%;
+    text-align: left;
+}
+
+table.contact_card {
+    width: 100%;
+    color: #000000;
+    text-align: left;
+    padding: 2px;
+    border-spacing: 0px;
+    background-color: #FFFFFF;
+}
+
+table.contact_card th {   
+    font-weight: bold;
+}
+
+table.contact_card td {   
+    vertical-align: top;
+}
+
+table.contact_card .contact_card_group_label {   
+    font-weight: bold;
+    text-align: left;
+}
+
+table.contact_card .odd {   
+    background-color: #dcdcdc;
+}
+
+table.contact_card .even {   
+    background-color: #FFFFFF;
+}
+
+.backtosummary {
+        font-size: 8pt; 
+	font-family: arial; 
+	color:#ed1c24;
+	float:right;
+	margin-right:15px;
+	cursor:pointer;
+}
+
+.unifont1 {FONT-SIZE: 9pt; FONT-FAMILY: Arial; }
+
+#reportResultsTbl  table{
+        background: #FCFAF5;
+}
+
+#content {
+        position:relative; 
+	display:block; 
+	margin:0 0 0 190px; 
+	padding-top:40px;
+	padding-top:1px;
+	width: 100%;
+	height: 95%;
+	position: relative;
+	left: 10px;
+	FONT-SIZE: 71%;
+	overflow:auto;
+	/*overflow-y: auto;*/
+	}
+
+.text {display:block; padding:4px 4px 4px 4px; width:100%; margin-left:2px; text-align:left; float:left; color:#000;}
+* html .text{width:93%;}
+
+#content H2 {
+        color:#ed1c24;
+        font-weight:bold;
+        background-image:url(../../../images/v2/ico_hdrarrow_red.gif);
+        background-repeat:no-repeat;
+        background-position:left .42em;
+        font-size:91%;
+        padding-left:15px;
+        width:auto;
+        line-height:110%;
+}
+
+#content H3 {
+        color:#ed1c24;
+        font-size: 105%;
+}
+
+#content P {
+        font-size:81%;
+}
+#content .grey{
+        width:auto;
+        float:right;
+        display:block;
+        font-size:9px;
+        padding-right:10px;
+        color:#666666;
+}
+
+#content table{
+        background-color: #fcfaf5;
+}
+
+.on_rs{
+    background-color: #F2F4F1;
+    border:1px solid #666666;
+}
+
+.off_rs{
+    background-color:none;
+}
+
+

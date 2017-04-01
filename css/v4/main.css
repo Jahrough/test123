@@ -1,0 +1,213 @@
+#logo2 {    
+    margin-left: 4px;
+	display:inline-block;
+}
+
+#custlogo{
+	margin-top: 6px;
+	display: inline;
+    float: left;
+    height: 49px;
+    vertical-align: middle;
+}
+
+#custtext_aml{
+    margin-left: 240px;
+	margin-top: 3px;
+	display: inline;
+    float: left;
+    height: 49px;
+    vertical-align: middle;
+}
+
+#custtext_rm{
+    margin-left: 365px;
+	margin-top: 3px;
+	display: inline;
+    float: left;
+    height: 49px;
+    vertical-align: middle;
+}
+
+#custtext_aml p {
+    font-size: 15px;
+	color: #000000;
+}
+
+#custtext_rm p {
+    font-size: 15px;
+	color: #000000;
+}
+
+.navbar{
+    border-radius:0;
+}
+.navbar-inverse{
+    background-color:#6D6E71;
+}
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-text {
+    color: #fff;
+}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-text {
+    text-decoration:underline;
+}
+
+
+.btn-success{
+    color: #fff;
+    background-color: #77b800;
+}
+.btn-danger {
+    background-color: #ed1c24;  border-color: #9a0910;
+}
+.btn-danger.active, .btn-danger:active, .btn-danger:focus, .btn-danger:hover, .open>.dropdown-toggle.btn-danger {
+    color: #fff;
+    background-color: #ed1c24;
+    border-color: #640308;
+    cursor: auto;
+}
+.btn-default:hover{
+	color:#ed1c24;
+}
+
+
+.anim-slideInDown {
+    -webkit-animation-name: slideInDown !important;
+    -moz-animation-name: slideInDown !important;
+    -o-animation-name: slideInDown !important;
+    animation-name: slideInDown !important;
+}
+.anim-fadeIn {
+    -webkit-animation-name: fadeIn !important;
+    -moz-animation-name: fadeIn !important;
+    -o-animation-name: fadeIn !important;
+    animation-name: fadeIn !important;
+}
+.anim-fadeInDown {
+    -webkit-animation-name: fadeInDown !important;
+    -moz-animation-name: fadeInDown !important;
+    -o-animation-name: fadeInDown !important;
+    animation-name: fadeInDown !important;
+}
+.anim-bounceIn {
+    -webkit-animation-name: bounceIn !important;
+    -moz-animation-name: bounceIn !important;
+    -o-animation-name: bounceIn !important;
+    animation-name: bounceIn !important;
+}
+.anim-rollIn {
+    -webkit-animation-name: rollIn !important;
+    -moz-animation-name: rollIn !important;
+    -o-animation-name: rollIn !important;
+    animation-name: rollIn !important;
+}
+.anim-duration-p4s{
+    -webkit-animation-duration: .4s;
+    -moz-animation-duration: .4s;
+    -o-animation-duration: .4s;
+    animation-duration: .4s;
+}
+
+.btn-icon-subbtn{
+    /*padding: 10px 7px !important;*/
+}
+.btn-icon-lg {
+    padding: 0px 4px !important;
+    font-size: 18px !important;
+}
+.btn {
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    box-shadow: inset 0 -2px 0 rgba(0,0,0,.05);
+    -moz-box-shadow: inset 0 -2px 0 rgba(0,0,0,.05);
+    -webkit-box-shadow: inset 0 -2px 0 rgba(0,0,0,.05);
+}
+
+.portal-decisions .btn{
+    padding:0;
+}
+
+.tab-dropdown-header {
+    background: #bfbfbf;
+    margin: 0px 6px;
+    color: #000;
+    padding-left: 6px;
+}
+
+.top-radius{
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
+}
+.bottom-radius{
+    border-bottom-left-radius:8px;
+    border-bottom-right-radius:8px;
+}
+.inset-shadow{
+    box-shadow: inset 0 -2px 0 rgba(0,0,0,.08);
+    -moz-box-shadow: inset 0 -2px 0 rgba(0,0,0,.08);
+    -webkit-box-shadow: inset 0 -2px 0 rgba(0,0,0,.08);
+}
+
+label.input-right-icon{
+    position:relative;
+    margin:3px 8px;
+}
+label.input-right-icon > i{
+    position:absolute;
+    right:5px;
+    top:4px;
+    color:#333;
+    font-size:16px;
+}
+label.input-right-icon > input{
+    height: 24px;
+    font-size: 13px;
+}
+
+.page-footer {
+	padding: 10px 25px 0 15px!important;
+	vertical-align: middle!important;
+}
+
+.center-text{
+	line-height: 2em;
+	vertical-align:middle;
+}
+
+.text-11px{
+	font-size: 11px;
+}
+
+.smart-form .select i{
+    width:0px;
+    overflow:visible;
+}
+
+/* New Classes */
+.copyResults{
+    width:63px;
+}
+.typeFullName, .typeAddr {
+	font-weight:bold;
+}
+
+.bl {
+    display: block;
+}
+
+.subLbl{
+color:#A6A6A6;
+}
+
+a:hover.start-page { cursor:text; }
+a:hover.make-start-page { cursor:pointer; }
+
+.tooltip-note{
+    font-size: 9px;
+}
+
+#source_doc_container td.lower-case{
+    text-transform:lowercase;
+}
+

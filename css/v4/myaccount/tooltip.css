@@ -1,0 +1,66 @@
+/* CSS Document: for tooltip type bubbles */
+
+/* default: blue color */
+div.speechbubbles
+{
+    background-color: #42b4e4; /*background color of tooltip*/
+    border: 1px solid #42b4e4;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    z-index: 5;
+    visibility: hidden;
+    line-height: 1.3em;
+    padding: 10px;
+    width: 225px; /*default width of tooltip*/
+
+    border-radius: 5px; /*CSS3 border radius*/
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    
+    -moz-box-shadow: 0px 2px 4px #676661;
+  -webkit-box-shadow: 0px 2px 4px #676661;
+  box-shadow: 0px 2px 4px #676661;
+}
+
+div.speechbubbles div.speechbubbles-arrow
+{  /*shared CSS for arrow DIV (upwards pointing)*/
+    border-color: transparent transparent #42b4e4 transparent; /*border color should be same as div.speechbubbles background color*/
+    border-style: solid;
+    border-width: 10px;
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: -19px;
+    left: 20px;
+    z-index: 6;
+    _display: none; /*IE hack to hide arrow in IE6*/
+}
+
+div.speechbubbles div.speechbubbles-arrow-border
+{ /*shared CSS for arrow border DIV*/
+    border-color: transparent transparent #42b4e4 transparent; /*border color should be same as div.speechbubbles border color*/
+    border-style: solid;
+    border-width: 10px;
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    z-index: 6;
+    _display: none; /*IE hack to hide arrow in IE6*/
+}
+
+div.downversion div.speechbubbles-arrow
+{ /*down arrow DIV specific CSS*/
+    border-color: #d5f3ff transparent transparent transparent; /*border color should be same as div.speechbubbles background color*/
+    top: auto;
+    bottom: -19px;
+}
+
+div.downversion div.speechbubbles-arrow-border
+{ /*down arrow border DIV specific CSS*/
+    border-color: #6eccf1 transparent transparent transparent; /*border color should be same as div.speechbubbles border color*/
+    top: auto;
+    bottom: -20px;
+}

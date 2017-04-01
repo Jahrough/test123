@@ -1,0 +1,164 @@
+.hideskiplink {display:none}
+.unifont2pt {FONT-SIZE: 2pt; FONT-FAMILY: Arial,Helvetica; COLOR: #21295a; }
+.unifont7pt {FONT-SIZE: 7pt; FONT-FAMILY: Arial,Helvetica; COLOR: #21295a; }
+.smallfont1 {FONT-SIZE: 8pt; FONT-FAMILY: Arial; }
+.smallfont1white {FONT-SIZE: 8pt; FONT-FAMILY: Arial; COLOR: white;}
+.smallfont2 {FONT-SIZE: 8pt; FONT-FAMILY: Arial Narrow; }
+.smallfont2white {FONT-SIZE: 8pt; FONT-FAMILY: Arial; }
+.smallfont3 {FONT-SIZE: 8pt; FONT-FAMILY: Verdana; }
+.smallfontred {FONT-SIZE: 8pt; FONT-FAMILY: Verdana; color: #CE0031;}
+.unifont1 {FONT-SIZE: 9pt; FONT-FAMILY: Arial; }
+.unifont1bold {FONT-SIZE: 9pt; FONT-FAMILY: Arial; FONT-WEIGHT: bold;}
+.unifont1boldred {FONT-SIZE: 10pt; FONT-FAMILY: Arial; FONT-WEIGHT:bold; color: #CE0031;}
+.unifont1boldbrightred {FONT-SIZE: 10pt; FONT-FAMILY: Arial; FONT-WEIGHT:bold; color: #FF0000;}
+.unifont1boldgreen {FONT-SIZE: 10pt; FONT-FAMILY: Arial; FONT-WEIGHT:bold; color: #008000;}
+.unifont1boldaqua {FONT-SIZE: 9pt; FONT-FAMILY: Arial; FONT-WEIGHT:bold; color: #008080;}
+.unifont1boldwhite {FONT-SIZE: 9pt; FONT-FAMILY: Arial; FONT-WEIGHT:bold; color: white;}
+.unifont1italic {FONT-SIZE: 9pt; FONT-FAMILY: Arial; font-style: italic }
+.unifont1white {FONT-SIZE: 9pt; FONT-FAMILY: Arial; COLOR: white; }
+.unifont1yellow {FONT-SIZE: 9pt; FONT-FAMILY: Arial; COLOR: yellow; }
+.unifont1blue {FONT-SIZE: 9pt; FONT-FAMILY: Arial; COLOR: blue; }
+.unifont2 {FONT-SIZE: 10pt; FONT-FAMILY: Arial; }
+.unifont2white {FONT-SIZE: 10pt; FONT-FAMILY: Arial; COLOR: white; }
+.largefont1 {FONT-SIZE: 12pt; FONT-FAMILY: Arial; }
+.largefont1bold {FONT-SIZE: 12pt; FONT-FAMILY: Arial; FONT-WEIGHT: bold;}
+.largefont1white {FONT-SIZE: 12pt; FONT-FAMILY: Arial; COLOR: white; }
+.banner1 {FONT-SIZE: 24pt; FONT-FAMILY: Arial; COLOR: #003399; }
+.banner2 {FONT-SIZE: 12pt; FONT-FAMILY: Arial; COLOR: #000000; }
+.banner3 {FONT-SIZE: 14pt; FONT-FAMILY: Arial; COLOR: #003399; }
+.style1 {FONT-SIZE: 12pt; FONT-FAMILY: Arial; COLOR: #003399; }
+.style2 {FONT-SIZE: 9pt; FONT-FAMILY: Verdana; }
+.bold {font-weight: bold;}
+.searchmessagewhite {font-size: 9pt; font-family: verdana; font-weight: bold; color: white; }
+.searchmessageyellow {font-size: 9pt; font-family: verdana; font-weight: bold; color: yellow; }
+.nsinputs {FONT-SIZE: 9pt; }
+.report_subsection_title {FONT-SIZE: 12pt; FONT-FAMILY: Arial; font-weight: bold;}
+.errmsg { font-family:Arial, Sans-Serif; font-size:9pt; color: #ff0000; }
+.results { font-family: Arial, Sans-Serif; font-size: 8pt; text-align: left; }
+.nsresults { font-family: Arial, Sans-Serif; font-size: 8pt; }
+table.results td { padding: 4px 2px; }
+td.results { padding: 4px 2px; }
+div.text-results { margin: 10px 10%; font-family: Arial, Sans-Serif; font-size: 9pt; text-align: left; }
+.report_body, .report_body td, .report_body th { font-size: 8pt; font-family: Arial, Sans-Serif; }
+.report_body td, .report_body th { width: 50%; }
+.newsfont1 {FONT-SIZE: 9pt; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; }
+.smallnewsfont1 {FONT-SIZE: 8pt; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; }
+
+.sup {
+    vertical-align: baseline;
+    font-size: 0.8em;
+    position: relative;
+    top: -0.4em;
+}
+
+span.source_docs {
+    visibility: hidden;
+    position: absolute; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    background: #efefef;
+    border: 1px solid #666666;
+    z-index: 900;
+}
+
+span.source_docs div {
+    padding:5px;
+    width:490px;
+}
+span.source_docs ul {
+    list-style-type:none;
+    padding:0 15px;
+    font-weight:bold;
+    margin-left: 2px;
+}
+span.source_docs td,th {
+    font-size:11px;
+    text-align:left;
+}
+span.source_docs table {
+    border:1px solid #5F5F5F;
+    padding:0;
+    width:425px;
+}
+span.source_docs th {
+    text-decoration:underline;
+    padding:0 5 0 5;
+}
+span.source_docs td {
+    padding:0 3px 0 10px;
+    width:140px;
+}
+span.source_docs td.centered {
+    text-align: center;
+    width:100px;
+}
+.src_docs_bot {
+    text-align:right;
+}
+
+span.source_docs table.verify_info {
+    width: 380px;
+}
+
+span.source_docs td.verify_right {
+    width: 200;
+    padding: 2px;
+    font: 12px bold verdana,arial,sans-serif;
+}
+
+span.source_docs td.verify_left {
+    width: 172;
+    padding: 1px;
+}
+
+span.search_pop {
+    visibility: hidden;
+    position: absolute; 
+    background: #efefef;
+    padding-bottom: 5px;
+    border: 1px solid #666666;
+    z-index: 900;
+}
+
+span.search_pop table{
+    text-align: left;
+    font-family:Arial,Verdana,Helvetica,sans-serif;
+    font-size:7pt;
+    width: 200px;
+}
+
+span.search_pop th{
+    background-color: #006dff;
+    color: #ffffff;
+    font-size: 8pt;
+    font-weight: bold;
+    padding: 3px;
+}
+span.search_pop td{
+    padding: 4px;
+}
+
+span.search_pop li{
+    margin: 0 5px 0 4px;
+    display: block;
+}
+
+span.ssn_layer, {
+    white-space: nowrap;
+}
+
+#fcraSearches:hover{
+    cursor: pointer;
+}
+
+#fcraSearches ul{
+    font-size: 11px;
+}
+
+#fcraSearches strong{
+    color:#ed1c24;
+}
+
+#tabs #fcraTab a{
+    background: bottom repeat-x url("../../../images/fcra_head.png");
+}

@@ -1,0 +1,97 @@
+<head>
+  <title>Professional Licenses Types</title>
+
+  <link href="<TMPL_VAR NAME='CSSPATH'>/<TMPL_VAR NAME=SKIN_TYPE>/coverage.css" rel="stylesheet" type="text/css">
+</head>
+<body onload="window.focus();" >
+
+<div align="center">
+<table border="0" cellpadding="5" cellspacing="0">
+  <tbody>
+     <tr>
+  <td nowrap="" align="center" class="statetitle">HAWAII <br>PROFESSIONAL LICENSES TYPES </td>
+  </tr>
+
+  </tbody>
+</table>
+  <br>
+
+<table border="0" cellpadding="5" cellspacing="0">
+  <tbody>
+     <tr>
+                                                <td nowrap="" valign="top" class="coveragetext"><b>LICENSE TYPES</b><br>
+                                                        <br>
+ACCOUNTING/ACCOUNTANT<br>
+ACTIVITY DESK<br>
+ACUPUNCTURE/ACUPUNCTURIST<br>
+APPRAISAL/APPRAISER<br>
+ARCHITECTURE/ARCHITECT<br>
+ATTORNEY*<br>
+AUCTION/AUCTIONEER<br>
+BARBER<br>
+BEAUTY INSTRUCTOR/OPERATOR/SCHOOL/SHOP<br>
+CEMETERY<br>
+CERTIFIED GENERAL<br>
+CERTIFIED RESIDENTIAL<br>
+CHIROPRACTIC/CHIROPRACTOR<br>
+COLLECTION AGENCY<br>
+CONDOMINIUM<br>
+CONTRACTOR<br>
+COUNSELING/COUNSELOR<br>
+DENTISTRY/DENTIST<br>
+DISTRIBUTOR<br>
+ELECTRICAL/ELECTRICIAN<br>
+ELECTROLOGIST<br>
+ELEVATOR MECHANIC<br>
+EMERGENCY MEDICAL TECHNICIAN<br>
+EMPLOYMENT AGENCY<br>
+ENGINEERING/ENGINEER<br>
+FUNERAL/CREMATORY/EMBALMER<br>
+GUARD<br>
+HEARING AID<br>
+LABORATORY AND X-RAY*<br>
+LAND SURVEYOR<br>
+MANUFACTURER<br>
+MARRIAGE & FAMILY THERAPY/THERAPIST<br>
+MASSAGE THERAPY/THERAPIST<br>
+MECHANIC<br>
+MEDICAL AUXILIARY<br>
+MEDICAL BOARD TEACHER<br>
+MORTGAGE BROKER/OFFICE/SOLICITOR<br>
+MOTOR VEHICLE BRANCH/DEALER/REPAIR/SALES<br>
+NATUROPATH<br>
+NURSE PRACTITIONER<br>
+NURSING HOME ADMINISTRATOR<br>
+NURSING/NURSES<br>
+OCCUPATIONAL THERAPY/THERAPIST<br>
+OPTOMETRY/OPTOMETRIST<br>
+PARAMEDIC*<br>
+PEST CONTROL<br>
+PHARMACY/PHARMACIST<br>
+PHYSICAL THERAPY/THERAPIST<br>
+PHYSICIAN AND SURGEON OR OSTEOPATH (M.D. AND D.O)<br>
+PHYSICIAN ASSISTANT<br>
+PLUMBING/PLUMBER<br>
+PODIATRY/PODIATRIST<br>
+PORT PILOT<br>
+PRIVATE DETECTIVE/AGENCY<br>
+PSYCHOLOGY/PSYCHOLOGIST<br>
+REAL ESTATE<br>
+RESIDENT & NON-RESIDENT INSURANCE PRODUCERS*<br>
+SOCIAL WORK/WORKER<br>
+SPEECH, LANGUAGE & AUDIOLOGY<br>
+TRAVEL AGENCY/OFFICE<br>
+VETERINARIAN<br>
+WHOLESALE DRUG DISTRIBUTOR<br>
+<br><br>
+* Historical data / Not currently updating.
+                                           </td>
+                                        </tr>
+
+  </tbody>
+</table>
+  </div>
+
+</body>
+</html>
+

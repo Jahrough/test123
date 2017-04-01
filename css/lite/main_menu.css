@@ -1,0 +1,41 @@
+A:              { color: #292194; text-decoration: none; }
+A:link          { color: #292194; text-decoration: none; }
+A:visited       { color: #292194; text-decoration: none; }
+A:hover         { color: red; text-decoration: none; }
+A:active        { color: #292194; text-decoration: none; }
+A.mainmenu:link { color: #00008b; font-weight: bold; text-decoration: underline; FONT-SIZE: 10pt; FONT-FAMILY: Arial,Helvetica; }
+A.mainmenu:visited { color: #00008b; font-weight: bold; text-decoration: underline; FONT-SIZE: 10pt; FONT-FAMILY: Arial,Helvetica; }
+A.mainmenu:hover { color: #ff0000; font-weight: bold; text-decoration: underline; FONT-SIZE: 10pt; FONT-FAMILY: Arial,Helvetica; }
+A.mainmenu:active { color: #00008b; font-weight: bold; text-decoration: underline; FONT-SIZE: 10pt; FONT-FAMILY: Arial,Helvetica; }
+A.topbar:link { color: yellow; font-weight: bold; text-decoration: underline; FONT-SIZE: 10pt; FONT-FAMILY: Arial,Helvetica; }
+A.topbar:visited { color: yellow; font-weight: bold; text-decoration: underline; FONT-SIZE: 10pt; FONT-FAMILY: Arial,Helvetica; }
+A.topbar:hover { color: yellow; font-weight: bold; text-decoration: underline; FONT-SIZE: 10pt; FONT-FAMILY: Arial,Helvetica; }
+A.topbar:active { color: yellow; font-weight: bold; text-decoration: underline; FONT-SIZE: 10pt; FONT-FAMILY: Arial,Helvetica; }
+A.adver:link { color: #ffffff; font-weight: bold; text-decoration: underline; FONT-SIZE: 8pt; FONT-FAMILY: Arial,Helvetica; }
+A.adver:visited { color: #ffffff; font-weight: bold; text-decoration: underline; FONT-SIZE: 8pt; FONT-FAMILY: Arial,Helvetica; }
+A.adver:hover { color: yellow; font-weight: bold; text-decoration: underline; FONT-SIZE: 8pt; FONT-FAMILY: Arial,Helvetica; }
+A.adver:active { color: #ffffff; font-weight: bold; text-decoration: underline; FONT-SIZE: 8pt; FONT-FAMILY: Arial,Helvetica; }
+A.mainmenularge:link { color: #000000; text-decoration: none; FONT-SIZE: 12pt; FONT-FAMILY: Arial,Helvetica; }
+A.mainmenularge:visited { color: #000000; text-decoration: none; FONT-SIZE: 12pt; FONT-FAMILY: Arial,Helvetica; }
+A.mainmenularge:hover { color: #cc0033; text-decoration: none; FONT-SIZE: 12pt; FONT-FAMILY: Arial,Helvetica; }
+A.mainmenularge:active { color: #000000; text-decoration: none; FONT-SIZE: 12pt; FONT-FAMILY: Arial,Helvetica; }
+.smallfont1 {FONT-SIZE: 8pt; FONT-FAMILY: Arial,Helvetica; COLOR: black; }
+.smallfont1grey {FONT-SIZE: 8pt; FONT-FAMILY: Arial,Helvetica; COLOR: gray; }
+.unifont2 {FONT-SIZE: 2pt; FONT-FAMILY: Arial,Helvetica; COLOR: #21295a; }
+.unifont8 {FONT-SIZE: 8pt; FONT-FAMILY: Arial,Helvetica; COLOR: black; }
+.unifont8white {FONT-SIZE: 8pt; FONT-FAMILY: Arial,Helvetica; COLOR: #ffffff; }
+.unifont8darkblue {FONT-SIZE: 8pt; FONT-FAMILY: Arial,Helvetica; COLOR: #313163; }
+.unifont10darkblue {FONT-SIZE: 10pt; FONT-FAMILY: Arial,Helvetica; COLOR: #313163; }
+.unifont12darkblue {FONT-SIZE: 12pt; FONT-FAMILY: Arial,Helvetica; COLOR: #313163; }
+.unifont10 {FONT-SIZE: 10pt; FONT-FAMILY: Arial,Helvetica; COLOR: black; }
+.unifont10white {FONT-SIZE: 10pt; FONT-FAMILY: Arial,Helvetica; COLOR: white; }
+.unifont12 {FONT-SIZE: 12pt; FONT-FAMILY: Arial,Helvetica; COLOR: black; }
+.unifont12white {FONT-SIZE: 12pt; FONT-FAMILY: Arial,Helvetica; COLOR: white; }
+.logocollections {FONT-SIZE: 20pt; FONT-FAMILY: Arial,Helvetica; COLOR: #5a5a5a; font-weight: bold; }
+.logo {FONT-SIZE: 24pt; FONT-FAMILY: Arial,Helvetica; COLOR: #5a5a5a; font-weight: bold; }
+.stitle {FONT-SIZE: 14pt; FONT-FAMILY: Arial,Helvetica; COLOR: black; }
+.largefont1white {FONT-SIZE: 18pt; FONT-FAMILY: Arial,Helvetica; COLOR: white; }
+.bs { color: #ffffff; height: 25px; font-weight: bold; font-family: arial,helvetica; font-size: 9pt; background: #08397B; cursor:pointer; cursor:hand; border-width: 1px; border-style: solid; border: 1px solid #08397b; }
+.bso { color: #ffffff; height: 25px; font-weight: bold; font-family: arial,helvetica; font-size: 9pt; background: #08397B; cursor:pointer; cursor:hand; border-width: 1px; border-style: solid; border-color: #cfeeef #737373 #737373 #cfeeef; }
+.bsd { color: #ffffff; height: 25px; font-weight: bold; font-family: arial,helvetica; font-size: 9pt; background: #08397B; cursor:pointer; cursor:hand; border-width: 1px; border-style: solid; border-color: #737373 #cfeeef #cfeeef #737373; }
+

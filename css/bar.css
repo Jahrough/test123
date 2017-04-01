@@ -1,0 +1,46 @@
+#results1
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;	
+}
+
+#results1 #mainbody1
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#results1 #mainbody1 #resultscontent THEAD TR TD
+{
+    background-image:  url("http://webdev03.br.seisint.com/~bstewart/enhanced_batch/BPS/dsp/web/bps/images/tblhdr_bkg.gif");
+    background-repeat: repeat-x;
+    background-position: left top;
+    font-weight: bold;
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-bottom: 3px;
+    vertical-align: top;
+    padding-top: 3px;
+    border-right: #fff 1px solid;
+}
+
+#results1 #mainbody1 #resultscontent .oddrow
+{
+    background-color: #F1EFEC;
+}
+#results1 #mainbody1 #resultscontent .oddrow td
+{
+    border-right: #fff 1px solid;
+}
+#results1 #mainbody1 #resultscontent .evenrow
+{
+    background-color: #FAFAFA;
+}
+#results1 #mainbody1 #resultscontent .evenrow td
+{
+    border-right: #ebebd8 1px solid;
+}
+
+/* BASIC TEXT STYLES *******************************/
+
+.text10 {
+    font-size: 10px;
+}

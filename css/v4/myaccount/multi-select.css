@@ -1,0 +1,109 @@
+.ms-container
+{
+  background: transparent url("../img/icon_mini_transfer.gif") no-repeat 50% 50%;
+  width: 700px; /* container holding both boxes */
+}
+
+.ms-container:after
+{
+  content: ".";
+  display: block;
+  height: 0px;
+  line-height: 0px;
+  font-size: 0px;
+  clear: both;
+  min-height: 0px;
+  visibility: hidden;
+}
+
+/* left box */
+.ms-container .ms-selectable
+{
+  float: left;
+}
+
+.ms-container .ms-selectable, 
+.ms-container .ms-selection
+{
+  background: #fff;
+  color: #333;
+  width: 45%; 
+}
+
+/* right box */
+.ms-container .ms-selection
+{
+  float: right;
+}
+
+.ms-container .ms-list
+{
+	border: 1px solid #d6d6d6;
+	position: relative;
+  height: 200px;
+  padding: 0px;
+  overflow-y: auto;
+
+  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -ms-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+  transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+
+.ms-container .ms-list.ms-focus
+{
+  border-color: #aaa;
+  outline: none;
+}
+
+.ms-container ul
+{
+  margin: 0px;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.ms-container .ms-optgroup-container
+{
+  width: 100%;
+}
+
+.ms-container .ms-optgroup-label
+{
+  margin: 0px;
+  padding: 5px 0px 0px 5px;
+  cursor: pointer;
+  color: #999;
+}
+
+.ms-container .ms-selectable li.ms-elem-selectable,
+.ms-container .ms-selection li.ms-elem-selection
+{
+  border-bottom: 1px #eee solid;
+  padding: 7px 10px;
+}
+
+.ms-container .ms-selectable li.ms-hover,
+.ms-container .ms-selection li.ms-hover
+{
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+  background-color: #56565a;
+}
+
+.ms-container .ms-selectable li.disabled,
+.ms-container .ms-selection li.disabled
+{
+  background-color: #eee;
+  color: #aaa;
+  cursor: text;
+}
+
+.ms_selection
+{
+	width: 295px;
+	padding: 10px;
+	background: #d6d6d6;
+}

@@ -1,0 +1,14 @@
+#score-display{
+	margin: 10px 0;
+	padding-right: 5px;
+}
+
+#score{
+	color: #E12726;
+	font-size: 1.5em;
+	display: block;
+}
+
+.in-body-table-header{
+	background-color: #D0D2D1!important;
+}

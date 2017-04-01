@@ -1,0 +1,427 @@
+/*.check_green, .nav_signout_on, .news, .option_edit, .option_export, .option_new, .option_print, .photos, .show, .check_red, .copy, .flag_green, .flag_red, .flag_yellow, .handshake_watermark, .hide, .indicator_criminal, .indicator_property, .logo, .map, .myacc_assets, .myacc_businesses, .myacc_courts, .myacc_licenses, .myacc_more, .myacc_people, .myacc_phones, .nav_account_on, .nav_home_off, .nav_legacy_on, .nav_main_on, .arrow, .myacc_assets_icon, .myacc_businesses_icon, .myacc_courts_icon, .myacc_licenses_icon, .myacc_more_icon, .myacc_people_icon, .myacc_phones_icon, .nav_account_off, .nav_home_on, .nav_signout_off, .nav_main_off, .nav_legacy_off{
+	background: url(sprites.png) no-repeat;
+}*/
+
+.checkGreen_sprite, .navSignoutOn_sprite, .news_sprite, .edit_sprite, .export_sprite, .newSearch_sprite, .print_sprite, .photos_sprite, .checkRed_sprite, .checkRed2_sprite, .copy_sprite, .flagGreen_sprite, .flagRed_sprite, .flagYellow_sprite, .handshake_sprite, .crim_sprite, .property_sprite, .logo_sprite, .map_sprite, .myaccAssets_sprite, .myaccAnalysis_sprite, .myaccBusinesses_sprite, .myaccCourts_sprite, .myaccLicenses_sprite, .myaccMore_sprite, .myaccPeople_sprite, .myaccPhones_sprite, .navAccountOn_sprite, .navHomeOff_sprite, .navLegacyOn_sprite, .navMainOn_sprite, .arrow_sprite, .myaccAssetsIcon_sprite, .myaccAnalysisIcon_sprite, .myaccBusinessesIcon_sprite, .myaccCourtsIcon_sprite, .myaccLicensesIcon_sprite, .myaccMoreIcon_sprite, .myaccPeopleIcon_sprite, .myaccPhonesIcon_sprite, .navAccountOff_sprite, .navHomeOn_sprite, .navSignoutOff_sprite, .navMainOff_sprite, .navLegacyOff_sprite
+{    
+background: url(../../images/v3/sprites.png) no-repeat;
+}
+.myaccAssetsIcon_sprite, .myaccAnalysisIcon_sprite, .myaccBusinessesIcon_sprite, .myaccCourtsIcon_sprite, .myaccIcon_sprite, .myaccLicensesIcon_sprite, .myaccMoreIcon_sprite, .myaccPeopleIcon_sprite, .myaccPhonesIcon_sprite
+{
+background: url(../../images/v3/icon_sprites.png) no-repeat;
+}
+.batchIcon{
+    background: url(../../images/v3/redesign_temp/mm_batch_ico.png) no-repeat;
+    width: 10px;
+    height: 26px;
+}
+.internationalIcon{
+    background: url(../../images/v3/redesign_temp/mm_intl_ico.png) no-repeat;
+    width: 15px;
+    height: 26px;
+}
+.myaccHealthcareIcon_sprite{
+    background: url(../../images/v3/mm_healthcare_icon.png) no-repeat;
+    width: 20px;
+    height: 20px;
+}
+.leftMenu .internationalIcon {
+    margin-left: 8px;
+    margin-top: 2px;
+}
+.leftMenu .batchIcon {
+    margin-top: 3px;
+    margin-left: 11px;
+}
+.form .second
+{
+background:url(../../images/v3/watermark.png) no-repeat center;
+}
+.ad .third
+{
+background: url(../../images/v3/handshake.png) no-repeat;
+background-position: 50% 75%;
+}
+.topBar .lnLogo
+{
+background: url(../../images/v3/lnLogo.png) no-repeat;
+}
+
+.checkGreen_sprite{
+	background-position: 0 0;
+	width: 10px;
+	height: 10px;
+}
+
+.navSignoutOn_sprite{
+	background-position: -48px -76px ;
+	width: 20px;
+	height: 17px;
+}
+
+.news_sprite{
+	background-position: -22px -77px ;
+	width: 18px;
+	height: 14px;
+}
+
+.edit_sprite{
+	background-position: -12px -42px ;
+	width: 17px;
+	height: 16px;
+}
+
+.export_sprite{
+	background-position: -32px -27px ;
+	width: 19px;
+	height: 17px;
+}
+
+.newSearch_sprite{
+	background-position: -12px -22px ;
+	width: 17px;
+	height: 18px;
+}
+
+.print_sprite{
+	background-position: -73px -30px ;
+	width: 17px;
+	height: 16px;
+}
+
+.photos_sprite{
+	background-position: -183px -1px ;
+	width: 258px;
+	height: 65px;
+}
+
+.show_sprite{
+    background:url(../../images/v3/show.png) no-repeat;
+	width: 10px;
+	height: 10px;
+}
+
+.hide_sprite{
+    background:url(../../images/v3/hide.png) no-repeat;
+	width: 10px;
+	height: 10px;
+}
+
+.checkRed_sprite{
+	background-position: -1px -60px ;
+/*	width: 10px;
+	height: 10px;*/
+}
+.checkRed2_sprite{
+	background-position: -2px -61px ;
+	width: 10px;
+	height: 10px;
+}
+
+.copy_sprite{
+	background-position: -52px -28px ;
+	width: 18px;
+	height: 23px;
+}
+
+.flagGreen_sprite{
+	background-position: -2px -20px ;
+	width: 8px;
+	height: 11px;
+}
+
+.flagRed_sprite{
+	background-position: -1px -47px ;
+	width: 8px;
+	height: 11px;
+}
+
+.flagYellow_sprite{
+	background-position: -1px -34px ;
+	width: 8px;
+	height: 11px;
+}
+
+.handshake_sprite{
+	background-position: -368px -69px ;
+	width: 74px;
+	height: 50px;
+}
+
+.crim_sprite{
+	background-position: -68px -52px ;
+	width: 30px;
+	height: 20px;
+}
+
+.property_sprite{
+	background-position: -52px -4px ;
+	width: 34px;
+	height: 22px;
+}
+
+.logo_sprite{
+	background-position: -197px -92px ;
+	width: 153px;
+	height: 27px;
+}
+
+.map_sprite{
+	background-position: -247px -69px ;
+	width: 7px;
+	height: 12px;
+}
+
+.myaccAssets_sprite{
+	background-position: -142px -41px ;
+	width: 38px;
+	height: 38px;
+}
+
+.myaccAnalysis_sprite{
+	background-position: -101px -1px ;
+	width: 38px;
+	height: 38px;
+}
+
+.myaccBusinesses_sprite{
+	background-position: -101px -41px ;
+	width: 38px;
+	height: 38px;
+}
+
+.myaccCourts_sprite{
+	background-position: -101px -1px ;
+	width: 38px;
+	height: 38px;
+}
+
+.myaccLicenses_sprite{
+	background-position: -153px -82px ;
+	width: 38px;
+	height: 38px;
+}
+
+.myaccMore_sprite{
+	background-position: -112px -82px ;
+	width: 38px;
+	height: 38px;
+}
+
+.myaccPeople_sprite{
+	background-position: -72px -82px ;
+	width: 38px;
+	height: 38px;
+}
+
+.myaccPhones_sprite{
+	background-position: -142px -1px ;
+	width: 38px;
+	height: 38px;
+}
+
+.navAccountOn_sprite{
+	background-position: -306px -69px ;
+	width: 20px;
+	height: 22px;
+}
+
+.navHomeOff_sprite{
+	background-position: -300px -124px ;
+	width: 24px;
+	height: 20px;
+}
+
+.navLegacyOn_sprite{
+	background-position: -327px -68px ;
+	width: 20px;
+	height: 20px;
+}
+
+.navMainOn_sprite{
+	background-position: -11px 0;
+	width: 29px;
+	height: 20px;
+}
+
+.arrow_sprite{
+	background-position: -351px -69px ;
+	width: 13px;
+	height: 21px;
+}
+
+.myaccAssetsIcon_sprite{
+	background-position: -159px -123px ;
+	width: 11px;
+	height: 21px;
+}
+
+.myaccAnalysisIcon_sprite{
+	background-position: -210px -122px ;
+	width: 22px;
+	height: 20px;
+}
+
+.myaccBusinessesIcon_sprite{
+	background-position: -180px -122px ;
+	width: 18px;
+	height: 21px;
+}
+
+.myaccCourtsIcon_sprite{
+	background-position: -210px -122px ;
+	width: 22px;
+	height: 20px;
+}
+
+.myaccLicensesIcon_sprite{
+	background-position: -24px -124px ;
+	width: 21px;
+	height: 14px;
+}
+
+.myaccMoreIcon_sprite{
+	background-position: -111px -125px ;
+	width: 18px;
+	height: 14px;
+}
+
+.myaccPeopleIcon_sprite{
+	background-position: -61px -125px ;
+	width: 14px;
+	height: 20px;
+}
+
+.myaccPhonesIcon_sprite{
+	background-position: -2px -124px ;
+	width: 20px;
+	height: 21px;
+}
+
+.navAccountOff_sprite{
+	background-position: -44px -52px ;
+	width: 20px;
+	height: 22px;
+}
+
+.navHomeOn_sprite{
+	background-position: -192px -68px ;
+	width: 24px;
+	height: 22px;
+}
+
+.navSignoutOff_sprite{
+	background-position: -330px -124px ;
+	width: 20px;
+	height: 17px;
+}
+
+.navMainOff_sprite{
+	background-position: -245px -125px ;
+	width: 29px;
+	height: 20px;
+}
+
+.navLegacyOff_sprite{
+	background-position: -277px -125px ;
+	width: 20px;
+	height: 20px;
+}
+
+.myaccAssetsIcon_sprite{
+	background-position: -58px -2px ;
+	width: 10px;
+	height: 20px;
+}
+
+.myaccAnalysisIcon_sprite{
+	background-position: -65px -24px ;
+	width: 22px;
+	height: 20px;
+}
+
+.myaccBusinessesIcon_sprite{
+	background-position: -23px -15px ;
+	width: 18px;
+	height: 20px;
+}
+
+.myaccCourtsIcon_sprite{
+	background-position: -71px -2px ;
+	width: 22px;
+	height: 20px;
+}
+
+.myaccIcon_sprite{
+	background-position: -43px -24px ;
+	width: 20px;
+	height: 20px;
+}
+
+.myaccLicensesIcon_sprite{
+	background-position: -1px -20px ;
+	width: 20px;
+	height: 14px;
+}
+
+.myaccMoreIcon_sprite{
+	background-position: -23px -1px ;
+	width: 18px;
+	height: 14px;
+}
+
+.myaccPeopleIcon_sprite{
+	background-position: -42px -2px ;
+	width: 14px;
+	height: 20px;
+}
+
+.myaccPhonesIcon_sprite{
+	background-position: 0 0;
+	width: 20px;
+	height: 20px;
+}
+
+.topbar_mainMenu{
+    background:url(../../images/v3/navbar/navbar_mm1.gif) no-repeat;
+    width:96px;
+    height:45px;
+}
+li:hover .topbar_mainMenu{
+    background:url(../../images/v3/navbar/navbar_mm2.gif) no-repeat;
+}
+.topbar_myAccurint{
+    background:url(../../images/v3/navbar/navbar_myacc1.gif) no-repeat;
+    width:99px;
+    height:45px;
+}
+li:hover .topbar_myAccurint{
+    background:url(../../images/v3/navbar/navbar_myacc2.gif) no-repeat;
+}
+.topbar_formerView{
+    background:url(../../images/v3/navbar/navbar_fv1.gif) no-repeat;
+    width:105px;
+    height:45px;
+}
+li:hover .topbar_formerView{
+    background:url(../../images/v3/navbar/navbar_fv2.gif) no-repeat;
+}
+.topbar_account{
+    background:url(../../images/v3/navbar/navbar_acct1.gif) no-repeat;
+    width:96px;
+    height:45px;
+}
+li:hover .topbar_account{
+    background:url(../../images/v3/navbar/navbar_acct2.gif) no-repeat;
+}
+.topbar_signOut{
+    background:url(../../images/v3/navbar/navbar_signout1.gif) no-repeat;
+    width:77px;
+    height:45px;
+}
+li:hover .topbar_signOut{
+    background:url(../../images/v3/navbar/navbar_signout2.gif) no-repeat;
+}
+.grey_checkmark{
+    background:url(../../images/v3/checkmark.png) no-repeat;
+}

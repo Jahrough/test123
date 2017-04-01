@@ -1,0 +1,1361 @@
+.report2012 div,.report2012 span,.report2012 applet,.report2012 object,.report2012 iframe,.report2012 h1,.report2012 h2,.report2012 h3,.report2012 h4,.report2012 h5,.report2012 h6,.report2012 p,.report2012 blockquote,.report2012 pre,.report2012 a,.report2012 abbr,.report2012 acronym,.report2012 address,.report2012 big,.report2012 cite,.report2012 code,.report2012 del,.report2012 dfn,.report2012 em,.report2012 img,.report2012 ins,.report2012 kbd,.report2012 q,.report2012 s,.report2012 samp,.report2012 small,.report2012 strike,.report2012 strong,.report2012 sub,.report2012 sup,.report2012 tt,.report2012 var,.report2012 b,.report2012 u,.report2012 i,.report2012 center,.report2012 dl,.report2012 dt,.report2012 dd,.report2012 ol,.report2012 ul,.report2012 li,.report2012 fieldset,.report2012 form,.report2012 label,.report2012 legend,.report2012 table,.report2012 caption,.report2012 tbody,.report2012 tfoot,.report2012 thead,.report2012 tr,.report2012 th,.report2012 td,.report2012 article,.report2012 aside,.report2012 canvas,.report2012 details,.report2012 embed,.report2012 figure,.report2012 figcaption,.report2012 footer,.report2012 header,.report2012 hgroup,.report2012 menu,.report2012 nav,.report2012 output,.report2012 ruby,.report2012 section,.report2012 summary,.report2012 time,.report2012 mark,.report2012 audio,.report2012 video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  font-family: Arial,Helvetica,sans-serif;
+}
+
+.report2012 article,.report2012 aside,.report2012 details,.report2012 figcaption,.report2012 figure,.report2012 footer,.report2012 header,.report2012 hgroup,.report2012 menu,.report2012 nav,.report2012 section {
+  display: block;
+}
+
+.report2012 i {
+  font-style: normal;
+}
+
+.report2012 a {
+  color: #06c;
+}
+
+.report2012 a:hover {
+  text-decoration: underline;
+  color: #ed1c24;
+}
+
+.report2012 #pgtitle,.report2012 #pgtitle div {
+  padding: 0;
+  text-align: right;
+}
+
+.report2012 #pgtitle h1 {
+  display: none;
+}
+
+.report2012 #currentDoc {
+  font-size: 80%;
+}
+
+.report2012 .bold {
+  font-weight: bold;
+}
+
+.report2012 .red {
+  color: #ed1c24;
+}
+
+.report2012 .grayed {
+  color: #999;
+}
+
+.report2012 .underline {
+  text-decoration: underline;
+}
+
+.report2012 .nowrap {
+  white-space: nowrap;
+}
+
+.report2012 .standardTableProperties {
+  width: 100%;
+  border: 1px solid #dedede;
+  clear: both;
+}
+
+.report2012 .standardTableProperties tbody,.report2012 .standardTableProperties thead {
+  border: 1px solid #dedede;
+}
+
+.report2012 .standardTableProperties tbody tr,.report2012 .standardTableProperties thead tr {
+  border: 1px solid #dedede;
+}
+
+.report2012 .standardTableProperties tbody tr th,.report2012 .standardTableProperties thead tr th {
+  font-weight: bold;
+}
+
+.report2012 .standardTableProperties tbody th,.report2012 .standardTableProperties thead th,.report2012 .standardTableProperties tbody td,.report2012 .standardTableProperties thead td {
+  border: 1px solid #dedede;
+  padding: 5px;
+}
+
+.report2012 .standardTableProperties thead {
+  -webkit-text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
+}
+
+.report2012 .standardTableProperties thead tr td,.report2012 .standardTableProperties thead tr th {
+  -webkit-text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
+  font-weight: bold;
+}
+
+.report2012 .smallSubheading {
+  font-size: 0.8em;
+}
+
+.report2012 .smallSubheading * {
+  font-size: inherit;
+}
+
+.report2012 .note {
+  color: #999;
+  font-size: 0.9em;
+  font-weight: normal;
+}
+
+.report2012 .detail {
+  color: #333;
+  font-size: 0.87em;
+  font-weight: normal;
+}
+
+.report2012 .getMore {
+  font-size: 0.9em;
+  margin: 0 0 10px 0;
+}
+
+.report2012 .getMore span {
+  white-space: nowrap;
+}
+
+.report2012 .smallLink {
+  font-size: 0.8em;
+}
+
+.report2012 .reportSectionActions {
+  float: right;
+  margin-top: -15px;
+}
+
+.report2012 .reportSectionActions li {
+  display: inline;
+  padding: 0 7px;
+  font-size: 0.8em;
+}
+
+.report2012 .noDisplay {
+  display: none;
+}
+
+.report2012 .quicksearchHome tr,.report2012 .quicksearchHome2 tr,.report2012 .quicksearchHome td,.report2012 .quicksearchHome2 td {
+  padding-left: 3px;
+  vertical-align: top;
+}
+
+.report2012 .quicksearchHome tr,.report2012 .quicksearchHome2 tr {
+  border-style: none;
+  border-width: 0;
+  text-align: left;
+}
+
+.report2012 .quicksearchHome td,.report2012 .quicksearchHome2 td {
+  white-space: normal;
+}
+
+.report2012 .bullet {
+  background: url("../../images/arrow.gif") no-repeat scroll 0 6px transparent;
+  display: block;
+  padding-left: 12px;
+}
+
+.report2012 .standardButtonStyle {
+  display: inline-block;
+  background-color: #f3f3f3;
+  border: solid 1px #dcdcdc;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  color: #666;
+  text-decoration: none;
+  padding: 5px 12px;
+  font-weight: bold;
+  font-size: 0.85em;
+  margin: 0 5px 2px 0;
+  width: auto;
+  height: 14px;
+  z-index: 99;
+}
+
+.report2012 .standardButtonStyle:hover {
+  color: #333;
+  border-color: #999;
+  -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.report2012 .bulletedList {
+  margin: 0 0.8em 0.5em;
+  *margin-left: 1.2em;
+}
+
+.report2012 .bulletedList li {
+  line-height: 130%;
+  list-style: circle outside none;
+  margin: 0 0 0 0.2em;
+}
+
+.report2012 ul.paging {
+  float: right;
+  margin-top: 5px;
+}
+
+.report2012 ul.paging>li {
+  display: inline;
+  font-size: 10px;
+  line-height: 26px;
+  margin: 0 0 0 5px;
+}
+
+.report2012 ul.paging>li>a {
+  border: 1px solid #e5e5e5;
+  color: #939393;
+  padding: 4px 8px;
+  text-decoration: none;
+}
+
+.report2012 ul.paging>li>a:hover,.report2012 ul.paging>li>a.current {
+  background-color: #ed1c24;
+  border: 1px solid #903;
+  color: #fff;
+  text-decoration: none;
+}
+
+.report2012 ul.paging>li>a.disabled {
+  border: 1px solid #f8f8f8;
+  color: #ccc;
+}
+
+.report2012 ul.paging>li>a.disabled:hover {
+  background-color: #fff;
+  border: 1px solid #f8f8f8;
+  color: #ccc;
+  cursor: default;
+}
+
+.report2012 .iconLexId {
+  background: transparent url(../../images/v4/ico_report2012_sprites.png) no-repeat -27px -257px;
+  height: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.report2012 .iconLexId:hover {
+  text-decoration: none;
+}
+
+.report2012 .iconMap {
+  background: transparent url(../../images/v4/ico_report2012_sprites.png) no-repeat -49px -65px;
+  height: 16px;
+  text-decoration: none;
+  padding: 0 0 0 14px;
+}
+
+.report2012 .iconMap:hover {
+  text-decoration: none;
+}
+
+.report2012 .iconBlueR {
+  background: transparent url(../../images/v4/ico_report2012_sprites.png) no-repeat -49px -192px;
+  height: 16px;
+  text-decoration: none;
+}
+
+.report2012 .iconBlueR:hover {
+  text-decoration: none;
+}
+
+.report2012 .iconBlueFlag {
+  background: transparent url(../../images/v4/ico_report2012_sprites.png) no-repeat 0px -158px;
+  height: 16px;
+  text-decoration: none;
+}
+
+.report2012 .iconBlueFlag:hover {
+  text-decoration: none;
+}
+
+.report2012 .iconGreenCheck {
+  background: transparent url(../../images/v4/ico_report2012_sprites.png) no-repeat -49px -29px;
+  height: 16px;
+  text-decoration: none;
+}
+
+.report2012 .iconGreenCheck:hover {
+  text-decoration: none;
+}
+
+.report2012 .iconGreenB {
+  background: transparent url(../../images/v4/ico_report2012_sprites.png) no-repeat -49px -160px;
+  height: 16px;
+  text-decoration: none;
+}
+
+.report2012 .iconGreenB:hover {
+  text-decoration: none;
+}
+
+.report2012 .iconRedW {
+  background: transparent url(../../images/v4/ico_report2012_sprites.png) no-repeat -49px -127px;
+  height: 16px;
+  text-decoration: none;
+}
+
+.report2012 .iconRedW:hover {
+  text-decoration: none;
+}
+
+.report2012 .iconRedTriangle {
+  background: transparent url(../../images/v4/ico_report2012_sprites.png) no-repeat -49px 3px;
+  height: 16px;
+  text-decoration: none;
+}
+
+.report2012 .iconRedTriangle:hover {
+  text-decoration: none;
+}
+
+.report2012 .iconRedFlag {
+  background: transparent url(../../images/v4/ico_report2012_sprites.png) no-repeat 0px -96px;
+  height: 16px;
+  text-decoration: none;
+}
+
+.report2012 .iconRedFlag:hover {
+  text-decoration: none;
+}
+
+.report2012 .iconRedFlagBang {
+  background: transparent url(../../images/v4/ico_report2012_sprites.png) no-repeat -49px -96px;
+  height: 16px;
+  text-decoration: none;
+}
+
+.report2012 .iconRedFlagBang:hover {
+  text-decoration: none;
+}
+
+.report2012 .iconYellowFlag {
+  background: transparent url(../../images/v4/ico_report2012_sprites.png) no-repeat 0 -126px;
+  height: 16px;
+  text-decoration: none;
+}
+
+.report2012 .iconYellowFlag:hover {
+  text-decoration: none;
+}
+
+.report2012 .iconBriefcase {
+  background: transparent url(../../images/v4/ico_report2012_sprites.png) no-repeat -49px -224px;
+  height: 16px;
+  text-decoration: none;
+}
+
+.report2012 .iconBriefcase:hover {
+  text-decoration: none;
+}
+
+.report2012 .iconRedF {
+  background: transparent url(../../images/v4/ico_report2012_sprites.png) no-repeat -49px -383px;
+  height: 16px;
+  text-decoration: none;
+}
+
+.report2012 .iconRedF:hover {
+  text-decoration: none;
+}
+
+.report2012 .iconBlueS {
+  background: transparent url(../../images/v4/ico_report2012_sprites.png) no-repeat -49px -415px;
+  height: 16px;
+  text-decoration: none;
+}
+
+.report2012 .iconBlueS:hover {
+  text-decoration: none;
+}
+
+.report2012 .iconYield {
+  background: transparent url(../../images/v4/ico_report2012_sprites.png) no-repeat -48px -352px;
+  height: 16px;
+  text-decoration: none;
+}
+
+.report2012 .iconYield:hover {
+  text-decoration: none;
+}
+
+.report2012 .iconYellowP {
+  background: transparent url(../../images/v4/ico_report2012_sprites.png) no-repeat -48px -448px;
+  height: 16px;
+  text-decoration: none;
+}
+
+.report2012 .iconYellowP:hover {
+  text-decoration: none;
+}
+
+.report2012 .iconBlueKey {
+  background: transparent url(../../images/v4/ico_report2012_sprites.png) no-repeat -48px -474px;
+  height: 16px;
+  text-decoration: none;
+  padding: 0 0 0 20px;
+}
+
+.report2012 .iconBlueKey:hover {
+  text-decoration: none;
+}
+
+.report2012 .iconPurpleG {
+  background: transparent url(../../images/v4/ico_report2012_sprites.png) no-repeat -1px -415px;
+  height: 16px;
+  text-decoration: none;
+}
+
+.report2012 .iconPurpleG:hover {
+  text-decoration: none;
+}
+
+.report2012 .iconAlert {
+  background: transparent url(../../images/alert_icon2.png) no-repeat 0 0;
+  height: 18px;
+  width: 18px;
+}
+
+.report2012 .button .downArrow {
+  background: transparent url(../../images/v4/ico_report2012_sprites.png) no-repeat -43px -294px;
+  height: 16px;
+  text-decoration: none;
+  padding: 0 0 0 12px;
+}
+
+.report2012 .button .downArrow:hover {
+  text-decoration: none;
+}
+
+.report2012 .downArrow {
+  background: transparent url(../../images/v4/ico_report2012_sprites.png) no-repeat -43px -291px;
+  height: 16px;
+  text-decoration: none;
+}
+
+.report2012 .downArrow:hover {
+  text-decoration: none;
+}
+
+.report2012 .upArrow {
+  background: transparent url(../../images/v4/ico_report2012_sprites.png) no-repeat -43px -304px;
+  height: 16px;
+  text-decoration: none;
+}
+
+.report2012 .upArrow:hover {
+  text-decoration: none;
+}
+
+.report2012 i {
+  display: inline-block;
+  min-width: 16px;
+  height: 16px;
+  text-decoration: none;
+}
+
+.report2012 i:hover {
+  text-decoration: none;
+}
+
+.report2012 i.expandTrigger,.report2012 i.collapseTrigger {
+  vertical-align: middle;
+  text-decoration: none;
+  margin-right: 2px;
+}
+
+.report2012 i.expandTrigger {
+  background: transparent url(../../images/v4/ico_report2012_sprites.png) no-repeat -50px -275px;
+  height: 16px;
+  text-decoration: none;
+}
+
+.report2012 i.expandTrigger:hover {
+  text-decoration: none;
+}
+
+.report2012 i.collapseTrigger {
+  background: transparent url(../../images/v4/ico_report2012_sprites.png) no-repeat -25px -275px;
+  height: 16px;
+  text-decoration: none;
+}
+
+.report2012 i.collapseTrigger:hover {
+  text-decoration: none;
+}
+
+.report2012 #reportNavigation {
+  background-color: #f1efec;
+  border: 0;
+  border-right: 1px solid #dedede;
+  float: left;
+  font-size: 0.7em;
+  margin: 0;
+  overflow: auto;
+  padding: 0;
+  position: relative;
+  width: 200px;
+}
+
+.report2012 #reportNavigation * {
+  font-size: inherit;
+  color: #333;
+  text-decoration: none;
+  padding: 1px 3px;
+}
+
+.report2012 #reportNavigation a {
+  color: #06c;
+  padding: 0;
+}
+
+.report2012 #reportNavigation a:hover {
+  text-decoration: underline;
+  color: #ed1c24;
+}
+
+.report2012 #reportNavigation a.navMenuHeader,.report2012 #reportNavigation .MenuHeader {
+  font-weight: bold;
+  display: block;
+  border-top: 1px solid #ccc;
+  background-color: #e4dfda;
+  color: #333 !important;
+  margin: 1px;
+}
+
+.report2012 #reportNavigation a.navMenuHeader:hover,.report2012 #reportNavigation .MenuHeader:hover {
+  text-decoration: none;
+  color: #333;
+}
+
+.report2012 #reportBody {
+  float: right;
+  font-size: 0.8em;
+  margin: 0;
+  overflow: auto;
+  padding: 10px 30px;
+  position: relative;
+}
+
+.report2012 #reportBody ol,.report2012 #reportBody ul {
+  list-style: none;
+}
+
+.report2012 #reportBody blockquote,.report2012 #reportBody q {
+  quotes: none;
+}
+
+.report2012 #reportBody blockquote:before,.report2012 #reportBody blockquote:after,.report2012 #reportBody q:before,.report2012 #reportBody q:after {
+  content: '';
+  content: none;
+}
+
+.report2012 #reportBody table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.report2012 #reportBody .listContainer {
+  padding-left: 10px;
+  vertical-align: top;
+}
+
+.report2012 #reportBody .listContainer div.list {
+  float: left;
+  width: 48%;
+}
+
+.report2012 #reportBody .listContainer div.list ul {
+  margin: 0 0.8em 0.5em;
+  *margin-left: 1.2em;
+}
+
+.report2012 #reportBody .listContainer div.list ul li {
+  line-height: 130%;
+  list-style: circle outside none;
+  margin: 0 0 0 0.2em;
+}
+
+.report2012 #reportBody .listContainer div.listSingle {
+  float: left;
+  width: 99%;
+}
+
+.report2012 #reportBody .listContainer div.listSingle ul {
+  margin: 0 0.8em 0.5em;
+  *margin-left: 1.2em;
+}
+
+.report2012 #reportBody .listContainer div.listSingle ul li {
+  line-height: 130%;
+  list-style: circle outside none;
+  margin: 0 0 0 0.2em;
+}
+
+.report2012 #reportBody .listContainerSingle {
+  padding-left: 10px;
+  vertical-align: top;
+}
+
+.report2012 #reportBody .listContainerSingle div.list {
+  float: left;
+  width: 98%;
+}
+
+.report2012 #reportBody .listContainerSingle div.list ul {
+  margin: 0 0.8em 0.5em;
+  *margin-left: 1.2em;
+}
+
+.report2012 #reportBody .listContainerSingle div.list ul li {
+  line-height: 130%;
+  list-style: circle outside none;
+  margin: 0 0 0 0.2em;
+}
+
+.report2012 #reportBody .listContainerRedBorder {
+  padding-left: 2px;
+  padding-bottom: 8px;
+  vertical-align: top;
+}
+
+.report2012 #reportBody .listContainerRedBorder div.list {
+  padding-left: 8px;
+  padding-top: 8px;
+  float: left;
+  width: 98%;
+  border: 2px solid red;
+}
+
+.report2012 #reportBody .listContainerRedBorder div.list ul {
+  margin: 0 0.8em 0.5em;
+  *margin-left: 1.2em;
+}
+
+.report2012 #reportBody .listContainerRedBorder div.list ul li {
+  line-height: 130%;
+  list-style: circle outside none;
+  margin: 0 0 0 0.2em;
+}
+
+.report2012 #reportBody fieldset.collapsible legend a {
+  cursor: pointer;
+}
+
+.report2012 #reportBody a.collapsible,.report2012 #reportBody a.collapsible:hover {
+  text-decoration: none;
+  color: #333;
+  white-space: nowrap;
+}
+
+.report2012 #reportBody a.sortableNoDetails i.sortDirection.ascending {
+  background: transparent url(../../images/v4/ico_report2012_sprites.png) no-repeat -43px -304px;
+  height: 16px;
+  text-decoration: none;
+}
+
+.report2012 #reportBody a.sortableNoDetails i.sortDirection.ascending:hover {
+  text-decoration: none;
+}
+
+.report2012 #reportBody a.sortableNoDetails i.sortDirection.descending {
+  background: transparent url(../../images/v4/ico_report2012_sprites.png) no-repeat -43px -291px;
+  height: 16px;
+  text-decoration: none;
+}
+
+.report2012 #reportBody a.sortableNoDetails i.sortDirection.descending:hover {
+  text-decoration: none;
+}
+
+.report2012 #reportBody a.sortable i.sortDirection.ascending {
+  background: transparent url(../../images/v4/ico_report2012_sprites.png) no-repeat -43px -304px;
+  height: 16px;
+  text-decoration: none;
+}
+
+.report2012 #reportBody a.sortable i.sortDirection.ascending:hover {
+  text-decoration: none;
+}
+
+.report2012 #reportBody a.sortable i.sortDirection.descending {
+  background: transparent url(../../images/v4/ico_report2012_sprites.png) no-repeat -43px -291px;
+  height: 16px;
+  text-decoration: none;
+}
+
+.report2012 #reportBody a.sortable i.sortDirection.descending:hover {
+  text-decoration: none;
+}
+
+.report2012 #reportBody #reportHeader {
+  padding-left: 60px;
+  background: #fff url(../../images/v4/ico_smartlinx_person.gif) no-repeat 0 0;
+}
+
+.report2012 #reportBody #reportHeader h1 {
+  color: #ed1c24;
+  font-weight: bold;
+  font-size: 1.9em;
+  margin: 0 0 -5px 0;
+}
+
+.report2012 #reportBody #reportHeader h6 {
+  font-size: 0.8em;
+  color: #999;
+  display: block;
+  margin-top: 12px;
+}
+
+.report2012 #reportBody #reportHeader h6 * {
+  font-size: inherit;
+}
+
+.report2012 #reportBody #reportHeader h3 {
+  border: 1px dotted black;
+  border-left: 0;
+  border-right: 0;
+  font-size: 1.2em;
+  padding: 3px;
+  margin-top: 20px;
+  font-weight: inherit;
+}
+
+.report2012 #reportBody #reportHeader h3 * {
+  font-size: inherit;
+}
+
+.report2012 #reportBody #reportHeader h4 {
+  font-size: 1.2em;
+  padding: 3px;
+  margin-top: 10px;
+  font-weight: inherit;
+}
+
+.report2012 #reportBody #reportHeader h4 * {
+  font-size: inherit;
+}
+
+.report2012 #reportBody #reportHeader h5 {
+  padding: 3px;
+  background-color: #f7f2d5;
+}
+
+.report2012 #reportBody .reportSection {
+  border: 1px solid #dedede;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin: 15px 0 0 0;
+  padding: 20px;
+}
+
+.report2012 #reportBody .reportSection>legend {
+  background-color: #ed1c24;
+  color: #fff;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding: 1px 10px;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.report2012 #reportBody .reportSection>legend .note {
+  font-size: 0.67em;
+  color: inherit;
+}
+
+.report2012 #reportBody .reportSection>legend a,.report2012 #reportBody .reportSection>legend a:hover {
+  color: #fff;
+  font-size: 1.1em;
+  text-decoration: none;
+}
+
+.report2012 #reportBody .reportSection h5 {
+  color: #ed1c24;
+}
+
+.report2012 #reportBody .reportSection h5 a {
+  color: #ed1c24;
+}
+
+.report2012 #reportBody .reportSection .reportSubsection {
+  margin-top: 15px;
+}
+
+.report2012 #reportBody .reportSection .reportSubsection>legend,.report2012 #reportBody .reportSection .reportSubsection>legend a,.report2012 #reportBody .reportSection .reportSubsection>legend a:hover {
+  color: #ed1c24;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin: 0;
+  text-decoration: none;
+}
+
+.report2012 #reportBody .reportSection>div>*:first-child {
+  margin-top: 0px;
+}
+
+.report2012 #reportBody .reportSection table.yellowTable {
+  width: 100%;
+  border: 1px solid #dedede;
+  clear: both;
+  background: #fff url(../../images/v4/bkg_yellow_grad2.gif) 0 0 repeat-x;
+}
+
+.report2012 #reportBody .reportSection table.yellowTable tbody,.report2012 #reportBody .reportSection table.yellowTable thead {
+  border: 1px solid #dedede;
+}
+
+.report2012 #reportBody .reportSection table.yellowTable tbody tr,.report2012 #reportBody .reportSection table.yellowTable thead tr {
+  border: 1px solid #dedede;
+}
+
+.report2012 #reportBody .reportSection table.yellowTable tbody tr th,.report2012 #reportBody .reportSection table.yellowTable thead tr th {
+  font-weight: bold;
+}
+
+.report2012 #reportBody .reportSection table.yellowTable tbody th,.report2012 #reportBody .reportSection table.yellowTable thead th,.report2012 #reportBody .reportSection table.yellowTable tbody td,.report2012 #reportBody .reportSection table.yellowTable thead td {
+  border: 1px solid #dedede;
+  padding: 5px;
+}
+
+.report2012 #reportBody .reportSection table.yellowTable thead {
+  -webkit-text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
+}
+
+.report2012 #reportBody .reportSection table.yellowTable thead tr td,.report2012 #reportBody .reportSection table.yellowTable thead tr th {
+  -webkit-text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
+  font-weight: bold;
+}
+
+.report2012 #reportBody .reportSection table.yellowTable tbody tr th {
+  background: #fcf2c2;
+  font-size: 1.125em;
+  text-align: left;
+}
+
+.report2012 #reportBody .reportSection table.leftTable thead tr th {
+  text-align: left;
+}
+
+.report2012 #reportBody .reportSection table.brownTable {
+  width: 100%;
+  border: 1px solid #dedede;
+  clear: both;
+  background: #f1efec;
+}
+
+.report2012 #reportBody .reportSection table.brownTable tbody,.report2012 #reportBody .reportSection table.brownTable thead {
+  border: 1px solid #dedede;
+}
+
+.report2012 #reportBody .reportSection table.brownTable tbody tr,.report2012 #reportBody .reportSection table.brownTable thead tr {
+  border: 1px solid #dedede;
+}
+
+.report2012 #reportBody .reportSection table.brownTable tbody tr th,.report2012 #reportBody .reportSection table.brownTable thead tr th {
+  font-weight: bold;
+}
+
+.report2012 #reportBody .reportSection table.brownTable tbody th,.report2012 #reportBody .reportSection table.brownTable thead th,.report2012 #reportBody .reportSection table.brownTable tbody td,.report2012 #reportBody .reportSection table.brownTable thead td {
+  border: 1px solid #dedede;
+  padding: 5px;
+}
+
+.report2012 #reportBody .reportSection table.brownTable thead {
+  -webkit-text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
+}
+
+.report2012 #reportBody .reportSection table.brownTable thead tr td,.report2012 #reportBody .reportSection table.brownTable thead tr th {
+  -webkit-text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
+  font-weight: bold;
+}
+
+.report2012 #reportBody .reportSection table.brownTable>thead>tr {
+  background: url(../../images/v4/bkg_transoverlay-matte.png) 0 0 repeat-x;
+  -webkit-text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
+  text-transform: uppercase;
+}
+
+.report2012 #reportBody .reportSection table.brownTable>thead>tr>th {
+  white-space: nowrap;
+  text-align: left;
+  width: auto;
+}
+
+.report2012 #reportBody .reportSection table.brownTable>thead>tr>th.rowNumber {
+  width: 30px;
+}
+
+.report2012 #reportBody .reportSection table.brownTable>thead>tr>th.actions {
+  min-width: 100px;
+}
+
+.report2012 #reportBody .reportSection table.brownTable>tbody>tr:hover {
+  background-color: #f7f2d5;
+}
+
+.report2012 #reportBody .reportSection table.brownTable>tbody>tr:nth-child(2n+1) {
+  background-color: #f1efec;
+}
+
+.report2012 #reportBody .reportSection table.brownTable>tbody>tr:nth-child(2n+1):hover {
+  background-color: #fcfaed;
+}
+
+.report2012 #reportBody .reportSection table.brownTable>tbody>tr.extraDetail table.datalist td {
+  width: 25%;
+}
+
+.report2012 #reportBody .reportSection table.brownTable>tbody>tr>td {
+  width: auto;
+}
+
+.report2012 #reportBody .reportSection table.brownTable>tbody td.rowNumber {
+  text-align: right;
+  width: 5% !important;
+}
+
+.report2012 #reportBody .reportSection div.noData {
+  padding: 15px 0px;
+  color: red;
+}
+
+.report2012 #reportBody .reportSection table.datalist {
+  width: 100%;
+  border: 1px solid #dedede;
+  clear: both;
+  background-color: #f1efec;
+  text-align: right;
+}
+
+.report2012 #reportBody .reportSection table.datalist tbody,.report2012 #reportBody .reportSection table.datalist thead {
+  border: 1px solid #dedede;
+}
+
+.report2012 #reportBody .reportSection table.datalist tbody tr,.report2012 #reportBody .reportSection table.datalist thead tr {
+  border: 1px solid #dedede;
+}
+
+.report2012 #reportBody .reportSection table.datalist tbody tr th,.report2012 #reportBody .reportSection table.datalist thead tr th {
+  font-weight: bold;
+}
+
+.report2012 #reportBody .reportSection table.datalist tbody th,.report2012 #reportBody .reportSection table.datalist thead th,.report2012 #reportBody .reportSection table.datalist tbody td,.report2012 #reportBody .reportSection table.datalist thead td {
+  border: 1px solid #dedede;
+  padding: 5px;
+}
+
+.report2012 #reportBody .reportSection table.datalist thead {
+  -webkit-text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
+}
+
+.report2012 #reportBody .reportSection table.datalist thead tr td,.report2012 #reportBody .reportSection table.datalist thead tr th {
+  -webkit-text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
+  font-weight: bold;
+}
+
+.report2012 #reportBody .reportSection table.datalist tbody tr:hover {
+  background-color: #fcfaed;
+}
+
+.report2012 #reportBody .reportSection table.datalist tbody tr.odd {
+  background-color: #e4dfda;
+}
+
+.report2012 #reportBody .reportSection table.datalist tbody tr.odd:hover {
+  background-color: #f7f2d5;
+}
+
+.report2012 #reportBody .reportSection table.datalist tbody td,.report2012 #reportBody .reportSection table.datalist tbody th {
+  border: 1px solid #dedede;
+  padding: 3px 6px 4px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.report2012 #reportBody .reportSection table.datalist tbody td div.number,.report2012 #reportBody .reportSection table.datalist tbody th div.number {
+  display: inline-block;
+  float: right;
+  margin-right: 25%;
+  *margin-right: 15%;
+}
+
+.report2012 #reportBody .reportSection table.datalist tbody td a,.report2012 #reportBody .reportSection table.datalist tbody th a {
+  text-decoration: none;
+  *float: left;
+}
+
+.report2012 #reportBody .reportSection table.datalist tbody td a:hover,.report2012 #reportBody .reportSection table.datalist tbody th a:hover {
+  text-decoration: underline;
+}
+
+.report2012 #reportBody .reportSection table.datalist tbody td.header,.report2012 #reportBody .reportSection table.datalist tbody th.header {
+  background: url(../../images/v4/bkg_transoverlay-matte.png) 0 0 repeat-x;
+  -webkit-text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
+}
+
+.report2012 #reportBody .reportSection table.datalist tbody td.label,.report2012 #reportBody .reportSection table.datalist tbody th.label {
+  background-color: #e5e5e5;
+}
+
+.report2012 #reportBody .reportSection table.summary {
+  width: 100%;
+  border: 1px solid #dedede;
+  clear: both;
+  background-color: #fffcf2;
+  background-image: url(../../images/v4/bkg_yellow_grad2.gif);
+  background-repeat: repeat-x;
+  background-position: -20px 0px;
+  margin: 0;
+  padding: 0;
+}
+
+.report2012 #reportBody .reportSection table.summary tbody,.report2012 #reportBody .reportSection table.summary thead {
+  border: 1px solid #dedede;
+}
+
+.report2012 #reportBody .reportSection table.summary tbody tr,.report2012 #reportBody .reportSection table.summary thead tr {
+  border: 1px solid #dedede;
+}
+
+.report2012 #reportBody .reportSection table.summary tbody tr th,.report2012 #reportBody .reportSection table.summary thead tr th {
+  font-weight: bold;
+}
+
+.report2012 #reportBody .reportSection table.summary tbody th,.report2012 #reportBody .reportSection table.summary thead th,.report2012 #reportBody .reportSection table.summary tbody td,.report2012 #reportBody .reportSection table.summary thead td {
+  border: 1px solid #dedede;
+  padding: 5px;
+}
+
+.report2012 #reportBody .reportSection table.summary thead {
+  -webkit-text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
+}
+
+.report2012 #reportBody .reportSection table.summary thead tr td,.report2012 #reportBody .reportSection table.summary thead tr th {
+  -webkit-text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
+  font-weight: bold;
+}
+
+.report2012 #reportBody .reportSection table.summary th {
+  background-color: #fcf2c2;
+  font-weight: bold;
+  width: 19%;
+}
+
+.report2012 #reportBody .reportSection table.summary td {
+  width: 29%;
+}
+
+.report2012 #reportBody .reportSection table.summary th,.report2012 #reportBody .reportSection table.summary td {
+  border: 1px solid #dedede;
+  padding: 0 6px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.report2012 #reportBody .reportSection caption {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.report2012 #reportBody .buttons {
+  display: block;
+  float: right;
+  position: relative;
+}
+
+.report2012 #reportBody fieldset.button {
+  display: inline-block;
+  float: left;
+  list-style: none outside none;
+  padding: 0;
+}
+
+.report2012 #reportBody fieldset.button>legend {
+  display: inline-block;
+  background-color: #f3f3f3;
+  border: solid 1px #dcdcdc;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  color: #666;
+  text-decoration: none;
+  padding: 5px 12px;
+  font-weight: bold;
+  font-size: 0.85em;
+  margin: 0 5px 2px 0;
+  width: auto;
+  height: 14px;
+  z-index: 99;
+}
+
+.report2012 #reportBody fieldset.button>legend:hover {
+  color: #333;
+  border-color: #999;
+  -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.report2012 #reportBody fieldset.button.link-button>legend {
+  background: none;
+  border: none;
+  border-radius: 0;
+  font-size: inherit;
+  font-weight: normal;
+  height: auto;
+  margin: inherit;
+  padding: inherit;
+}
+
+.report2012 #reportBody fieldset.button.link-button>legend:hover {
+  box-shadow: none;
+}
+
+.report2012 #reportBody fieldset.button.link-button>legend>a {
+  text-decoration: underline;
+}
+
+.report2012 #reportBody fieldset.button>ul {
+  display: none;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  position: absolute;
+  margin-left: 0px;
+  margin-top: -1px;
+  -webkit-box-shadow: 0 4px 10px #8b8b8b;
+  -moz-box-shadow: 0 4px 10px #8b8b8b;
+  box-shadow: 0 4px 10px #8b8b8b;
+  padding: 1px;
+  font-weight: bold;
+  font-size: 0.69em;
+}
+
+.report2012 #reportBody fieldset.button>ul>li a {
+  display: block;
+  color: #000;
+  background: #fff;
+  border: none;
+  margin-right: 1px;
+  padding: 4px 20px;
+  white-space: nowrap;
+}
+
+.report2012 #reportBody fieldset.button>ul>li a:hover {
+  background: #eee;
+}
+
+.report2012 #reportBody fieldset.button>ul>li:first-child a {
+  border-top: none;
+}
+
+.report2012 #reportBody ul.checkboxList {
+  display: inline-block;
+  background-color: #f3f3f3;
+  border: solid 1px #dcdcdc;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  color: #666;
+  text-decoration: none;
+  padding: 5px 12px;
+  font-weight: bold;
+  font-size: 0.85em;
+  margin: 0 5px 2px 0;
+  width: auto;
+  height: 14px;
+  z-index: 99;
+  margin-right: 0;
+}
+
+.report2012 #reportBody ul.checkboxList:hover {
+  color: #333;
+  border-color: #999;
+  -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.report2012 #reportBody ul.checkboxList li {
+  float: left;
+  padding-right: 10px;
+}
+
+.report2012 #reportBody ul.checkboxList li label {
+  padding-left: 15px;
+}
+
+.report2012 #reportBody .phoneNumber span {
+  display: block;
+  color: #999;
+  padding-left: 5px;
+}
+
+.report2012 #reportBody .phoneNumber i {
+  padding-right: 5px;
+}
+
+.report2012 #reportKey {
+  margin: 40px 20px;
+}
+
+.report2012 #reportKey>p,.report2012 #reportKey ul {
+  margin-bottom: 1.5em;
+  line-height: 1.5em;
+}
+
+.report2012 #reportKey li {
+  padding-bottom: 5px;
+}
+
+.report2012 #reportKey ul#key i {
+  padding: 0 5px 0 0;
+}
+
+.report2012 #footer {
+  border-top: 1px dotted #ccc;
+  clear: both;
+  margin: 30px 0px;
+  padding-top: 10px;
+  text-align: left;
+}
+
+.report2012 #footer img {
+  float: left;
+}
+
+.report2012 #footer>p {
+  font-size: 0.9em;
+  white-space: nowrap;
+}
+
+.report2012 .sectionNotes {
+  display: inline-block;
+  background-color: #f3f3f3;
+  border: solid 1px #dcdcdc;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  color: #666;
+  text-decoration: none;
+  padding: 5px 12px;
+  font-weight: bold;
+  font-size: 0.85em;
+  margin: 0 5px 2px 0;
+  width: auto;
+  height: 14px;
+  z-index: 99;
+  background: url(../../images/v4/ico_report2012_sprites.png) 6px -29px no-repeat #f3f3f3;
+}
+
+.report2012 .sectionNotes:hover {
+  color: #333;
+  border-color: #999;
+  -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.report2012 .notesblock {
+  clear: both;
+  color: #333;
+  display: none;
+  font-size: 12px;
+  margin: 0 0 10px 10px;
+  width: 600px;
+}
+
+.report2012 .notesLabel {
+  color: #ed1c24;
+}
+
+.report2012 .notesblock textarea {
+  width: 600px;
+}
+
+div.speechbubbles {
+  font-size: 0.9em;
+  background-color: #ededed;
+  border: 1px solid black;
+  -moz-border-radius: 8px 8px 8px 8px;
+  -webkit-border-radius: 8px 8px 8px 8px;
+  border-radius: 8px 8px 8px 8px;
+  -moz-box-shadow: 0 0 10px #888;
+  -webkit-box-shadow: 0 0 10px #888;
+  box-shadow: 0 0 10px #888;
+  line-height: 1.3em;
+  padding: 8px;
+  position: absolute;
+  top: 0;
+  visibility: hidden;
+  width: 200px;
+  z-index: 100;
+}
+
+div.speechbubbles div.speechbubbles-arrow {
+  border-color: transparent transparent #ededed;
+  border-style: solid;
+  border-width: 10px;
+  height: 0;
+  left: 20px;
+  position: absolute;
+  top: -19px;
+  width: 0;
+  z-index: 101;
+}
+
+div.speechbubbles div.speechbubbles-arrow-border {
+  border-color: transparent transparent black;
+  border-style: solid;
+  border-width: 10px;
+  height: 0;
+  left: 20px;
+  position: absolute;
+  top: -20px;
+  width: 0;
+  z-index: 101;
+}
+
+div.speechbubbles ul li {
+  list-style-type: circle;
+  margin-left: 14px;
+  padding-bottom: 6px;
+}

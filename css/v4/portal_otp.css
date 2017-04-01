@@ -1,0 +1,150 @@
+/* CSS Document */
+
+#rm_num ul{
+  list-style-type: none;
+}
+#rm_num li{
+  list-style-type: none;
+  display: block;
+}
+
+.text12green {
+    font-size: 12px;
+    color: #00CC00;
+    font-weight: bold;
+}
+
+.text12red {
+    font-size: 12px;
+    color: #E12726;
+    font-weight: bold;
+}
+
+.otp-current-text {
+    color: unset;
+    font-weight:bold;
+}
+
+.otp-not-visited-text {
+    color: gray;
+    font-weight:normal;
+}
+
+.otp-visited-blue-text {
+    color: blue;
+    font-weight:normal;
+}
+
+.otp-success-text {
+    color: #00CC00;
+    font-weight: bold;
+}
+
+.otp-failed-text {
+    color: #E12726;
+    font-weight: bold;
+}
+
+.svg_otp_circle{
+    width: 32px;
+    height: 32px;
+}
+
+.svg_otp_results_msg{
+    width: 16px;
+    height: 16px;
+}
+
+.vert-grey-line:before {
+    width:2px;
+    height:100px;
+    position:absolute;
+    top:10px;
+    left: 19px;
+    background-color: #CDCDCD;
+    content:" ";
+    display:block;
+}
+
+.otp-current {
+    border: 1px solid #cdcdcd;
+    background: #00cc00;
+    display: inline-block;
+    position: relative;
+    height: 28px;
+    width: 28px;
+    text-align: center;
+    line-height: 21px;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1em;
+    vertical-align: middle;
+}
+
+.passport-valid {
+    border: 1px solid #cdcdcd;
+    background: #00cc00;
+    display: inline-block;
+    position: relative;
+    height: 14px;
+    width: 14px;
+    text-align: center;
+    line-height: 21px;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1em;
+    vertical-align: middle;
+}
+
+.otp-failed {
+    border: 1px solid #cdcdcd;
+    background: #E12726;
+    display: inline-block;
+    position: relative;
+    height: 28px;
+    width: 28px;
+    text-align: center;
+    line-height: 21px;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1em;
+    vertical-align: middle;
+}
+
+.otp-visited {
+    border: 1px solid #cdcdcd;
+    background: #c2c2c2;
+    display: inline-block;
+    position: relative;
+    height: 28px;
+    width: 28px;
+    text-align: center;
+    line-height: 21px;
+    vertical-align: middle;
+    border-radius: 20px;
+    color: #949494;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.otp-not-visited {
+    border: 1px solid #cdcdcd;
+    background: #fff;
+    display: inline-block;
+    position: relative;
+    height: 28px;
+    width: 28px;
+    text-align: center;
+    line-height: 21px;
+    border-radius: 20px;
+    color: #999;
+    font-weight: normal;
+    font-size: 1.1em;
+    vertical-align: middle;
+}
+.otp-visited-text{
+    color: #949494;
+}

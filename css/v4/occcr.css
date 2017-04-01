@@ -1,0 +1,628 @@
+/************ OCCCR tabs ************/
+
+#occcrtoptabsarea ul {    
+    list-style: none;
+    padding: 0;
+    margin-top: 11px;
+}
+#occcrtoptabsarea ul:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    width: 0;
+}
+#occcrtoptabsarea li {
+    float: left;
+    background: #C1A6C9;
+    margin-right: 3px;
+    color: #fff;
+}
+#occcrtoptabsarea li.selected {
+    background: #754C90;
+}
+#occcrtoptabsarea li > button {
+    background: none;
+    border: none;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+#occcrtoptabsarea li.right {
+    border-color: #fff;
+    background: none;
+}
+
+/************ OCCCR CSS Document ************/
+/************ OCCCR Search Part ******************/
+/************ OCCCR form css ************/
+
+.stepform {
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+}
+.stepform .section {
+    margin-bottom: 10px;
+}
+fieldset.row > p {
+    clear: both;
+    margin-bottom: 0;
+    padding: 5px 5px 2px;
+}
+.occcr_entry_header {
+    color: #666;
+    margin-left: -10px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+.occcr_entry_header strong {
+    color: #f00;
+    font-weight: normal;
+}
+fieldset.displayarea {
+    margin-bottom: 10px;
+}
+#search-form-fields .row {
+    margin-right: 0;
+}
+#search-form-fields .optlist {
+    margin: 10px 15px 10px -10px;
+    display: table;
+}
+#search-form-fields .optlist > legend {
+    display: table-cell;
+    width: auto;
+    padding-right: 5px;
+    white-space: nowrap;
+}
+#search-form-fields .optlist > div {
+    display: table-cell;
+}
+#search-form-fields .optlist label {
+    display: inline;
+    padding-right: 5px;    
+    white-space: nowrap;
+}
+#search-form-fields .optlist input {
+    margin: 0;
+    vertical-align: middle;
+}
+#search-form-fields .orderby {
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    border-bottom: 1px solid #ddd;    
+    font-weight: bold;
+}
+#search-form-fields .ordertype .optlist + div{
+    margin-top: 15px;
+}
+
+#search-options {
+    padding-top: 15px;
+}
+#search-options .row {
+    margin: 0;
+}
+#search-options > h3 {
+    border-top: solid 1px #ddd;
+    padding: 10px 0 5px;
+    margin-top: 10px;
+}
+
+select.error {
+    background-color: #d89999 !important;
+}
+
+#noresults {
+    display: none;
+}
+#loading {
+    width:100%;
+    height:100%;
+    background-color:white;
+    color:red;
+    text-align:left;
+    padding: 5px;
+}
+#loading1 {
+    width:100%;
+    height:100%;
+    background-color:white;
+    color:red;
+    text-align:left;
+	padding-right: 20px;
+}
+.nodisplay{
+    display: none;
+}
+.step3notice{
+    padding: 0 10px 10px;
+}
+
+
+/* still used on results */
+.maintblnoborders TD, .maintblnoborders TR {
+    border-top: 0px;
+	border-bottom: 0px;
+    border-right: 0px;
+	border-left: 0px;
+    margin: 0;
+    padding: 1px;
+    vertical-align: top;
+}
+.maintblborders TD, .maintblborders TR {
+    border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+    border-right: 1px solid #000000;
+	border-left: 1px solid #000000;
+    margin: 0;
+    padding: 1px;
+    vertical-align: top;
+}
+.labelCell {
+    font-weight: bold;
+    padding-top: 1px;
+    text-align: left;
+    vertical-align: center;
+    white-space: nowrap;
+    width: 15%;
+}
+
+
+/************ business assurance top tabs ******************/
+.bacolorcell {
+    width:14%;
+    font-weight: bold;
+}
+
+/************ OCCCR top tabs ******************/
+.occcrtoptabsborders TD {
+    background: #ff0000 none repeat scroll 0 0; 
+	border-top: 1px solid #000000;
+	border-bottom: 0px;
+    border-right: 1px solid #000000;
+	border-left: 1px solid #000000;
+    line-height: 1.3;
+	text-align: center; 
+    vertical-align: middle;
+	padding-left: 10px;
+	padding-right:10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.occcrnocolorcell:hover {
+	background-color: #BDBDBD !important;
+	font-weight: bold;
+}
+.occcrcolorcell {
+	width:23%;
+	font-weight: bold;
+}
+.occcrnocolorcell {
+	background: none !important; 
+	width:15%;
+	border-bottom: 1px solid #000000 !important;
+}
+.occcrnocolornobordercell {
+	background: none !important; 
+	width:40%;
+	text-align:center; 
+	border-top: 0px !important;
+	border-bottom: 1px solid #000000 !important;
+    border-right: 0px !important;
+	border-left: 0px !important;
+}
+.occcrtitlecell {
+	border-top: 0px !important;
+	width:100%;
+	text-align: left !important; 
+	height:30px; 
+	padding-left:10px;
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #FBEFEF;
+}
+.occcrtitlecell > i {
+	font-size: 28px; 
+	line-height: 1.0em; 
+	color: #FBEFEF;
+}
+
+.orderform {
+    border-top: solid 1px #ccc;
+    padding-top: 15px;
+}
+.orderform .row {
+    margin-left: 0;
+}
+.orderform > p {
+    font-size: 10px;
+    padding-right: 10px;
+}
+.controls {
+    margin-top: 15px;
+    text-align: right;
+}
+
+.indented {
+    display: table !important;
+    width: auto !important;
+}
+.indented > span {
+    display: table-cell;
+    padding-right: 5px;
+}
+
+.orderdetails .feenotice {
+    margin-left: 21px;
+}
+.orderdetails h3 {
+    font-weight: normal !important;
+    font-size: 1em !important;
+    margin-bottom: 5px !important;
+}
+.orderdetails h3 + p {
+    padding-left: 21px;
+}
+.orderdetails p.paired {
+    margin-bottom: 0;
+}
+
+.reviewsection {
+    margin-top: 25px;
+}
+.reviewsection h4 {
+    font-weight: bold !important;
+    font-size: 1em !important;
+    border-bottom: solid 1px #ccc;
+    padding-bottom: 10px;
+}
+.reviewsection h4 a {
+    font-weight: normal !important;
+    font-size: 1em !important;
+}
+
+
+/************ OCCCR right side bar ******************/
+.steps {
+    list-style: none;
+    color: #808080;
+}
+.steps li {
+    margin-bottom: 26px;
+    position: relative;
+}
+.steps button {
+    position: relative;
+    background: none;
+    border: none;
+    border-radius: 0;
+    font-size: 1em;
+    vertical-align: middle;
+    padding-left: 33px;
+    text-align: left;
+    min-height: 28px;
+    cursor: default;
+}
+.steps li:before {
+    content: "";
+    border-left: solid 1px #ccc;
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    left: 13px;
+    bottom: -26px;
+}
+.steps li.last:before {
+    content: none;
+}
+
+
+.steps .selected {
+    color: #333;
+}
+.steps .selected button {
+    font-weight: bold;  
+}
+.steps .active button {
+    cursor: pointer;
+    color: #00778B;
+}
+.steps .active button:hover {
+    text-decoration: underline;
+}
+.steps .selected.active button {
+    cursor: default;
+    color: inherit;
+}
+.steps .selected.active button:hover {
+    text-decoration: none;
+}
+
+.steps button > .badge {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #fff;
+    border: 1px solid #aaa;
+    border-radius: 20px;
+    color: #aaa;
+    margin-right: 5px;
+    display: inline-block;
+    font-size: 1em;
+    height: 28px;
+    width: 28px;
+    line-height: 22px;
+    text-align: center;
+    vertical-align: middle;
+}
+.steps .visited button > .badge  {
+    background-color: #c2c2c2;
+    border-color: #c2c2c2;
+    color: #fff;
+}
+.steps .selected button > .badge {
+    background-color: #0c0;
+    border-color: #0c0;
+    color: #fff;
+    cursor: text;
+}
+.steps .loading button > .badge  {
+    background-color: #0042fd;
+    border-color: #0042fd;
+    color: #fff;
+}
+.steps .error button > .badge {
+    background-color: #9e2d21;
+    border-color: #9e2d21;
+    color: #fff;
+}
+.steps .error.selected button > .badge {
+    background-color: #e12726;
+    border-color: #e12726;
+}
+.steps p {
+    margin-left: 33px;
+}
+.otp-row {
+    margin-bottom:26px;
+    padding-left: 20px;
+}
+.otp-row:before {
+    border-left: 1px solid #CCC;
+    height: 26px;
+    position: absolute;
+    top: 28px;
+    left: 34px;
+}
+
+/**************************************************/
+/************ OCCCR Results Part ******************/
+/**************************************************/
+.occcrresultsmaintbl{
+	font-size: 12px;
+	width: 100%;
+}
+.occcrresultsmaintbl >thead TH {
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-left: 1px solid #000000;
+	margin: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: left;
+	vertical-align: middle;
+}
+.occcrresultsmaintbl >tbody TD {
+	margin: 0;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: left;
+	vertical-align: middle;
+}
+#tbsrchhdr{
+	font-weight: bold;
+	font-size:110%;
+}
+
+ul.pagination {
+	list-style-type: none;
+}
+ul.pagination button {
+	background: none;
+	border: none;
+	padding: 0 2px;
+	margin: 0;
+	color: #00778B;
+}
+ul.pagination button[disabled] {
+	color: #ccc;
+}
+
+.pagebar  {
+	display: table;
+	width: 100%;
+}
+.pagebar  > div,
+.pagebar  > ul {
+	display: table-cell;
+	width: 50%;
+}
+.pagebar  > .right {
+	text-align: right;
+}
+.pagebar  > .center {
+	text-align: center;
+	white-space: nowrap;
+	width: 0%;
+	padding: 0 5px;
+}
+.pagebar.lbal:before {
+	content: "";
+	display: table-cell;
+	width: 50%;
+}
+
+
+#ResultsHelpLink{
+	float: right;
+}
+#ResultsRefreshLink{
+    float: right;
+}
+
+.ResultsPartHeader{
+    color: #e12726;
+    font-size:120%; 
+	padding-bottom: 10px;
+	text-align:left;
+	font-weight: bold;
+}
+.occcr_unmarked_list{
+  list-style-type:none;
+  margin:0;
+  padding-left:5px;
+  padding-right:5px;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+
+/**************************************************/
+/************ OCCCR Order Results *****************/
+/**************************************************/
+#CloseWindowIconId{
+    text-align:right;
+    padding-right: 15px;
+	/*margin-top: 30px;*/
+}
+
+#PrintDownloadIconId{
+    float:right; 
+    padding-right: 15px;
+}
+
+.rpttheadth {
+	text-align: left !important;
+	color: #ff0000;
+	text-align: right; 
+	font-size: 110%;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	vertical-align: top;
+	border-top: 0px;
+	border-bottom: 1px solid #ccc;
+    border-right: 0px;
+	border-left: 0px;
+}
+.rptcolleft {
+	width:18%;
+	font-weight: bold;
+	text-align: right; 
+	font-size: 95%;
+	padding-right: 5px;
+	vertical-align: top;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-right: 0px;
+	border-left: 1px solid #ccc;
+}
+.rptcolright {
+	width:32%;
+	text-align: left; 
+	padding-left: 5px;
+	font-size: 95%;
+	vertical-align: top;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-left: 0px;
+
+}
+.rptcolverify {
+	text-align: left; 
+	font-size: 95%;
+	padding-top: 3px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 3px;
+	vertical-align: top;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+}
+
+#results_passport_step .print-download-buttons{
+    float: left;
+}
+#results_passport_step .print-download-buttons button{
+    width: 40px;
+}
+
+#enter_passport_step #dob{
+    padding-left:0;
+}
+
+.countyresults {
+    border-top: solid 1px #000;
+}
+.countyresults th, 
+.countyresults td {
+    text-align: center;
+    vertical-align: middle;
+    border-style: none solid solid solid;
+    border-color: #000;
+    border-width: 1px;
+}
+.countyresults th {
+    border-style: solid;
+}
+.countyresults input {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.countyresults .summary td {
+    border-style: none;
+}
+.col_county {
+    width: 20%;
+}
+.col_state {
+    width: 10%;
+}
+.col_type {
+    width: 45%;
+}
+.col_est {
+    width: 15%;
+}
+.col_fee {
+    width: 10%;    
+}
+
+
+.footer ul {
+    list-style: none;
+}
+.footer .actions button {
+    font-weight: bold;
+}
+#search-form-row .footer h3 {
+    margin-top: 15px;
+}
+
+.rpt_title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff0000;
+    padding-bottom: 6px;
+}

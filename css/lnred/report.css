@@ -1,0 +1,249 @@
+/* Background Styles */
+body { background-color: #ffffff; }
+
+/* Link Colors */
+
+a:link, a:visited, a:active { 
+    color: #cc0033; text-decoration: none;
+}
+a:hover { 
+    color: #cc0033; font-weight: bold; text-decoration: none;
+}
+a.searchresultslink:link, a.searchresultslink:visited, a.searchresultslink:active { 
+    color: #cc0033; text-decoration: none;
+}
+a.searchresultslink:hover { 
+    color: #cc0033; font-weight: bold; text-decoration: none;
+}
+
+/* public records discalimer */
+.discalimertitle {
+    font-family: arial; font-size: 8pt; color: black; font-weight: bold;
+}
+.disclaimerbody {
+    font-family: arial; font-size: 8pt; color: black;
+}
+
+/* packaged reports */
+.report_subsection_title {
+    font-size: 12pt; font-family: arial; font-weight: bold;
+}
+.report_small_subsection_title {
+    font-size: 8pt; font-family: arial; font-weight: bold;
+}
+.report_font {
+    font-size: 8pt; font-family: arial;
+}
+.report_font_bold {
+    font-size: 8pt; font-family: arial; font-weight: bold
+}
+.report_smallfont {
+    font-size: 7pt; font-family: arial;
+}
+.report_smallfontred {
+    font-size: 7pt; font-family: arial; color: #CC0033;
+}
+.banner3 {
+    font-size: 14pt; font-family: arial; COLOR: #000000; 
+}
+
+/* misc report */
+.reportheader1 {
+    font-size: 14pt; font-family: arial; COLOR: #000000; font-weight: bold;
+}
+.reportheader2 {
+    font-size: 12pt; font-family: arial; color: #000000; font-weight: bold;
+}
+.reportheader3 {
+    font-size: 10pt; font-family: arial; color: #000000; font-weight: bold;
+}
+.reportheader4 {
+    font-size: 9pt; font-family: arial; color: #000000; font-weight: bold;
+}
+.lxrepbodyfont1 {FONT-SIZE: 9pt; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; }
+
+.rb { color: #000000; height: 32px; width: 160px; font-weight: bold; font-family: arial,helvetica; font-size: 8pt; background: #BCC1A9; cursor:pointer; cursor:hand; border-width: 3px; border-style: solid; border-color: #E8EAE0 #828575 #828575 #E8EAE0; }
+.rbd { color: #000000; height: 32px; width: 160px; font-weight: bold; font-family: arial,helvetica; font-size: 8pt; background: #BCC1A9; cursor:pointer; cursor:hand; border-width: 3px; border-style: solid; border-color: #828575 #E8EAE0 #E8EAE0 #828575; }
+
+.preload {
+    font-size: 36px;
+    font-weight: bold;
+    color: #CC0033;
+    text-align: center;
+	border: 1px solid #000;
+	padding: 5px;
+}
+.redHead { /* used to be bighead */
+	color: #CC0033;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 0 0 .5em 0;
+	clear:both;
+}
+
+table.main {
+	border: 1px solid #DDD;
+	width: 100%;
+	vertical-align : top;
+	white-space:normal;
+	border-collapse: collapse;
+}
+
+table.main .labelCell {
+	white-space: nowrap;
+}
+
+.main td {
+        border: 1px solid #DDD;
+        vertical-align : top;
+        white-space:normal;
+        border-collapse: collapse;
+        vertical-align : top;
+        padding: 2px;
+}
+
+.main th {
+        border: 1px solid #DDD;
+        vertical-align : top;
+        white-space:normal;
+        border-collapse: collapse;
+}
+
+.redHead { 
+	color: #C03;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 0 0 .5em 0;
+	clear:both;
+}
+
+.headW {
+	background: #333; 
+	color: #FFF;
+	font-weight: bold;
+	text-align: left;
+}
+
+.headW2 {
+	background: #333; 
+	background: #ABAB78;
+	color: #FFF;
+	font-weight: bold;
+	text-align: left;
+}
+
+.headW a {
+	color: #FFF;
+        text-decoration: none;
+}
+
+.headW  a:hover  {
+	color: #FFF;
+        text-decoration: underline;
+}
+
+.headWC {
+	background: #333; 
+	color: #FFF;
+	font-weight: bold;
+	text-align: center;
+	width: 70px;
+}
+
+.labelCell {
+	background: #EBEBD8;
+	font-size: 10px;
+	font-weight: bold;
+	white-space: nowrap;
+	text-align: right;
+	width: 1%;
+}
+
+.confidence1 {
+	background: #CCFFCC;
+	font-size: 10px;
+	font-weight: bold;
+	white-space: nowrap;
+	text-align: center;
+	width: 1%;
+}
+
+.confidence2 {
+	background: #00FF00;
+	font-size: 10px;
+	font-weight: bold;
+	white-space: nowrap;
+	text-align: center;
+	width: 1%;
+}
+
+.confidence3 {
+	background: #CCFFFF;
+	font-size: 10px;
+	font-weight: bold;
+	white-space: nowrap;
+	text-align: center;
+	width: 1%;
+}
+
+.confidence4 {
+	background: #FFCC99;
+	font-size: 10px;
+	font-weight: bold;
+	white-space: nowrap;
+	text-align: center;
+	width: 1%;
+}
+
+.confidence5 {
+	background: #FF99CC;
+	font-size: 10px;
+	font-weight: bold;
+	white-space: nowrap;
+	text-align: center;
+	width: 1%;
+}
+
+.contentSections {
+	padding: 10px 0 0 0;
+	border-top: 1px solid #CCC;
+	width: 99%;
+}
+
+table {
+        font-size: 10px;
+        width: 100%;
+}
+
+table {
+        font-size: 10px;
+        width: 100%;
+}
+
+.white, .row1 {
+        background: #FFF;
+}
+
+.gray, .row0 {
+        background: #EBEBD8;
+}
+
+.on_rs{
+    background-color: #F2F4F1;
+    border:1px solid #666666;
+}
+
+.off_rs{
+    background-color:none;
+}
+
+.print_report{
+    float:right;
+    position:absolute;
+    padding-left:5px;
+    cursor:pointer;
+}
+
+.print_report IMG{
+    margin-bottom:-5px;
+}

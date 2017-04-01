@@ -1,0 +1,262 @@
+
+.fcra {
+    position:absolute;
+    background-color: #ffffff;
+    width: 700px;
+    font: 8pt verdana;
+    border: solid thin #990033;
+    padding: 0;
+    left: -700px;
+}
+
+.fcra_rem_body {
+    text-align: center;
+    padding: 25px;
+}
+
+.fcra_rem_body p {
+    padding: 5px;
+    text-align: left;
+}
+
+.fcra_rem_body ol>li {
+    margin-left: 25px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: left;
+    list-style: decimal outside none;
+}
+
+.fcra_rem_body div {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.fcra_title_img {
+    margin: 5px 3px 0px 0px;
+    float: right;
+    border: 0;
+}
+
+.fcra_title_txt {
+    padding: 10px;
+}
+
+.fcra_rem_title {
+    color: #ffffff;
+    background-color: #990033;
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+.fcra_wrapper, #wrapperoverlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #333;
+    display: inline;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.fcraPU {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.otherAddr {
+    border-top: #666666 dotted thin;
+}
+
+#clearSrch:hover, .btn:hover, #searchBtn:hover, #closeBtn:hover {
+    cursor: pointer;
+}
+
+.btn {
+    background:#CC0033 url(../../images/v2/btn_bkg_search.gif) repeat-x top;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 22px;
+    padding: 2px;
+    margin: 0px;
+    border: 1px solid #990033;
+    border-top-width: 2px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#searchBtn {
+    width: 145px;
+    float: right;
+}
+
+#glbdppaTbl {
+    color: #666666;
+    float: left;
+    font-size: 61%;
+    padding-top: 20px;
+    width: 100%;
+}
+
+#glbdppaTbl a {
+    font-weight: bold;
+}
+
+#btnTd {
+    vertical-align: top;
+    width: 25%;
+}
+
+#searchBlock {
+    margin-top: 40px;
+    width: 160px;
+    text-align: center;
+}
+
+#content {
+    padding: 0 40px 20px 20px;
+}
+
+#formTable {
+    width:  100%;
+    background-color: #f1e9d9;
+    border: #666666 solid 1px;
+    font-size: 61%;
+    border-top-width: 0;
+    padding: 10px;
+}
+
+#formTable p {
+    padding: 12px;
+    padding-top: 0;
+}
+
+#closeBtn {
+    float: right;
+    background-image: url("../../../images/closex.gif");
+    background-repeat: no-repeat;
+    background-position: 100px;
+    line-height: 27px;
+    width: 120px;
+    font-size: 71%;
+    font-weight: bold;
+}
+
+#frame {
+    width: 100%;
+    padding: 14px; 
+    background-color: #618295;
+}
+
+#hd>h2>span>sup {
+    font-size: 15px;
+}
+
+#hd>h2>span, #hd>h2>em {
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+#hd>h2>em {
+    font-style: italic;
+    padding-left: 20px;
+}
+
+#hd>h2>span {
+    border-right: 1px dotted;
+    padding-right: 20px;
+    line-height: 32px;
+}
+
+#hd {
+    background-image: url("../../../images/v2/logo_lexisnexis_fcra.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+#hd>p{
+    padding-top: 5px;
+    text-align: right;
+    font-size: 71%;
+}
+
+#footer {
+    width:  98%;
+    margin-top: 20px;
+}
+
+#tabsBar {
+    font-size:61%;
+    font-weight:bold;
+}
+
+#tabsBar ul {
+    list-style:none;
+    white-space: nowrap;
+}
+
+#tabsBar li.active {
+    background: #f1e9d9;
+  /*  border-bottom-color: #f1e9d9;
+    border-bottom-width: 0; */
+    padding-bottom: 1px;
+}
+
+#tabsBar li {
+    background: #9f885f;
+    margin: 0 2px 0 0;
+    float: left;
+    list-style-type: none;
+    border: 1px solid #666666;
+    border-bottom-width: 0;
+}
+
+#tabsBar li a {
+    white-space:nowrap;
+    text-decoration:none;
+    color:#333333;
+    line-height:normal;
+    padding-top:7px;
+    padding-bottom:5px;
+    padding-right:7px;
+    padding-left:7px;
+    display: block;
+}
+
+#tabsBar li a:focus {
+     outline:none;
+}
+
+#tabsBar a:hover {
+    text-decoration:underline;
+    cursor: pointer;
+}
+
+#tabsBar .active a:hover {
+    text-decoration:none; cursor:text;
+}
+
+#tabsBar .bakgrd a:hover, #tabsBar .bakgrd a {
+    color: #FFFFFF;
+}
+
+#tabsBar li.bakgrd {
+    border-width: 0;
+    background: #618295;
+}
+
+#tabsBar > ul a {
+    width:auto;
+}
+
+#systemWorking{
+    position: absolute;
+    left: -700px;
+}
+

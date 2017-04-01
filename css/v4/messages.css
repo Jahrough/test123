@@ -1,0 +1,81 @@
+table.rflags{
+    margin-right: 5%;
+}
+
+td.lower > .style21 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #666666;
+}
+
+.style1 {
+    font-size: 12px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #000000;
+}
+
+.style5 {
+    font-size: 12px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #cc0033;
+}
+
+ul.style5 {
+    padding-left:2%;
+}
+
+.style6 {
+    font-size: 11px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #000000;
+    padding-left: 2%;    
+}
+
+table > ul.style6 {
+    padding-left: 22%;
+}
+
+.style7 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #999999;
+}
+
+
+.style4 {
+    font-size: 12px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #000000;
+}
+
+.style12 {
+    font-size: 12px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #CC0033;
+}
+
+.style20 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #000000;
+}
+
+.style2 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #666666;
+}
+
+.style14 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #666666;
+    font-weight: bold;
+}
+

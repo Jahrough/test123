@@ -1,0 +1,1 @@
+<div align="center"><a href="javascript:void 0" onClick="printit();"><img border="0" width="92" height="25" src="<TMPL_VAR NAME=IMGPATH>/printreport.gif"></a>&nbsp;&nbsp;<a href="javascript:parent.close();"><img alt="" border="0" width="92" height="25" src="<TMPL_VAR NAME=IMGPATH>/closereport.gif"></a></div>

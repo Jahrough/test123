@@ -1,0 +1,13 @@
+
+.myaccountlabel { font-size: 9pt; font-family: Arial; color: #003399; font-weight: bold; }
+
+/* public records discalimer */
+.discalimertitle { font-family: arial; font-size: 8pt; color: blue; font-weight: bold; }
+.discalimertitlebig { font-family: arial; font-size: 12pt; color: blue; font-weight: bold; }
+.disclaimerbody { font-family: arial; font-size: 8pt; color: black; }
+.disclaimerbodybig { font-family: arial; font-size: 12pt; color: black; }
+.disclaimerbodysm { font-family: arial; font-size: 6pt; color: black; }
+
+/* Docket report */
+.docketreporttabletitle {background-color: #cccccc; color: #000000; }
+.docketreporttablerow {background-color: #ffffff; color: #000000; }

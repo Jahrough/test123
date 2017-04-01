@@ -1,0 +1,143 @@
+.leightbox {
+	color: #333;
+	display: none;
+	position: absolute;
+	/*top: 68%;*/
+	top:30%;
+	left: 25%;
+	width: 50%;
+	height: 25%;
+	padding: 1em;
+	border: 2px solid #B8B8B8;
+	background-color: white;
+	text-align: left;
+	z-index:1001;
+	overflow: auto;	
+}
+
+.leightbox a{
+   cursor:hand;
+   cursor:pointer;
+}
+
+.leightbox li{
+    cursor:hand;
+    cursor:pointer;
+}
+
+#skipHdr H3 {
+	background-image:url(../../images/v2/ico_rt_arrow.gif);
+	background-repeat:no-repeat;
+	padding-left:20px;
+	line-height:110%;
+	height: 20px;
+	color: #ed1c24;
+	font-size: .75em;
+}
+
+.warningHdr {
+	background-color:#FFFFDD;
+	border: solid #ed1c24 1px;
+	position: relative;
+	display: block;
+	margin-left:10px;
+}
+
+.warningHdr H3 {
+	background-image:url(../../images/v2/ico_rt_arrow.gif);
+	background-position: 5px 5px;	
+	background-repeat:no-repeat;
+	line-height:15pt;	
+	padding: 5px 5px 5px 25px;
+	font-size: .75em;
+	color:#ed1c24;
+}
+
+.skipTraceIcons{
+        display: block;
+}
+
+.skipTraceIcons ul{
+        list-style-type: none;
+}
+
+.skipTraceIcons li{
+        float:right;
+        border-right-width:1px;
+        border-right-style:solid;
+        border-right-color:#999999;
+        display: block;
+        list-style-type: none;
+        line-height: 8px;
+        font-size: 88%;
+        padding-right: 2px;
+        margin-top: 4px;
+        padding-bottom: 2px;
+        margin-left: 4px;
+	cursor:pointer;
+}
+
+.skipTraceIcons li.first{
+        border-right:none;
+        padding-right:0;
+}
+
+.skipTraceIcons li a{
+        color:#0066CC;
+        font-weight:bold;
+        font-size:81%;
+        padding-right: 6px;
+}
+
+#st_end_session{
+       display:none;
+}
+
+#skip_session_data_container{
+	height:auto;
+	width:600px;
+	border:dotted red 1px;
+	background-color:lightyellow;
+	margin:10px;
+	padding:10px;
+        font-size:14px;
+        font-family: Arial, Helvetica, sans-serif;
+	cursor:text;
+}
+
+#short_st_session_summary_text{
+        color:#666666;
+        font-size:8pt;
+}
+
+#tips{
+     text-align:left;
+	 margin-top:0px;
+	 cursor:text;
+}
+
+#resultsError {
+        margin-bottom:8px;
+}
+
+#st_form H2 {
+        color:#ed1c24;
+        font-weight:bold;
+        background-image:url(../../images/v2/ico_hdrarrow_red.gif);
+        background-repeat:no-repeat;
+        background-position:left .42em;
+        font-size:91%;
+        padding-left:15px;
+        width:auto;
+        line-height:100%;
+		margin-left:10px;
+}
+
+.lightbox[id]{ /* IE6 and below Can't See This */    position:fixed;    }#overlay[id]{ /* IE6 and below Can't See This */    position:fixed;    }
+
+#st_phone{
+    font-weight:700;
+    color:#ed1c24;
+    font-size:115%;
+}
+

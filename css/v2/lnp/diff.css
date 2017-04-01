@@ -1,0 +1,14 @@
+
+#hd {
+	background:url(../../../images/v2/lnp/logo_for_themes.gif) no-repeat;
+	padding-right:15px;
+	height:55px;
+	position: relative;
+}
+
+#hdblank {
+    background:url(../../../images/v2/spacer.gif) no-repeat;
+    padding-right:15px;
+    height:55px;
+    position: relative;
+}

@@ -1,0 +1,50 @@
+*{font-family:Calibri, Arial;}
+.wizard-font-18px{font-size:18px;}
+.wizard-font-16px{font-size:16px;}
+.wizard-font-14px{font-size:14px;}
+.wizard-font-13px{font-size:13px;}
+.wizard-font-12px{font-size:12px;}
+.wizard-font-11px{font-size:11px;}
+.wizard-font-10px{font-size:10px;}
+.td-font-11px td{color:#464646;font-size:11px;}
+.wizard-grey-table,
+.wizard-darkgrey-table{
+    width:100%;
+}
+.wizard-darkgrey-table th:first-child {
+    border:0;
+}
+.wizard-darkgrey-table th {
+    border-left:1px solid #fff;
+    text-align:left;
+    padding:3px 8px;
+    background-color: #939598;
+    color:#fff;
+    font-family:Calibri, Arial;
+    font-weight:normal;
+}
+.wizard-darkgrey-table td {
+    background-color: #464646;
+    color:#fff;
+    padding: 10px;
+    vertical-align:top;
+}
+
+.wizard-grey-table th {
+    border:0;
+    text-align:left;
+    padding:3px 8px;
+    background-color: #464646;
+    color:#fff;
+    font-family:Calibri, Arial;
+    font-weight:normal;
+    font-size: 13px;
+}
+.wizard-grey-table td {
+    background-color: #F3F3F3;
+    color:#464646;
+    padding:3px 8px;
+    font-family:Calibri, Arial;
+    font-size:12px;
+    font-weight:normal;
+}

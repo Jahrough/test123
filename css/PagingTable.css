@@ -1,0 +1,51 @@
+.dynTbl{
+  background-color: #F2F4F1;
+  font-family: Arial, Sans-Serif;
+  font-size: 8pt;
+  margin: 20px;
+  border: 1px solid #D0CCD0;
+  border-collapse: collapse;
+}
+.dynTbl tr:hover{
+  background-color: yellow;
+  cursor: pointer;
+}
+.dynTbl caption{
+  font-size: 9pt;
+  font-weight: bold;
+  border: solid 1px #D0CCD0;
+  padding: 4px;
+}
+.dynTbl td{
+  background-color: #FFFFFF;
+  padding: 2px;
+  padding-left: 4px;
+  border: 1px solid #D0CCD0;
+}
+.tblNav span{
+  padding: 10px;
+}
+.tblHead th{
+  background-color: #D0CCD0;
+  padding: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.tblPgBar{
+
+}
+
+.tblNavOffBtn{}
+.nextTblBtn{}
+.prevTblBtn{}
+.firstTblBtn{}
+.lastTblBtn{}
+.pgTblBtn{}
+.theadTblBtn{}
+.nextTblBtnOff{}
+.prevTblBtnOff{}
+.firstTblBtnOff{}
+.lastTblBtnOff{}
+.pgTblBtnOff{}
+.theadTblBtnOff{}

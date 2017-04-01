@@ -1,0 +1,227 @@
+body {
+	margin:5px;
+	padding:5px;
+	text-align:left;
+}
+
+a {
+color:black;
+text-decoration:none;
+}
+.user_data_delete
+{
+display:none;
+}
+
+.section_disclaimer
+{
+color:#4F4F4F;
+font-size:9px;
+}
+
+.main_report_container
+{
+color:#333;
+font-family:verdana;
+font-size:11px;
+}
+
+.colcomp_report_containerX
+{
+max-width: 300px;
+width: 300px;
+color:#333;
+font-family:verdana;
+font-size:11px;
+}
+
+
+.colcomp_report_container {
+   width: 300px;
+   max-width: 300px;
+   margin: 0 auto;
+}
+
+#content {
+   width: 400px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+.colcomp_title {
+   font-family:verdana;
+   font-size:40px;
+}
+
+
+
+subjname {
+	FONT: bold 24px Arial, Helvetica, sans-serif
+}
+
+subjdata {
+	FONT: italic 14px Arial, Helvetica, sans-serif
+}
+
+
+
+
+
+
+
+.smallgray
+{
+color:#666;
+font-size:85%;
+line-height:1.2em;
+}
+
+.add_notes_report
+{
+border-bottom:dotted 1px #777;
+border-top:dotted 1px #777;
+}
+
+.notes_reminder
+{
+display:none;
+}
+
+
+.detail_row {
+display:table-row;
+}
+
+
+TD.detailcoldata {
+	VERTICAL-ALIGN: text-top; 
+   WIDTH: 50%;
+   font-size:11px;
+}
+TD.detailcollabel {
+	VERTICAL-ALIGN: text-top; 
+   PADDING-RIGHT: 20px;
+   font-size:11px;
+}
+
+TD.detailcollabelpad {
+	VERTICAL-ALIGN: text-top; 
+   PADDING-RIGHT: 20px; 
+   PADDING-LEFT: 15px;
+   font-size:11px;
+}
+
+TD.data {
+	VERTICAL-ALIGN: text-top; PADDING-BOTTOM: 0px; PADDING-TOP: 9px; PADDING-LEFT: 8px; 
+   PADDING-RIGHT: 8px;
+   font-size:13px;
+}
+
+TD.datahdg {
+	BORDER-RIGHT: #fff 1px solid; PADDING-BOTTOM: 8px; PADDING-TOP: 9px; PADDING-LEFT: 8px; 
+   PADDING-RIGHT: 8px; 
+   font-size:13px;
+}
+
+TD.datahdglast {
+	BORDER-RIGHT: #fff 1px solid; PADDING-BOTTOM: 8px; PADDING-TOP: 9px; PADDING-LEFT: 8px; 
+   font-size:13px;
+}
+
+/* temp border for debugging */
+/*   border: 2px solid black; */
+
+TABLE.datadetail {
+	BORDER-TOP: #009ddb 1px solid; BORDER-RIGHT: #009ddb 1px solid; 
+   BORDER-BOTTOM: #009ddb 1px solid; BORDER-LEFT: #009ddb 1px solid; 
+   WIDTH: 100%;
+   border: 1px solid black;
+}
+
+.page_control {
+   visibility:hidden;
+}
+
+.firstdetaildata {
+   PADDING-LEFT: 40px; 
+}
+
+.subjdata {
+	FONT: italic 14px Arial, Helvetica, sans-serif
+}
+
+.subjbody {
+	FONT: 14px Arial, Helvetica, sans-serif
+}
+
+
+P.subjinfo {
+	text-align: left; 
+   PADDING-BOTTOM: 5px; 
+   PADDING-TOP: 5px; 
+   PADDING-LEFT: 10px; 
+   PADDING-RIGHT: 20px; 
+   font-size:11px;
+}
+
+
+P.report_sectiontitle_word {
+	PADDING-TOP: 1px; FONT: bold 24px Arial, Helvetica, sans-serif; PADDING-RIGHT: 10px
+}
+
+P.sectiontitle_word {
+	PADDING-TOP: 1px; FONT: bold 18px Arial, Helvetica, sans-serif; PADDING-RIGHT: 10px
+}
+
+P.sectionreccount_word {
+   FONT: bold 16px Arial, Helvetica, sans-serif; 
+	BORDER-TOP: #bcbec0 2px solid; 
+   BORDER-RIGHT: #bcbec0 2px solid; 
+   BORDER-BOTTOM: #bcbec0 2px solid; 
+   COLOR: #555; 
+   PADDING-BOTTOM: 0px; 
+   PADDING-TOP: 0px; 
+   PADDING-LEFT: 10px; 
+   BORDER-LEFT: #bcbec0 2px solid; 
+   PADDING-RIGHT: 10px; 
+   BACKGROUND-COLOR: #f3f3f3; 
+   border-radius: 4px
+}
+
+
+
+/* These hide phone feedback buttons, etc. in the printed report */
+
+span[class*='app_info'] {
+    visibility: hidden;
+    overflow: hidden;
+    display:none;
+}
+
+span[class*='ap_p_info'] {
+    visibility: hidden;
+    overflow: hidden;
+    display:none;
+}
+
+span[class*='phone_feedback_button'] {
+    visibility: hidden;
+    overflow: hidden;
+    display:none;
+}
+
+
+table[class*='phone_feedback'] {
+    visibility: hidden;
+    overflow: hidden;
+    display:none;
+}
+
+span[class*='search_pop'] {
+    visibility: hidden;
+    overflow: hidden;
+    display:none;
+}
+
+

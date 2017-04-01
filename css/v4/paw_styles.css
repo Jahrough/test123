@@ -1,0 +1,44 @@
+#search-results-con td.row-eq-paw {
+    padding: 0;
+}
+.row-eq-paw .row-eq-height:after {
+	content: "";
+	display: block;
+	height: 0;
+	width:0;
+	font-size: 0px;
+	clear: both;
+	visibility: hidden;
+	overflow: hidden;
+	border-style: none !important;
+	padding: 0px !important;
+}
+.row-eq-paw .row-eq-height + hr {
+	margin: 0 0 -1px 0;
+	padding: 0;
+}
+.row-eq-paw .row-eq-height > div{
+	float: left;
+	border-right: 1px solid #DADBDA;
+	padding: 0px 10px;
+}
+.row-eq-paw .row-eq-height > div + div {
+	border-left: 1px solid #DADBDA;
+	margin-left: -1px;
+	min-height: 5.03846em;
+}
+.row-eq-paw .row-eq-height > div + div + div {
+	border-right: none;
+}
+.row-eq-paw .row-eq-height > div > div {
+    padding: 7px 0;
+}
+.row-eq-paw .row-eq-height + .row-eq-height > div > div {
+	border-top: 1px solid #DADBDA;
+}
+.row-eq-paw .icon-btn-wrapper {
+    padding: 0;
+}
+.row-eq-paw .no-padding {
+    padding: 0;
+}

@@ -1,0 +1,7 @@
+<TMPL_INCLUDE NAME="base_includes.tpl">
+
+<script src="<tmpl_var name='JSPATH'>/ln/lexis.js"></script>
+<script src="<tmpl_var name='JSPATH'>/ln/server.js"></script>
+<script src="<tmpl_var name='JSPATH'>/ln/config.js"></script>
+<script src="<tmpl_var name='JSPATH'>/ln/misc.js"></script>
+

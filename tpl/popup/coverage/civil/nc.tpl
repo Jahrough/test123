@@ -1,0 +1,463 @@
+
+<html>
+<head>
+  <title>Civil Courts Coverage</title>
+  <link href="<TMPL_VAR NAME='CSSPATH'>/<TMPL_VAR NAME=SKIN_TYPE>/coverage.css" rel="stylesheet" type="text/css">
+</head>
+<body onload="window.focus();">
+           
+<div align="center">       
+<table border="0" cellpadding="5" cellspacing="0">
+  <tbody>
+     <tr>
+  <td nowrap="" align="center" class="statetitle">
+NORTH CAROLINA <br>CIVIL COURTS COVERAGE</td>
+  </tr>
+     
+  </tbody> 
+</table>
+  <br>
+
+<table border="0" cellpadding="2" cellspacing="2" height="49">
+  <tbody>
+    <tr>
+      <td nowrap="nowrap" valign="top"><b><small><font face="Arial">County<br>
+      </font> </small></b></td>
+      <td align="right" nowrap="nowrap" valign="top"><b><small><font
+ face="Arial">Start Date<br>
+      </font> </small></b></td>
+      <td align="right" nowrap="nowrap" valign="top"><b><small><font
+ face="Arial">End Date<br>
+      </font> </small></b></td>
+      <td align="right" nowrap="nowrap" valign="top"><b><small><font
+ face="Arial">Status<br>
+      </font> </small></b></td>
+    </tr>
+    <tr>
+      <td nowrap="nowrap" valign="top"><small><small><font face="Arial">ALAMANCE<br>
+ALEXANDER<br>
+ALLEGHANY<br>
+ANSON<br>
+ASHE<br>
+AVERY<br>
+BEAUFORT<br>
+BERTIE<br>
+BLADEN<br>
+BRUNSWICK<br>
+BUNCOMBE<br>
+BURKE<br>
+CABARRUS<br>
+CALDWELL<br>
+CAMDEN<br>
+CARTERET<br>
+CASWELL<br>
+CATAWBA<br>
+CHATHAM<br>
+CHEROKEE<br>
+CHOWAN<br>
+CLAY<br>
+CLEVELAND<br>
+COLUMBUS<br>
+CRAVEN<br>
+CUMBERLAND<br>
+CURRITUCK<br>
+DARE<br>
+DAVIDSON<br>
+DAVIE<br>
+DUPLIN<br>
+DURHAM<br>
+EDGECOMBE<br>
+FORSYTH<br>
+FRANKLIN<br>
+GASTON<br>
+GATES<br>
+GRAHAM<br>
+GRANVILLE<br>
+GREENE<br>
+GUILFORD<br>
+HALIFAX<br>
+HARNETT<br>
+HAYWOOD<br>
+HENDERSON<br>
+HERTFORD<br>
+HOKE<br>
+HYDE<br>
+IREDELL<br>
+JACKSON<br>
+JOHNSTON<br>
+JONES<br>
+LEE<br>
+LENOIR<br>
+LINCOLN<br>
+MACON<br>
+MADISON<br>
+MARTIN<br>
+MCDOWELL<br>
+MECKLENBURG<br>
+MITCHELL<br>
+MONTGOMERY<br>
+MOORE<br>
+NASH<br>
+NEW HANOVER<br>
+NORTHAMPTON<br>
+ONSLOW<br>
+ORANGE<br>
+PAMLICO<br>
+PASQUOTANK<br>
+PENDER<br>
+PERQUIMANS<br>
+PERSON<br>
+PITT<br>
+POLK<br>
+RANDOLPH<br>
+RICHMOND<br>
+ROBESON<br>
+ROCKINGHAM<br>
+ROWAN<br>
+RUTHERFORD<br>
+SAMPSON<br>
+SCOTLAND<br>
+STANLY<br>
+STOKES<br>
+SURRY<br>
+SWAIN<br>
+TRANSYLVANIA<br>
+TYRRELL<br>
+UNION<br>
+VANCE<br>
+WAKE<br>
+WARREN<br>
+WASHINGTON<br>
+WATAUGA<br>
+WAYNE<br>
+WILKES<br>
+WILSON<br>
+YADKIN<br>
+YANCEY<br>
+      </font> </small></small></td>
+      <td align="right" nowrap="nowrap" valign="top"><small><small><font
+ face="Arial">9/16/1997<br>
+11/18/1997<br>
+10/15/1998<br>
+7/30/1997<br>
+10/2/1997<br>
+6/2/1997<br>
+10/18/1996<br>
+11/8/1996<br>
+8/11/1997<br>
+3/26/1997<br>
+7/23/1997<br>
+4/28/1997<br>
+8/12/1997<br>
+4/14/1997<br>
+10/14/1996<br>
+4/2/1997<br>
+4/15/1997<br>
+4/28/1997<br>
+10/1/1997<br>
+6/24/1997<br>
+10/17/1996<br>
+7/14/1997<br>
+6/9/1997<br>
+3/14/1997<br>
+5/12/1997<br>
+11/6/1996<br>
+8/1/1997<br>
+10/21/1996<br>
+9/23/1997<br>
+10/10/1997<br>
+3/18/1997<br>
+9/25/1996<br>
+8/19/1996<br>
+11/14/1997<br>
+5/12/1997<br>
+10/21/1996<br>
+12/16/1996<br>
+4/23/1997<br>
+12/23/1996<br>
+9/16/1996<br>
+6/11/1997<br>
+10/22/1996<br>
+10/1/1996<br>
+6/11/1997<br>
+7/28/1997<br>
+11/12/1996<br>
+5/19/1997<br>
+10/17/1996<br>
+9/2/1997<br>
+7/7/1997<br>
+9/10/1996<br>
+3/3/1997<br>
+9/25/1996<br>
+9/20/1996<br>
+10/30/1997<br>
+7/15/1997<br>
+5/27/1997<br>
+10/28/1996<br>
+7/21/1997<br>
+10/14/1997<br>
+7/22/1997<br>
+10/25/1996<br>
+5/22/1997<br>
+7/16/1996<br>
+2/27/1997<br>
+11/20/1996<br>
+3/17/1997<br>
+6/2/1997<br>
+2/25/1997<br>
+1/14/2002<br>
+9/18/1996<br>
+2/20/1997<br>
+4/30/1997<br>
+11/19/1996<br>
+8/11/1997<br>
+5/23/1997<br>
+5/29/1997<br>
+3/27/1997<br>
+9/22/1997<br>
+8/28/1997<br>
+7/8/1997<br>
+3/14/1997<br>
+5/23/1997<br>
+11/4/1997<br>
+9/8/1997<br>
+1/5/1998<br>
+10/21/1996<br>
+8/1/1997<br>
+9/27/1996<br>
+12/18/1997<br>
+1/21/1997<br>
+10/16/1996<br>
+1/8/1997<br>
+10/24/1996<br>
+11/18/1997<br>
+9/23/1996<br>
+8/26/1997<br>
+8/21/1996<br>
+12/17/1997<br>
+7/30/1997<br>
+      </font> </small></small></td>
+      <td align="right" nowrap="nowrap" valign="top"><small><small><font
+ face="Arial">&nbsp;<br>
+
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+10/19/2004<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+      <br>
+      </font> </small></small></td>
+      <td align="right" nowrap="nowrap" valign="top"><small><small><font
+ face="Arial"><br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+Historic<br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      </font></small></small></td>
+    </tr>
+  </tbody>
+
+</table>
+   
+  </div>
+   
+</body>
+</html>

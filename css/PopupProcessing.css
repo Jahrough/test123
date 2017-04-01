@@ -1,0 +1,15 @@
+.PopupProcessing{
+  border:none;
+  left: 0;
+  top: 0;
+  padding: 0;
+  width: 300px;
+  height: 65px;
+  background: #FFFFFF url('/bps/images/bg_processing.gif') no-repeat;
+  position: absolute;
+}
+.PopupProcessingCloser{
+  float:right;
+  font-size:9pt;
+  color:#0066CC;
+}

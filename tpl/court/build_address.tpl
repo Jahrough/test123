@@ -1,0 +1,3 @@
+<!-- build_address.tpl -->
+<TMPL_VAR STREET>, <TMPL_VAR CITY> <TMPL_VAR STATE> <TMPL_VAR ZIP5><TMPL_IF ZIP4>-<TMPL_VAR ZIP4></TMPL_IF><TMPL_IF DATE_RANGE> (<TMPL_VAR DATE_RANGE>)</TMPL_IF>
+<!-- END build_address.tpl -->

@@ -1,0 +1,439 @@
+
+<html>
+<head>
+  <title>Civil Courts Coverage</title>
+  <link href="<TMPL_VAR NAME='CSSPATH'>/<TMPL_VAR NAME=SKIN_TYPE>/coverage.css" rel="stylesheet" type="text/css">
+</head>
+<body onload="window.focus();">
+           
+<div align="center">       
+<table border="0" cellpadding="5" cellspacing="0">
+  <tbody>
+     <tr>
+  <td nowrap="" align="center" class="statetitle">
+IOWA <br>CIVIL COURTS COVERAGE</td>
+  </tr>
+     
+  </tbody> 
+</table>
+  <br>
+<table border="0" cellpadding="2" cellspacing="2" height="49">
+  <tbody>
+    <tr>
+      <td nowrap="nowrap" valign="top"><b><small><font face="Arial">County<br>
+      </font> </small></b></td>
+      <td align="right" nowrap="nowrap" valign="top"><b><small><font
+ face="Arial">Start Date<br>
+      </font> </small></b></td>
+      <td align="right" nowrap="nowrap" valign="top"><b><small><font
+ face="Arial">End Date<br>
+      </font> </small></b></td>
+      <td align="right" nowrap="nowrap" valign="top"><b><small><font
+ face="Arial">Status<br>
+      </font> </small></b></td>
+    </tr>
+    <tr>
+      <td nowrap="nowrap" valign="top"><small><small><font face="Arial">ADAIR<br>
+ADAMS<br>
+ALLAMAKEE<br>
+APPANOOSE<br>
+AUDUBON<br>
+BENTON<br>
+BLACK HAWK<br>
+BOONE<br>
+BREMER<br>
+BUCHANAN<br>
+BUENA VISTA<br>
+BUTLER<br>
+CALHOUN<br>
+CARROLL<br>
+CASS<br>
+CEDAR<br>
+CERRO GORDO<br>
+CHEROKEE<br>
+CHICKASAW<br>
+CLARKE<br>
+CLAY<br>
+CLINTON<br>
+CRAWFORD<br>
+DALLAS<br>
+DAVIS<br>
+DECATUR<br>
+DELAWARE<br>
+DES MOINES<br>
+DICKINSON<br>
+DUBUQUE<br>
+EMMET<br>
+FAYETTE<br>
+FLOYD<br>
+FRANKLIN<br>
+FREMONT<br>
+GREENE<br>
+GRUNDY<br>
+GUTHRIE<br>
+HAMILTON<br>
+HANCOCK<br>
+HARDIN<br>
+HARRISON<br>
+HENRY<br>
+HOWARD<br>
+HUMBOLDT<br>
+IDA<br>
+IOWA<br>
+JACKSON<br>
+JASPER<br>
+JEFFERSON<br>
+JOHNSON<br>
+JONES<br>
+KEOKUK<br>
+KOSSUTH<br>
+LEE<br>
+LINN<br>
+LOUISA<br>
+LUCAS<br>
+LYON<br>
+MADISON<br>
+MAHASKA<br>
+MARION<br>
+MARSHALL<br>
+MILLS<br>
+MITCHELL<br>
+MONONA<br>
+MONROE<br>
+MONTGOMERY<br>
+MUSCATINE<br>
+OSCEOLA<br>
+PAGE<br>
+PALO ALTO<br>
+PLYMOUTH<br>
+POCAHONTAS<br>
+POLK<br>
+POTTAWATTAMIE<br>
+POWESHIEK<br>
+RINGGOLD<br>
+SAC<br>
+SCOTT<br>
+SHELBY<br>
+SIOUX<br>
+STORY<br>
+TAMA<br>
+TAYLOR<br>
+UNION<br>
+VAN BUREN<br>
+WAPELLO<br>
+WARREN<br>
+WASHINGTON<br>
+WAYNE<br>
+WEBSTER<br>
+WINNEBAGO<br>
+WINNESHIEK<br>
+WOODBURY<br>
+WORTH<br>
+WRIGHT<br>
+      </font> </small></small></td>
+      <td align="right" nowrap="nowrap" valign="top"><small><small><font
+ face="Arial">1/8/1991<br>
+9/6/1990<br>
+4/23/1991<br>
+9/3/1992<br>
+2/25/1987<br>
+2/12/1992<br>
+7/24/1992<br>
+8/31/1988<br>
+7/15/1992<br>
+3/31/1992<br>
+11/29/1988<br>
+10/20/1989<br>
+3/12/1990<br>
+4/5/1990<br>
+9/3/1992<br>
+2/26/1991<br>
+1/9/1991<br>
+4/6/1990<br>
+1/13/1992<br>
+7/24/1992<br>
+9/18/1991<br>
+1/4/1991<br>
+10/24/1989<br>
+6/29/1992<br>
+5/28/1991<br>
+10/14/1991<br>
+2/27/1990<br>
+12/18/1991<br>
+5/17/1988<br>
+9/3/1992<br>
+10/12/1988<br>
+5/13/1991<br>
+8/3/1990<br>
+4/22/1991<br>
+10/13/1992<br>
+1/22/1990<br>
+11/7/1991<br>
+2/11/1992<br>
+3/1/1988<br>
+3/28/1990<br>
+12/15/1989<br>
+10/1/1992<br>
+5/13/1992<br>
+11/6/1990<br>
+6/20/1988<br>
+10/8/1991<br>
+2/23/1998<br>
+1/12/1993<br>
+9/3/1992<br>
+5/19/1992<br>
+9/1/1992<br>
+9/4/1992<br>
+11/9/1990<br>
+3/11/1991<br>
+1/2/1992<br>
+8/12/1991<br>
+2/10/1992<br>
+5/28/1992<br>
+2/8/1991<br>
+12/12/1991<br>
+1/8/1992<br>
+9/18/1992<br>
+5/23/1991<br>
+1/13/1993<br>
+7/25/1991<br>
+12/8/1987<br>
+12/14/1990<br>
+10/2/1992<br>
+1/28/1993<br>
+8/11/1988<br>
+10/22/1992<br>
+10/25/1989<br>
+4/4/1988<br>
+2/3/1987<br>
+9/9/1992<br>
+5/3/1992<br>
+6/9/1992<br>
+6/28/1988<br>
+1/8/1986<br>
+7/13/1992<br>
+10/26/1992<br>
+9/10/1990<br>
+3/11/1991<br>
+12/5/1989<br>
+11/20/1991<br>
+12/9/1992<br>
+11/7/1988<br>
+1/10/1992<br>
+5/12/1992<br>
+10/4/1990<br>
+10/13/1989<br>
+10/16/1990<br>
+7/5/1990<br>
+11/6/1991<br>
+3/5/1991<br>
+2/22/1989<br>
+6/6/1989<br>
+      </font> </small></small></td>
+      <td align="right" nowrap="nowrap" valign="top"><small><small><font
+ face="Arial"><br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+8/31/2004<br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      </font> </small></small></td>
+      <td align="right" nowrap="nowrap" valign="top"><small><small><font
+ face="Arial"><br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+Historic<br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      </font></small></small></td>
+    </tr>
+  </tbody>
+
+</table>
+   
+  </div>
+   
+</body>
+</html>

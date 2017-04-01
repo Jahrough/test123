@@ -1,0 +1,1 @@
+<div class="input-group-subtext input-group-pulltop">Terms &amp; Connectors Search: Modify your search using connectors: "car and boat", "car or auto", "car w/5 accident" - <a href="javascript:void(0);" id="search-connector-examples">More Examples</a></div>

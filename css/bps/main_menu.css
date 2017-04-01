@@ -1,0 +1,72 @@
+A.mainmenu:link { color: #292194; text-decoration: none; FONT-SIZE: 8pt; FONT-FAMILY: Arial,Helvetica; }
+A.mainmenu:visited { color: #292194; text-decoration: none; FONT-SIZE: 8pt; FONT-FAMILY: Arial,Helvetica; }
+A.mainmenu:hover { color: red; text-decoration: none; FONT-SIZE: 8pt; FONT-FAMILY: Arial,Helvetica; }
+A.mainmenu:active { color: #292194; text-decoration: none; FONT-SIZE: 8pt; FONT-FAMILY: Arial,Helvetica; }
+A.topbar:link { color: yellow; font-weight: bold; text-decoration: underline; FONT-SIZE: 10pt; FONT-FAMILY: Arial,Helvetica; }
+A.topbar:visited { color: yellow; font-weight: bold; text-decoration: underline; FONT-SIZE: 10pt; FONT-FAMILY: Arial,Helvetica; }
+A.topbar:hover { color: yellow; font-weight: bold; text-decoration: underline; FONT-SIZE: 10pt; FONT-FAMILY: Arial,Helvetica; }
+A.topbar:active { color: yellow; font-weight: bold; text-decoration: underline; FONT-SIZE: 10pt; FONT-FAMILY: Arial,Helvetica; }
+A.adver:link { color: #ffffff; font-weight: bold; text-decoration: underline; FONT-SIZE: 8pt; FONT-FAMILY: Arial,Helvetica; }
+A.adver:visited { color: #ffffff; font-weight: bold; text-decoration: underline; FONT-SIZE: 8pt; FONT-FAMILY: Arial,Helvetica; }
+A.adver:hover { color: yellow; font-weight: bold; text-decoration: underline; FONT-SIZE: 8pt; FONT-FAMILY: Arial,Helvetica; }
+A.adver:active { color: #ffffff; font-weight: bold; text-decoration: underline; FONT-SIZE: 8pt; FONT-FAMILY: Arial,Helvetica; }
+A.mainmenularge:link { color: #000000; text-decoration: none; FONT-SIZE: 12pt; FONT-FAMILY: Arial,Helvetica; }
+A.mainmenularge:visited { color: #000000; text-decoration: none; FONT-SIZE: 12pt; FONT-FAMILY: Arial,Helvetica; }
+A.mainmenularge:hover { color: #cc0033; text-decoration: none; FONT-SIZE: 12pt; FONT-FAMILY: Arial,Helvetica; }
+A.mainmenularge:active { color: #000000; text-decoration: none; FONT-SIZE: 12pt; FONT-FAMILY: Arial,Helvetica; }
+
+/* Main Menu Section Styles */
+.people { background-color: #8d6479; }
+.batch { background-color: #859485; }
+.business { background-color: #537195; }
+.security { background-color: #339999; }
+.asset { background-color: #5d8e86; }
+.rateevasion { background-color: #5d8e86; }
+.da { background-color: #859485; }
+.credit { background-color: #8C4B47; }
+.emsi { background-color: #cc9966; }
+.license { background-color: #8ea1ba; }
+.court { background-color: #967b57; }
+.myaccount { background-color: #537195; }
+.avms { background-color: #537195; }
+.healthcare { background-color: #9999CC; }
+
+.smallfont1 {FONT-SIZE: 8pt; FONT-FAMILY: Arial,Helvetica; COLOR: black; }
+.smallfont1grey {FONT-SIZE: 8pt; FONT-FAMILY: Arial,Helvetica; COLOR: gray; }
+.smallfont1white {FONT-SIZE: 8pt; FONT-FAMILY: Arial,Helvetica; COLOR: white; }
+.newitem {FONT-SIZE: 10pt; font-family: "Century Gothic", serif; COLOR: #292194; font-weight: bold; font-style: italic;}
+.unifont2 {FONT-SIZE: 2pt; FONT-FAMILY: Arial,Helvetica; COLOR: #21295a; }
+.unifont8 {FONT-SIZE: 8pt; FONT-FAMILY: Arial,Helvetica; COLOR: black; }
+.unifont8white {FONT-SIZE: 8pt; FONT-FAMILY: Arial,Helvetica; COLOR: #ffffff; }
+.unifont8darkblue {FONT-SIZE: 8pt; FONT-FAMILY: Arial,Helvetica; COLOR: #313163; }
+.unifont10darkblue {FONT-SIZE: 10pt; FONT-FAMILY: Arial,Helvetica; COLOR: #313163; }
+.unifont12darkblue {FONT-SIZE: 12pt; FONT-FAMILY: Arial,Helvetica; COLOR: #313163; }
+.unifont10 {FONT-SIZE: 10pt; FONT-FAMILY: Arial,Helvetica; COLOR: black; }
+.unifont10white {FONT-SIZE: 10pt; FONT-FAMILY: Arial,Helvetica; COLOR: white; }
+.unifont12 {FONT-SIZE: 12pt; FONT-FAMILY: Arial,Helvetica; COLOR: black; }
+.unifont12white {FONT-SIZE: 12pt; FONT-FAMILY: Arial,Helvetica; COLOR: white; }
+.logo {FONT-SIZE: 24pt; FONT-FAMILY: Arial,Helvetica; COLOR: #5a5a5a; font-weight: bold; }
+.logolong {FONT-SIZE: 20pt; FONT-FAMILY: Arial,Helvetica; COLOR: #5a5a5a; font-weight: bold; }
+.logosmall {FONT-SIZE: 12pt; FONT-FAMILY: Arial,Helvetica; COLOR: #5a5a5a; font-weight: bold; }
+.logobrand {FONT-SIZE: 18pt; FONT-FAMILY: Arial,Helvetica; COLOR: black; }
+.logohelpcoverage {FONT-SIZE: 14pt; FONT-FAMILY: Arial,Helvetica; COLOR: #ffffff; }
+.stitle {FONT-SIZE: 14pt; FONT-FAMILY: Arial,Helvetica; COLOR: black; }
+.largefont1white {FONT-SIZE: 18pt; FONT-FAMILY: Arial,Helvetica; COLOR: white; }
+.newsfont1 {FONT-SIZE: 9pt; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; }
+.smallnewsfont1 {FONT-SIZE: 8pt; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; }
+
+.mainmenuheaderbk { background-color: #336699 }
+.bs { color: #ffffff; height: 25px; font-weight: bold; font-family: arial,helvetica; font-size: 9pt; background: #336699; cursor:pointer; cursor:hand; border-width: 1px; border-style: solid; border: 1px solid #08397b; }
+.bso { color: #ffffff; height: 25px; font-weight: bold; font-family: arial,helvetica; font-size: 9pt; background: #336699; cursor:pointer; cursor:hand; border-width: 1px; border-style: solid; border-color: #cfeeef #737373 #737373 #cfeeef; }
+.bsd { color: #ffffff; height: 25px; font-weight: bold; font-family: arial,helvetica; font-size: 9pt; background: #336699; cursor:pointer; cursor:hand; border-width: 1px; border-style: solid; border-color: #737373 #cfeeef #cfeeef #737373; }
+
+#new_alerts {
+     position: fixed; z-index: 900; 
+     top:180px; left:70px; width: 700px; font-size: 9pt; 
+     font-family: verdana; text-align: center; 
+     background-color: #FFF; 
+     opacity: .7;
+     display: none;
+}
+
+.new_alerts_header { width: 50px; background-color: #aaa;  text-align: left; }

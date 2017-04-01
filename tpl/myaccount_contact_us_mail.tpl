@@ -1,0 +1,10 @@
+<TMPL_IF NAME="MAIL_TYPE"><TMPL_VAR NAME="MAIL_TYPE"><TMPL_ELSE>Comments</TMPL_IF> from the Accurint Web Application:
+
+FROM:
+    Loginid: <TMPL_VAR NAME="LOGINID"> 
+    Companyid: <TMPL_VAR NAME="COMPANYID"> 
+    Name: <TMPL_VAR NAME="FIRST_NAME"> <TMPL_VAR NAME="LAST_NAME">
+    Email: <TMPL_VAR NAME="FROM_EMAIL"> 
+
+MESSAGE:
+<TMPL_VAR NAME="MESSAGE">    

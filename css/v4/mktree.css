@@ -1,0 +1,30 @@
+/* Put this inside a @media qualifier so Netscape 4 ignores it */
+@media screen, print { 
+    /* Expand Collapse Links */
+/*	A.eclink:link { color: black; font-weight: bold; text-decoration: none; FONT-SIZE: 9pt; FONT-FAMILY: Arial,Helvetica; }
+    A.eclink:visited { color: black; font-weight: bold; text-decoration: none; FONT-SIZE: 9pt; FONT-FAMILY: Arial,Helvetica; }
+	A.eclink:hover { color: #336699; font-weight: bold; text-decoration: underline; FONT-SIZE: 9pt; FONT-FAMILY: Arial,Helvetica; }
+	A.eclink:active { color: black; font-weight: bold; text-decoration: none; FONT-SIZE: 9pt; FONT-FAMILY: Arial,Helvetica; }*/
+
+	/* Turn off list bullets */
+	ul.mktree  li { list-style: none; } 
+	/* Control how "spaced out" the tree is */
+	ul.mktree, ul.mktree ul , ul.mktree li { margin-left:10px; padding:0px; }
+	/* Provide space for our own "bullet" inside the LI */
+	ul.mktree  li           .bullet { padding-left: 15px; }
+	/* Show "bullets" in the links, depending on the class of the LI that the link's in */
+	ul.mktree  li.liOpen    .bullet { cursor: pointer; background: url(../../images/minus.gif)  center left no-repeat; }
+	ul.mktree  li.liClosed  .bullet { cursor: pointer; background: url(../../images/plus.gif)   center left no-repeat; }
+	ul.mktree  li.liBullet  .bullet { cursor: default; background: url(../../images/bullet.gif) center left no-repeat; }
+	/* Sublists are visible or not based on class of parent LI */
+	ul.mktree  li.liOpen    ul { display: block; }
+	ul.mktree  li.liClosed  ul { display: none; }
+    ul.mktree  li {FONT-SIZE: 9pt; FONT-FAMILY: Arial; FONT-WEIGHT: bold;}
+    ul.mktree a { color:#007DCF !important; }
+	/* Format menu items differently depending on what level of the tree they are in 
+	ul.mktree  li { font-size: 12pt; }
+	ul.mktree  li ul li { font-size: 10pt; }
+	ul.mktree  li ul li ul li { font-size: 8pt; }
+	ul.mktree  li ul li ul li ul li { font-size: 6pt; }
+        */
+}

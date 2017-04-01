@@ -1,0 +1,56 @@
+.fab-match-names-header{
+	background-color: #F8ECA6;
+	font-weight: bold;
+	font-style: italic;
+	border-width: 1px;
+	border-style: solid none;
+	border-color: #DADBDA;	
+}
+
+.open > .waf-dialog{
+	left: initial;
+	right: 0;
+	white-space: nowrap;
+	padding: 5px;
+	width: 425px;
+}
+
+.waf-dialog li:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.waf-dialog input[type="checkbox"]{
+	margin-right: 5px;
+}
+
+.fab-phone strong {
+	display: inline-block;
+}
+
+.fab-actions-col {
+	position: relative;
+}
+.fab-actions-col .pull-container > .pull-left {
+	line-height: 21px;
+}
+.fab-actions-col li + li {
+	margin-top: 2px;
+}
+
+.dbsourcewarning h4 {
+    margin: 7px 0 0;
+    font-weight: bold;
+}
+.dbsourcewarning p {
+    margin: 0;
+}
+.dbsourcewarning p + div {
+    margin: 10px 0;
+}
+.dbsourcewarning p > em {
+    font-style:normal;
+    color: #a5a5a5;
+    font-size: 11px;
+}
+

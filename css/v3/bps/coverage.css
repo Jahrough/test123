@@ -1,0 +1,20 @@
+/* Coverage Area Style */
+body {
+        color:#333333;
+        background:#ffffff;
+        font-family: Calibri, Arial;
+        line-height:110%;
+}
+
+A:		{ color: #0066cc; text-decoration: none; FONT-SIZE: 10pt; }
+A:link		{ color: #0066cc; text-decoration: none; FONT-SIZE: 10pt; }
+A:visited	{ color: #0066cc; text-decoration: none; FONT-SIZE: 10pt; }
+A:hover		{ color: #0066cc; text-decoration: none; FONT-SIZE: 10pt; font-weight: bold; }
+A:active	{ color: #0066cc; text-decoration: none; FONT-SIZE: 10pt; }
+
+.statetitle { FONT-SIZE: 12pt; font-weight: bold; }
+.coveragetitle { FONT-SIZE: 12pt; }
+.coverageall { FONT-SIZE: 12pt; }
+.coveragetext { FONT-SIZE: 10pt; }
+.printborder { background-color: #ed0c24; }
+.printbutton { background-color: #ffffff; }

@@ -1,0 +1,122 @@
+.rteImage {
+	background: #D3D3D3;
+	border: 1px solid #D3D3D3;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.rteImageRaised, .rteImage:hover {
+	background: #D3D3D3;
+	border: 1px outset;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.rteImageLowered, .rteImage:active {
+	background: #D3D3D3;
+	border: 1px inset;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.rteVertSep {
+	margin: 0 4px 0 4px;
+}
+
+.rteBack {
+	border: 1px outset;
+	letter-spacing: 0;
+	padding: 2px;
+}
+
+.rteBack tbody tr td, .rteBack tr td {
+	background: #D3D3D3;
+	padding: 0;
+}
+
+.rteDiv {
+	display: block;
+	position: relative;
+}
+
+.section_content
+{
+	border:solid gray 1px;
+	width:98%;
+	display:none;
+	margin-bottom:2px;
+}
+
+.section_disclaimer
+{
+width:600px;
+display:none;
+color: #4f4f4f;
+font-size:9px;
+}
+
+.user_data
+{
+	padding:2px;
+	padding-left:10px;
+	background-color:#d0d0d0;
+	margin:1px;
+	line-height:75%;
+}
+
+.user_data:hover
+{
+	background-color:#a1a1a1;
+}
+
+.user_data p
+{
+	line-height:10pt;
+}
+
+.user_data_hover
+{
+	padding:2px;
+        padding-left:10px;
+	background-color:#a1a1a1;
+	margin:1px;
+	line-height:75%;
+}
+
+.user_data_delete
+{
+	padding-left:5px;
+	cursor:pointer;
+	margin-right:5px;
+	float:right;
+	margin-top: 12px;
+}
+
+.user_data_delete a
+{
+	color: #007DCF;
+	font-weight: bold;
+}
+
+.user_data UL LI {
+    list-style-type: disc;
+}
+
+.user_data_hover UL LI {
+    list-style-type: disc;
+}
+
+.section_area
+{
+	display:none;
+	width:98%;
+}
+
+iframe.rte_frame{
+	width:98%;
+}
+
+.rteDiv table{
+	width:100%;
+	background: #d0d0d0;
+}

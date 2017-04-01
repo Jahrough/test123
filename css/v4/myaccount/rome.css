@@ -1,0 +1,167 @@
+/**
+ * rome - Customizable date (and time) picker. Opt-in UI, no jQuery!
+ * @version v2.1.5
+ * @link https://github.com/bevacqua/rome
+ * @license MIT
+ */
+.rd-container
+{
+  display: none;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+
+    -moz-box-shadow: 0px 1px 4px #ccc;
+  -webkit-box-shadow: 0px 1px 4px #ccc;
+  box-shadow: 0px 1px 4px #ccc;
+}
+
+.rd-container-attachment
+{
+  position: absolute;
+}
+
+.rd-month
+{
+  display: inline-block;
+  margin: auto;
+    padding: 5px;
+}
+
+.rd-month:last-child
+{
+  margin-right: 0px;
+}
+
+.rd-back, .rd-next
+{
+  cursor: pointer;
+  border: none;
+  background: none;
+    outline: none;
+  padding: 5;
+  margin: auto;
+    position: relative;
+    top: -2px;
+}
+
+.rd-back[disabled], .rd-next[disabled]
+{
+  cursor: default;
+}
+
+.rd-back
+{
+  float: left;
+}
+
+.rd-next
+{
+  float: right;
+}
+
+.rd-back:hover, .rd-next:hover
+{
+    color: #42b4e4;
+}
+
+.rd-back:before
+{
+  display: block;
+    font-family: FontAwesome;
+  content: '\f0a8';
+    font-size: 17px;
+}
+
+.rd-next:before
+{
+  display: block;
+    font-family: FontAwesome;
+  content: '\f0a9';
+    font-size: 17px;
+}
+
+.rd-month-label
+{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+table.rd-days
+{
+    margin-top: 7px;
+}
+
+.rd-day-head
+{
+    background: #56565a;
+    color: #fff;
+    border-bottom: 2px solid #e12726;
+    padding: 7px;
+}
+
+.rd-day-body
+{
+  cursor: pointer;
+  text-align: center;
+    padding: 7px;
+}
+
+.rd-day-body:hover
+{
+    background: #42b4e4;
+    color: #fff;
+}
+
+.rd-day-selected, .rd-time-selected, .rd-time-option:hover
+{
+  cursor: pointer;
+  background-color: #333;
+  color: #fff;
+}
+
+.rd-day-prev-month, .rd-day-next-month
+{
+  color: #999;
+}
+
+.rd-day-disabled {
+  cursor: default;
+  color: #fcc;
+}
+
+.rd-time
+{
+  position: relative;
+  display: inline-block;
+  margin-top: 5px;
+  min-width: 80px;
+}
+
+.rd-time-list
+{
+  display: none;
+  position: absolute;
+  overflow-y: scroll;
+  max-height: 160px;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  color: #333;
+}
+
+.rd-time-selected
+{
+  padding: 5px;
+}
+
+.rd-time-option
+{
+  padding: 5px;
+}
+
+.rd-day-concealed
+{
+  visibility: hidden;
+}

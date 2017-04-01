@@ -1,0 +1,141 @@
+/* icons */
+.high-risk-icon:before{
+	content: url(../../images/v4/SVGs/HighRisk.svg);
+	background-image:none;
+}
+.medium-risk-icon:before{
+	content: url(../../images/v4/SVGs/MediumRisk.svg);
+	background-image:none;
+}
+
+.general-info-icon:before{
+	content: url(../../images/v4/SVGs/Information-indicator.svg);
+	background-image:none;
+}
+
+.deceased-icon:before{
+    content: url(../../images/v4/SVGs/aml-Deceased.svg);
+    background-image:none;
+}
+.info-icon:before{
+	content: url(../../images/v4/SVGs/Information.svg);
+	background-image:none;
+}
+
+.associated-with-icon:before{
+	content: url(../../images/v4/SVGs/AssociatedwithCompanies.svg);
+	background-image:none;
+}
+.green-check-icon:before{
+	content: url(../../images/v4/SVGs/greencheckmark.svg);
+	background-image:none;
+}
+.wireless-phone-icon:before{
+	content: url(../../images/v4/SVGs/WirelessPhone.svg);
+	background-image:none;
+}
+.residential-phone-icon:before{
+	content: url(../../images/v4/SVGs/ResidentialPhone.svg);
+	background-image:none;
+}
+.business-phone-icon:before{
+	content: url(../../images/v4/SVGs/BusinessPhone.svg);
+	background-image:none;
+}
+.dollar-red-icon:before{
+    content: url(../../images/v4/SVGs/dollar-red.svg);
+    background-image:none;
+}
+.dollar-green-icon:before{
+    content: url(../../images/v4/SVGs/dollar-green.svg);
+    background-image:none;
+}
+.shared-phone-icon:before{
+	content: url(../../images/v4/SVGs/SharedPhone.svg);
+	background-image:none;
+}
+.fax-icon:before{
+	content: url(../../images/v4/SVGs/Fax.svg);
+	background-image:none;
+}
+.government-icon:before{
+	content: url(../../images/v4/SVGs/GovernmentPhone.svg);
+	background-image:none;
+}
+.person_icon:before{
+	content: url(../../images/v4/SVGs/People.svg);
+	background-image:none;
+}
+.bus_icon:before{
+	content: url(../../images/v4/SVGs/Business.svg);
+	background-image:none;
+}
+.news_icon:before{
+	content: url(../../images/v4/SVGs/News.svg);
+	background-image:none;
+}
+.property_icon:before{
+	content: url(../../images/v4/SVGs/PropertyandAssets.svg);
+	background-image:none;
+}
+.court_icon:before{
+	content: url(../../images/v4/SVGs/CourtandAdminFilings.svg);
+	background-image:none;
+}
+.international_icon:before{
+	content: url(../../images/v4/SVGs/International.svg);
+	background-image:none;
+}
+.regulations_icon:before{
+	content: url(../../images/v4/SVGs/RegulationsandCompliance.svg);
+	background-image:none;
+}
+.direct_to_source_icon:before{
+	content: url(../../images/v4/SVGs/Directtosource.svg);
+	background-image:none;
+}
+.phone_icon:before{
+	content: url(../../images/v4/SVGs/PhoneSearchForm.svg);
+	background-image:none;
+}
+.green-check-icon:before{
+	content: url(../../images/v4/SVGs/greencheckmark.svg);
+	background-image:none;
+}
+.document-icon:before{
+	content: url(../../images/v4/SVGs/DocumentFormat.svg);
+	background-image:none;
+}
+.red-x-icon:before{
+	content: url(../../images/v4/SVGs/Red-X.svg);
+	background-image:none;
+}
+.premium-phone-icon:before{
+  content: url(../../images/v4/SVGs/PremiumPhone.svg);
+  background-image:none;
+}
+.minimal-risk-icon:before{
+  content: url(../../images/v4/SVGs/MinimalRisk.svg);
+  background-image:none;
+}
+
+#source_doc_content h3{
+  margin: 10px 0 5px;
+  border-bottom: 1px dashed #E12726;
+  color: #E12726;
+  font-size: 18px;
+}
+
+#source_doc_content .report_title{
+margin: 5px 0 5px;
+border-bottom: 1px dashed;
+}
+
+#source_doc_content h2{
+  margin: 10px 0 10px;
+  color: #E12726;
+  font-size: 1.7em;
+  border-bottom: 1px dashed #00778B;
+  padding: 0 7px 7px 7px;
+}
+

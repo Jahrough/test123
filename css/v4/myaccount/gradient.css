@@ -1,0 +1,23 @@
+/* CSS Document: for gradient backgrounds */
+
+/* grey: light to dark */
+.gd_grey2
+{
+    background-image: -webkit-linear-gradient(top, #e5e5e5 0%, #ffffff 100%);
+    background-image: -moz-linear-gradient(top, #e5e5e5 0%, #ffffff 100%);
+    background-image: -ms-linear-gradient(top, #e5e5e5 0%, #ffffff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#ffffff',GradientType=0 );
+    background-image: -o-linear-gradient(top, #e5e5e5 0% ,#ffffff 100%);
+    background-image: linear-gradient(top, #e5e5e5 0%, #ffffff 100%);
+}
+
+/* red: light to super dark */
+.gd_red_superdk
+{
+    background-image: -webkit-linear-gradient(top, #e12726 0%, #a00330 100%);
+    background-image: -moz-linear-gradient(top, #e12726 0%, #a00330 100%);
+    background-image: -ms-linear-gradient(top, #e12726 0%, #a00330 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e12726', endColorstr='#a00330',GradientType=0 );
+    background-image: -o-linear-gradient(top, #e12726 0% ,#a00330 100%);
+    background-image: linear-gradient(top, #e12726 0%, #a00330 100%);
+}

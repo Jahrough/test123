@@ -1,0 +1,197 @@
+#risksummary h4{
+	font-weight: 700;
+}
+
+#risksummary table, 
+#risksummary tr, 
+#risksummary th, 
+#risksummary td{
+	border: 0;
+	padding: 0;
+}
+
+#risksummary th{
+	background-color: transparent!important;
+	font-weight: 400;
+	width: 12%;
+}
+
+#risksummary .section_container{
+	margin-left: 10%;
+}
+
+#index figcaption .selected{
+	color: #E12726;
+	font-size: 1.7em;
+}
+
+#index figure{
+	display: inline-block;
+	margin: 15px 10px 0 10%;
+}
+
+#index figure > img{
+	width: 155px;
+	height: 95px;
+	margin-top: 5px;
+}
+
+#index figcaption > span{
+	display: inline-block;
+	width: 16.6%;
+	text-align: center;
+	font-weight: 700;
+}
+
+#index .index_right_arrow{
+	font-size: 3.5em;
+	vertical-align: top;
+	margin:42px;
+	color: #A3A3A3;
+}
+
+#index img.index_right_arrow {
+	margin-top: 5px;
+	margin-bottom: 0;	
+}
+
+#verification-details{
+	margin-top:25px;
+	vertical-align: top;
+}
+
+#verification-details-table th{
+	white-space: normal;
+}
+
+#verification-legend{
+	margin-top: 10px;
+}
+
+#verification-legend ul{
+	list-style-type: none;
+	display: inline;
+}
+
+#verification-legend li{
+	display: inline-block;
+	width: auto !important;
+	padding-right: 15px !important;
+}
+
+#iid-report-header-nav-section{
+    width: 100%;
+    border-bottom: 1px solid #D0D2D1;
+}
+
+#iid-report-header-nav-section li{
+	display: inline-block;
+}
+
+#iid-report-header-nav-section button{
+	border-radius: 0;
+	border-bottom: 0;
+	padding: 3px;
+}
+
+#warning-level-score{
+	font-weight: 700;
+	font-size: 2em;
+}
+
+#fraudpoint-score-display{
+	margin-left: 10%;
+}
+
+#fraudrisk-indices-display{
+	position: relative;
+	height: 150px;
+}
+
+#fraudrisk-indices-display > *{
+	position: absolute;
+}
+
+#fraudrisk-indices-display ul{
+	font-size: 0.9em;
+	top: 0.25em;
+	left: 10%;
+}
+
+#fraudrisk-indices-display-graph{
+	top: 0;
+}
+
+#synthetic-identity-index{
+	top: 8px;
+}
+
+#stolen-identity-index{
+	top: 26px;
+}
+
+#manipulated-identity-index{
+	top: 45px;
+}
+
+#vulnerable-victim-index{
+	top: 63px;
+}
+
+#friendly-fraud-index{
+	top: 83px;
+}
+
+#suspicious-activity-index{
+	top: 101px;
+}
+
+.indicies-bar{	
+	left: -webkit-calc(0.1% + 6px);
+	left: -moz-calc(0.1% + 6px);
+	left: calc(0.1% + 6px);
+}
+
+.in-body-table-header{
+	background-color: #D0D2D1!important;
+}
+
+span.mortgatepagehead {
+    border-bottom: 1px solid #CCC;
+    margin-bottom: 10px;
+    color: #CCCCCC;
+    display: block;
+    font-size: 21px;
+    font-weight: bold;
+    margin: 10px 10px -5px 0pt;
+    text-align: right;
+}
+
+.iid_section_separator {
+    #border-top: 2px dotted lightgrey !important;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.iid_no_border {
+    #border:none !important;
+}
+
+#report_content td{
+    text-transform: none !important;
+}
+.note-information {
+    display: block;
+    line-height: 1.4 !important;
+}
+
+.text10red {
+    font-size: 10px;
+    color: #CC0033;
+    font-weight: bold;
+}
+
+#fraudrisk-indicator-identities{
+    text-align: right !important;
+    padding: 1px 0px 0px 0px;
+}

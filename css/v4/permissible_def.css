@@ -1,0 +1,26 @@
+header {
+    margin-bottom: 15px;
+}
+h2 {
+    color: #c03;
+    font-size: 14px;
+    font-size: 1.4rem;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+h3 {
+    color: #c03;
+    font-size: 13px;
+    font-size: 1.3rem;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+p {
+    font-size: 13px;
+    font-size: 1.3rem;
+    margin: 0;
+}
+p.spaced {
+    margin-top: 25px;
+}

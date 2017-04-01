@@ -1,0 +1,1 @@
+<td width="76"><a href="javascript:send_event('SEARCH/SHOW_MENU')" onMouseOver="show_menu.src='<TMPL_VAR NAME=IMGPATH>/main_menu_tab_over.gif';" onMouseOut="show_menu.src='<TMPL_VAR NAME=IMGPATH>/main_menu_tab.gif';"><img src="<TMPL_VAR NAME=IMGPATH>/main_menu_tab.gif" name="show_menu" width="76" height="32" border="0"></a></td>

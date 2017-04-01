@@ -1,0 +1,11 @@
+
+#hd{
+	background:url(../../../images/v2/bps/logo_red.gif) no-repeat;
+	padding-right:15px;
+	height:55px;
+	position: relative;
+}
+
+.searchresultshousehold {background-color: #042F69; }
+.searchresultshousehold td{ padding: 5px; font-weight: bold; }
+

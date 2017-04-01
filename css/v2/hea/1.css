@@ -1,0 +1,87 @@
+body {background:#FFFFFF;}
+
+#hdReport{
+	background:url(../../../images/v2/hea/logo.gif) no-repeat;
+	padding-right:15px;
+	height:75px;
+}
+
+#hdNoLogo {
+	/*background-image:url(../../../images/v2/hdr_bar.gif);
+	background-repeat: no-repeat;
+	margin:0 auto;*/
+}
+
+/************************ SEARCH Form Information ******************/
+
+#info_rem {
+    position:absolute;
+    background-color:#ffffff;
+    width:400px;
+    font-family:verdana;
+    font-size:8pt;
+    border-bottom-style:solid;
+    border-top-style:solid;
+    border-left-style:solid;
+    border-right-style:solid;
+    /*
+    border-bottom-color:#990033;
+    border-top-color:#990033;
+    border-left-color:#990033;
+    border-right-color:#990033;
+    */
+    border-bottom-color:#4e8cb9;
+    border-top-color:#4e8cb9;
+    border-left-color:#4e8cb9;
+    border-right-color:#4e8cb9;
+    border-bottom-width:thin;
+    border-top-width:thin;
+    border-left-width:thin;
+    border-right-width:thin;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:0px;
+    padding-right:0px;
+    display : none;
+    text-align:left;
+    z-index:1000;
+}
+
+#info_rem_title {
+    color: #ffffff;
+    /* background-color: #990033; */
+    background-color: #4e8cb9;
+    font-weight: bold;
+    font-size:10pt;
+}
+
+#tip_rem {
+    position:absolute;
+    background-color:#FCFAF5;
+    /*
+    width   : 240px;
+    height  : 120px;
+    top:     0px;
+    left:    0px;
+    */
+    font-family:verdana;
+    font-size:8pt;
+    border-bottom-style:solid;
+    border-top-style:solid;
+    border-left-style:solid;
+    border-right-style:solid;
+    border-bottom-color:#4e8cb9;
+    border-top-color:#4e8cb9;
+    border-left-color:#4e8cb9;
+    border-right-color:#4e8cb9;
+    border-bottom-width:thick;
+    border-top-width:thin;
+    border-left-width:thin;
+    border-right-width:thick;
+    padding-bottom:3px;
+    padding-left:10px;
+    padding-right:10px;
+    display : none;
+    z-index:1000;
+}
+

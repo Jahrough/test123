@@ -1,0 +1,33 @@
+.PopupGeoStatesWidget{
+  width: 440px; /* IE seems to need this, otherwise it goes 100% */
+}
+.PopupGeoStatesWidget>div>ul{
+  list-style-type: none;
+  height: 280px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 30px;
+  margin-right: 0;
+  padding: 0;
+}
+.PopupGeoStatesWidget>div>ul>li{
+  width: 130px;
+  margin: 0;
+  padding: 1px;
+  float: left;
+  list-style-type: none; /* LI tags gets screwed in accurint.css */
+}
+.PopupGeoStatesWidget>div>ul>li>a:hover{
+  text-decoration: underline;
+  font-weight: bold;
+  color: #990033;
+  cursor: pointer;
+}
+.PopupGeoStatesWidgetTrigger{
+  display: inline-block;
+  background: url('/bps/images/v2/ico_information.gif') no-repeat right bottom;
+  width: 14px;
+  height: 13px;
+  border:none;
+
+}

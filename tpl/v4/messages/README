@@ -1,0 +1,22 @@
+In order to add a new announcement either:
+
+1. Create a new msgNNNN.tpl file by hand, making sure to fill in the "<input type=hidden..." parameter information correctly
+
+                                 OR
+
+2. Run ./new_msg.sh , filling out all of the prompted information. This will create a new announcement file in a basic announcment template format. You can then edit the announcement, adding your announcement body message.
+
+
+3. Edit the file manually, adding message content in whatever style is desired. Update any/all information between the following lines:
+
+<!-- EDIT FROM HERE DOWN -->
+
+
+...
+
+
+<!-- EDIT FROM HERE UP -->
+
+
+
+4. Update the cfg files (e.g. bps-dev.cfg, bps-prod.cfg, ...) setting the V4_CURRENT_MESSAGE to the value of the new message.

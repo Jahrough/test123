@@ -1,0 +1,259 @@
+@media print{
+body {
+    color: #333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;  
+	font-size:85%;
+	padding-left: 2px;
+	margin: 2px;
+}
+/************ OCCCR CSS Document ************/
+/************ OCCCR Search Part ******************/
+/************ OCCCR form css ************/
+
+.textnowrap{
+    white-space: nowrap;
+}
+
+.maintblnoborders TD, .maintblnoborders TR {
+    border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+    border-right: 1px solid #000000;
+	border-left: 1px solid #000000;
+    vertical-align: top;
+}
+.maintblborders TD, .maintblborders TR {
+    border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+    border-right: 1px solid #000000;
+	border-left: 1px solid #000000;
+    vertical-align: top;
+}
+.feetblborders TD {
+    border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+    border-right: 1px solid #000000;
+	border-left: 1px solid #000000;
+    vertical-align: center;
+}
+.feetblborders > tbody > tr:last-child > td {
+    border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+    border-right: 1px solid #000000;
+	border-left: 1px solid #000000;
+    margin: 0;
+    padding: 1px;
+    vertical-align: center;
+}
+
+/**************************************************/
+/************ OCCCR Results Part ******************/
+/**************************************************/
+.occcrresultsmaintbl{
+	font-size: 12px;
+	width: 100%;
+}
+.occcrresultsmaintbl >thead TH {
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-left: 1px solid #000000;
+	margin: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: left;
+	vertical-align: middle;
+}
+.occcrresultsmaintbl >tbody TD {
+	margin: 0;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: left;
+	vertical-align: middle;
+}
+#tbsrchhdr{
+	font-weight: bold;
+	font-size:110%;
+}
+
+ul.pagination {
+	list-style-type: none;
+}
+ul.pagination button {
+	background: none;
+	border: none;
+	padding: 0 2px;
+	margin: 0;
+	color: #00778B;
+}
+ul.pagination button[disabled] {
+	color: #ccc;
+}
+
+.pagebar  {
+	display: table;
+	width: 100%;
+}
+.pagebar  > div,
+.pagebar  > ul {
+	display: table-cell;
+	width: 50%;
+}
+.pagebar  > .right {
+	text-align: right;
+}
+.pagebar  > .center {
+	text-align: center;
+	white-space: nowrap;
+	width: 0%;
+	padding: 0 5px;
+}
+.pagebar.lbal:before {
+	content: "";
+	display: table-cell;
+	width: 50%;
+}
+
+
+.ResultsPartHeader{
+    font-size:120%; 
+	padding-bottom: 10px;
+	text-align:left;
+	font-weight: bold;
+}
+.occcr_unmarked_list{
+  list-style-type:none;
+  margin:0;
+  padding-left:5px;
+  padding-right:5px;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+
+/**************************************************/
+/************ OCCCR Order Results *****************/
+/**************************************************/
+#CloseWindowIconId{
+    text-align:right;
+	margin-top: -30px;
+}
+
+.rpttheadth {
+	text-align: left !important;
+	color: #ff0000;
+	text-align: right; 
+	font-size: 110%;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	vertical-align: top;
+	border-top: 0px;
+	border-bottom: 1px solid #ccc;
+    border-right: 0px;
+	border-left: 0px;
+}
+.rptcolleft {
+	width:18%;
+	font-weight: bold;
+	text-align: right; 
+	font-size: 95%;
+	padding-right: 5px;
+	vertical-align: top;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+}
+.rptcolright {
+	width:32%;
+	text-align: left; 
+	padding-left: 5px;
+	font-size: 95%;
+	vertical-align: top;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+
+}
+.rptcolverify {
+	text-align: left; 
+	font-size: 95%;
+	padding-top: 3px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 3px;
+	vertical-align: top;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+}
+
+#results_passport_step .print-download-buttons{
+    float: left;
+}
+#results_passport_step .print-download-buttons button{
+    width: 40px;
+}
+
+#enter_passport_step #dob{
+    padding-left:0;
+}
+
+.countyresults {
+    border-top: solid 1px #000;
+}
+.countyresults th, 
+.countyresults td {
+    text-align: center;
+    vertical-align: middle;
+    border-style: none solid solid solid;
+    border-color: #000;
+    border-width: 1px;
+}
+.countyresults th {
+    border-style: solid;
+}
+.countyresults input {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.countyresults .summary td {
+    border-style: none;
+}
+.col_county {
+    width: 20%;
+}
+.col_state {
+    width: 10%;
+}
+.col_type {
+    width: 45%;
+}
+.col_est {
+    width: 15%;
+}
+.col_fee {
+    width: 10%;    
+}
+
+
+.footer p {
+    text-align: right;
+    margin: 0;
+}
+.footer ul {
+    list-style: none;
+}
+.footer .actions button {
+    font-weight: bold;
+}
+#search-form-row .footer h3 {
+    margin-top: 15px;
+}

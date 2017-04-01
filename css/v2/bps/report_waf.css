@@ -1,0 +1,101 @@
+@import url('report.css');
+
+* html {overflow:hidden;}
+body { background-color:#FCFAF5; margin:0; padding:0 10px 0 10px; border:0; height:100%;}
+#menu {position:fixed; display:block; top:2px; padding-left: 15px; left:0px; width:190px; height:100%; background-color:#F3F3E9}
+* html #menu {position:absolute;}
+
+* html #leftMenu {position:absolute;}
+
+* html body{overflow-y:scroll;}
+
+#content {
+        position:relative; 
+	display:block; 
+	margin:0 0 0 190px; 
+	overflow:auto;
+	padding-top:40px;
+	padding-top:1px;
+	width: 75%;
+	height: 95%;
+	position: relative;
+	left: 210px;
+	overflow-x: hidden;
+	FONT-SIZE: 71%;
+	}
+
+.text {display:block; padding:4px 4px 4px 4px; width:100%; margin-left:2px; text-align:left; float:left; color:#000;}
+* html .text{width:93%;}
+
+#content A, a:visited, a:active{color:#0066CC;}
+#content A:hover {color:#ed1c24; text-decoration:none;}
+
+#content H2 {
+        color:#ed1c24;
+        font-weight:bold;
+        background-image:url(../../../images/v2/ico_hdrarrow_red.gif);
+        background-repeat:no-repeat;
+        background-position:left .42em;
+        font-size:91%;
+        padding-left:15px;
+        width:auto;
+        line-height:110%;
+}
+
+#content H3 {
+        color:#ed1c24;
+        font-size: 105%;
+}
+
+#content H4 {
+        color:#ed1c24;
+        font-size: 120%;
+}
+
+#content P {
+        font-size:81%;
+}
+#content .grey{
+        width:auto;
+        float:right;
+        display:block;
+        font-size:9px;
+        padding-right:10px;
+        color:#666666;
+}
+
+#content table{
+        background-color: #fcfaf5;
+}
+
+.navleft {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 16px;
+}
+
+#report_logo {
+    display: inline; padding-bottom:4px; text-align: left; width: 100%;
+}
+#report_logo img{
+    display: block;
+}
+#report_logo_footer {
+    display: block; padding-bottom:4px; text-align: right; width: 93%;
+}
+#report_logo_footer img{
+    display: block;
+    float: right;
+}
+
+#menu_button {
+    position:relative; display:block; top: 0px; left: -5px; padding-left:8px;
+}
+* html #menu_button {position:static; margin-left: -5px;} 
+
+#nav_button {
+display: inline;
+position: static;
+left: 0px;
+}
+

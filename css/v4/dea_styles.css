@@ -1,0 +1,14 @@
+.dea li{
+	height:60px;
+	border-bottom: 1px solid #DADBDA;
+}
+
+.dea li:last-child,
+.dea .dropdown-menu li{
+	height:auto;
+	border-bottom: 0;
+}
+
+.dea > tbody > tr > td {
+  white-space: nowrap;
+}

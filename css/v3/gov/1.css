@@ -1,0 +1,89 @@
+/*********************** Header Styles ******************/
+#hd{
+	background:url(../../../images/v3/gov/1/logo_red.gif) no-repeat;
+	padding-right:15px;
+	height:55px;
+}
+
+#reportPopContainer{
+          width:230px;
+          height:auto;
+          float:left;
+          margin: 0px;
+          padding: 0px;
+}
+
+#reportPop{
+          background-image:url(../../../images/v2/le/1/rtcol_myaccount_hdr.gif);
+          background-repeat:no-repeat;
+          padding-left:14px;
+          width:205px;
+          height:auto;
+          float:left;
+          padding-top:8px;
+          padding-right: 10px;
+}
+
+#reportPop div.reportPopHdr{
+          width:auto;
+          float:left;
+          color:#FFFFFF;
+          font-size:13px;
+          font-weight:bold;
+          padding-bottom:7px;
+}
+
+#reportPop UL{
+          margin:0;
+          padding:0;
+          list-style:none;
+          width:200px;
+          top:30px;
+          float:left;
+          padding-bottom: 7px;
+}
+
+#reportPop LI{
+          font-size:81%;
+          list-style-type: none;
+          background-image: url(../../../images/bullet_arrow_gray.gif);
+          background-repeat: no-repeat;
+          background-position: -1px .49em;
+          padding-left: 11px;
+          margin-bottom: 5px;
+          margin: 2px 0;
+          line-height: 130%;
+}
+
+#reportPop UL UL{
+          margin:0;
+          padding:0;
+          list-style:none;
+          margin-left: 9px;
+}
+
+#reportPop LI LI {
+          font-size: inherit;
+          list-style-type: none;
+}
+
+#reportPop SPAN{
+          font-size:71%;
+          line-height: inherit;
+}
+
+#reportPopBot{
+          background-image:url(../../../images/v2/le/1/rtcol_myaccount_bot.gif);
+          background-repeat: no-repeat;
+          background-position:left top;
+          width:230px;
+          height:20px;
+          float:left;
+}
+
+#reportPop INPUT {
+          font-size:71%;
+          width: 120px;
+          padding: 2px;
+          margin-right: 7px;
+}

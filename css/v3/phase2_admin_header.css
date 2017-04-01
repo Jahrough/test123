@@ -1,0 +1,212 @@
+table.myaccountborder,
+td.myaccountborder > table{
+    width:994px;
+}
+table#admin-header-table{
+    background:#6D6E71;
+    width:994px;
+    height:40px;
+    position:fixed;
+    top:0;
+    left:50%;
+    margin-left:-497px;
+    border-left:1px solid #939598;
+}
+table#admin-header-table > tbody > tr > td{
+    padding-top:0;
+    padding-bottom:0;
+    width:80px;
+}
+table#admin-header-table a{
+    text-decoration:none;
+}
+td#slug {
+    background:none;
+    width:auto !important;
+}
+/* Top-Nav Close Button */
+td#slug + td{
+    width:49px !important;
+    height:40px;
+    background-repeat: no-repeat;
+    cursor:pointer;
+}
+td#slug + td > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+td#slug + td > a:hover {
+    text-decoration:none;
+}
+table#admin-header-table > tbody > tr > td > div > div > a{
+    color:#ccc;
+    font-family:Calibri, Arial;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:12px;
+}
+#hd{
+    background: #6D6E71;
+    padding-right: 15px;
+    height: 40px;
+    margin-bottom: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#myaccounttabson{
+    background:none;
+}
+#myaccounttabs {
+    background:none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    line-height:95%;
+    width: 80px;
+    height: 40px;
+}
+#myaccounttabs a { color:#666666; }
+#myaccounttabson {
+    background: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 9pt;
+    line-height:95%;
+    width: 80px;
+    height: 40px;
+}
+#myaccounttabson .active { color:#000000; }
+#myaccounttabstxt { padding-top: 10px; }
+#myaccounttabs,
+#myaccounttabson{
+    border-right:1px solid #939598;
+}
+#myaccounttabstxt {
+    height: 40px;
+    padding-top: 0 !important;
+    display: table-cell;
+    vertical-align: middle;
+}
+#myaccounttabson,
+#myaccounttabs:hover{
+    background:#939598 !important;
+}
+#myaccounttabs:hover > div > a{
+    text-decoration:none;
+    color:#fff;
+}
+#myaccounttabson .active {
+    color: #FFF !important;
+}
+#myaccounttabson:after {
+    display: block;
+    border: 10px solid transparent;
+    border-left-width:10px;
+    border-right-width:10px;
+    border-top-color: #939598;
+    content: "";
+    margin-left: 20px;
+    margin-right: 20px;
+    width:0;
+}
+div#myaccountnavlist > ul{
+    padding:0;
+}
+div#myaccountnavlist > ul > li {
+    padding: 8px 18px 8px 22px;
+    border-top:1px solid #ccc;
+    margin:0;
+    list-style-type:none;
+    background-image:none;
+}
+div#myaccountnavlist > ul > li > a{
+    font-family:Calibri, Arial;
+    font-size:12px;
+    font-weight:bold;
+    color:#ddd;
+    text-decoration: none;
+}
+div#myaccountnavlist > ul > li > a:before {
+    content:'-';
+    color:#939598;
+    margin-right: 4px;
+}
+div#myaccountnavlist > ul > li > a:hover:before {
+    content:'-';
+    color:#FFF;
+    margin-right: 4px;
+}
+div#myaccountnavlist > ul > li:first-child{
+    border-top:0;
+}
+div#myaccountnavlist > ul > li > a:hover{
+    color:#fff;
+    text-decoration:none;
+}
+div#myaccountnavlist > ul > li > a:hover:before{
+    
+}
+.pulldownbox{
+    top: 40px !important;
+    background-color: #939598 !important;
+    border: 0 !important;
+}
+.pulldownbox > .topBorder{
+    display:none;
+}
+
+/* Content Heading */
+table.myaccount-content-header{
+    background:none;
+}
+table.myaccount-content-header > tbody > tr > td{
+    background:#fff;
+    padding: 8px 14px;
+    border-radius:8px 8px 0 0;
+}
+div.content-title{
+    color: #ed1c24;
+    font-weight: normal;
+    font-family: Calibri, Arial;
+    font-size: 22px;
+    float: left;
+}
+ul.support-links {
+    margin: 0;
+    float: right;
+    padding: 0;
+    list-style-type: none;
+}
+ul.support-links > li {
+    float: left;
+    font-size: 10px;
+    margin-left:6px;
+}
+ul.support-links > li > a {
+    font-size: 10px;
+    text-decoration:none;
+}
+ul.support-links > li > a:after {
+    content:"|";
+    color:#939598;
+    margin-left:6px;
+    text-decoration:none;
+}
+ul.support-links > li > a:after:hover {
+    text-decoration:none;
+}
+
+.myaccountborder{
+    background:#fff;
+}
+
+/* Content Footer */
+table.myaccount-content-footer > tbody > tr > td {
+    background: #fff;
+    border-radius: 0 0 8px 8px;
+}
+table.myaccount-content-footer {
+    width: 994px;
+    border-spacing: 0;
+}

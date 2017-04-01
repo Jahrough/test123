@@ -1,0 +1,17 @@
+.redPopup {
+  border-color: #990033;
+}
+
+.redPopup>div>ul>li>a {
+  color: #333333;
+}
+
+.redPopup>div:first-child {
+  background-color: #990033;
+}
+
+.redPopup>div:first-child>a {
+  background-color: #990033;
+}
+
+

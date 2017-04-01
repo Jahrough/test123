@@ -1,0 +1,521 @@
+/* 
+$$\       $$\   $$\ $$$$$$\ $$\   $$\ 
+$$ |      $$$\  $$ |\_$$  _|$$$\  $$ |
+$$ |      $$$$\ $$ |  $$ |  $$$$\ $$ |
+$$ |      $$ $$\$$ |  $$ |  $$ $$\$$ |
+$$ |      $$ \$$$$ |  $$ |  $$ \$$$$ |
+$$ |      $$ |\$$$ |  $$ |  $$ |\$$$ |
+$$$$$$$$\ $$ | \$$ |$$$$$$\ $$ | \$$ |
+\________|\__|  \__|\______|\__|  \__|
+*/
+.lnin-wrapper{
+    width:1250px;
+    margin:auto;
+    margin-bottom:15px;
+    padding: 12px 15px 15px 15px;
+    background:#fff;
+    border-radius:5px;
+}
+.lnin-header{
+    vertical-align: middle;
+    text-align: left;
+}
+.lnin-subheader,
+.lnin-text{
+    width:100%;
+}
+.lnin-text ul{
+    padding-left:24px;
+    margin:0;
+}
+    
+/* LNIN FONTS */
+.lnin-header{font: bold 18px "Arial";color:#ed1c24;}
+.lnin-subheader{font:normal 12px "Verdana";}
+.lnin-text{font:normal 12px "Verdana";}
+.lnin-text a{text-decoration:underline;color:#007DCF;}
+/*
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+*/
+
+
+
+
+
+/* Case Deconfliction */
+/* new widths to fix forms for Case Decon */
+.w130px{width:130px;}
+
+
+/*
+ $$$$$$\  $$$$$$$\         $$$$$$\ $$$$$$$$\ $$\     $$\ $$\       $$$$$$$$\  $$$$$$\  
+$$  __$$\ $$  __$$\       $$  __$$\\__$$  __|\$$\   $$  |$$ |      $$  _____|$$  __$$\ 
+$$ /  $$ |$$ |  $$ |      $$ /  \__|  $$ |    \$$\ $$  / $$ |      $$ |      $$ /  \__|
+$$$$$$$$ |$$ |  $$ |      \$$$$$$\    $$ |     \$$$$  /  $$ |      $$$$$\    \$$$$$$\  
+$$  __$$ |$$ |  $$ |       \____$$\   $$ |      \$$  /   $$ |      $$  __|    \____$$\ 
+$$ |  $$ |$$ |  $$ |      $$\   $$ |  $$ |       $$ |    $$ |      $$ |      $$\   $$ |
+$$ |  $$ |$$$$$$$  |      \$$$$$$  |  $$ |       $$ |    $$$$$$$$\ $$$$$$$$\ \$$$$$$  |
+\__|  \__|\_______/        \______/   \__|       \__|    \________|\________| \______/ 
+*/
+.ad > div{
+    padding:4px;
+    color:#fff;
+    text-align:center;
+    width:100%;
+}
+.ad a:hover{text-decoration:underline;}
+.adBody{
+    font: bold 10px "Tahoma";
+    text-align:left;
+    padding:8px;
+}
+.ad-accurint-news .adBody{
+    height: 60px;
+}
+.ad-security-reminder .adBody{
+    height: 38px;
+}
+.adBody > div{
+    margin-bottom:4px;
+}
+.adFoot{
+    margin:auto;
+    margin-top:3px;
+    font: normal 10px "Tahoma";
+}
+.ad-accurint-news{
+    background:#fff;
+    height:105px;
+    position:relative;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.ad-accurint-news .adFoot{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 12px;
+    margin-bottom: 6px;
+}
+.ad-accurint-news .adLabel{
+    background: url('../../images/v3/bannerhdg_accnews.png') no-repeat;
+    width:109px;
+    height:17px;
+    margin:auto;
+    margin-top:4px;
+}
+.ad-recent-searches .adLabel{
+    background: url('../../images/v3/bannerhdg_recent.png') no-repeat;
+    width:118px;
+    height:17px;
+    margin:auto;
+    margin-top:4px;
+}
+.ad-investigators-network{
+    background: url('../../images/v3/banner_lnin.png') no-repeat;
+    height:84px;
+    margin-left: 2px;
+}
+.ad-lexisnexis-university{
+    background: url('../../images/v3/banner_lnu.png') no-repeat;
+    height:84px;
+    margin-left: 2px;
+}
+.ad-share-success{
+    background: url('../../images/v3/banner_success.png') no-repeat;
+    height:84px;
+    margin-left: 2px;
+}
+.ad-fraud{
+    background: url('../../images/v3/fotd-accurint-gov-pfi-red.jpg') no-repeat;
+}
+.ad-fraud{
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='../../images/v3/fotd-accurint-gov-pfi-red.jpg',
+    sizingMethod='scale');
+}
+.ad-fraud{
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='../../images/v3/fotd-accurint-gov-pfi-red.jpg',
+    sizingMethod='scale')";
+}
+.ad-training{
+    background: url('../../images/v3/transactional_training_gov.jpg') no-repeat;
+}
+.ad-training{
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='../../images/v3/transactional_training_gov.jpg',
+    sizingMethod='scale');
+}
+.ad-training{
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='../../images/v3/transactional_training_gov.jpg',
+    sizingMethod='scale')";
+}
+.ad-accurint-mobile{
+    background: url('../../images/v3/accurint-mobile-gov-pfi.png') no-repeat;
+}
+.ad-accurint-mobile{
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='../../images/v3/accurint-mobile-gov-pfi.png',
+    sizingMethod='scale');
+}
+.ad-accurint-mobile{
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='../../images/v3/accurint-mobile-gov-pfi.png',
+    sizingMethod='scale')";
+}
+.ad-university{
+    background: url('../../images/v3/lnu-school-for-gov-fraud-discovery.jpg') no-repeat;
+}
+.ad-university{
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='../../images/v3/lnu-school-for-gov-fraud-discovery.jpg',
+    sizingMethod='scale');
+}
+.ad-university{
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='../../images/v3/lnu-school-for-gov-fraud-discovery.jpg',
+    sizingMethod='scale')";
+}
+.ad-security-reminder{
+    background: #898989;
+    height:85px;
+    position:relative;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.ad-security-reminder .adFoot{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    margin-left: -8px;
+    width: 100%;
+    z-index:10;
+}
+.ad-security-reminder .adLabel{
+    background: url('../../images/v3/banner_hdg_security.png') no-repeat;
+    width:127px;
+    height:14px;
+    margin:auto;
+    margin-top:4px;
+}
+.ad-public-safety-briefing-room{
+    background: url('../../images/v3/banner_psbr.png') no-repeat;
+    height:84px;
+    margin-left: 2px;
+}
+.ad-avcc{
+    background: url('../../images/v3/banner_avcc.png') no-repeat;
+    height:84px;
+    margin-left: 2px;
+}
+.ad-transactional-training{
+    background: url('../../images/v3/transactional_training_le.png') no-repeat;
+    height:84px;
+    margin-left: 2px;
+}
+
+/*
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+*/
+#accountMenu{
+    overflow:hidden;
+    width:220px;
+}
+#accountMenu > div{
+    width:100%;
+    height:32px;
+    padding:5px;
+    margin-bottom:5px;
+}
+#accountMenu > div:first-child{
+    margin-top:0;
+}
+#accountMenu > div > div{
+    padding:8px;
+    background:#bcbec0;
+    color:#464646;
+    font-family: Calibri;
+    font-size: 14px;
+}
+#accountMenu ul{
+    width:100%;
+    margin:8px 14px 8px 0;
+}
+#accountMenu li{
+    width:100%;
+    padding-right:14px;
+    margin:0;
+    font-weight:bold;
+    font-family: Calibri;
+    font-size: 14px;
+    color:#dcdcdc;
+    text-align: right;
+}
+#accountMenu li > a:hover{
+    color:#FFF;
+    text-decoration:underline;
+    cursor:pointer;
+}
+#accountMenu li.th{
+    background:#464646;
+    color:#FFF;
+    height:40px;
+}
+#accountMenu li.th:hover{
+    color:#FFF;
+    text-decoration:none;
+    cursor:pointer;
+}
+/*
+$$$$$$$\  $$$$$$$\  
+$$  __$$\ $$  __$$\ 
+$$ |  $$ |$$ |  $$ |
+$$$$$$$  |$$$$$$$  |
+$$  __$$< $$  ____/ 
+$$ |  $$ |$$ |      
+$$ |  $$ |$$ |      
+\__|  \__|\__|      
+*/
+.RP_link a{color:#666;}
+.showMore{
+    height:16px;
+    width:100%;
+}
+.showMore a{
+    text-decoration:underline;
+    width:100%;
+    margin:auto;
+    margin-top:3px;
+    float:left;
+    text-align:center;
+}
+.showMore:hover{background:#FFF;cursor:pointer;}
+div.arrow_sprite{
+    margin:auto;
+    margin-top:2px;
+}
+
+/*
+AD Styles
+*/
+.adBody{
+    padding:8px 0;
+    overflow:hidden;
+}
+.ad > div{padding-left:8px;padding-right:8px;}
+.ad-accurint-news a{color:#6d6e71;}
+.ad-accurint-news > .adFoot{text-align:right;}
+.ad-lexisnexis-university-button{
+    float: right;
+    width:61px;
+    height:17px;
+    background:url(../../images/v3/sign-in_lnu.png) no-repeat;
+    margin-top: 48px;
+    margin-right: 8px;
+}
+div.ad-investigators-network,
+div.ad-lexisnexis-university{
+    padding:0;
+    cursor:pointer;
+}
+.ad-investigators-network-button{
+    float:right;
+    width:61px;
+    height:17px;
+    background:url(../../images/v3/sign-in_lnin.png) no-repeat;
+    margin-top: 48px;
+    margin-right: 8px;
+}
+.ad-investigators-network a,
+.ad-lexisnexis-university a{
+    width:61px;
+    height:17px;
+}
+
+/*
+Results table styles
+*/
+.resTable td{
+    padding-bottom:8px;
+}
+
+
+/*
+$$\      $$\ $$$$$$\  $$$$$$\   $$$$$$\  
+$$$\    $$$ |\_$$  _|$$  __$$\ $$  __$$\ 
+$$$$\  $$$$ |  $$ |  $$ /  \__|$$ /  \__|
+$$\$$\$$ $$ |  $$ |  \$$$$$$\  $$ |      
+$$ \$$$  $$ |  $$ |   \____$$\ $$ |      
+$$ |\$  /$$ |  $$ |  $$\   $$ |$$ |  $$\ 
+$$ | \_/ $$ |$$$$$$\ \$$$$$$  |\$$$$$$  |
+\__|     \__|\______| \______/  \______/                                       
+*/
+.w26px{width:26px;}
+.w40px{width:40px;}
+.w80px{width:80px;}
+.w16pc{width:16%;}
+.formBox .checkboxAndText span{font-weight:bold;}
+.copy-btn{padding:2px 0 0 2px;}
+
+
+.indicator_criminal, .indicator_offenders, .indicator_people, .indicator_property, .indicator_vehicles, .indicator_weapons{
+	/*background: url(../../images/v3/indicators_sheet.png) no-repeat;*/
+}
+
+.indicator_criminal{
+	background-position: 0 0;
+	width: 50px;
+	height: 39px;
+}
+.indicator_property{
+	background-position: 0 -45px;
+	width: 50px;
+	height: 40px;
+}
+.indicator_offenders{
+	background-position: 0 -90px ;
+	width: 50px;
+	height: 49px;
+}
+.indicator_weapons{
+	background-position: 0 -145px;
+	width: 50px;
+	height: 49px;
+}
+.indicator_vehicles{
+	background-position: 0 -199px ;
+	width: 50px;
+	height: 49px;
+}
+.indicator_people{
+	background-position: 0 -254px;
+	width: 50px;
+	height: 49px;
+}
+
+
+
+.full-row-display{
+    background: #ddd;
+    margin-left: -8px;
+    margin-top: -6px;
+    width: 110%;
+    padding: 6px;
+    padding-left: 8px;
+    margin-bottom: 6px;
+    font: bold 13px Calibri, Arial;
+}
+
+.bddd{
+    background: #ddd;
+    margin-left: -8px;
+    margin-top: -6px;
+    padding: 6px;
+    padding-left: 8px;
+    margin-bottom: 6px;
+}
+
+.disabled{
+    text-decoration:line-through;
+}
+
+.indicator-img{
+border-width:0;
+}
+
+.hidden
+{position:absolute;
+ left:-10000px;
+ top:auto;
+ width:1px;
+ height:1px;
+ overflow:hidden;}
+
+#info_rem {
+    position:absolute;
+    background-color:#ffffff;
+    width:400px;
+    font-family:verdana;
+    font-size:8pt;
+    border-bottom-style:solid;
+    border-top-style:solid;
+    border-left-style:solid;
+    border-right-style:solid;
+    border-bottom-color:#ed1c24;
+    border-top-color:#ed1c24;
+    border-left-color:#ed1c24;
+    border-right-color:#ed1c24;
+    border-bottom-width:thin;
+    border-top-width:thin;
+    border-left-width:thin;
+    border-right-width:thin;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:0px;
+    padding-right:0px;
+    display : none;
+    text-align:left;
+    z-index:1000;
+    border-radius: 5px;
+}
+
+#info_rem_title {
+    color: #ffffff;
+    background-color: #ed1c24;
+    font-weight: bold;
+    font-size:10pt;
+}
+
+.canadian_phones_disclaimer li {
+    list-style-type: lower-roman;
+}
+
+.canadian_phones_disclaimer_button_positioning {
+    text-align: center;
+    padding: 10px;
+}
+
+.canadian_phones_disclaimer_accept {
+    height: 25px;
+    color: #FFF;
+    margin: 0;
+    text-align: center;
+    padding-top: 0px;
+    background: #ed1c24;
+    border: 0;
+    border-radius: 4px;
+    font-weight: normal;
+    font-family: Tahoma;
+    width: 100px;
+}
+
+.canadian_phones_disclaimer_cancel {
+    height: 25px;
+    color: #FFF;
+    margin: 0;
+    text-align: center;
+    padding-top: 0px;
+    background: #939598;
+    border: 0;
+    border-radius: 4px;
+    font-weight: normal;
+    font-family: Tahoma;
+    width: 100px;
+}
+
+.canadian_phones_disclaimer_accept:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.canadian_phones_disclaimer_cancel:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+

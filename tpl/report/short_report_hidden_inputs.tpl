@@ -1,0 +1,87 @@
+  <TMPL_INCLUDE NAME="common_hidden_input.tpl">
+  <INPUT type=hidden NAME="REFERENCE_CODE" VALUE="<TMPL_VAR REFERENCE_CODE>">
+  <INPUT TYPE=HIDDEN NAME="DOL_DATE" VALUE="<TMPL_VAR NAME=DOL_DATE>">
+	<INPUT type=hidden NAME="EVENT" VALUE="<TMPL_VAR NAME="REPORT_EVENT">">
+	<INPUT type=hidden NAME="SKIN_TYPE" VALUE="<TMPL_VAR NAME=SKIN_TYPE>">
+	<INPUT type=hidden NAME="APPLICATION_TYPE" VALUE="<TMPL_VAR NAME=APPLICATION_TYPE>">
+	<INPUT type=hidden NAME="WATER_CRAFT_ID" VALUE="<TMPL_VAR NAME=WATER_CRAFT_ID>">
+	<INPUT type=hidden NAME="STATE_OF_ORIGIN" VALUE="<TMPL_VAR NAME=STATE_OF_ORIGIN>">
+	<INPUT type=hidden NAME="UNIQUE_ID" VALUE="<TMPL_VAR NAME=UNIQUE_ID>">
+	<TMPL_IF NAME="UNIQUEID">
+	<INPUT type=hidden NAME="UNIQUEID" VALUE="<TMPL_VAR NAME=UNIQUEID>">
+	</TMPL_IF>
+	<TMPL_IF NAME="PARCEL_ID">
+	<INPUT type=hidden NAME="PARCEL_ID" VALUE="<TMPL_VAR NAME=PARCEL_ID>">
+	</TMPL_IF>
+	<TMPL_IF NAME="SSN">
+	<INPUT type=hidden NAME="SSN" VALUE="<TMPL_VAR NAME=SSN>">
+	</TMPL_IF>
+	<INPUT type=hidden NAME="BUSINESS_ID" VALUE="<TMPL_VAR NAME=BUSINESS_ID>">
+	<INPUT type=hidden NAME="TMS_ID" VALUE="<TMPL_VAR NAME=TMS_ID>">
+	<TMPL_IF NAME="TMSID">
+	<INPUT type=hidden NAME="TMSID" VALUE="<TMPL_VAR NAME=TMSID>">
+	</TMPL_IF>
+	<TMPL_IF NAME="VEHICLE_RECORD_ID">
+	<INPUT type=hidden NAME="VEHICLE_RECORD_ID" VALUE="<TMPL_VAR NAME=VEHICLE_RECORD_ID>">
+	</TMPL_IF>
+	<TMPL_IF NAME="VIN">
+	<INPUT type=hidden NAME="VIN" VALUE="<TMPL_VAR NAME=VIN>">
+	</TMPL_IF>
+	<TMPL_IF NAME="REC">
+	<INPUT type=hidden NAME="REC" VALUE="<TMPL_VAR NAME=REC>">
+	</TMPL_IF>
+	<INPUT type=hidden NAME="STATE_ORIGIN" VALUE="<TMPL_VAR NAME=STATE_ORIGIN>">
+	<INPUT type=hidden NAME="CASE_NUMBER" VALUE="<TMPL_VAR NAME=CASE_NUMBER>">
+	<INPUT type=hidden NAME="FULL_CASE_NUMBER" VALUE="<TMPL_VAR NAME=FULL_CASE_NUMBER>">
+	<INPUT type=hidden NAME="COURT_CODE" VALUE="<TMPL_VAR NAME=COURT_CODE>">
+	<INPUT type=hidden NAME="OFFENDER_ID" VALUE="<TMPL_VAR NAME=OFFENDER_ID>">
+	<INPUT type=hidden NAME="NAME_LAST" VALUE="<TMPL_VAR NAME=NAME_LAST>">
+	<INPUT type=hidden NAME="NAME_FIRST" VALUE="<TMPL_VAR NAME=NAME_FIRST>">
+	<INPUT type=hidden NAME="NAME_MIDDLE" VALUE="<TMPL_VAR NAME=NAME_MIDDLE>">
+	<INPUT type=hidden NAME="NAME_SUFFIX" VALUE="<TMPL_VAR NAME=NAME_SUFFIX>">
+	<INPUT type=hidden NAME="LAST_NAME" VALUE="<TMPL_VAR NAME=LAST_NAME>">
+	<INPUT type=hidden NAME="FIRST_NAME" VALUE="<TMPL_VAR NAME=FIRST_NAME>">
+	<INPUT type=hidden NAME="MIDDLE_NAME" VALUE="<TMPL_VAR NAME=MIDDLE_NAME>">
+	<INPUT type=hidden NAME="SUFFIX" VALUE="<TMPL_VAR NAME=SUFFIX>">
+  <input type=hidden NAME="STREET_ADDRESS" VALUE="<TMPL_VAR NAME=STREET_ADDRESS>">
+  <input type=hidden NAME="CITY" VALUE="<TMPL_VAR NAME=CITY>">
+  <input type=hidden NAME="STATE" VALUE="<TMPL_VAR NAME=STATE>">
+  <input type=hidden NAME="ZIP" VALUE="<TMPL_VAR NAME=ZIP>">
+  <input type=hidden NAME="CC_XID" VALUE="<TMPL_VAR NAME=CC_XID>">
+	<TMPL_IF NAME="FULL_NAME">
+	<INPUT type=hidden NAME="FULL_NAME" VALUE="<TMPL_VAR NAME=FULL_NAME>">
+	</TMPL_IF>
+	<TMPL_IF NAME="property">
+	<INPUT type=hidden NAME="property" VALUE="<TMPL_VAR NAME=property>">
+	</TMPL_IF>
+	<TMPL_IF NAME="drivers-license">
+	<INPUT type=hidden NAME="drivers-license" VALUE="<TMPL_VAR NAME=drivers-license>">
+	</TMPL_IF>
+	<TMPL_IF NAME="people-at-work">
+	<INPUT type=hidden NAME="people-at-work" VALUE="<TMPL_VAR NAME=people-at-work>">
+	</TMPL_IF>
+	<TMPL_IF NAME="motor-vehicles">
+	<INPUT type=hidden NAME="motor-vehicles" VALUE="<TMPL_VAR NAME=motor-vehicles>">
+	</TMPL_IF>
+	<TMPL_IF NAME="corporate-affiliations">
+	<INPUT type=hidden NAME="corporate-affiliations" VALUE="<TMPL_VAR NAME=corporate-affiliations>">
+	</TMPL_IF>
+	<TMPL_IF NAME="professional-licenses">
+	<INPUT type=hidden NAME="professional-licenses" VALUE="<TMPL_VAR NAME=professional-licenses>">
+	</TMPL_IF>
+	<TMPL_IF NAME="phones-plus">
+	<INPUT type=hidden NAME="phones-plus" VALUE="<TMPL_VAR NAME=phones-plus>">
+	</TMPL_IF>
+	<TMPL_IF NAME="email-addresses">
+	<INPUT type=hidden NAME="email-addresses" VALUE="<TMPL_VAR NAME=email-addresses>">
+	</TMPL_IF>
+	<TMPL_IF NAME="FILE_NUMBER">
+	<INPUT type=hidden NAME="FILE_NUMBER" VALUE="<TMPL_VAR NAME=FILE_NUMBER>">
+	</TMPL_IF>
+	<INPUT type=hidden NAME="TYPE" VALUE="<TMPL_VAR NAME=TYPE>">
+	<INPUT type=hidden NAME="SHORT_REPORT" VALUE="1">
+	<TMPL_IF NAME="premium-phones">
+	    <INPUT type=hidden NAME="premium-phones" VALUE="<TMPL_VAR NAME=premium-phones>">
+	    <INPUT type=hidden NAME="PHONE_ARR" VALUE="<TMPL_VAR NAME=PHONE_ARR>">
+	</TMPL_IF>
+	

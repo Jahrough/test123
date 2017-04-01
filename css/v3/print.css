@@ -1,0 +1,68 @@
+@media print{
+.printWrapper .resHeader .leftCon {
+    width: 65% !important;
+}
+.printWrapper{
+    min-width: 100%;
+}
+.printWrapper .resultsPanel {
+    overflow: hidden;
+    height: auto;
+}
+.topBarCon{
+    width:165px !important;
+}
+.headerOption{
+    display:none;
+}
+td.arrowCol, tr.sandlineRow > td:last-child{
+    border-right:0;
+}
+td.arrowCol{
+    background:#fff !important;
+}
+.resHeader .leftCon {
+    padding-bottom:10px;
+}
+.arrow_sprite{
+    display:none !important;
+}
+.resHeader:last-of-type{
+    /* display:none !important; */
+}
+.topBarCon{
+    display:none !important;
+}
+.copy-btn, .print-btn{
+	display:none !important;
+}
+
+.textAndLink{
+	font-size:120%;
+}
+
+table.resTable {
+	width: 100%;
+}
+.resultsPanel, .resultsCon {
+	overflow: visible !important;
+}
+.resultsCon {
+	margin-bottom: 0px;
+}
+.pageFooterWrapper {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+#myacc_customize, #modalDiv{
+	display:none !important;
+}
+#ddRibbonBarWrap{
+	display:none !important;
+}
+
+.indicator-img{
+border-width:0;
+}
+
+}

@@ -1,0 +1,778 @@
+.summary-content {
+	white-space: nowrap;
+}
+
+.summary-content #summary-left {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 100px;
+    width: 300px;
+}
+
+.summary-content #summary-right {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 100px;
+    width: 200px;
+}
+
+.pod {
+    border: solid 1px #bbb;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    min-height: 80px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.pod.shadowed {
+    box-shadow: #888 5px 5px 5px;
+}
+
+.graph {
+    border-left: solid 1px #338;
+    margin: 0 auto;
+    padding: 2px 0;
+    width: 50%;
+}
+.graph>* {
+    background-color: #338;
+    border: solid 3px #338;
+    height: 0px;
+    margin: 2px 0 5px 0;
+    position: relative;
+    width: 100%;
+}
+.graph>*>span {
+    font-size: 11px;
+    position: absolute;
+    right: -13px;
+    top: -6px;
+}
+
+.important {
+    color: #ed1c24;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+#summary-hint {
+    margin: 10px 0;
+}
+
+#summary-hint-link {
+    border-top: solid 1px #ccc;
+}
+
+#summary-hint #summary-hint-link a {
+    text-decoration: none;
+    color: #444;
+}
+
+#summary-hint #summary-hint-link {
+    border-top: solid 1px #ccc;
+}
+
+.aml_risk_summary_dropdown {
+    border-bottom: solid 1px #ccc;
+    border-left: solid 1px #ccc;
+    border-right: solid 1px #ccc;
+    border-top: solid 1px white;
+    border-radius: 0 0 7px 7px;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: -1px;
+    padding: 7px 15px;
+}
+
+.show-summary-hint-details:hover,
+.show-summary-hint-details:focus{
+    text-decoration: none;
+}
+
+.downArrow {
+    background: transparent url(../../images/v4/ico_report2012_sprites.png) no-repeat -43px -291px;
+    height: 16px;
+    text-decoration: none;
+    display: inline-block;
+    min-width: 16px;
+}
+
+.aml-person-summary {
+    border: none !important;
+}
+.aml-person-summary td {
+    border: none !important;
+    padding: 0px 10px !important;
+}
+
+.summary-content #summary-center {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    width: 300px;
+}
+
+#aml-risk-report-images #img-line-top {
+    left: -95px;
+    top: 105px;
+}
+
+#aml-risk-report-images>div {
+    position: absolute;
+}
+
+#aml-risk-report-images #img-line-up {
+    left: -21px;
+    top: 105px;
+}
+
+#aml-risk-report-images #img-arrow-left {
+    left: -95px;
+    top: 230px;
+}
+
+#aml-risk-report-images #img-line-down {
+    left: -21px;
+    top: 230px;
+}
+
+#aml-risk-report-images #img-line-bottom {
+    left: -95px;
+    top: 360px;
+}
+
+#aml-risk-report-images #img-person {
+    left: 80px;
+}
+#aml-risk-report-images #img-arrow-down {
+    left: 98px;
+    top: 281px;
+}
+#aml-risk-report-images #img-arrow-right {
+    left: 145px;
+    top: 230px;
+}
+
+.aml-risk-repot-note {
+    color: #999;
+    font-size: 0.9em;
+    font-weight: normal;
+    margin: 0 !important;
+}
+#summary-center #caution-flags {
+    position: absolute;
+    top: 338px;
+}
+
+#summary-center #caution-flags .graph {
+   margin-top: 10px;
+}
+.graph.pill {
+    background-color: #aaa;
+    border: solid 1px #338;
+    padding: 0;
+    border-radius: 3px;
+    width: 100%;
+}
+.graph.pill>* {
+    border: solid 8px #338;
+    height: 0px;
+    margin: 0;
+}
+
+#summary-right .pod {
+    height: 275px;
+}
+
+.pod hr {
+    border: none;
+    border-top: dotted 1px #bbb;
+    margin: 20px 0 15px;
+}
+
+.aml-iconYield {
+    background: transparent url(../../images/v4/ico_report2012_sprites.png) no-repeat -48px -352px;
+    height: 16px;
+    text-decoration: none;
+    float: right;
+    padding-right: 20px;
+}
+
+.aml-iconYield:hover {
+    text-decoration: none;
+}
+
+.aml-noborder {
+    border:none !important;
+}
+
+.aml-score-graph {
+    clear: both;
+    float: right;
+    height: 40px;
+    width: 150px;
+}
+
+#KRIs #kriDetail .aml-score-graph {
+    float: none;
+    height: auto;
+}
+
+.aml-score-graph .ticks {
+    border-bottom: 1px solid blue;
+    border-right: 1px solid blue;
+    max-width: 154px;
+    height: 10px;
+}
+
+.aml-score-graph .ticks .tick {
+    border-left: 1px solid blue;
+    width: 16px;
+    height: 11px;
+    float: left;
+}
+.aml-score-graph .ticks .tick.tick-9 {
+    border: 0;
+}
+
+.aml-score-graph .numbers {
+    width: 170px;
+    height: 15px;
+    margin-left: -8px;
+}
+.aml-score-graph .numbers .number {
+    width: 17px;
+    height: 15px;
+    float: left;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 5px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+.aml-score-graph .numbers .number.active {
+    color: white;
+    background: url('../../images/v4/bg-oval.png') no-repeat 2px 0px;
+}
+
+.aml-kri-active {
+    color: #FFF !important;
+    background: transparent url("../../images/v4/bg-oval.png") no-repeat scroll 29px 8px;
+}
+.iconInfo {
+    background: transparent url(../../images/v4/ico_report2012_sprites.png) no-repeat -1px -382px;
+    height: 16px;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-top: 3px;
+}
+
+.aml-detail {
+    font-size: 1em;
+    FONT: bold verdana,arial,helvetica,sans-serif;
+    color: #ed1c24;
+    margin: 2px 5px;
+    color: #ED1C24;
+}
+.aml-detail-top {
+    padding-top: 7px !important;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+    padding-bottom: 0px !important;
+}
+.aml-detail-middle {
+    padding-top: 0px !important;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+    padding-bottom: 0px !important;
+}
+.aml-detail-bottom {
+    padding-top: 0px !important;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+    padding-bottom: 7px !important;
+}
+
+.aml-level {
+    white-space: nowrap;
+}
+
+.aml-score-graph .bar {
+    background-color: #338;
+    border: solid 6px #338;
+    box-shadow: #999 3px 4px 3px;
+    display: block;
+    height: 0px;
+    width: 100%
+}
+.aml-header {
+    padding-left: 30px !important;
+    vertical-align: middle !important;
+    font-size: 1em;
+}
+.aml-header2 {
+    padding-left: 10px !important;
+    vertical-align: middle !important;
+    font-size: 1em;
+}
+
+#KRIs #kriDetail h2,
+#KRIs #kriDetail h3 {
+    font-size: 1em
+}
+#KRIs #kriDetail h3 {
+    color: #ed1c24;
+    margin: 2px 5px
+}
+#KRIs #kriDetail tr.separator>td {
+    padding: 10px 0
+}
+
+#KRIs #kriDetail tr.separator>td::after {
+    content: "";
+    border-bottom: solid 1px #aaa;
+    display: block;
+}
+
+#KRIs #kriDetail tr td.separator {
+padding: 10px
+}
+
+#KRIs #kriDetail tr td.separator::after {
+    content: "";
+    border-bottom: dashed 1px #aaa;
+    display: block;
+}
+
+.aml-container {
+    border: solid 1px #bbb;
+    margin-bottom: 15px;
+    padding: 5px
+}
+
+.aml-container hr {
+    border: 0;
+    border-bottom: dashed 1px #bbb;
+    clear: both
+}
+
+.aml-container label {
+    color: #ed1c24;
+    display: inline-block;
+    font-weight: bold;
+    margin: 15px 0 0 30px
+}
+table.kriDescription {
+    border:none !important;
+    width: auto !important;
+}
+table.kriDescription td {
+    padding: 5px;
+    vertical-align: top;
+    border:none !important;
+    width: auto !important;
+    white-space: normal;
+}
+
+table.kriDescription td[rowspan] {
+    vertical-align: middle
+}
+
+table.kriDescription label {
+    margin: 0
+}
+
+table.kriDescription label.level {
+    white-space: nowrap
+}
+.aml-container hr {
+    border: 0;
+    border-bottom: dashed 1px #bbb;
+    clear: both;
+}
+table.brownTable>tbody td.rowNumber {
+    width: 5% !important;
+}
+
+table.brownTable thead tr th {
+    -webkit-text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
+    font-weight: bold;
+}
+table.brownTable>tbody>tr>td {
+    width: auto !important;
+}
+table.brownTable>tbody>tr>td>p {
+    margin: 0px;
+}
+.aml-important {
+    color: #ed1c24;
+    font-weight: bold;
+}
+
+.aml-heading {
+    font-weight: bold;
+    margin: 0px !important;
+}
+
+.aml-indent {
+    padding-left: 20px !important;
+    margin: 0;
+}
+
+span.aml-riskIndicator {
+    display: block;
+    color: #999;
+    padding-left: 5px;
+    font-size: 0.8em;
+}
+
+span.aml-riskIndicator i {
+    padding-right: 2px;
+}
+
+.aml-iconRedTriangle {
+    background: transparent url("../../images/v4/ico_report2012_sprites.png") no-repeat scroll -43px 0px;
+    height: 16px;
+    text-decoration: none;
+    padding-left: 25px !important;
+    padding-top: 3px;
+}
+
+.aml-iconRedTriangle:hover {
+    text-decoration: none;
+}
+
+.aml-cau-first-td {
+    width: 15% !important;
+    text-align:left !important;
+    padding-left: 5px !important;
+}
+
+.aml-cau-middle-td {
+    width: 35% !important;
+    text-align:left !important;
+    padding-left: 5px !important;
+}
+
+.aml-cau-last-td {
+    width: 50% !important;
+    text-align:left !important;
+    padding-left: 5px !important;
+}
+.aml-active{
+    font-weight: bold;
+    color: red;
+    padding-left: 5px !important;
+}
+table#personalNetwork,
+table#businessNetwork {
+    width: 100% !important;
+}
+
+table#personalNetwork th,
+table#businessNetwork th {
+    border: solid 1px black;
+    padding: 3px;
+    text-align: center;
+}
+
+table#personalNetwork td,
+table#businessNetwork td {
+    border: solid 1px #ccc !important;;
+    padding: 3px !important;
+}
+table#personalNetwork tr > td:first-child,
+table#businessNetwork tr > td:first-child {
+    width: auto !important;
+}
+
+table#netWorkidentityDetails tr > td:first-child {
+    width: 40% !important;
+}
+
+table#personalNetwork td p,
+table#businessNetwork td p {
+    margin: 0
+}
+
+table#personalNetwork td.hri,
+table#businessNetwork td.hri {
+    text-align: center !important;
+    width: 100px !important;
+}
+
+#reportKey .aml-iconYield{
+    float: none !important;
+}
+
+.ticks {
+border-bottom: 1px solid blue;
+border-right: 1px solid blue;
+max-width: 145px;
+height: 11px;
+}
+
+.tick {
+border-left: 1px solid blue;
+width: 16px;
+height: 11px;
+float: left;
+}
+
+.numbers {
+width: 170px;
+height: 15px;
+margin-left: -7px;
+}
+
+.number {
+height: 20px;
+font-family: Arial,Helvetica,sans-serif;
+font-size: 11px;
+text-align: center;
+padding-top: 5px;
+float: left;
+width: 16px;
+}
+
+.aml-bar {
+    background-color: #338;
+    border: solid 6px #338;
+    box-shadow: #999 3px 4px 3px;
+    display: block;
+    height: 0px;
+    width: 100%
+}
+
+.numbers .number.active {
+    color: white;
+    background: url('../../images/v4/bg-oval.png') no-repeat 2px 4px;
+}
+tr.aml-selected {
+    color: red;
+    font-weight: bold;
+}
+.aml-risk-score-graph{
+    height: 16px;
+}
+
+.dialog table td {
+    border: solid 1px #ccc !important;
+    padding: 3px !important;
+}
+
+.dialog {
+    display: none;
+    font-size: 12px;
+}
+
+.dialog table th {
+    background-color: #ccc;
+    border: solid 1px black;
+    padding: 3px;
+    text-align: center;
+}
+
+.aml-clearFloat{
+    clear: both;
+    height: 20px;
+    visibility: hidden;
+    font-size: 1px;
+}
+
+#smartlinxamleconomicriskinfo #map-container {
+    #margin: 20px;
+    min-width: 830px;
+}
+
+#smartlinxamleconomicriskinfo #map-container #map-canvas {
+    float: left;
+    height: 350px;
+    width: 600px;
+}
+
+#smartlinxamleconomicriskinfo #map-container .address-marker {
+    display: none;
+}
+
+.aml-layer-panel-main {
+    float: left;
+    margin: 0 15px;
+    width: 170px;
+}
+
+.aml-layer-panel-sub {
+    border: solid 1px #ddd;
+    padding: 16px;
+    background: #fff;
+    background: -moz-linear-gradient(top, #fff 40%, #ededed 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(40%, #fff), color-stop(100%, #ededed));
+    background: -webkit-linear-gradient(top, #fff 40%, #ededed 100%);
+    background: -o-linear-gradient(top, #fff 40%, #ededed 100%);
+    background: -ms-linear-gradient(top, #fff 40%, #ededed 100%);
+    background: linear-gradient(to bottom, #fff 40%, #ededed 100%);
+}
+
+.aml-map-canvas {
+    float: left;
+    height: 350px;
+    width: 600px;
+}
+
+.aml-map-canvas-zindex {
+    z-index: 0 !important;
+}
+.aml-kri-div-title{
+    color: #ed1c24;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.aml-topo-relatives-td{
+    width: 30% !important;
+}
+
+.aml-topographic-link{
+    color: #06C;
+    text-decoration: underline;
+}
+
+.aml-caution-head-span {
+    border: 0px none !important; 
+    text-align: center; 
+    color: red; 
+    font-weight: bold !important;
+    font-size: 13px !important;
+}
+
+.aml-risk-deceased-icon{
+    border: 1px none !important;
+    background-color: #F00;
+    width: 17px;
+    text-align: center;
+    color: #FFF;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: bold;
+    position: absolute;
+}
+
+#prioraddresstext {
+    color: red;
+    font-weight: bold;
+}
+
+.text-wrap{
+    word-wrap: break-word;
+}
+.padding-5 {
+    margin: 0 0 5px !important;
+}
+
+.aml-subject{
+    color: #858585; 
+    font-size: 11px ! important;
+}
+
+.aml-padding-left-25{
+    padding-left: 25px !important;
+}
+.aml-padding-left-15{
+    padding-left: 15px !important;
+}
+.aml-padding-right-15{
+    padding-right: 15px !important;
+}
+.aml-fontsize-14em{
+    font-size: 1.4em;
+}
+.aml-border-0{
+    border: 0px !important;
+}
+.aml-padding-top-0{
+    padding-top: 0px !important;
+}
+.aml-padding-top-3{
+    padding-top: 3px !important;
+}
+.aml-padding-top-4{
+    padding-top: 4px !important;
+}
+.aml-padding-top-5{
+    padding-top: 5px !important;
+}
+.aml-padding-top-6{
+    padding-top: 6px !important;
+}
+.aml-padding-top-8{
+    padding-top: 8px !important;
+}
+.aml-padding-top-10{
+    padding-top: 10px !important;
+}
+.aml-padding-0{
+     padding: 0px !important;
+}
+.aml-convert-lowercase{
+    text-transform: lowercase;
+}
+.aml-with-1{
+    width: 1% !important;
+}
+.aml-with-5{
+    width: 5% !important;
+}
+.aml-with-7{
+    width: 7% !important;
+}
+.aml-with-17{
+    width: 17% !important;
+}
+.aml-with-20{
+    width: 20% !important;
+}
+.aml-with-25{
+    width: 25% !important;
+}
+.aml-with-30{
+    width: 30% !important;
+}
+.aml-with-35{
+    width: 35% !important;
+}
+.aml-margin-10px{
+    margin: 0px 0px 10px;
+}
+.aml-text-align-center{
+    text-align: center !important;
+}
+.aml-text-imp{
+    font-family:'Arial Bold', 'Arial';
+    font-weight:700;
+}
+.aml-text-regular{
+    font-family:'Arial Regular', 'Arial';
+    font-weight:400;
+}
+.aml-text-align-right{
+   text-align: right;
+}
+.aml-vertical-align-bottom{
+    vertical-align: bottom;
+}
+
+.aml-white-space{
+    white-space: normal !important;
+}
+
+#economicriskpropertyassets p,
+#smartlinxamleconomicriskinfo p{
+    margin: 0 0 5px !important;
+}
+
+.aml-score-graph .bar:focus, .aml-risk-score-graph .aml-bar:focus {
+	outline-offset: 0px;
+}

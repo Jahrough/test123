@@ -1,0 +1,8 @@
+body {background:#FFFFFF;}
+
+#hd{
+	background:url(../../../images/v2/hea/logo_red.gif) no-repeat;
+	padding-right:15px;
+	height:55px;
+	position: relative;
+}

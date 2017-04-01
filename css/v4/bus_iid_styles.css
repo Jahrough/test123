@@ -1,0 +1,98 @@
+#iid-holderqa{
+	border: 1px solid #D0D2D1;
+	background-color: #E12726;
+	color: #ffffff;
+	margin-top: 10px;
+	padding: 5px 10px;
+}
+
+#iid-holderqa strong{
+	font-size: 1.3em;
+}
+
+#iid-holderqa p{
+	margin: 0;
+}
+
+#iid-holderqa a{
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+#source_footer{
+	margin-top: 25px;
+}
+
+.index figure{
+    display: inline-block;
+    margin: 0 150px 0 10%;
+}
+
+.index figure > img{
+	width: 155px;
+	height: 95px;
+}
+
+.index figcaption > span{
+	display: inline-block;
+	width: 16.6%;
+	text-align: center;
+	font-weight: 700;
+}
+
+.index figcaption .selected{
+	color: #E12726;
+	font-size: 1.3em;
+}
+
+.index .index_right_arrow{
+	font-size: 3.5em;
+	vertical-align: top;
+	margin:25px;
+	color: #A3A3A3;
+}
+
+.verification-details{
+	margin-top:35px;
+	vertical-align: top;
+}
+
+.verification-details-table th{
+	white-space: normal;
+}
+
+.verification-details-table td{
+	text-align: center;
+}
+
+.verification-legend{
+	margin-top: 10px;
+}
+
+.verification-legend ul{
+	list-style-type: none;
+	display: inline;
+}
+
+.verification-legend li{
+	display: inline-block;
+	width: 18%;
+}
+
+.in-body-table-header{
+    background-color: lightgray important;
+}
+
+.iid-red-cell{
+    background: #C03;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFF;
+    white-space: nowrap;
+    text-align: center;
+    width: 1% !important;
+}
+
+.bus_iid_no_border {
+    #border:none !important;
+}

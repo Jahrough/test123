@@ -1,0 +1,740 @@
+/* START myaccount-tabs */
+div#myaccount-tabs, div#myaccount-tabs div{ height:40px;}
+div#myaccount-tabs div{ width:80px;}
+div#myaccount-tabs {
+    width: 1210px;
+    background:#6d6e71;
+    margin: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    overflow:hidden;
+}
+div.tab-wrapper {
+    float: left;
+    color:#ccc;
+    text-align:center;
+    border-right:1px solid #939598;
+    vertical-align:middle;
+    cursor:pointer;
+}
+div.tab-wrapper div{
+    vertical-align:middle;
+}
+div.tab-wrapper a {
+    font-family:Calibri, Arial;
+    font-size:12px;
+    display:inline-block;
+}
+div.myaccount-tab-active,
+div.myaccount-tab-hoverOpen,
+div.tab-wrapper:hover{
+    color:#fff;
+    background:#939598;
+}
+div#myaccount-content-header {
+    width: 1210px;
+    height: 40px;
+    background: #fff;
+    margin: auto;
+}
+div.myaccounttabstxt {
+    display: table-cell;
+    vertical-align: bottom;
+    text-align: center;
+    width: 80px;
+}
+/* END myaccount-tabs */
+/* START myaccount-tabs pulldownbox */
+.pulldownbox{
+    background-color: #939598 !important;
+    border: 0 !important;
+}
+.pulldownbox > .topBorder{
+    display:none;
+}
+div.pulldownbox > div > ul{
+    padding:0 !important;
+}
+div.pulldownbox > div > ul > li {
+    padding: 8px 18px 8px 22px;
+    border-top:1px solid #ccc;
+    margin:0 !important;
+    list-style-type:none;
+    background-image:none;
+}
+div.pulldownbox > div > ul > li > a{
+    font-family:Calibri, Arial;
+    font-size:12px;
+    font-weight:bold;
+    color:#ddd;
+    text-decoration: none;
+}
+div.pulldownbox > div > ul > li > i{
+    color:#939598;
+    margin-right: 4px;
+}
+div.pulldownbox > div > ul > li:hover > i{
+    color:#FFF;
+    margin-right: 4px;
+}
+div.pulldownbox > div > ul > li:first-child{
+    border-top:0;
+}
+div.pulldownbox > div > ul > li:hover > a{
+    color:#fff;
+    text-decoration:none;
+}
+div.pulldownbox > div > ul > li > a:hover:before{
+    
+}
+/* END myaccount-tabs pulldownbox */
+
+
+/* START myaccount container */
+div.myaccCon {
+    margin: auto;
+    margin-bottom:45px;
+    padding: 0;
+    float: none;
+    width: 1210px !important;
+    min-width:1210px !important;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+div.myaccCon > div#txtCon {
+    min-width: 1210px !important;
+    width: 1210px !important;
+    float: none !important;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+td.noData{
+    background:#fff;
+    font-style: italic;
+}
+/* END myaccount container */
+
+
+/* START myaccount footer */
+#footer{
+    width: 100%;
+    padding: 6px;
+    
+    position: fixed;
+    bottom: 0;
+    
+    color: #fff;
+    background: #6D6E71;
+    
+    font-family: Calibri, Arial;
+    font-size: 12px;
+    text-align: center;
+}
+#footer a{
+    margin-left:12px;
+    text-decoration:underline;
+}
+#footer span{
+    color: #fff;
+}
+/* END myaccount footer */
+/* START myaccount modal info_rem */
+div#info_rem_title > div {
+    color: #ed1c24;
+    font-family: Calibri, Arial;
+    font-size: 18px;
+    font-weight: bold;
+}
+div#tipbody {
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Calibri, Arial;
+}
+/* END myaccount modal info_rem */
+/* START Input Styles */
+div.section-row select,
+div.section-row input{
+    height: 25px;
+}
+div.section-row select{
+    padding-left: 6px;
+}
+div.section-row input{
+    padding-left: 6px;
+}
+div.section-row input.btn{
+    padding-left: 15px;
+}
+div.section-row input[type="checkbox"],
+div.section-row input[type="radio"]{
+    height:auto;
+}
+div.section-row input[type="checkbox"]{
+    margin:4px;
+}
+/* END Input Styles */
+/* START Container Styles */
+div.myaccCon {
+    background: #fff;
+    padding: 15px 0px;
+    font: normal 16px Calibri, Arial;
+    color: #464646;
+    border-radius: 0px 0px 8px 8px;
+}
+div.myaccount-section-title{
+    font: bold 18px "Arial";
+    color: #ed1c24;
+    margin-left: 15px;
+}
+div.myaccount-containers{
+    width:100%;
+}
+div.section-row label{
+    vertical-align:top;
+    cursor:pointer;
+}
+div.myaccount-containers > div > div.section-row {
+    width: 100%;
+    padding: 15px;
+    padding-top:0;
+}
+div.section-row {
+    width: 100%;
+}
+div.myaccount-containers > div > div.section-row:first-child {
+    padding-top:15px;
+}
+div.section-row > div.left-col{
+    width:50%;
+    float:left;
+}
+div.left-col > div > div.btn {
+    padding: 0 12px;
+}
+div.section-row > div.right-col{
+    width:49%;
+    float:right;
+}
+.child-divs-left > div {
+    float: left;
+}
+.child-divs-right > div {
+    float: right;
+}
+.child-divs-center{
+    text-align:center;
+}
+.child-divs-center > div {
+    display:inline-block;
+}
+.child-divs-ml10 > div {
+    margin-left:10px;
+}
+.child-divs-mr10 > div {
+    margin-right:10px;
+}
+td.checkbox-td,
+td.checkbox-label-td{
+    padding-top:1px;
+    padding-bottom:1px;
+}
+/* END Container Styles */
+
+
+/* START DataTable styles */
+div.dataTables_wrapper > div {
+    margin: 7px 12px;
+    font-family: Calibri, Arial;
+}
+table.display,
+table.display-not-dataTable,
+table.dataTable{
+    width:100%;
+}
+table.cam-results{
+    width:auto;
+}
+table.display,
+table.display-not-dataTable,
+table.dataTable,
+table.cam-results{
+    border:0;
+    clear:both;
+}
+table.display > tbody > tr > td,
+table.display-not-dataTable > tbody > tr > td,
+table.cam-results > tbody > tr > td,
+table.dataTable > tbody > tr > td {
+    background: #FFF;
+    padding:7px 12px;
+    border:1px solid #c1c1c1;
+}
+
+.dataTables_empty{
+    text-align:center;
+}
+table.display,
+table.display-not-dataTable,
+table.cam-results{
+    border: 1px solid #BCBEC0;
+}
+div.desc-arrow,
+div.asc-arrow {
+    border: 5px solid #fff;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    width: 0;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: inline-block;
+}
+div.desc-arrow {
+    /* background: url("../../images/v3/sort_desc.png"); */
+    border-width: 8px 5px 0 5px;
+    border-bottom-color: transparent;
+}
+div.asc-arrow {
+    /* background: url("../../images/v3/sort_desc.png"); */
+    border-width: 0 5px 8px 5px;
+    border-top-color: transparent;
+}
+table.dataTable > thead > tr > td > span:first-child{
+    text-decoration: underline;
+}
+table.display-not-dataTable > thead > tr > td:first-child,
+table.dataTable > thead > tr > td:first-child {
+    border-left: 0;
+}
+
+table.cam-results > tbody > tr > td,
+table.display-not-dataTable > tbody > tr > td,
+table.dataTable > tbody > tr > td {
+    font-family: Calibri, Arial;
+    color:#6d6e71;
+    padding: 4px 12px;
+    border-left: 1px solid #BCBEC0;
+    border-bottom: 1px solid #BCBEC0;
+    border-top: 0;
+    border-right: 0;
+}
+.ta-center{
+    text-align: center !important;
+}
+table#userList > tbody > tr > td:first-child + td + td + td,
+table#userList > tbody > tr > td:first-child + td + td + td + td,
+table#userList > tbody > tr > td:first-child + td + td + td + td + td,
+table#userList > tbody > tr > td:first-child + td + td + td + td + td + td
+{
+    text-align: center;
+}
+table#userList > tbody > tr > td.oneLine{
+    white-space: nowrap;
+}
+table.dataTable td a.edit-user:hover{
+    cursor:pointer;
+    text-decoration:underline !important;
+}
+table.dataTable > tbody > tr > td:first-child {
+    border-left: 0;
+}
+div.dataTables_wrapper a.paginate_button {
+    border-radius: 5px;
+    background: #fff !important;
+    border: 0 !important;
+    padding: 6px 12px !important;
+}
+div.dataTables_wrapper a.paginate_button {
+    background: #7FCEED !important;
+}
+div.dataTables_wrapper a.disabled {
+    display: none;
+}
+div.dataTables_wrapper > div{
+    margin:6px 12px;
+    font-family:Calibri, Arial;
+    font-weight:bold;
+    padding: 0;
+    color: #6d6e71 !important;
+}
+.dataTables_info{
+    padding:0;
+}
+div.dataTables_wrapper a.paginate_button {
+    border-radius: 5px;
+    background: none !important;
+    border: 0 !important;
+    padding: 2px 8px !important;
+    font-family:Calibri, Arial;
+    font-weight:bold;
+    color:#6d6e71 !important;
+    cursor:pointer;
+    margin-left:6px;
+}
+div.dataTables_wrapper a.paginate_button.current,
+div.dataTables_wrapper a.paginate_button:hover{
+    background: #7FCEED !important;
+    color:#fff !important;
+}
+div.dataTables_wrapper a.paginate_button.current{
+    cursor:default;
+}
+div.dataTables_wrapper a.paginate_button.current:hover{
+    cursor:pointer;
+}
+.dataTables_wrapper,
+.dataTable,
+.display-not-dataTable,
+.display-not-dataTable-inv{
+    width:100%;
+}
+.dataTables_info,
+.dataTables_length{
+    float:left;
+}
+.dataTables_filter,
+.dataTables_paginate{
+    float:right;
+}
+.dataTables_paginate{
+    margin-right:0;
+}
+/* fieldset-datatable class for tables within fieldsets */
+fieldset.fieldset-with-datatable{
+    padding:15px;
+}
+table.display > thead > tr > td:first-child,
+table.display-not-dataTable > thead > tr > td:first-child,
+table.dataTable > thead > tr > td:first-child, 
+table.cam-results > tbody > tr:first-child > th:first-child {
+    border-left:0;
+}
+
+table.dataTable > thead > tr > th:first-child, 
+table.display-not-dataTable-inv > thead > tr > th:first-child,
+table.cam-results > tbody > tr:first-child > th:first-child {
+    border-left:0;
+}
+
+table.display > thead > tr > td,
+table.display-not-dataTable > thead > tr > td,
+table.dataTable > thead > tr > td,
+table.cam-results > tbody > tr:first-child > th{
+    background: #939598 !important;
+    color: #fff;
+    font-family: Calibri, Arial;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: bold;
+    position:relative;
+    font-size: 12px;
+    padding: 7px 12px;
+    border:0;
+    border-left: 1px solid #fff;
+    cursor:pointer;
+    min-width: 90px;
+}
+
+table.dataTable > thead > tr > th,
+table.display-not-dataTable-inv > thead > tr > th,
+table.cam-results > tbody > tr:first-child > th{
+    background: #939598 !important;
+    color: #fff;
+    font-family: Calibri, Arial;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: bold;
+    position:relative;
+    font-size: 12px;
+    padding: 7px 12px;
+    border:0;
+    border-left: 1px solid #fff;
+    cursor:pointer;
+    min-width: 90px;
+}
+#PAGE_BAR,#PAGE_BAR2{
+    margin:8px 0px;
+}
+#INFRAME{
+    overflow-x: scroll;
+}
+/* END DataTable styles */
+
+/* START Specific to Manage Users */
+/* Buttons for Last Name Filter */
+div#last-name-range{
+    text-align: center;
+}
+div#last-name-range > div {
+    background: #7FCEED;
+    border: 2px solid #FFF;
+    width: 25px;
+    height: 25px;
+    border-radius: 6px;
+    margin: 3px;
+    display: inline-block;
+}
+div#last-name-range > div > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 3px;
+    font: bold 16px  Calibri, Arial;
+    color: #fff;
+    padding-top: 1px;
+    padding-right: 1px;
+}
+div#last-name-range > div.active {
+    background: #FFF;
+    border-color:#7FCEED;
+}
+div#last-name-range > div.active > a {
+    color: #7FCEED;
+}
+table.dataTable > thead > tr > td > span:first-child {
+    color: #fff;
+    text-decoration: none;
+}
+/* END Specific to Manage Users */
+
+
+/* START Fieldset Page Styles */
+table.fieldset-cols-table{
+    width:100%;
+}
+fieldset{
+    width:100%;
+    border:0;
+    border-radius:8px;
+    background:#f4f4f4;
+    margin: 0 0 15px 0;
+    padding:12px;
+    font-family:Calibri, Arial;
+}
+fieldset h3,
+fieldset legend{
+    float:left;
+    width:100%;
+    color:#ed1c24;
+    font-weight:bold;
+    margin:0;
+}
+/* TODO: Determine if this style is needed on other tabs */
+/*fieldset > div:first-child {
+    margin-bottom: 8px;
+    display: inline-block;
+}*/
+fieldset > table {
+    width: 100%;
+}
+table.yes-no,
+fieldset > table > tbody > tr > td:first-child + td > select,
+fieldset > table > tbody > tr > td:first-child + td > table{
+    float: right;
+}
+fieldset > table > tbody > tr > td:first-child{
+    padding-left:15px;
+}
+ul.vertical-inputs{
+    padding-left:10px;
+    float:left;
+    width: 100%;
+    list-style-type: none; 
+    margin-bottom:0;
+}
+ul.vertical-inputs > li{
+    width:100%;
+    text-align:left;
+    margin-bottom:7px;
+    display:block;
+    float:left;
+}
+ul.vertical-inputs > li > input{
+    border:1px solid #939598;
+    padding-left:5px;
+    height:25px;
+    margin:0;
+    min-width:120px;
+    display:block;
+    float:left;
+}
+
+/* START Table styles */
+table.twoColTable{
+    width:100%;
+}
+table.twoColTable > tbody > tr > td{
+    width:50%;
+    vertical-align: top;
+}
+table.twoColTable > tbody > tr > td > table > tbody > tr > td{
+    padding:0;
+}
+table.twoColTable > tbody > tr > td:first-child{
+    padding-right:15px;
+}
+table.listed-inputs{
+    width:100%;
+}
+table.listed-inputs > tbody > tr > td{
+    padding-bottom:8px;
+}
+table.listed-inputs > tbody > tr > td:first-child + td {
+    width: 300px;
+}
+table.listed-inputs > tbody > tr > td:first-child + td > input{
+    width: 100%;
+}
+table.listed-inputs > tbody > tr > td:first-child + td > input:not(:first-child){
+    margin-top:3px;
+}
+/* END Table styles */
+
+/* Case Connect Styles */
+div#caseConnect fieldset > div {
+    color:#000;
+}
+div#caseConnect > div > fieldset legend{
+    margin-bottom:15px;
+    float: left;
+    width: 100%;
+}
+table.dynTbl,
+table#enrollTbl,
+table#optInTbl{
+    margin-top:15px;
+    border:1px solid #6d6e71;
+    margin-bottom: 15px;
+}
+table.dynTbl > thead > tr > th,
+table#enrollTbl > thead > tr > th,
+table#optInTbl > thead > tr > th {
+    border:1px solid #6d6e71;
+    background:#939598;
+    color:#fff;
+}
+table.dynTbl th,
+table.dynTbl td,
+table#enrollTbl th,
+table#enrollTbl td,
+table#optInTbl th,
+table#optInTbl td {
+    padding:2px 8px;
+    background:#fff;
+}
+div#caseConnect div#managerView > fieldset > div{
+    margin-bottom:10px;
+}
+
+/* Specific Exceptions */ 
+#CC_CB_BLOCK{
+    display: inline-block;
+    text-align: left;
+    float: left;
+    margin-left: 25px;
+}
+#DTU-INPUT{
+    float:right;
+}
+div#dd_modules_perms > table > tbody > tr > td:first-child + td > table{
+    float:right;
+}
+table.twoColTable > tbody > tr:first-child > td:first-child + td > table:first-child > tbody > tr:first-child > td {
+    padding-bottom:5px;
+}
+.smallfont1,
+table.twoColTable > tbody > tr:first-child > td:first-child + td > table:first-child > tbody > tr:first-child > td > span {
+    display: block;
+    font-size: 11px;
+}
+div#info_rem {
+    height: 200px;
+    width: 400px;
+    display: block;
+    position: fixed;
+    max-width: 480px;  
+    background: #FFF;  
+    border: 1px solid #8c8c8c;  
+    border-radius: 5px;  
+    display: none;  
+    z-index: 200;  
+    cursor: default;
+}
+input#newDomain {
+    width: 95%;
+}
+
+
+/* START Alert Detail table styles */
+.alert_detail td{
+    text-align:left;
+}
+table.alert_detail{
+    width:100%;
+    margin-top: 15px;
+}
+table.alert_detail_notifications{
+    width:100%;
+}
+table.alert_detail > tbody > tr > td.labelCell,
+table.alert_detail > tbody > tr > td.labelCell + td{
+    border: 1px solid #c1c1c1;
+    padding: 8px;
+}
+table.alert_detail_notifications > tbody > tr > td.labelCell,
+table.alert_detail_notifications > tbody > tr > td.labelCell + td{
+    padding:4px;
+    border:0px;
+}
+table.alert_detail_notifications > tbody > tr > td.labelCell{
+    padding-left:15px;
+}
+table.alert_detail > tbody > tr > td.labelCell,
+table.alert_detail_notifications > tbody > tr > td.labelCell {
+    font-weight: bold;
+    color: #464646;
+}
+table.alert_detail > tbody > tr > td.labelCell{
+    width: 275px;
+}
+table.alert_detail_notifications > tbody > tr > td.labelCell{
+    width: 130px;
+}
+table.alert_detail_notifications hr {
+    display:none;
+}
+table.alert_detail_notifications {
+    border-top:1px dotted #c1c1c1;
+}
+table.alert_detail_notifications:first-child {
+    border-top:0;
+}
+table.alert_detail_notifications > tbody > tr:first-child > td {
+    padding-top: 22px;
+    vertical-align:bottom;
+}
+/* END Alert Detail table styles */
+#oneDetail {
+    display: none;
+}
+caption.tblNav span.btn{
+    padding:0;
+}
+caption.tblNav span.btn > a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+}
+caption.tblNav span.pgTblBtnOff,
+caption.tblNav span.disabled{
+    padding:0 15px;
+}
+.hid_cell{
+    display:none;
+}
+table.cam-results th,
+table.cam-results td{
+    white-space: nowrap;
+}

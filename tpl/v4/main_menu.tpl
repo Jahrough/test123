@@ -1,0 +1,1 @@
+<TMPL_INCLUDE NAME="search.tpl">

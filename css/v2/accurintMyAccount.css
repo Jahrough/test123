@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+/* Default Styles */
+
+body {
+        color:#333333;
+        background:#FFFFFF;
+        font-family:Verdana, Arial, Helvetica, sans-serif;
+        line-height:110%;
+}
+
+fieldset a img{
+        border: none;
+}
+
+.perc25{ width: 25%; }
+
+.perc75{ width: 75%; }
+
+#myaccounttabs a:hover { color:#ed1c24; font-weight: bold; }

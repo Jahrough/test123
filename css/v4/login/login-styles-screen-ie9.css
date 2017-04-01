@@ -1,0 +1,12 @@
+#banner-ad p{
+	display: block;
+	vertical-align: middle;
+}
+
+.aml #banner-ad p{
+	line-height: 75px;	
+}
+
+.rm #banner-ad p{
+	line-height: 2.5em;
+}

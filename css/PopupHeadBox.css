@@ -1,0 +1,25 @@
+.PopupHeadBox>div:first-child{
+  padding: 0;
+  text-align: center;
+  /* you might want to override below this */
+  background-color: #4E8CB9;
+  height: 33px;
+  font: bold 10pt Verdana,Arial,Helvetica,sans-serif;
+  color: #FFFFFF;
+}
+.PopupHeadBox>div:first-child>a{
+  float: right;
+  cursor: pointer;
+  padding: 0;
+  /* you might want to override below*/
+  background: #4E8CB9 url('/bps/images/fancy_close.png') no-repeat right bottom;
+  height: 33px;
+  width: 30px;
+}
+.PopupHeadBox>div:first-child>span{
+  margin-left: 30px;
+  float: left;
+  display: inline;
+  vertical-align: middle;
+  line-height: 32px;
+}

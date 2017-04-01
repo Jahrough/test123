@@ -1,0 +1,293 @@
+    img{
+      border: none;
+    }
+    .body {
+      margin: 0;
+      padding: 0;
+      background-color: #FFFFFF;
+    }
+    #center_all {
+      width: 100%;
+      text-align: center;
+      padding-bottom: 30px;
+    }
+    #content {
+      display: inline-block;
+      width: 878px;
+      padding: 16px 24px 20px 24px;
+    }
+    .admin_box {
+      border-right: 12px solid #4E8CB9;
+      border-left: 12px solid #4E8CB9;
+      padding: 15px;
+      text-align: center;
+    }
+    .bottom div {
+      background: url(/bps/images/v2/rndcorner3.png) no-repeat bottom left;
+    }
+    .bottom {
+      background: url(/bps/images/v2/rndcorner4.png) no-repeat bottom right;
+    }
+    #bottom {
+      background-color: #4E8CB9;
+    }
+    .ahlp {
+      cursor: help;
+    }
+    .help_box {
+      border-right: 12px solid #4E8CB9;
+      border-top: 16px solid #4E8CB9;
+      background-color: #4E8CB9;
+      padding: 0 0 12px 12px;
+      text-align: center;
+      font-weight:bolder;
+      font-family: Arial;
+      font-size: 10pt;
+      color: white;
+    }
+    .help_box a span {
+      display: none;
+    }
+    #CHAT {
+      text-decoration: underline;
+      color: yellow;
+    }
+    #HELP {
+      float: right;
+      display: block;
+      cursor: help;
+      background: url(/bps/images/v2/help1_on.gif) no-repeat bottom right;
+      width: 43px;
+      height: 18px;
+    }
+    #HELP:hover {
+      background: url(/bps/images/v2/help1_over.gif) no-repeat bottom right;
+    }
+    .top_right {
+      float: right;
+    }
+    .top_right a span {
+      display: none;
+    }
+    .top_border {
+      display: block;
+      background: url(/bps/images/v2/admin_topborder.png) repeat-x top left;
+      width: 100%;
+      height: 30px;
+    }
+    #CLOSE {
+      float: right;
+      display: block;
+      background: url(/bps/images/v2/admin_close.png) no-repeat top right;
+      width: 50px;
+      height: 30px;
+    }
+    #CLOSE:hover {
+      background: url(/bps/images/v2/admin_close_over.png) no-repeat bottom right;
+    }
+    .bottom div, .bottom {
+      width: 100%;
+      height: 12px;
+      font-size: 1px;
+    }
+    .nav {
+      margin: -16px 0 0 0;
+      float: left;
+    }
+    .nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0
+    }
+    .nav li {
+      list-style-type: none;
+      float: left;
+      margin: 0;
+    }
+    .nav li a {
+      display: block;
+      width: 75px;
+      height: 46px;
+    }
+    .nav li a span {
+      display: none;
+    }
+    #SUMMARY {
+      background: url(/bps/images/v2/summary_tab_on.gif) no-repeat top left;
+    }
+    #SUMMARY:hover {
+      background: url(/bps/images/v2/summary_tab_over.gif) no-repeat top left;
+    }
+    #ACCOUNTS {
+      background: url(/bps/images/v2/manage_tab_on.gif) no-repeat top left;
+    }
+    #ACCOUNTS:hover {
+      background: url(/bps/images/v2/manage_tab_over.gif) no-repeat top left;
+    }
+    #GROUPS {
+      background: url(/bps/images/v2/manage_grp_tab_on.gif) no-repeat top left;
+    }
+    #GROUPS:hover {
+      background: url(/bps/images/v2/manage_grp_tab_over.gif) no-repeat top left;
+    }
+    #COMPANY {
+      background: url(/bps/images/v2/manage_co_tab_on.gif) no-repeat top left;
+    }
+    #COMPANY:hover {
+      background: url(/bps/images/v2/manage_co_tab_over.gif) no-repeat top left;
+    }
+    #PASSWD {
+      background: url(/bps/images/v2/password_tab_on.gif) no-repeat top left;
+    }
+    #PASSWD:hover {
+      background: url(/bps/images/v2/password_tab_over.gif) no-repeat top left;
+    }
+    #AUDIT {
+      background: url(/bps/images/v2/auditor_tab_on.gif) no-repeat top left;
+    }
+    #AUDIT:hover {
+      background: url(/bps/images/v2/auditor_tab_over.gif) no-repeat top left;
+    }
+    #BILLING {
+      background: url(/bps/images/v2/billing_tab_on.gif) no-repeat top left;
+    }
+    #BILLING:hover {
+      background: url(/bps/images/v2/billing_tab_over.gif) no-repeat top left;
+    }
+    #ACTIVITY {
+      background: url(/bps/images/v2/activity_tab_on.gif) no-repeat top left;
+    }
+    #ACTIVITY:hover {
+      background: url(/bps/images/v2/activity_tab_over.gif) no-repeat top left;
+    }
+    #SECURITY {
+      background: url(/bps/images/v2/security_tab_on.gif) no-repeat top left;
+    }
+    #SECURITY:hover {
+      background: url(/bps/images/v2/security_tab_over.gif) no-repeat top left;
+    }
+    #PREFS {
+      background: url(/bps/images/v2/pref_tab_on.gif) no-repeat top left;
+    }
+    #PREFS:hover {
+      background: url(/bps/images/v2/pref_tab_over.gif) no-repeat top left;
+    }
+    #MANAGER {
+      background: url(/bps/images/v2/report_manager_tab_on.gif) no-repeat top left;
+    }
+    #MANAGER:hover {
+      background: url(/bps/images/v2/report_manager_tab_over.gif) no-repeat top left;
+    }
+    #BT_ROW {
+      text-align: center;
+      padding: 10px;
+    }
+    #H1 {
+      text-align: center;
+      color:#003399;
+      font-family:Arial;
+      font-size:12pt;
+      font-weight:bold;
+    }
+    #CONTENT label {
+      padding: 5px;
+      font: bold normal 10px Verdana,Arial,Helvetica,sans-serif;
+      color: #666666;
+    }
+    .restrict_box {
+        font-family: Arial;
+        font-size: 9pt;
+        width: 720px;
+        margin: auto;
+        text-align: left;
+    }
+    #ERROR {
+        color:#990033;
+        padding:10px;
+        border:1px dotted #CC0033;
+        text-align:center;
+        position:relative;
+        font-size:81%;
+        font-weight:bold;
+        background-color:#FFFFDD;
+        margin:10px;
+        margin-bottom:0px;
+        clear:both;
+    }
+    #dynfooter {
+        height: 25px;
+        position:fixed;
+        left: 0;
+        bottom:0;
+        clear:both;
+        border-top:#ccc 2px solid;
+        background-repeat:no-repeat;
+        background-position:left top;
+        background-color:#FFFFFF;
+        background-image:url(/bps/images/v2/footer_bkg.gif);
+        padding-left:15px;
+        padding-top:2px;
+        padding-bottom:2px;
+        width:100%;
+        z-index:1002;
+    }
+    /*[if IE]*/
+    body {
+        background:url(/bps/images/spacer.gif) fixed;
+    }
+    * html #dynfooter {
+        _top:expression((0-(dynfooter.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+    }
+    #dynfooter span {
+        font-family:Verdana, Arial, Helvetica, sans-serif;
+        display: inline-block;
+        font-size:8pt;
+        vertical-align: middle;
+        padding: 0;
+    }
+    #dynfooter_logo {
+        width: 165px;
+    }
+    #dynfooter img {
+        border: none;
+    }
+    a:link,a:visited,a:active {
+        color: #0066CC;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #CC0033;
+        text-decoration: underline;
+    }
+    #TOP_FORM1{
+      text-align: left;
+    }
+    .onecolumn {
+      width: 45%;
+      padding: 10px;
+      text-align: left;
+      left: 100px;
+    }
+    .myaccountalert {
+      background-color: #E4E9F0;
+      border: 1px solid #4E8CB9;
+      text-align: left;
+      font: normal normal 8pt Arial;
+      padding: 5px;
+      margin-top: 15px;
+    }
+    .unifont1 {
+      font-family: Arial;
+      font-size: 9pt;
+    }
+
+    .unifont1bold {
+      font-family: Arial;
+      font-size: 9pt;
+      font-weight: bold;
+    }
+
+    fieldset{
+      border: 1px solid #003399;
+      margin-top: 15px;
+    }

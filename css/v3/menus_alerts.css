@@ -1,0 +1,65 @@
+.successmessage{
+    font-weight:bold;
+}
+.myaccountalert{
+    background:#d0d0d0;
+    border:1px solid #6d6e71;
+}
+.myaccountlabel,
+.errormessage{
+    font-weight:bold;
+}
+.myaccountlabel > table{
+    width:auto;
+}
+
+/*********************/
+/*********************/
+/*********************/
+/* START Button Styles */
+.myaccount-btn{
+    width:auto;
+    height:22px;
+    background:#F3352E;
+    padding:2px 15px;
+    cursor:pointer;
+    display: inline-block;
+    border-radius:5px;
+    margin-right:10px;
+    font-size: 12px !important;
+    font-weight: normal !important;
+    font-family: "Tahoma" !important;
+    color: #fff !important;
+}
+.myaccount-btn:last-of-type{
+    margin-right:0;
+}
+.red-btn{
+    background: #ed1c24;
+}
+.grey-btn{
+    background:#939598;
+}
+.darkgrey-btn{
+    background:#6d6e71;
+}
+/* END Button Styles */
+/*********************/
+/*********************/
+/*********************/
+/* START Misc */
+.mfa-header{
+    vertical-align: middle;
+    text-align: center;
+    font: bold 18px "Arial";color:#ed1c24;
+}
+.left-header{
+    vertical-align: middle;
+    text-align: left;
+    font: bold 18px "Arial";color:#ed1c24;
+}
+#msgDate{
+    text-align:center;
+    margin-bottom:15px;
+}
+/* END Misc */

@@ -1,0 +1,59 @@
+div.unifont1{
+	/*color: #ed1c24;*/
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 0px;
+}
+
+tr.searchresultstop2 > td{
+	background: #6d6e71;
+	height: 30px;
+	border-left: 1px solid #fff;
+	text-align: left;
+	padding-left: 8px;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+tr.searchresultstop2 > th{
+	background: #6d6e71;
+	height: 30px;
+	border-left: 1px solid #fff;
+	text-align: left;
+	padding-left: 8px;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+tr.searchresultstop2{
+	font-weight: bold;
+	font-family: Calibri, Arial;
+	font-size: 13px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+a.clipalllink {
+	color: #fff;
+}
+
+tr.searchresultsrowodd {
+background: #ebebeb;
+}
+
+.rec_cnt{
+	font-weight:bold;
+	font-size:14px;
+}
+
+.hline{
+	width:98%;
+	margin-top:4px;
+	margin-bottom:4px;
+	border-bottom: solid #c1c1c1 1px;
+}
+.dataCon{
+	font-family: Calibri, Arial;
+	font-size:14px;
+}
+#skiptocontent a { display:inline; position:absolute; width: 14em; height: 4em; left:-200em; text-decoration:none;} #skiptocontent a:focus { position: absolute; left:0.5em; top:0.5em; border: 1px solid #CCC; background-color: #fff; text-align:center; vertical-align:middle; line-height:4em; }

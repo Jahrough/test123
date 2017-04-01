@@ -1,0 +1,107 @@
+#risk_indicators_section table{
+	min-height: 240px;
+}
+
+#risk_indicators_section td{
+	white-space: normal!important;
+}
+
+#identity-report-risk-levels{
+	list-style-type: none;
+	float: left;
+	height: 130px;
+	font-weight: bold;
+	width: 140px;
+}
+
+#identity-report-risk-levels > li{
+	line-height: 43px;
+	white-space: nowrap;
+}
+
+#identity-report-risk-levels-graph{
+	float: left;
+	position: relative;
+	margin-bottom: 25px;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	#identity-report-risk-levels-graph {
+		margin-left: 25px;
+	}
+}
+
+#identity-risk-level-index-desc tr th {
+	width: 135px !important;
+}
+
+#identity-risk-level-display{
+	top: 12px;
+}
+
+#source-risk-level-display{
+	top: 54px;
+}
+
+#velocity-risk-level-display{
+	top: 97px;
+}
+
+#report_content .cell,
+#report_content td{
+    text-transform: none;
+}
+
+#search-results-con tr > td:first-child{
+	padding-right: 25px;
+	width: auto;
+}
+
+#search-results-con tr > td:last-child{
+	width: 25%;
+}
+
+#identity-report-neg-news-search .dropdown-menu{
+	padding: 5px 25px 5px 10px;
+	width: 200px;
+	left: auto;
+}
+
+#identity-report-neg-news-search .btn-link{
+	display: block;
+	font-size: inherit;
+	width: 100%;
+}
+
+.identity-report-index-bar{
+	position: absolute;
+	left: 2px;
+}
+
+.identity-report-source-table{
+	margin: 0;
+	padding: 0;
+	width: 450px;
+	z-index: 10;
+}
+
+.identity-report-source-table table{
+	margin:0;
+}
+
+.info-block{
+	position: absolute;
+	top: 10px;
+	right: 4px;
+}
+
+.identity-report-indicator-pop-up{
+	white-space: normal;
+	width: 350px;
+	padding: 5px 10px;
+}
+
+.identity-report-indicator-pop-up li:hover{
+	color: #000000;
+	background-color: #ffffff;
+}

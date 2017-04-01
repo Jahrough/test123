@@ -1,0 +1,9 @@
+.EpaHeadBox{
+  border: 1px solid #990033;
+}
+.EpaHeadBox>div:first-child{
+  background-color: #990033;
+}
+.EpaHeadBox>div:first-child>a{
+  background-color: #990033;
+}

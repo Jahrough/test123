@@ -1,0 +1,299 @@
+#search-results-con .table-responsive{
+	overflow: visible;
+}
+#search-results-con table{
+	border: 1px solid #DADBDA;
+	border-collapse: collapse;
+}
+#search-results-con thead{
+	background-color: #DADBDA;
+}
+
+#search-results-con th{
+	padding: 3px 10px 10px;
+	border: 1px solid #DADBDA;
+}
+
+#search-results-con th label{
+	font-weight: 700;
+}
+
+#search-results-con td{
+	border-width: 1px;
+	border-color: #DADBDA;
+	border-style: solid solid none solid;
+	padding: 5px 10px;
+	vertical-align: top;
+}
+#search-results-con .linked td:first-child {
+	border: none;
+}
+#search-results-row{
+	border:1px solid;
+	padding: 15px;
+}
+#search-results-row > header {
+    border-bottom-style: dashed;
+    border-bottom-width: thin;
+    border-bottom-color: #00778B;
+    margin-bottom: 10px;
+}
+#search-results-row > header:after {
+    content: "";
+    display: block;
+    clear: both;
+    font-size: 0;
+    height: 0;
+    visibility: none;
+}
+#search-results-row > header > h2 {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.search-results-row-odd {
+    background-color: #F9F9F9;
+    /* background-color: #D8BFD8; */
+}
+.search-results-row-even {
+    background-color: #FFFFFF;
+}
+
+#search-results-con{
+	clear:both;
+	margin-bottom: 10px;
+}
+
+#search-results-con tr > td:first-child{
+	width: 5.75em;
+}
+#search-results-con table.autoflow tr > td:first-child{
+	width: auto;
+}
+
+#search-results-con tr > td:last-child{
+	width: initial;
+}
+
+#search-results-header{
+  float: left;
+  padding-bottom: 5px;
+  line-height: 35px;
+}
+#search-results-header .person_icon:before{
+  vertical-align: -5px;
+}
+
+#search-terms{
+  border: 0;
+  line-height: 35px;
+  white-space: nowrap;
+  font-size: 0.9em;
+}
+
+#search-terms.within{
+  line-height: inherit;
+}
+
+#search-terms > *, #search-terms-nodoc-con > *{
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#search-terms strong:first-child {
+    color: #666;
+}
+
+#selectAllResults{
+	margin: 0;
+}
+
+/* Begin Delivery Tray */
+
+#delivery-tray-container {
+	/*display: none;*/
+	position: relative;
+}
+
+#delivery-tray-folder-icon {
+	position: absolute;
+	left: 100px;
+	top: 2px;
+}
+
+#delivery-tray-count {
+  z-index: 100;
+  position: absolute;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  left: 114px;
+  top: 7px;
+}
+
+/* End Delivery Tray */
+.new-edit-search-buttons{
+	float:right;
+}
+
+.new-edit-search-buttons > .additional-info{
+	line-height: 1.5em;
+}
+
+.print-download-buttons{
+    float: left;
+}
+
+.delivery-tray-area{
+    padding-left: 4px;
+	float: left;
+}
+
+.search-results-actions:after {
+    content: ".";
+    display: block;
+    height: 0px;
+    font-size: 0px;
+    visibility: hidden;
+    overflow: hidden;
+    clear: both;
+    border-style: none !important;
+    padding: 0px !important;
+}
+
+.search-results-actions > *{
+	margin-bottom: 5px;
+	vertical-align: middle;
+	line-height: 30px;
+}
+
+.search-results-actions .btn.checkbox-icon{
+        padding: 2px 6px!important;
+        height: 25px;
+}
+
+/* Class used to allow for sizing of hidden fields.  Ensure class is removed before displaying. */
+.sizing{
+    visibility: hidden;
+    display:block;
+}
+
+.search-within-input {
+    width: 241px;
+    display: inline-block;
+    padding-left: 0px;
+    white-space: nowrap;
+}
+.search-within-input > label {
+    display: inline-block;
+    float:left;
+}
+.search-within-input > span {
+    display: inline-block;
+    float:left;
+}
+.search-within-input .form-control {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;    
+}
+
+.search-within-input .input-group-addon {
+    height: 34px;
+    width: 40px;
+    padding: 0;
+}
+.search-within-input .search-within-icon:before {
+    margin: 0;
+    margin-top: 5px;
+}
+
+.nav-stacked>li+li{
+	margin-top: 0;
+}
+
+.nav-pills > li > a,
+.nav-pills > li a.dropdown-toggle {
+	padding: 1px 2px;
+}
+.search-results-actions{
+    position:relative;
+    width:100%;
+    clear: both;
+}
+.pagination-container{
+    position: absolute;
+    width: 100%;
+    height:1px;
+    text-align: center;
+}
+
+.pagination{
+	margin:0;
+}
+.pagination > li > a, 
+.pagination > li > span{
+	border:0;
+	padding: 6px 4px;
+}
+.pagination > li > a:hover, 
+.pagination > li > a:active,
+.pagination > li > a:focus, 
+.pagination > li > span:hover{
+	background-color: initial;
+}
+
+.pagination > li > a:hover{
+	text-decoration: underline;
+}
+
+.pagination > li > span:hover{
+	color: #337ab7;
+}
+
+.pagination > li > a.disabled {
+    color: #C2C2C2;
+    cursor: default;
+    text-decoration: none;
+    background-color: transparent;
+    outline: none;
+}
+.icon-btn-wrapper{
+    background-color:transparent;
+    border:0;
+}
+.icon-btn-wrapper > .search_orange:before{
+    content:"\f002";
+    font-family:FontAwesome;
+    font-size:12px;
+    color:#FF8200;
+}
+
+.table-hover > tbody > tr:hover {
+    background-color: #FFFFE9;
+}
+
+/***
+.table-hover > tbody > tr:nth-child(even) {
+    background-color: #FFFFFF;
+}
+
+.table-hover > tbody > tr:nth-child(odd) {
+    background-color: #E8E8E8;
+}
+***/
+
+.ssn-img, .tin-img {
+    margin-left:5px;
+    margin-top: -3px;
+}
+
+table.table-hover.bankruptcies > tbody > tr > td,
+th.check-column-th {
+    white-space: nowrap;
+}
+
+.align-top {
+    vertical-align: top !important;
+}

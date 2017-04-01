@@ -1,0 +1,12 @@
+/* Background Styles */
+body { background-color: #ccccff; }
+
+.style1 { font-family: helvetica; font-size: 10pt; font-weight: bold; color: #ffffff; }
+.style2 { font-family: helvetica; font-size: 8pt; }
+A:		{ color: #000000; text-decoration: none; }
+A:link		{ color: #000000; text-decoration: none; }
+A:visited	{ color: #000000; text-decoration: none; }
+A:hover		{ color: #0000ff; text-decoration: none; font-weight: bold; }
+A:active	{ color: #000000; text-decoration: none; }
+.unifont1 {FONT-SIZE: 9pt; FONT-FAMILY: Arial; }
+.searchdecisiontitlebox {background-color: #003399; }

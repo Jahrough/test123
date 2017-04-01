@@ -1,0 +1,16 @@
+#message {
+	position:absolute;
+	width:100%; height:100%;
+    visibility:hidden;
+}
+#wordmessage {
+	position:absolute;
+	width:100%; height:100%;
+    visibility:hidden;
+}
+#searchmesg {
+	position:relative;
+	left:1px;
+	right:1px;
+	visibility:visible;
+}

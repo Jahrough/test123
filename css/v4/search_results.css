@@ -1,0 +1,951 @@
+.neg-news-results-col1{
+	text-align:left;
+	width:3%;
+	vertical-align:top;
+	white-space: nowrap;
+}
+
+.generic-results-col1{
+	width:55px;
+	text-align:left;
+}
+
+.generic-results-col1 > input{
+	margin-top:1px;
+}	
+
+.generic-results-col1 > label{
+	vertical-align:top;
+}
+
+.foreclosure-results-col2{
+	width:18%;
+	text-align:left;
+}
+
+.dl-results-col2{
+	width: 25%;
+	text-align:left;
+}
+
+.foreclosure-results-col3{
+	width:30%;
+	text-align:left;
+}
+
+.dl-results-col3{
+	width: 40%;
+	text-align:left;
+}
+
+.foreclosure-results-col4{
+	width:20%;
+	text-align:left;
+}
+
+.generic-results-col-last{
+	text-align: left;
+}
+
+.table-responsive td > div,
+.boat-reg-sub-row-data > div{
+	padding:0;
+}
+
+.unmarked_list{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+.indicator{
+	display: block;
+	padding-left:2px;
+	position:relative;
+}
+
+.indicator > span{
+	padding-left:5px;
+}
+
+.indicator > .close-pbh,
+.dropdown-menu > .close-pbh{
+	padding: 2px;
+	border: 1px solid #FFF;
+	position: absolute;
+	top:0;
+	right:0;
+}
+
+.indicator > .close-pbh:hover,
+.dropdown-menu > .close-pbh:hover{
+	background-color: #CCC;
+	border: 1px solid #AAA;
+}
+
+.source_docs {
+    display: none;
+}
+table#searchResultsIcons td{
+    padding-right:18px;
+    padding-bottom:6px;
+}
+table#searchResultsIcons td:nth-child(odd){
+    padding-right:0px;
+}
+#tblHdr {
+    padding: 2px 6px;
+    color:#fff;
+}
+#searchResultsTblHeader > tbody > tr > td {
+    font-weight: bold;
+    background: #4C4F53;
+    border-right: 1px solid #fff;
+}
+#searchResultsTblSubHeader > tbody > tr > td:first-child {
+    border-right: 1px solid #fff;
+}
+#searchResultsTblSubHeader > tbody > tr > td:last-child {
+    border-right: 0px;
+}
+
+#search-results-con{
+    padding:0;
+    border:1px solid #333;
+    border-top:1px;
+}
+
+a.navAnchor{
+	top:-120px;
+	display: block;
+	visibility: hidden;
+	position:relative;
+}
+
+div.search-terms-con{
+    margin-top: 9px;
+    margin-left:24px;
+    max-width: 50%;
+    text-overflow: ellipsis;
+}
+span.search-results-label{
+    font-weight:bold;
+    margin-left:10px;
+}
+span.search-results-count{
+    font-weight:normal;
+}
+span.search-results-label,
+span.search-results-count,
+div.search-terms-con{
+    display:inline-block;
+    margin-top:9px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+span.search-term-label{
+    font-weight:normal;
+}
+span.search-term-text{
+    font-weight:bold;
+}
+header.search-form-header,
+header.search-results-header,
+div.search-results-header{
+    background: #6d6e71;
+}
+header.search-results-subheader,
+footer.search-results-footer,
+div.search-results-footer{
+    background: #bcbec0!important;
+}
+header.search-results-header,
+div.search-results-header{
+    border-bottom:0;
+}
+header#search-form-header,
+header.search-results-header,
+header.search-results-subheader,
+footer.search-results-footer,
+div.search-results-header,
+div.search-results-subheader{
+    cursor: default;
+    -moz-border-radius: 0;
+    -khtml-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    line-height: normal;
+    box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+footer.search-results-footer{
+	clear:both;
+	height:34px;
+	border: 1px solid;
+	border-top: 0;
+}
+
+.jarviswidget-color-blueDark>header>.jarviswidget-ctrls a {
+	color:#336699;
+}
+.jarviswidget-color-blueDark>header>.jarviswidget-ctrls a:hover,
+.jarviswidget-color-blueDark>footer>.jarviswidget-ctrls a:hover {
+	color:#c03;
+}
+
+.pagination>.active>a{
+	color:#fff!important;
+}
+
+#pagination-ctrls {
+    float: left;
+}
+
+#pagination-ctrls .pagination{
+    height:24px;
+    margin:0;
+    margin-top:4px;
+    margin-left:209px;
+}
+
+#pagination-ctrls li > a{
+    color: #464646;
+    height:24px;
+    padding-top:2px;
+}
+#pagination-ctrls li.active > a{
+    color: #fff;
+}
+#pagination-ctrls li.active > a{
+    background-color: #6d6e71;
+    border-color: #6d6e71;
+}
+
+#search-results-con .btn.btn-link,
+#search-results-con .dropdown-toggle {
+    box-shadow: none !important;  
+    -moz-box-shadow: none !important;  
+    -webkit-box-shadow: none !important;
+}
+.icon-with-popover {
+    height: auto;
+    width: 36px;
+    border: 0!important;
+    float:none;
+    line-height: normal;
+}
+.arrow-box-up-left:after, .arrow-box-up-left:before {
+    bottom: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+.arrow-box-up-left:before {
+    border-color: rgba(131,131,131,0);
+    border-bottom-color: #838383;
+    border-width: 8px;
+    left: 17px;
+    margin-left: -8px;
+}
+.arrow-box-up-left:after {
+    border-color: rgba(255,255,255,0);
+    border-bottom-color: #fff;
+    border-width: 7px;
+    left: 17px;
+    margin-left: -7px;
+}
+.icon-with-popover .dropdown-menu {
+    border-color: #aaa;
+    padding: 8px 12px;
+    min-width: 280px;
+}
+.icon-with-popover .dropdown-menu > i{
+    margin-right: 8px;
+    font-size: 18px;
+}
+.icon-with-popover .dropdown-menu > i.fa-remove{
+    margin: 0 0 0 17px;
+    font-size: 14px;
+}
+
+/* Report Style Patches */
+#reportNavigation{
+    position:relative!important;
+}
+#reportNavigation.sticky{
+    position:fixed!important;
+    top:115px!important;
+}
+.reportSection > legend{
+    width:auto;
+}
+ul.checkboxList > li{
+    color:#666;
+}
+a.navMenuHeader {
+    padding-left: 10px!important;
+}
+#reportNavigation > ul{
+    padding-left: 15px!important;
+    list-style: none;
+}
+
+.table-condensed.table>thead>tr>th {
+	padding: 5px 0px 5px 10px!important;
+	vertical-align:middle;
+	text-align:left;
+}
+.table-condensed.table>thead>tr>th>label {
+	font-weight:inherit;
+	margin-bottom:0;
+}
+
+.table-condensed.table>thead>tr>th>input[type="checkbox"] {
+	margin:0;
+}
+
+.table-condensed.table>tbody>tr>td {
+	font-size: 0.83em!important;
+}
+
+p.match-header{
+	font-weight:bold;
+	font-style:italic;
+	margin:0;
+	padding: 0;
+	padding-bottom: 5px;
+}
+
+tr.has-match-rows,
+tr.has-match-rows > td{
+	border-bottom:0 !important;
+}
+
+tr.match-row,
+tr.match-row > td{
+	border-top: 0 !important;
+	border-bottom: 0 !important;
+}
+
+tr.last-match-row > td.first-match,
+tr.match-row > td.first-match{
+	border-top: 1px solid #ddd !important;
+}
+
+tr.last-match-row,
+tr.last-match-row > td{
+	border-top: 0 !important;
+}
+
+.table-responsive > table{
+	margin-bottom: 0px !important;
+}
+
+.results-button,
+.results-button:hover,
+.results-button:focus,
+.results-button:active{
+	border:0;
+	background-color:transparent !important;
+	width:50px;
+}
+
+.block-display{
+	display:block;
+}
+
+.google_map{
+	height:100%;
+	margin:1em 0;
+	position:relative;
+	background-color:rgb(229,227,223);
+}
+
+.google_map > p {
+	padding: 5px;
+	text-align:center;
+	white-space:normal;
+}
+
+.resizable-map > .close-link,
+.map-disclaimer-link{
+	font-size:9px;
+	text-decoration:none;
+	cursor:pointer;
+	position:absolute;
+	right:0;
+	margin-right:10px;
+	padding: 3px 10px !important;
+}
+
+.map-disclaimer-link{
+	bottom:0;
+}
+
+.fixed-center{
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+}
+
+.resizable-map{
+	min-height:400px;
+	max-height:800px;
+	height:400px;
+	min-width:600px;
+	max-width:1000px;
+	width:600px;
+	z-index:3000;
+	/* These are not IE supported.  If support is added, remove jquery resize functions and enable these. */
+	/* resize:both;
+	overflow:auto; */
+}
+
+.resizable-map > div.google_map{
+	height: calc(100% - 25px);
+    width:100%;
+}
+
+.map-address{
+	position:absolute;
+	left:0;
+	top:0;
+	padding:0 5px;
+}
+
+.florida-accident-results-col1{
+	width:6% !important;
+	text-align:left;
+}
+
+
+.florida-accident-results-col2{
+    width:18% !important;
+    text-align:left;
+}
+
+.florida-accident-results-col3{
+    width:25% !important;
+    text-align:left;
+}
+
+.florida-accident-results-col4{
+    width:18% !important;
+    text-align:left;
+}
+
+.florida-accident-results-col5{
+    width:18% !important;
+    text-align:left;
+}
+
+.florida-accident-results-col6{
+    width:15% !important;
+    text-align:left;
+}
+
+.sexual_offenders-results-col1{
+    width:6% !important;
+    text-align:left;
+}
+
+
+.sexual_offenders-results-col2{
+    width:20% !important;
+    text-align:left;
+}
+
+.sexual_offenders-results-col3{
+    width:30%!important;
+    text-align:left;
+}
+
+.sexual_offenders-results-col4{
+    width:24%!important;
+    text-align:left;
+}
+
+.sexual_offenders-results-col5{
+    width:20% !important;
+    text-align:left;
+}
+
+.sexual_offenders-results-col6{
+    width:15% !important;
+    text-align:left;
+}
+
+.sexual_offenders-results-col7{
+    width:15% !important;
+    text-align:left;
+}
+
+.portal-ucc-results-col1{
+    width:6% !important;
+    text-align:left;
+}
+
+.portal-ucc-results-col2{
+    width:30% !important;
+    text-align:left;
+}
+
+.portal-ucc-results-col3{
+    width:20% !important;
+    text-align:left;
+}
+
+.portal-ucc-results-col4{
+    width:44% !important;
+    text-align:left;
+}
+
+.location-report-results-col1{
+    width:6% !important;
+    text-align:left;
+}
+
+.location-report-results-col2{
+    width:55% !important;
+    text-align:left;
+}
+
+.location-report-results-col3{
+    width:39% !important;
+    text-align:left;
+}
+
+.portal-sanction-results-col2{
+    width:50% !important;
+    text-align:left;
+}
+
+.portal-sanction-results-col3{
+    width:13% !important;
+    text-align:left;
+}
+
+.portal-sanction-results-col4{
+    width:13% !important;
+    text-align:left;
+}
+
+.portal-sanction-results-col5{
+    width:15% !important;
+    text-align:left;
+}
+
+.dea-results-col1{
+	width:7%;
+	text-align:left;
+}
+
+.dea-results-col2{
+	width:20%;
+	text-align:left;
+}
+
+.dea-results-col3{
+	width:33%;
+	text-align:left;
+}
+
+.dea-results-col4{
+	width:10%;
+	text-align:left;
+}
+
+.dea-results-col5{
+width:30%;
+	text-align:left;
+}
+
+.faa-results-col1{
+	width:6%;
+	text-align:left;
+}
+
+.faa-results-col2{
+	width:24%;
+	text-align:left;
+}
+
+.faa-results-col3{
+	width:40%;
+	text-align:left;
+}
+
+.faa-results-col4{
+	width:30%;
+	text-align:left;
+}
+
+.portal-fein-results-col1{
+    width:32% !important;
+}
+
+.portal-fein-results-col2{
+    width:15% !important;
+}
+.no-border{
+    border : none !important;
+}
+
+.ffel-results-col1{
+	width:10%;
+	text-align:left;
+}
+
+.ffel-results-col2{
+	width:20%;
+	text-align:left;
+}
+
+.ffel-results-col3{
+	width:30%;
+	text-align:left;
+}
+
+.ffel-results-col4{
+	width:10%;
+	text-align:left;
+}
+
+.ffel-results-col5{
+	width:30%;
+	text-align:left;
+}
+
+.hfl-results-col1{
+	width:10%;
+	text-align:left;
+}
+
+.hfl-results-col2{
+	width:20%;
+	text-align:left;
+}
+
+.hfl-results-col3{
+	width:30%;
+	text-align:left;
+}
+
+.hfl-results-col4{
+	width:10%;
+	text-align:left;
+}
+
+.hfl-results-col5{
+	width:30%;
+	text-align:left;
+}
+
+.blj-results-col1{
+	width:7%;
+	text-align:left;
+}
+
+.blj-results-col2{
+	width:10%;
+	text-align:left;
+}
+
+.blj-results-col3{
+	width:23%;
+	text-align:left;
+}
+
+.blj-results-col4{
+	width:30%;
+	text-align:left;
+}
+
+.blj-results-col5{
+	width:20%;
+	text-align:left;
+}
+
+.blj-results-col6{
+	width:10%;
+	text-align:left;
+}
+
+.aircraft-results-col2 {
+    width:20% !important;
+}
+
+.aircraft-results-col2 {
+    width:16% !important;
+}
+.aircraft-results-col3 {
+    width:32% !important;
+}
+.aircraft-results-col4 {
+    width:25% !important;
+}
+
+.aircraft-results-col5 {
+    width:17% !important;
+}
+
+.portal-military-results-col2 {
+    width:35% !important;
+}
+.portal-military-results-col3 {
+    width:25% !important;
+}
+.portal-military-results-col4 {
+    width:44% !important;
+}
+.portal-military-results-col5 {
+    width:20% !important;
+}
+
+.fbn-results-col1{
+	width:10%;
+	text-align:left;
+}
+
+.fbn-results-col2{
+	width:25%;
+	text-align:left;
+}
+
+.fbn-results-col3{
+	width:30%;
+	text-align:left;
+}
+
+.fbn-results-col4{
+	width:20%;
+	text-align:left;
+}
+
+.fbn-results-col5{
+	width:15%;
+	text-align:left;
+}
+
+th.history-tab-col,td.history-tab-col {
+    width: 50px;
+}
+
+.search-results-header.history-header {
+    background: #FFFFFF;
+}
+
+.search-results-count.history-count, .search-results-label.history-label {
+    color: #4c4f53;
+}
+
+.search-results-label.history-links-label {
+    color: red;
+}
+
+.waf-dialog{
+	width:200px;
+}
+
+.waf-dialog li{
+	list-style-type:none;
+}
+
+.waf-dialog label{
+	margin-left:5px;
+}
+
+.waf-dialog input[type="button"]{
+	float:right;
+	margin-right:5px;
+}
+
+.paw-results-col2{
+    width:17% !important;
+    text-align:left;
+}
+
+.paw-results-col3{
+    width:12% !important;
+    text-align:left;
+}
+
+.paw-results-col4{
+    width:65% !important;
+    text-align:left;
+}
+.paw-results-col4-col1{
+    width:30% !important;
+    text-align:left;
+}
+.paw-results-col4-col2{
+    width:48% !important;
+    text-align:left;
+}
+.paw-results-col4-col2-col1{
+    width:70% !important;
+    text-align:left;
+}
+.paw-results-col4-col2-col2{
+    width:30% !important;
+    text-align:left;
+}
+
+.boat-reg-sub-row-data{
+	width:100%; 
+	height:50px;
+}
+
+.search-results-header.prefs-header {
+    background: #FFFFFF;
+}
+.myfavs-list {
+    height: 200px !important;
+    overflow: auto;
+    overflow-x: hidden;
+}
+.myfavs-arrows {
+    padding-top:80px;
+    padding-bottom:80px;
+}
+.myfavs-arrow .fa-arrow-right, .myfavs-arrow .fa-arrow-left, .myfavs-arrow .fa-arrow-up, .myfavs-arrow .fa-arrow-down {
+    cursor: pointer;
+    background: black;
+    color: #fff;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+}
+.jarviswidget-color-lightGray>header{
+    background:#B8B8BF;color:#090529;
+}
+
+.jarviswidget-color-lightGray .nav-tabs li:not(.active) a,.jarviswidget-color-lightGray>header>.jarviswidget-ctrls a{
+    color:#090529
+}
+
+.jarviswidget-color-lightGray .nav-tabs li a:hover{
+    color:#333!important
+}
+.jarviswidget-color-lightGray>header{
+    border-color:#B8B8BF!important
+}
+.prefs-form fieldset {
+    padding-top: 5px;
+}
+.red li.active a, .red li.active a:hover {
+    background-color: red;
+}
+.portal-row-id-info{
+    width:6% !important;
+    text-align:left;
+}
+
+.source-actions-box{
+    position: absolute;
+    bottom:10px;
+    padding: 0 15px!important;
+}
+
+.table-condensed.table>tbody>tr>td.fap-actions-col{ 
+    position: relative;
+    padding:0!important;
+}
+
+.fap-actions-col ul{
+    margin:5px 0;
+}
+
+.fap-address-phone{
+    margin-bottom: 15px;
+}
+
+.fap-address-phone > div{
+    padding:0!important;
+}
+
+.show-more-button{
+    margin-left: 0px; 
+    padding: 1px 0px;
+    text-decoration: none!important;
+}
+
+.results-table-cell{
+    display: table-cell;
+}
+
+.top-spacing-5{
+    margin-top: 5px;
+}
+
+.fap-potential-subjects,
+.fap-potential-subjects:hover{
+    background-color:#000000!important;
+    color:#ffffff;
+}
+
+.fap-phone-spacer{
+    height:25px;
+}
+
+.results-additional-info{
+    margin: 5px 10px;
+}
+
+.results-additional-info strong{
+    font-weight: 700;
+    font-size: 14px;
+    color: #f00;
+}
+
+.fap-results-col1{
+	width:55px;;
+	text-align:left;
+}
+
+.fap-results-col2{
+	width:30%;
+	text-align:left;
+}
+
+.fap-results-col3{
+	width:24%;
+	text-align:left;
+}
+
+.fap-results-col4{
+	width:23%;
+	text-align:left;
+}
+
+.fap-results-col5{
+	width:18%;
+	text-align:left;
+}
+
+.phlkup-results-col1{
+	width:6%;
+	text-align:left;
+}
+
+.phlkup-results-col2{
+	width:24%;
+	text-align:left;
+}
+
+.phlkup-results-col3{
+	width:40%;
+	text-align:left;
+}
+
+.phlkup-results-col4{
+	width:30%;
+	text-align:left;
+}

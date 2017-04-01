@@ -1,0 +1,18 @@
+#loginbox {
+	padding: 26px 26px 10px;
+	background: url(../../images/login/login-box.gif) top no-repeat;
+	float: left;
+	width: 676px;
+}
+
+#bottomnavigation {
+        margin: 20px 0 10px;
+        padding: 4px 26px 4px 15px;
+        background: #ed1c24;
+        text-align: left;
+        color: #ffffff;
+        font-size: 0.9em;
+        float: left;
+        width: 1000px;
+}
+

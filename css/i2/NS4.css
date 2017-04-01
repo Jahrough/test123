@@ -1,0 +1,98 @@
+BODY 
+{
+    BACKGROUND-COLOR: #000000;
+    LAYER-BACKGROUND-COLOR: #000000;
+    MARGIN: -10px 0px 0px -10px;
+}
+BODY.Eula
+{
+    BACKGROUND-COLOR: #ffffff;
+    LAYER-BACKGROUND-COLOR: #ffffff;
+    MARGIN: -5px 0px 0px -5px;
+    FONT-SIZE: 10px;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+}
+A:link
+{
+    COLOR: #ff0033;
+}
+A:visited
+{
+    COLOR: #e5e5e5;
+}
+.CopyRight
+{
+    FONT-SIZE: 10px;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-ALIGN: center;
+    COLOR: #ffffff;
+}
+.TextColor
+{
+    COLOR: #ffffff;
+}
+.WhiteText
+{
+    FONT-SIZE: 9px;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-ALIGN: center;
+}
+.BoldText
+{
+    FONT-WEIGHT: bold;
+}
+.WhiteBold
+{
+    FONT-SIZE: 9px;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-ALIGN: center;
+    FONT-WEIGHT: bold;
+}
+.BoldUnder
+{
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: underline;
+}
+.ErrorText
+{
+    FONT-SIZE: 20px;
+    FONT-WEIGHT: bold;
+    COLOR: #ff0000;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-ALIGN: center;
+}
+.fltBorder
+{
+    BACKGROUND-COLOR: #c7c6c6;
+    BORDER-RIGHT: 1px outset;
+    BORDER-TOP: 0px outset;
+    BORDER-LEFT: 1px outset;
+    BORDER-BOTTOM: 1px outset;
+}
+.LinkText
+{
+    FONT-SIZE: 10px;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-ALIGN: center;
+}
+.AppVer
+{
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 10px;
+    FONT-STYLE: italic;
+    FONT-WEIGHT: bold;
+    COLOR: #ffffff;
+    POSITION: absolute;
+    LEFT: 304px;
+    TOP: 287px;
+    WIDTH: 100%;
+}
+.AppDim
+{
+    WIDTH: 97%;
+    HEIGHT: 72%;
+}
+
+

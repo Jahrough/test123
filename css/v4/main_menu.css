@@ -1,0 +1,217 @@
+#topnav.main-menu-topnav{
+	height: 36px;
+	margin-bottom: 5px;
+}
+#topnav.main-menu-topnav #history-tab-ul{
+    display: none;
+}
+
+hr.main-menu-divider{
+  margin: 5px -15px;
+}
+
+#start-page{
+    padding-left: 13px;
+    margin-top: -2px;
+    padding-top: 2px;
+}
+
+#education_panel{
+  font-size: 12px;
+}
+
+#BannerAd{
+  width: 100%;
+}
+#main-menu{
+    margin-right:0;
+}
+#main-menu > div:last-child{
+    padding-right:0;
+}
+#accordion .join-panel {
+    margin-top: 5px!important;
+}
+#accordion .panel-title > a{
+    outline:none;
+}
+#accordion .panel-heading{
+    padding:6px;
+}
+#accordion .panel-body > ul {
+    padding-left: 15px;
+}
+#accordion .panel-body > ul > li{
+    padding-left: 6px;
+}
+
+.panel-title > a:hover,
+.panel-title > a:active,
+.panel-title > a:focus{
+  text-decoration: none;
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+.panel-header-link{
+  text-decoration: underline;
+  position: absolute;
+  top:25%;
+  right: 5px;
+  cursor: pointer;
+  color: #E12726;
+}
+
+.panel-header-link:hover{
+  color: #E12726;
+  text-decoration: none;
+}
+
+.announcements-link {
+  border-radius: 5px 5px 1px 1px;
+  background-color: #dddddd;
+  font-size:116%;
+  padding:2px;
+  width: 100%;
+  margin-bottom:5px;
+  text-align: center;
+}
+
+.favheader {
+    background-color: #E12726;
+    padding: 6px;
+    position: relative;
+}
+
+.favheader h2{
+    color: #ffffff!important;  
+    padding:0;
+    border:0;
+    width: 72%;
+}
+
+#headingOne > h2 > a{
+    margin-top:4px;
+}
+#headingTwo > h3{
+    width:70%;
+}
+#headingTwo > h3 > a{
+    padding-left: 5px;
+    padding-top: 3px;
+}
+#headingThree > h3 > a{
+    margin-top:4px;
+}
+#headingThree{
+    border-radius:4px;
+}
+#headingThree button{
+    margin-top:2px;
+}
+#headingThree button:focus{
+    outline:none;
+}
+ul#nav-mytask-dropdown {
+    margin-top: 0px;
+    border-top: 0;
+    border-radius: 0 0 4px 4px;
+    padding-top: 0;
+}
+#start-page-link{
+    padding-left:3px;
+}
+#accordion .section-header {
+    white-space:nowrap;
+}
+#accordion .section-header > a,
+#accordion .section-header > span{
+    white-space:normal;
+}
+#accordion .section-header:before {
+    margin-right: 0px;
+}	
+#accordion #education_panel h4{
+    width:100%;
+}
+#accordion #education_panel .section-header > span{
+    display: inline-block;
+    padding-left: 6px;
+    width:84%;
+}
+#accordion .panel{
+    overflow:hidden;
+}
+#accordion .panel.show-overflow{
+    overflow:visible;
+}
+
+.favheader .panel-header-link{
+  color: #ffffff;
+}
+
+#main-menu .portfolio-item.innercontent ul, .main-menu-ul{
+  padding-left: 25px;
+  list-style: initial;
+}
+.main-menu-ul > li{
+  text-align:left;
+}
+
+#main-menu .portfolio-item.innercontent ul > li > a {
+	color: #00778B;
+	font-size: 13px;
+    line-height: 1.5;
+}
+
+#main-menu .portfolio-item.innercontent ul > li > a:hover {
+	color: #23527c;
+	text-decoration: underline;
+}
+
+.section-header{
+  display: table;
+  font-weight: bold;
+}
+#accordion .panel > div > button,
+#accordion .panel > div > .section-header,
+#accordion .panel > div > .section-header > a{
+  display: inline-block;
+}
+
+.panel-title{  
+  color: #E12726;
+}
+
+.join-panel{
+  margin-top:0!important;
+}
+/*
+.col-3-grid > *,
+.section-overflow ul{
+  width:33%;
+  float: left;
+  padding-right: 15px;
+  text-align: left;
+}*/
+
+.section-overflow{
+  width: 100%;
+  padding: 0;
+  text-align: center;
+}
+.section-overflow button{
+  margin-top: 10px;
+  width: 100px;
+}
+
+.panel-heading{
+  background-color: #ffffff!important;
+  position: relative;
+}
+
+.fcra strong{
+  margin-left: 15px;
+}

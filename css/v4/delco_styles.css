@@ -1,0 +1,22 @@
+.td-withnoborder {
+    border:none !important;
+    background: #fff !important;
+}
+
+.delco-span-text{
+    text-decoration:underline;
+    color: #000000;
+}
+.delco-table-font{
+    font-size: 12px !important;
+}
+.delco-span-info{
+    text-decoration:underline;
+    color: #000000;
+    font-size: 12px !important;
+    padding-left: 20px !important;
+}
+
+#desoscompanySummary td {
+    text-transform: none !important;
+}

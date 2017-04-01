@@ -1,0 +1,44 @@
+.modal h4{
+    font-size:16px;
+}
+.modal h5{
+    font-weight:normal;
+}
+.modal h5 a{
+    font-weight:bold;
+}
+
+.modal div.row > section > label{
+    margin-bottom:15px;
+}
+
+.modal-content{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.modal-footer{
+    padding:15px;
+}
+
+.modal label.input > input{
+    height:32px;
+}
+.modal label.textarea{
+    width:100%;
+}
+.modal label.input > input,
+.modal textarea{
+    font-size:13px;
+    width:100%;
+    padding:8px;
+}
+.modal-white ~ .modal-backdrop {
+    background-color: transparent;
+}
+.modal-white.in ~ .modal-backdrop.in {
+    background-color: transparent;
+    opacity: 0;
+    filter:alpha(opacity=0);
+}
+

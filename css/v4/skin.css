@@ -1,0 +1,16 @@
+.termsAcceptBtn{
+    width:100px;
+    height:30px;
+    background:#F3352E;
+    cursor:pointer;
+    font:normal 12px "Tahoma";
+    color:#fff;
+}
+
+.errbody {
+background-color: white;
+}
+
+.errtitle {
+background-color: #939598;
+}

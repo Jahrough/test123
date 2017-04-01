@@ -1,0 +1,13 @@
+.PhoneticsPopup{
+    width: 400px;
+    font-family: verdana;
+}
+.PhoneticsPopup>div:first-child{
+    font-size: 10pt;
+    font-weight: bold;
+}
+.PhoneticsPopup>div{
+    font-size: 8pt;
+    font-weight: normal;
+}
+

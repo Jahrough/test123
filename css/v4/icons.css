@@ -1,0 +1,746 @@
+.svg-icon-x-large-nm:before,
+.svg-icon-x-large:before {
+	width:35px;
+	height:35px;
+	background-size: 35px 35px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.svg-icon-large-nm:before,
+.svg-icon-large:before {
+	width:30px;
+	height:30px;
+	background-size: 30px 30px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.svg-icon-normal-nm:before,
+.svg-icon-normal:before {
+	width:25px;
+	height:25px;
+	background-size: 25px 25px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.svg-icon-small-nm:before,
+.svg-icon-small:before {
+	width:20px;
+	height:20px;
+	background-size: 20px 20px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.svg-icon-tiny-nm:before,
+.svg-icon-tiny:before {
+	width:15px;
+	height:15px;
+	background-size: 15px 15px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.svg-icon-x-tiny-nm:before,
+.svg-icon-x-tiny:before {
+	width:10px;
+	height:10px;
+	background-size: 10px 10px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.svg-icon-x-large:before,
+.svg-icon-large:before,
+.svg-icon-normal:before,
+.svg-icon-small:before,
+.svg-icon-tiny:before,
+.svg-icon-x-tiny:before {
+	margin-right:5px;
+}
+
+
+/* SVGs */
+
+.person_icon:before{
+	content: "";
+	background-image:url(../../images/v4/SVGs/People.svg);	
+}
+
+.btn-danger .person_icon:before{
+	content: "";
+	background-image:url(../../images/v4/SVGs/People-Grey.svg);	
+}
+
+.bus_icon:before{
+	content: "";
+	background-image:url(../../images/v4/SVGs/Business.svg);		
+}
+
+.btn-danger .bus_icon:before{
+	content: "";
+	background-image:url(../../images/v4/SVGs/BusinessGrey.svg);	
+}
+
+.news_icon:before{
+	content: "";
+	background-image:url(../../images/v4/SVGs/News.svg);	
+}
+
+.btn-danger .news_icon:before{
+	content: "";
+	background-image:url(../../images/v4/SVGs/News-Grey.svg);	
+}
+
+.favorites-star-white:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/FavoriteSearchesWhite.svg);
+}
+
+.favorites-star-white-occcr:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/FavoriteSearchesWhite.svg) !important; 
+}
+
+.favorites-star-red:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/FavoriteSearchesRed.svg);
+}
+
+.favorites-star-red-filled:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/FavoriteSearches-Selected.svg);
+}
+
+.favorites-star-grey:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/FavoriteSearchesGrey.svg);
+}
+
+.frequent-star:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/FrequentSearchesRed.svg);
+}
+
+.property_icon:before{
+	content: "";
+	background-image:url(../../images/v4/SVGs/PropertyandAssets.svg);	
+}
+
+.btn-danger .property_icon:before{
+	content: "";
+	background-image:url(../../images/v4/SVGs/PropertyandAssetsGrey.svg);	
+}
+
+.court_icon:before{
+	content: "";
+	background-image:url(../../images/v4/SVGs/CourtandAdminFilings.svg);	
+}
+
+.btn-danger .court_icon:before{
+	content: "";
+	background-image:url(../../images/v4/SVGs/CourtandAdminFilings-Grey.svg);	
+}
+
+.international_icon:before{
+	content: "";
+	background-image:url(../../images/v4/SVGs/International.svg);	
+}
+
+.btn-danger .international_icon:before{
+	content: "";
+	background-image:url(../../images/v4/SVGs/International-Grey.svg);	
+}
+
+.regulations_icon:before{
+	content: "";
+	background-image:url(../../images/v4/SVGs/RegulationsandCompliance.svg);	
+}
+
+.btn-danger .regulations_icon:before{
+	content: "";
+	background-image:url(../../images/v4/SVGs/RegulationsandCompliance-Grey.svg);
+}
+
+.direct_to_source_icon:before{
+	content: "";
+	background-image:url(../../images/v4/SVGs/Directtosource.svg);	
+}
+
+.authentication_services_icon:before{
+	content: "";
+	background-image:url(../../images/v4/SVGs/authentication.svg);	
+}
+
+.btn-danger .authentication_services_icon:before{
+	content: "";
+	background-image:url(../../images/v4/SVGs/authentication-grey.svg);	
+}
+
+.fcra_home_icon:before{
+	content: "";
+	background-image:url(../../images/v4/SVGs/FCRA-home.svg);	
+}
+
+.fcra_icon:before{
+	content: "";
+	background-image:url(../../images/v4/SVGs/FCRA.svg);	
+}
+
+.btn-danger .fcra_icon:before{
+	content: "";
+	background-image:url(../../images/v4/SVGs/FCRA-white.svg);	
+}
+
+.phone_icon:before{
+	content: "";
+	background-image:url(../../images/v4/SVGs/PhoneSearchForm.svg);	
+}
+
+.external_link_icon:before{
+	content: "";
+	background-image:url(../../images/v4/SVGs/NewWindow.svg);	
+}
+
+.unlock_icon:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/Unlock.svg);
+}
+
+.lock_icon:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/Lock.svg);
+}
+
+.grey_lock_icon:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/LockGrey.svg);
+}
+
+.home-icon:before{
+	content:"";
+	background-image: url(../../images/v4/SVGs/Home.svg);
+}
+
+.delivery-tray-icon-black:before{
+	content:"";
+	background-image: url(../../images/v4/SVGs/DeliveryTrayBlack.svg);
+}
+
+.search-icon:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/AdditionalQuickSearch.svg);
+}
+
+.manage-tabs:after{
+	content: "";
+	background-image: url(../../images/v4/SVGs/ManageTabs.svg);
+}
+
+.help-icon:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/Help.svg);
+}
+
+.info-icon:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/Information.svg);
+}
+
+.search-within-icon:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/AdditionalSearches.svg);
+}
+
+.print-icon:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/Print.svg);
+}
+
+.download-icon:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/Download.svg);
+}
+
+.circled-red-x:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/icon-x-circle-red.svg);
+}
+
+.delivery-tray-icon:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/DeliveryTray.svg);
+}
+
+.copy-icon:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/Copy.svg);
+}
+
+.high-risk-icon:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/HighRisk.svg);
+}
+
+.medium-risk-icon:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/MediumRisk.svg);
+}
+
+.minimal-risk-icon:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/MinimalRisk.svg);
+}
+
+.edit-icon:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/Edit.svg);
+}
+
+.my-tasks-icon:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/MyTasksRed.svg);
+}
+
+.wireless-phone-icon:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/WirelessPhone.svg);
+}
+
+.green-check-icon:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/greencheckmark.svg);
+}
+
+.green-check-circle-icon:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/greencheckmark-circle.svg);
+}
+
+.red-x-icon:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/Red-X.svg);
+}
+
+.red-x-circle-icon:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/failuremark-circle.svg);
+}
+
+.premium-phone-icon:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/PremiumPhone.svg);
+}
+
+.residential-phone-icon:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/ResidentialPhone.svg);
+}
+
+.business-phone-icon:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/BusinessPhone.svg);
+}
+
+.document-icon:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/DocumentFormat.svg);
+}
+
+.gear:before{
+	background-image: url(../../images/v4/SVGs/Settings.svg);
+	content: "";
+}
+
+.key-icon:before{
+	background-image: url(../../images/v4/SVGs/Key.svg);
+	content: "";
+}
+
+.fax-icon:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/Fax.svg);
+}
+
+.government-icon:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/GovernmentPhone.svg);
+}
+
+.dollar-red-icon:before{
+    content: "";
+    background-image: url(../../images/v4/SVGs/dollar-red.svg);
+}
+
+.dollar-green-icon:before{
+    content: "";
+    background-image: url(../../images/v4/SVGs/dollar-green.svg);
+}
+
+.shared-phone-icon:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/SharedPhone.svg);
+}
+
+.general-info-alert:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/GeneralInformationAlert.svg);
+}
+
+.associated-with-icon:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/AssociatedwithCompanies.svg);
+}
+
+.deceased-icon:before{
+    content: "";
+    background-image: url(../../images/v4/SVGs/aml-Deceased.svg);
+}
+
+.deceased-icon:before{
+    content: "";
+    background-image: url(../../images/v4/SVGs/aml-Deceased.svg);
+}
+
+.otp-icon:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/OTP.svg);
+}
+
+.general-info-icon:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/Information-indicator.svg);
+}
+
+.assign_users_icon:before{
+    content: "";
+    background-image: url(../../images/v4/SVGs/Users.svg);
+}
+
+.show_all_icon:before{
+    content: "";
+    background-image: url(../../images/v4/SVGs/icon_list_ul.svg);
+}
+
+.optional_group_icon:before{
+    content: "";
+    background-image: url(../../images/v4/SVGs/BullsEye.svg);
+}
+
+/* PNGs */
+
+.announcements_icon:before{
+	content:"";
+	margin-right:5px;
+	background: url(../../images/v4/announcement.png) no-repeat 0 0;
+	background-size:100%;
+	width:12px;
+	height: 12px;
+	display: inline-block;
+}
+
+.education-icon:before{
+	background-image: url(../../images/v4/education.png);
+	margin-right: 5px;
+	width: 20px;
+	height: 12px;
+	content: "";
+	background-size: 20px 12px;
+	display: inline-block;
+}
+
+/* Font Awesome */
+
+.fa-icon-tiny-before:before{
+	font-size: 14px;
+	width: 14px;
+	display: inline-block;
+	text-align: center;
+	line-height: 14px;
+}
+
+.fa-icon-tiny-after:after{
+	font-size: 14px;
+	width: 14px;
+	display: inline-block;
+	text-align: center;
+	line-height: 14px;
+}
+
+.fa-icon-small-before:before{
+	font-size: 20px;
+	width: 20px;
+	display: inline-block;
+	text-align: center;
+	line-height: 20px;
+}
+
+.fa-icon-small-after:after{
+	font-size: 20px;
+	width: 20px;
+	display: inline-block;
+	text-align: center;
+	line-height: 20px;
+}
+
+.fa-orange-icon-before:before{
+	color: #FF8200;
+}
+
+.start_page_icon:before{
+	font-family: FontAwesome;
+	content: "\f140";
+	margin-right: 5px;	
+}
+
+.new_window_icon:after{
+	font-family: FontAwesome;
+	content:"\f08e";	
+	margin-left: 5px;
+}
+
+.sign-up:before{
+	font-family: FontAwesome;
+	content: "\f08b";
+	margin-right: 5px;
+}
+
+.close-icon:after{
+	content:"\f00d";
+	font-family:FontAwesome;
+}
+
+.more-actions:after{
+	font-family: FontAwesome;
+	content:"\f078";
+}
+
+/* Arrow Right */
+.show-hidden-data-icon.collapsed:before,
+.collapsed .show-hidden-data-icon:before{
+	margin-right: 5px;
+	content:"\f138";
+	font-family: FontAwesome;
+	font-size: 14px;
+}
+
+/* Arrow Down */
+.show-hidden-data-icon:before{
+	margin-right: 5px;
+	content:"\f13a";
+	font-family: FontAwesome;
+	font-size: 14px;
+}
+
+/* Arrow up */
+.hide-hidden-data-icon:before{
+	margin-right: 5px;
+	content:"\f139";
+	font-family: FontAwesome;
+	font-size: 14px;
+}
+
+.add-search-icon:before{
+	margin-right: 5px;
+	content: "\f002";
+	font-family: FontAwesome;
+}
+
+.map_icon:before{
+	margin-right:5px;
+	content:"\f041";
+	font-family:FontAwesome;
+}
+
+.checkbox-icon:before{
+	content:"\f096";
+	font-family:FontAwesome;
+	font-size: 14px;
+}
+
+.checkbox-icon.checked:before{
+	content:"\f046";
+	font-family:FontAwesome;
+}
+
+.resize_icon:after{
+	content:"\f09e";
+	font-family:FontAwesome;
+	transform:rotate(270deg);
+	position:absolute;
+	bottom:-2px;
+	right:0;
+	font-size:10px;
+}
+
+.navigation_icon:before{
+	content: "\f0c9";
+	margin-right:5px;
+	font-family:FontAwesome;
+}
+
+.collapsible.open:before,
+.expando:before{	
+	content: "\f147";
+	font-family:FontAwesome;
+	margin-right:5px;
+	cursor:pointer;
+}
+
+.collapsible.closed:before,
+.expando.collapsed:before{	
+	content: "\f196";
+	font-family:FontAwesome;
+	margin-right:5px;
+	cursor:pointer;
+}
+
+.sorting:after,
+.sort_icon:after{
+	content: "\f0dc";
+	font-family: FontAwesome;
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+.sort_icon.caret_up,
+.sort_icon.caret_down{
+	content: "";
+}
+
+.arrow_right:before{
+	content: "\f0a9";
+	font-family:FontAwesome;
+	cursor:pointer;	
+}
+
+.arrow_left:before{
+	content: "\f0a8";
+	font-family:FontAwesome;
+	cursor:pointer;	
+}
+
+.arrow_down:before{
+	content: "\f0ab";
+	font-family:FontAwesome;
+	cursor:pointer;	
+}
+
+.arrow_up:before{
+	content: "\f0aa";
+	font-family:FontAwesome;
+	cursor:pointer;	
+}
+
+.sorting_asc:after,
+.caret_up:after{
+	content: "\f0de";
+	font-family:FontAwesome;
+	margin-left: 5px;
+}
+
+.sorting_desc:after,
+.caret_down:after{
+	content: "\f0dd";
+	font-family:FontAwesome;
+	margin-left: 5px;
+}
+
+/* GIFs */
+.loading_icon:before{
+	background-image: url(../../images/v4/loading_spinner.gif);
+	content: "";
+}
+
+/* CSS Icons */
+.ico-id-1:before{
+	content: url(../../images/v4/SVGs/FraudRiskIndicators/1.svg);
+	margin: 0 10px;
+	width: 1.3em;
+	height: 1.4em;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.ico-id-2:before{
+	content: url(../../images/v4/SVGs/FraudRiskIndicators/2.svg);
+	margin: 0 10px;
+	width: 1.3em;
+	height: 1.4em;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.ico-id-3:before{
+	content: url(../../images/v4/SVGs/FraudRiskIndicators/3.svg);
+	margin: 0 10px;
+	width: 1.3em;
+	height: 1.4em;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.ico-id-4:before{
+	content: url(../../images/v4/SVGs/FraudRiskIndicators/4.svg);
+	margin: 0 10px;
+	width: 1.3em;
+	height: 1.4em;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.ico-id-5:before{
+	content: url(../../images/v4/SVGs/FraudRiskIndicators/5.svg);
+	margin: 0 10px;
+	width: 1.3em;
+	height: 1.4em;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.ico-id-6:before{
+	content: url(../../images/v4/SVGs/FraudRiskIndicators/6.svg);
+	margin: 0 10px;
+	width: 1.3em;
+	height: 1.4em;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.action-required-01:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/action-required-01.svg);
+	margin-bottom:6px;
+}
+.order-completed-01:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/order-completed-01.svg);
+	margin-bottom:6px;
+}
+.order-deleted:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/order-deleted.svg);
+	margin-bottom:6px;
+}
+.order-in-process-01:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/order-in-process-01.svg);
+	margin-bottom:6px;
+}
+.order-queued-01:before{
+	content: "";
+	background-image: url(../../images/v4/SVGs/order-queued-01.svg);
+	margin-bottom:6px;
+}
+.trash_icon:before{
+    content: "";
+    background-image:url(../../images/v4/SVGs/TRASH-01.svg);
+}

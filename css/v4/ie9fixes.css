@@ -1,0 +1,27 @@
+.placeholder {
+    color: #6d6e71;
+}
+
+.pull-container {
+    display: table;
+    width: 100%;
+}
+.pull-container  > .pull-left {
+    display: table-cell;
+    float: none !important;
+    vertical-align: top;
+}
+.pull-container  > .pull-right {
+    display: table-cell;
+    float: none !important;
+    vertical-align: top;
+    text-align: right;
+}
+
+.checkbox-toggle .toggle > .toggle-switch{
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#C8C9C7', endColorstr='#FFFFFF',GradientType=0 );
+}
+
+#search-terms, .ellipsis {
+  white-space: normal!important;
+}

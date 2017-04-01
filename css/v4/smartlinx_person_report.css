@@ -1,0 +1,111 @@
+.brownTable>thead>tr>th:first-child {
+  width: 30px;
+}
+
+#PersonSummary .yellowTable th {
+  width: 25%;
+}
+
+#PersonSummary #SsnVariations .ssnVariations ul.notes li,#PersonSummary #SsnVariations #imposterSection ul.notes li {
+  list-style-type: disc;
+  margin-left: 15px;
+}
+
+#PersonSummary #SsnVariations .ssnVariations ul.notes li.iconRedTriangle,#PersonSummary #SsnVariations #imposterSection ul.notes li.iconRedTriangle {
+  list-style-type: none;
+  margin-left: -2px;
+  padding: 2px 0 0 17px;
+}
+
+#PersonSummary #SsnVariations tr#imposterSection>td {
+  background-color: #fcfaed;
+}
+
+#PersonSummary #SsnVariations tr#imposterSection table {
+  width: 75%;
+}
+
+#PersonSummary #SsnVariations tr#imposterSection table thead tr {
+  background-color: #f7f2d5;
+}
+
+#PersonSummary #SsnVariations tr#imposterSection table thead tr th {
+  text-transform: uppercase;
+}
+
+#PersonSummary #SsnVariations tr#imposterSection table tbody tr.even {
+  background-color: #f7f2d5;
+}
+
+#AddressSummary span.riskIndicator {
+  display: block;
+  color: #999;
+  padding-left: 5px;
+}
+
+#AddressSummary span.riskIndicator i {
+  padding-right: 2px;
+}
+
+#Licenses table.brownTable>thead>tr>th.type {
+  width: 25%;
+}
+
+#Licenses table.brownTable>thead>tr>th.status {
+  width: 25%;
+}
+
+#Licenses table.brownTable>thead>tr>th.details {
+  width: 25%;
+}
+
+#Licenses table.brownTable>thead>tr>th.location {
+  width: 100px;
+}
+
+#RealProperty .extraDetail .propertyNoticesOfDefault .list,#RealProperty .extraDetail .propertyForeclosures .list {
+  float: none;
+  border: 2px solid #c03;
+  padding: 10px;
+  margin: 5px;
+  width: auto;
+}
+
+#Relatives tr.extraDetail .listContainer {
+  padding-left: 52px !important;
+}
+
+#Relatives tr.extraDetail .relative {
+  clear: both;
+  float: left;
+  margin: 10px 0 0 0;
+}
+
+#Relatives tr.extraDetail table {
+  width: 100%;
+}
+
+#Relatives tr.extraDetail h5>a.collapsible {
+  float: none;
+}
+
+#Neighbors .subjectAddress {
+  margin: 15px 0 5px 16px;
+}
+
+#Neighbors .brownTable td ul li {
+  margin-top: 7px;
+}
+
+#Neighbors .brownTable td ul li:first-child {
+  margin-top: 0;
+}
+
+#Sources td {
+  white-space: nowrap;
+  width: 50%;
+}
+
+#DeliveryNavigation {
+  display: none !important;
+}

@@ -1,0 +1,115 @@
+.news a{
+	font-weight: bold;
+}
+
+.newsHeading{
+	color:initial!important;
+}
+
+.news-filter-heading {
+    background-color: #DADBDA;
+    height: 35px !important;
+    margin-right: 5px;
+    vertical-align: middle;
+    padding-top: 5px;
+    padding-left: 2px !important;
+}
+
+.news-filter-h4{
+    font-size: 1em !important;
+    margin-bottom: 5px;
+    padding: 0px 7px 7px;
+    border-bottom: thin dashed #00778B;
+}
+
+.news table{
+	border: 0!important;
+	border-collapse: collapse!important;
+	width: 75%!important;
+}
+
+.news table th,
+.news table td,
+.news table thead{
+	background-color: transparent!important;
+	border: 0!important;
+    padding: 5px!important;
+}
+
+.news table th {
+    line-height: 1.2;
+}
+
+.news table td{
+    border-right: #ebebd8 1px solid!important;
+}
+
+table.guidestar,
+table.gaoreportstestimonies {
+    white-space: normal;
+}
+
+#report_content table.guidestar tr > td:first-child,
+#report_content table.gaoreportstestimonies tr > td:first-child {
+    min-width: 12em;
+}
+
+.filters-full-container{
+    width: auto !important;
+    clear:both;
+}
+
+.filters-section{
+    width:20%; 
+    float: left;
+}
+
+.filters-main-section {
+    margin-left: 20%;
+}
+
+.duplicate-news-conatiner {
+    border-top: 1px dashed #00778B !important;
+    width: 100% !important;
+}
+
+.dupilicate-news-head{
+    border-top: 1px dashed #00778B !important;
+    background-color: #DADBDA !important;
+    padding: 3px 10px 10px !important;
+    border: 1px solid #DADBDA !important;
+}
+.diplicate-news-col {
+    border-left: 1px solid #DADBDA !important;
+    border-bottom: 1px solid #DADBDA !important;
+    padding: 5px 10px !important;
+    vertical-align: top !important;
+}
+
+.diplicate-news-col-1 {
+    width: 5.5em !important;
+}
+.diplicate-news-col-2 {
+    border-right: 1px solid #DADBDA !important;
+}
+.padding-left-15 {
+    padding-left: 15px !important;
+}
+
+.news td{
+    text-transform: none!important;
+}
+
+.footnotes-a {
+	padding-top: 110px
+}
+blockquote {
+    padding: 10px 20px;
+    margin: 0px;
+    font-size: inherit;
+    border: none;
+}
+
+.adjust-showmore_or_less {
+    text-align: right !important;
+}

@@ -1,0 +1,5 @@
+<TMPL_IF NAME=IM_ON_ASSET_SEARCH>
+<td width="54"><a href="javascript:void(0);" onMouseOver="showasset('show_asset_search',<TMPL_IF NAME="INS">1<TMPL_ELSE>0</TMPL_IF>,<TMPL_IF NAME="HIDE_RT_MVR">1<TMPL_ELSE>0</TMPL_IF>);"><img src="<TMPL_VAR NAME=IMGPATH>/find_assets_tab_over.gif" id="show_asset_search" name="show_asset_search" width="54" height="32" border="0"></a></td>
+<TMPL_ELSE>
+<td width="54"><a href="<TMPL_UNLESS DELETE_DISABLED>javascript:send_event('WS_SEARCH/SHOW_DL_REG')<TMPL_ELSE>javascript:send_pulldown_event('assets')</TMPL_UNLESS>;" onMouseOver="show_asset_search.src='<TMPL_VAR NAME=IMGPATH>/find_assets_tab_over.gif';showasset('show_asset_search',<TMPL_IF NAME="INS">1<TMPL_ELSE>0</TMPL_IF>,<TMPL_IF NAME="HIDE_RT_MVR">1<TMPL_ELSE>0</TMPL_IF>);" onMouseOut="show_asset_search.src='<TMPL_VAR NAME=IMGPATH>/find_assets_tab.gif';"><img src="<TMPL_VAR NAME=IMGPATH>/find_assets_tab.gif" id="show_asset_search" name="show_asset_search" width="54" height="32" border="0"></a></td>
+</TMPL_IF>

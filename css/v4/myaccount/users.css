@@ -1,0 +1,153 @@
+/* CSS Document */
+
+@import url("toggle_switch.css");
+@import url("toggle_switch2.css");
+@import url("tooltip.css");
+
+.formfields
+{
+	background: #fff;
+	padding: 20px;
+	border: 1px solid #f1f1f1;
+}
+
+.search_buttons
+{
+	background: #f7f7f7;
+	padding: 5px 20px;
+	margin-bottom: 10px;
+	border: 1px solid #f1f1f1;
+	border-top: none;
+}
+
+.r1, .group_tbl_col1
+{
+	width: 60px;
+}
+
+.r4, .r5, .r6, .r7, .r8
+{
+	width: 130px;
+}
+
+.r9, .r10, .r11, .r12, .r13
+{
+	width: 70px;
+}
+
+.data_table th:nth-child(1), .data_table td:nth-child(1),
+.data_table th:nth-child(9), .data_table td:nth-child(9),
+.data_table th:nth-child(10), .data_table td:nth-child(10),
+.data_table th:nth-child(11), .data_table td:nth-child(11),
+.data_table th:nth-child(12), .data_table td:nth-child(12),
+.data_table th:nth-child(13), .data_table td:nth-child(13),
+.alerts_table th:nth-child(7), .alerts_table td:nth-child(7)
+{
+	text-align: center;
+}
+
+.data_table td:nth-child(10), .alerts_table td:nth-child(7)
+{
+	border-left: 1px dashed #e9e9e9;
+}
+
+.action_options
+{
+	margin-right: 20px;
+}
+
+.action_buttons
+{
+	margin: auto;
+}
+
+.action_buttons a
+{
+	background: #56565a;
+	border: 1px solid #56565a;
+	color: #fff;
+	padding: 3px 20px;
+	margin: 0px 10px 0px 0px;
+
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+.action_buttons a:hover
+{
+	text-decoration: none;
+	background: #e12726;
+	border: 1px solid #e12726;
+}
+
+.inactive_selection
+{
+	margin-left: 35px;
+	padding-left: 10px;
+	border-left: 1px dashed #e12726;
+}
+
+.hz_line
+{
+	border-top: 1px solid #e12726;
+	margin: 5px 0px;
+}
+
+/* edit user */
+.usergroup
+{
+	background: #fff;
+	border: 1px solid #ccc;
+	padding: 5px;
+	width: 617px;
+	max-height: 300px;
+	overflow: auto;
+}
+
+.testing
+{
+	width: 180px;
+	border-bottom: 1px solid #e5e5e5;
+	margin-right: 10px;
+}
+
+.prod_right
+{
+	padding-right: 20px;
+}
+
+.prod_left
+{
+	padding-left: 20px;
+	border-left: 1px dashed #ccc;
+}
+
+/* user alerts */
+.alerts_col1
+{
+	width: 60px;
+}
+
+.alerts_col5, .alerts_col6
+{
+	width: 130px;
+}
+
+.alerts_col7
+{
+	width: 90px;
+}
+
+#FUTURE_DEACTIVATION_DATE {
+	display: block;
+	margin-bottom: 5px;
+}
+
+#inactive_begin_dt {
+	display: none;
+}
+
+#group_table {
+	display: table;
+}

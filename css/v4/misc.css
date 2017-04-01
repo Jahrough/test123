@@ -1,0 +1,69 @@
+/* Percentage Widths */
+.w5pc { width: 5% !important; }
+.w10pc{ width:10% !important; }
+.w15pc{ width:15% !important; }
+.w20pc{ width:20% !important; }
+.w25pc{ width:25% !important; }
+.w30pc{ width:30% !important; }
+.w35pc{ width:35% !important; }
+.w40pc{ width:40% !important; }
+.w45pc{ width:45% !important; }
+.w50pc{ width:50% !important; }
+.w55pc{ width:55% !important; }
+.w60pc{ width:60% !important; }
+.w65pc{ width:65% !important; }
+.w70pc{ width:70% !important; }
+.w75pc{ width:75% !important; }
+.w80pc{ width:80% !important; }
+.w85pc{ width:85% !important; }
+.w90pc{ width:90% !important; }
+.w95pc{ width:95% !important; }
+.w100pc{width:100% !important;}
+
+/* Pixel Widths */
+.w30px{width:30px;}
+.w46px{width:46px;}
+.w50px{width:50px;}
+.w60px{width:60px;}
+.w80px{width:80px;}
+.w100px{width:100px;}
+.w110px{width:110px;}
+.w140px{width:140px;}
+.w150px{width:150px;}
+.w160px{width:160px;}
+.w190px{width:190px;}
+.w192px{width:192px;}
+.w240px{width:240px;}
+.w222px{width:222px;}
+.w250px{width:250px;}
+.w329px{width:329px;}
+.w400px{width:400px;}
+
+/* Floating */
+.left{float:left !important;}
+.right{float:right !important;}
+.no-float{float:none !important;}
+
+/* Font Styles */
+.bold{font-weight:bold !important;}
+
+/* icons */
+a.icon{
+	text-decoration:none;
+	cursor:default;
+}
+a.icon:hover{
+	text-decoration:none;
+}
+
+.fa-green-check:after{
+	content: "\f00c" !important;
+	font-family:'FontAwesome' !important;
+	color:#009900 !important;
+}
+
+.fa-yellow-flag:after{
+	content: "\f024" !important;
+	font-family:'FontAwesome' !important;
+	color:#FFAA00 !important;	
+}

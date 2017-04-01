@@ -1,0 +1,200 @@
+/* Base Link Colors */
+A:              { color: #000000; text-decoration: underline; }
+A:link          { color: #000000; text-decoration: underline; }
+A:visited       { color: #000000; text-decoration: underline; }
+A:hover         { color: #000000; text-decoration: underline; }
+A:active        { color: #000000; text-decoration: underline; }
+
+/* Search Header Links */
+A.searchheader:link {font-family: Arial; font-size: 8pt; text-decoration: underline; color: #000000; font-weight: bold; }
+A.searchheader:visited {font-family: Arial; font-size: 8pt; text-decoration: underline; color: #000000; font-weight: bold; }
+A.searchheader:hover {font-family: Arial; font-size: 8pt; text-decoration: underline; color: #000000; font-weight: bold; }
+A.searchheader:active {font-family: Arial; font-size: 8pt; text-decoration: underline; color: #000000; font-weight: bold; }
+
+/* Background Styles */
+body { background-color: #EBEBD8; }
+.alternatebody { background-color: #ffffff; }
+
+/* Body Color Styles */
+.inputbody { background-color: #EBEBD8; }
+.advinsert { background-color: #EBEBD8; }
+.advline { background-color: #000000; color: #000000; height: 1px; }
+.searchmessages { background-color: #000000; }
+.myaccountbody { background-color: #EBEBD8; }
+.myaccountborder { background-color: #000000; }
+.myaccountalert { background-color: #ffffff; }
+.reportselectbody { background-color: #ffffff; }
+.reportselectbox { background-color: #EBEBD8; }
+.prefsselectbox { background-color: #ffffff; }
+.announcementheaderarea { background-color: #cccccc; }
+.headerarea { background-color: #EBEBD8; }
+.headerseparator { background-color: #000000; }
+.termsbody { background-color: #ffffff; }
+
+/* Text Styles */
+.inputlabel { FONT-SIZE: 9pt; FONT-FAMILY: Arial; COLOR: #000000; }
+.inputlabelred { FONT-SIZE: 9pt; FONT-FAMILY: Arial; COLOR: #CE0031; }
+.smalllabel { FONT-SIZE: 8pt; FONT-FAMILY: Arial; COLOR: #000000; }
+.smallcontrastlabel { FONT-SIZE: 8pt; FONT-FAMILY: Arial; COLOR: #000000; }
+.tablayertext { FONT-SIZE: 8pt; FONT-FAMILY: verdana; COLOR: #000000; }
+/* .tablayerbackground { background-color: #EBEBD8; } */
+.reportselectboxtext { FONT-SIZE: 8pt; FONT-FAMILY: Arial; COLOR: #000000; }
+.myaccountbanner { font-size: 14pt; font-family: Arial; color: #000000; font-weight: bold; }
+.myaccounttitle { font-size: 12pt; font-family: Arial; color: #000000; font-weight: bold; }
+.myaccountlabel { font-size: 9pt; font-family: Arial; color: #000000; font-weight: bold; }
+.reportprices { font-size: 8pt; font-family: Arial; color: #cc0033; }
+.reportselectorinfo { font-size: 8pt; font-family: Arial; color: #000000; font-weight: bold; }
+.smallfont1reporttype {FONT-SIZE: 8pt; FONT-FAMILY: Verdana; FONT-WEIGHT: bold; COLOR: #000000; }
+.disabled_small {FONT-SIZE: 8pt; FONT-FAMILY: Arial; COLOR: #cc0033; FONT-STYLE: italic; }
+.termstext { FONT-SIZE: 8pt; FONT-FAMILY: verdana; COLOR: #000000; }
+
+A.inputlinklabel:link { font-size: 9pt; font-family: arial; color: #000000; font-weight: bold; text-decoration: underline; }
+A.inputlinklabel:visited { font-size: 9pt; font-family: arial; color: #000000; font-weight: bold; text-decoration: underline; }
+A.inputlinklabel:hover { font-size: 9pt; font-family: arial; color: #000000; font-weight: bold; text-decoration: underline; }
+A.inputlinklabel:active { font-size: 9pt; font-family: arial; color: #000000; font-weight: bold; text-decoration: underline; }
+A.inputlinklabelred:link { font-size: 9pt; font-family: arial; color: #CE0031; font-weight: bold; text-decoration: underline; }
+A.inputlinklabelred:visited { font-size: 9pt; font-family: arial; color: #CE0031; font-weight: bold; text-decoration: underline; }
+A.inputlinklabelred:hover { font-size: 9pt; font-family: arial; color: #CE0031; font-weight: bold; text-decoration: underline; }
+A.inputlinklabelred:active { font-size: 9pt; font-family: arial; color: #CE0031; font-weight: bold; text-decoration: underline; }
+
+/* Special My Account Section Borders And Things*/
+fieldset {border: 1px solid #000000; margin-bottom: 2px;}
+legend { color: #000000; display: block; width: 1em; padding: 0 2px; text-align: center; font: bold 9pt Arial,Helvetica; }
+.sortarrow { font-size: 150%; color: #cc0033; }
+a.sortheader:link { color: #000000; text-decoration: none; }
+a.sortheader:hover { color: #000000; text-decoration: underline; }
+
+/* For GLB & DPPA Pages */
+.glbtitle { font-size: 12pt; font-family: Arial; color: #000000; }
+.glbnumber1 { font-size: 12pt; font-family: Arial; color: #cc0033; }
+.glbsubtitle { font-size: 10pt; font-family: Arial; color: #000000; }
+.glbbody { font-size: 9pt; font-family: Arial; color: #000000; }
+A.glb:link {font-family: Arial; font-size: 9pt; text-decoration: underline; color: #000000; font-weight: bold; }
+A.glb:visited {font-family: Arial; font-size: 9pt; text-decoration: underline; color: #000000; font-weight: bold; }
+A.glb:hover {font-family: Arial; font-size: 9pt; text-decoration: underline; color: #000000; font-weight: bold; }
+A.glb:active {font-family: Arial; font-size: 9pt; text-decoration: underline; color: #000000; font-weight: bold; }
+
+/* Lite version */
+.activetabs { background-color: #000000; }
+.inactivetabs { background-color: #cc0033; }
+.utiltabs { background-color: #474747; }
+A.searchtabs:link { color: white; font-weight: bold; text-decoration: none; FONT-SIZE: 7pt; FONT-FAMILY: Verdana; }
+A.searchtabs:visited { color: white; font-weight: bold; text-decoration: none; FONT-SIZE: 7pt; FONT-FAMILY: Verdana; }
+A.searchtabs:hover { color: white; font-weight: bold; text-decoration: underline; FONT-SIZE: 7pt; FONT-FAMILY: Verdana; }
+A.searchtabs:active { color: white; font-weight: bold; text-decoration: none; FONT-SIZE: 7pt; FONT-FAMILY: Verdana; }
+
+/* Copy To Clipboard Text Area Style */
+.clipstyle { width: 500; height: 250; font-size: 8pt; background: #ffffff; border: 2px #000000 double; }
+A.clipalllink:link, A.clipalllink:visited, A.clipalllink:hover, A.clipalllink:active { font-size: 9pt; font-family: arial; color: #ffffff; font-weight: bold; text-decoration: underline; }
+
+/* Copy To Clipboard Fonts */
+.ctcheader { FONT-SIZE: 12pt; FONT-FAMILY: Arial,Helvetica; COLOR: #cc0033; FONT-WEIGHT: BOLD; }
+.ctctextarea { FONT-SIZE: 8pt; FONT-FAMILY: Verdana; }
+.ctcbody { FONT-SIZE: 8pt; FONT-FAMILY: Arial,Helvetica; }
+A.ctclinks:link, A.ctclinks:visited, A.ctclinks:hover, A.ctclinks:active { font-size: 8pt; font-family: Arial,Helvetica; color: #cc0033; text-decoration: none; }
+
+/* Pulldown Menu Styles */
+.pout {cursor:pointer;cursor:hand;background-color:#EBEBD8;FONT-SIZE:9pt;FONT-FAMILY:helvetica,arial;color:#000000;}
+.pover {cursor:pointer;cursor:hand;background-image:url("/bps/ln_images/pull_slice.gif");FONT-SIZE:9pt;FONT-FAMILY:helvetica,arial;color:#000000;FONT-WEIGHT:bold;}
+
+/* Search messages */
+.searchmessagerec {font-size: 9pt; font-family: verdana; font-weight: bold; color: white; }
+.searchmessagenum {font-size: 9pt; font-family: verdana; font-weight: bold; color: white; }
+.searchmessageinfo, .searchmessageinfo a {font-size: 9pt; font-family: verdana; font-weight: bold; color: white; }
+.searchmessageerror {font-size: 9pt; font-family: verdana; font-weight: bold; color: white; }
+.searchmessageunavail {color: black;}
+.searchmessagetoomany {color: black;}
+
+/* Record paging */
+A.search_results_paging:link, A.search_results_paging:visited, A.search_results_paging:hover, A.search_results_paging:active { font-size: 9pt; font-family: verdana; color: white; text-decoration: underline; font-weight: bold; }
+.search_results_current_page_number {font-size: 10pt; font-family: verdana; font-weight: bold; color: white; border: 1px dotted;}
+
+/* Search Results Styles */
+
+.searchresultstop1 {background-color: #000000; }
+.searchresultstop2 {background-color: #666666; }
+
+.searchresultsbot {background-color: #000000; }
+
+.searchresultsrowtitleodd {background-color: #ffffff; }
+.searchresultsrowtitleeven {background-color: #EBEBD8; }
+
+.searchresultsrowodd {background-color: #ffffff; }
+.searchresultsroweven {background-color: #EBEBD8; }
+.liens_extra {background-color: #000000; }
+
+.searchresultsaddressrowcolor {background-color: #c0c0c0; }
+
+A.searchresultslink             { color: #cc0033; text-decoration: none; }
+A.searchresultslink:link        { color: #cc0033; text-decoration: none; }
+A.searchresultslink:visited	{ color: #cc0033; text-decoration: none; }
+A.searchresultslink:hover	{ color: #cc0033; text-decoration: underline; }
+A.searchresultslink:active	{ color: #cc0033; text-decoration: none; }
+.liens_extra A 			{font-size: 9pt; font-family: verdana; font-weight: bold; color: yellow; text-decoration:none; }
+.liens_extra A:link 		{font-size: 9pt; font-family: verdana; font-weight: bold; color: yellow; text-decoration:none; }
+.liens_extra A:visited		{font-size: 9pt; font-family: verdana; font-weight: bold; color: yellow; text-decoration:none; }
+.liens_extra A:hover 		{font-size: 9pt; font-family: verdana; font-weight: bold; color: yellow; text-decoration:none; }
+.liens_extra A:active 		{font-size: 9pt; font-family: verdana; font-weight: bold; color: yellow; text-decoration:none; }
+
+
+/* Batch */
+.wizardcounter { color: #000000; font-family: arial; font-size: 10pt; }
+.batchbanner { FONT-SIZE: 14pt; FONT-FAMILY: Arial; COLOR: #000000; }
+.batchalert { FONT-SIZE: 12pt; FONT-FAMILY: Arial; COLOR: #000000; }
+.batchpricingheader { FONT-SIZE: 9pt; FONT-FAMILY: Arial; COLOR: #000000; }
+.batchpricing { FONT-SIZE: 8pt; FONT-FAMILY: Arial; COLOR: #000000; }
+.batchfilealert { FONT-SIZE: 8pt; FONT-FAMILY: Arial; COLOR: #000000; }
+
+/* Court Search Wizard */
+.courtpagetitle { font-size: 12pt; font-family: Arial; color: #000000; font-weight: bold; }
+.courtplaceorderbutton { color: #000000; font-weight: bold; }
+.courtcancelorderbutton { color: #cc0033; font-weight: bold; }
+.courtalert { background-color: #ffffff; }
+.courttableborder { background-color: #000000; }
+.courttableheader { background-color: #cccccc; }
+.courttablebody { background-color: #EBEBD8; }
+.ct { }
+.ctc {background-color: #ffffff; font-weight: bold; }
+
+/* Error messages */
+
+.errbody { background-color: #EBEBD8; }
+.errtitle { background-color: #cc0033; }
+
+.errormessage { color: red; font: bold 9pt arial; }
+.successmessage { color: green; font: bold 9pt arial;}
+
+/* public records discalimer */
+.discalimertitle { font-family: arial; font-size: 8pt; color: black; font-weight: bold; }
+.disclaimerbody { font-family: arial; font-size: 8pt; color: black; }
+
+/* Docket report */
+.docketreporttabletitle {background-color: #000000; color: #ffffff; }
+.docketreporttablerow {background-color: #ffffff; color: #000000; }
+
+/* date picker */
+.datepickerbody { background-color: #EBEBD8; }
+.datepickertitle { font-size: 8pt; font-family: verdana; color: #000000; font-weight: bold; }
+
+/* UCD Update */
+
+
+.note {
+  font: bold 9pt Arial, Sans-Serif;
+  padding: 5px 10px;
+  text-align: left;
+  background-color: #f5f5f5;
+  border: 1px solid black;
+}
+
+.error {
+  font: bold 10pt Arial, Sans-Serif;
+  padding: 5px 10px;
+  text-align: center;
+  background-color: #ebebd8;
+  border: 2px solid red;
+}
+
+#search_hints {
+    float: center; width: 480px; font-size: 9pt; font-family: verdana; text-align: center; border: dotted 1px black; background-color: #EBEBD8;
+}

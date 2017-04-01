@@ -1,0 +1,104 @@
+<head>
+  <title>Professional Licenses Types</title>
+
+  <link href="<TMPL_VAR NAME='CSSPATH'>/<TMPL_VAR NAME=SKIN_TYPE>/coverage.css" rel="stylesheet" type="text/css">
+</head>
+<body onload="window.focus();" >
+
+<div align="center">
+<table border="0" cellpadding="5" cellspacing="0">
+  <tbody>
+     <tr>
+  <td nowrap="" align="center" class="statetitle">CONNECTICUT <br>PROFESSIONAL LICENSES TYPES </td>
+  </tr>
+
+  </tbody>
+</table>
+  <br>
+
+<table border="0" cellpadding="5" cellspacing="0">
+  <tbody>
+     <tr>
+                                                <td nowrap="" valign="top" class="coveragetext"><b>LICENSE TYPES (Historical data / Not currently updating)</b><br>
+                                                        <br>
+ACCOUNTING/ACCOUNTANT<br>
+ACUPUNCTURE/ACUPUNCTURIST<br>
+APPRAISAL/APPRAISER<br>
+ARCHITECTURE/ARCHITECT<br>
+ASBESTOS<br>
+ATTORNEY<br>
+AUTO GLASS<br>
+BARBER<br>
+BROKER-DEALER<br>
+CHIROPRACTIC/CHIROPRACTOR<br>
+COMMUNITY ASSOCIATION<br>
+CONTRACTOR<br>
+COSMETOLOGY/COSMETOLOGIST<br>
+COUNSELOR/COUNSELING<br>
+DENTISTRY/DENTIST<br>
+DIETICIAN/NUTRIONIST<br>
+DRUG STORE<br>
+DRUG, COSMETICS & MEDICAL DEVICE<br>
+EMERGENCY MEDICAL<br>
+ENGINEERING/ENGINEER<br>
+FUNERAL/CREMATORY/EMBALMER<br>
+HEALTH CARE<br>
+HEALTH CLUB<br>
+HEATING & COOLING<br>
+HOME IMPROVEMENT<br>
+HOME INSPECTOR<br>
+HYPERTRICHOLOGIST<br>
+INTERIOR DESIGNER<br>
+INTERSTATE LAND SALES<br>
+INVESTMENT ADVISER<br>
+JOURNEYPERSON<br>
+LAND SURVEYOR<br>
+LANDSCAPE ARCHITECT<br>
+LEAD ABATEMENT<br>
+LEAD INSPECTOR<br>
+LEAD PLANNER / PROJECT DESIGNER<br>
+MARRIAGE & FAMILY THERAPY/THERAPIST<br>
+MASSAGE THERAPY/THERAPIST<br>
+MEDICAL<br>
+MEDICAL RESPONSE TECHNICIAN<br>
+MIDWIFE<br>
+MORTGAGE AND CHECK CASHERS<br>
+NATUROPATHIC PHYSICIAN<br>
+NEW HOME CONTRACTOR<br>
+NON-WATER SUPPLY<br>
+NURSING HOME ADMINISTRATOR<br>
+NURSING/NURSES<br>
+OCCUPATIONAL THERAPY/THERAPIST<br>
+OPTOMETRY/OPTOMETRIST<br>
+PARAMEDIC<br>
+PHARMACY/PHARMACIST<br>
+PHYSICAL THERAPY/THERAPIST<br>
+PHYSICIAN ASSISTANT<br>
+PLUMBING/PLUMBER<br>
+PODIATRY/PODIATRIST<br>
+PSYCHOLOGY\PSYCHOLOGIST<br>
+RADIO CERTIFIED RESTRICTED RR2<br>
+RADIOGRAPHER TECHNICIAN<br>
+REAL ESTATE<br>
+RESPIRATORY CARE\THERAPIST<br>
+SANITARIAN<br>
+SEC BROKER<br>
+SHORTHAND COURT REPORTER<br>
+SOCIAL WORK/WORKER<br>
+SPEECH, LANGUAGE & AUDIOLOGY<br>
+SUB-SURFACE SEWER<br>
+TELECOMMUNICATIONS INFRASTRUCTURE<br>
+TV & RADIO<br>
+VETERINARY/VETERINARIAN<br>
+WATER DRILLER<br>
+WATER SUPPLY<br>
+WEIGHING & MEASURING<br>
+                                           </td>
+                                        </tr>
+
+  </tbody>
+</table>
+  </div>
+
+</body>
+</html>

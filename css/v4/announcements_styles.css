@@ -1,0 +1,95 @@
+#announcements{
+	padding-top: 40px;
+}
+
+#announcements h2{
+	color: #E12726;
+	font-size: 1.3em;
+	border: 0;
+	font-weight: 700;
+	position: absolute;
+   padding-top: 17px;
+}
+
+#announcements_tbl th{
+	color:#E12726;
+	font-size: 1.3em;
+}
+
+#announcements_tbl td{
+	padding: 2px 10px;
+}
+
+#announcements_tbl tbody{
+	border-bottom:1px dashed #E12726;
+    border-top:1px dashed #E12726;
+}
+
+#announce_head{
+	border-bottom: 1px dashed #E12726;
+   margin-bottom: 5px;
+}
+
+#announce_foot{
+	border-top: 1px dashed #E12726;
+   padding: 6px;
+   margin-top: 5px;
+}
+
+#announce_body{
+	padding: 5px 50px;
+}
+
+#announcements_tbl_paginate{
+	position: absolute;
+	width: 99%;
+}
+
+#LOGIN{
+	height: 100%;
+}
+
+#message-footer{
+	text-align: center;
+	color: #858585;
+	font-size: 0.85em;
+}
+
+.announce-btn{
+	position: absolute;
+	right: 20px;
+   margin-top: 5px;
+}
+
+.dataTables_paginate, 
+.msg-nav{
+	text-align:center;
+	font-weight:bold;
+   line-height: 30px;
+}
+
+.dataTables_paginate > a,
+.msg-nav > a{
+	cursor:pointer;
+	padding:8px;
+}
+
+.msg-nav{
+	margin:0;
+   line-height: 45px;
+}
+
+.dataTables_paginate > a.disabled{
+	display:none;
+}
+
+.place { display: none; }
+
+.dataTables_paginate { float: none; }
+
+.strong-message{
+	display: block;
+	margin: 5px 0;
+	color:#E12726;
+	font-size: 1.2em;
+}

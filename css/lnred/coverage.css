@@ -1,0 +1,50 @@
+/* Coverage Area Style */
+body { background-color: #EBEBD8; }
+
+A:		{ color: #000000; text-decoration: none; FONT-SIZE: 8pt; FONT-FAMILY: Arial,Helvetica; }
+A:link		{ color: #000000; text-decoration: none; FONT-SIZE: 8pt; FONT-FAMILY: Arial,Helvetica; }
+A:visited	{ color: #000000; text-decoration: none; FONT-SIZE: 8pt; FONT-FAMILY: Arial,Helvetica; }
+A:hover		{ color: #cc0033; text-decoration: none; FONT-SIZE: 8pt; FONT-FAMILY: Arial,Helvetica; }
+A:active	{ color: #000000; text-decoration: none; FONT-SIZE: 8pt; FONT-FAMILY: Arial,Helvetica; }
+
+.statetitle { FONT-SIZE: 10pt; FONT-FAMILY: Arial; COLOR: #000000; font-weight: bold; }
+.coveragetitle { FONT-SIZE: 10pt; FONT-FAMILY: Arial; COLOR: #000000; }
+.coverageall { FONT-SIZE: 10pt; FONT-FAMILY: Arial; COLOR: #000000; }
+.coveragetext { FONT-SIZE: 8pt; FONT-FAMILY: Arial; COLOR: #000000; }
+.printborder { background-color: #000000; }
+.printbutton { background-color: #ffffff; }
+#printbutton {
+  border: 1px solid ;
+  border-color: #000000;
+  background-color: #ffffff;
+  width: 46px;
+  height: 20px;
+  float: right;
+  line-height:20px;
+  text-align:center;
+}
+#coverage{
+  margin: 10px;
+  position: relative;
+  font-family: Helvetica,Arial;
+  font-size: 11px;
+}
+h1{
+  font-weight: bold;
+  font-strech: expanded;
+  font-size: 13px;
+  font-family: Helvetica,Arial;
+  color: #000000;
+  text-align: center;
+}
+h2{
+  text-decoration: underline;
+  font-family: Helvetica,Arial;
+  font-size: 11px;
+  font-weight: bold;
+}
+ul{
+  padding-left: 5px;
+  margin-left: 5px;
+  list-style-type: circle;
+}

@@ -1,0 +1,3 @@
+<!-- begin search_report_simple_relative.tpl -->
+<TMPL_VAR NAME="space"><TMPL_IF NAME=key><b><TMPL_VAR NAME=bullet></b>&nbsp;<TMPL_UNLESS NAME="NO_LINKS"><A HREF="javascript:history_back--;location.hash='REL-<TMPL_VAR NAME=key>'; void 0"></TMPL_UNLESS><TMPL_IF NAME="first"><TMPL_VAR NAME="first"></TMPL_IF> <TMPL_IF NAME="middle"><TMPL_VAR NAME="middle"></TMPL_IF> <TMPL_IF NAME="last"><TMPL_VAR NAME="last"></TMPL_IF><TMPL_IF NAME="aka"> - (AKA)</TMPL_IF><TMPL_UNLESS NAME="NO_LINKS"></A></TMPL_UNLESS><TMPL_IF NAME="age">, Age <TMPL_VAR NAME="age"></TMPL_IF><BR></TMPL_IF>
+<!-- end search_report_simple_relative.tpl -->

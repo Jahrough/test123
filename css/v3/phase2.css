@@ -1,0 +1,263 @@
+body{background:#d0d0d0;}
+
+/* Navbar Tabs */
+div.pulldownbox {
+    background: #939598;
+    border: 0;
+    top: 40px;
+}
+div.pulldownbox > .topBorder{
+    display:none;
+}
+#hd{
+    height:40px;
+    width:100%;
+    background:#6D6E71;
+    position:fixed;
+    top:0;
+}
+
+table#admin-header-table + table{
+    border-radius:8px 8px 0 0;
+}
+.myaccountbody {
+    background-color: #fff;
+}
+
+#myaccounttabs,
+#myaccounttabson{
+    border-right:1px solid #939598;
+}
+#slug + td > a > img{
+    display:none;
+}
+#myaccounttabstxt {
+    height: 40px;
+    padding-top: 0 !important;
+    display: table-cell;
+    vertical-align: middle;
+}
+#myaccounttabson,
+#myaccounttabs:hover{
+    background:#939598 !important;
+}
+#myaccounttabs:hover > div > a{
+    text-decoration:none;
+    color:#fff;
+}
+#myaccounttabson .active {
+    color: #FFF !important;
+}
+#myaccounttabson:after {
+    display: block;
+    border: 10px solid transparent;
+    border-left-width:10px;
+    border-right-width:10px;
+    border-top-color: #939598;
+    content: "";
+    margin-left: 20px;
+    margin-right: 20px;
+    width:0;
+}
+div#myaccountnavlist > ul{
+    padding:0;
+}
+div#myaccountnavlist > ul > li {
+    padding: 8px 18px 8px 22px;
+    border-top:1px solid #ccc;
+    margin:0;
+}
+div#myaccountnavlist > ul > li > a{
+    font-family:Calibri, Arial;
+    font-size:12px;
+    font-weight:bold;
+    color:#ccc;
+}
+div#myaccountnavlist > ul > li > a:before {
+    content:'-';
+    color:#939598;
+    margin-right: 4px;
+}
+div#myaccountnavlist > ul > li > a:hover:before {
+    content:'-';
+    color:#FFF;
+    margin-right: 4px;
+}
+div#myaccountnavlist > ul > li:first-child{
+    border-top:0;
+}
+div#myaccountnavlist > ul > li > a:hover{
+    color:#fff;
+    text-decoration:none;
+}
+div#myaccountnavlist > ul > li > a:hover:before{
+    
+}
+
+
+table.myaccountborder > tbody > tr > td > b > a{
+    float:right;
+    color:#7fceed;
+    text-decoration:none;
+}
+table#order_list {
+    width: 100%;
+}
+#order_list > tbody > tr.myaccountbody > td {
+    text-align: left;
+}
+#order_list > tbody > tr > td {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+table#order_list {
+    border: 0;
+}
+table#order_list > tbody > tr > td{
+    border: 0;
+    border-left:1px solid #939598;
+    border-bottom:1px solid #939598;
+}
+table#order_list > tbody > tr > td:first-child{
+    border-left:0;
+}
+table#order_list > tbody > tr:first-child > td{
+    background:#939598;
+    height:30px;
+    border-left:1px solid #fff;
+}
+table#order_list > tbody > tr:first-child > td:first-child{
+    border-left:0;
+}
+table#order_list > tbody > tr:first-child > td > a{
+    color:#fff;
+    text-decoration:underline;
+    text-transform:uppercase;
+}
+table#order_list > tbody > tr > td:first-child > a{
+    margin-left:-6px;
+    text-decoration:underline;
+}
+table#order_list > tbody > tr:first-child > td:first-child > a{
+    margin-left:0;
+}
+table#order_list > tbody > tr > td{
+    font-weight:bold;
+    color:#464646;
+    font-family:Calibri, Arial;
+}
+table#order_list > tbody > tr > td > a{
+    color:#007DCF;
+}
+table#order_list > tbody > tr > td:nth-child(4),
+table#order_list > tbody > tr > td:nth-child(5),
+table#order_list > tbody > tr > td:nth-child(6),
+table#order_list > tbody > tr > td:nth-child(7){
+    text-align:center;
+}
+#footer{
+    width:100%;
+}
+
+/* Manage Users */
+table.content_header > tbody > tr > td{
+    padding: 8px 14px;
+}
+div.content-title{
+    color: #ed1c24;
+    font-weight: normal;
+    font-family: Calibri, Arial;
+    font-size: 22px;
+    float: left;
+}
+ul.support-links {
+    margin: 0;
+    float: right;
+    padding: 0;
+    list-style-type: none;
+}
+ul.support-links > li {
+    float: left;
+    font-size: 10px;
+    margin-left:6px;
+}
+ul.support-links > li > a {
+    font-size: 10px;
+    color:#007DCF;
+    text-decoration:none;
+}
+ul.support-links > li > a:after {
+    content:"|";
+    color:#939598;
+    margin-left:6px;
+    text-decoration:none;
+}
+ul.support-links > li > a:after:hover {
+    text-decoration:none;
+}
+table.form_controls{
+    width:100%;
+}
+table.form_controls > tbody > tr > td{
+    padding-left:15px;
+    padding-right:15px;
+}
+table.form_controls > tbody > tr > td > table{
+    float:left;
+}
+table.form_controls > tbody > tr > td > table.a_letters{
+    float:none;
+}
+table.a_letters{
+    text-align: center;
+    margin-bottom: 7px;
+}
+table.a_letters a {
+    display: inline-block;
+    width: 25px;
+    height: 21px;
+    background: #7FCEED;
+    color: #fff;
+    font-size: 13px;
+    padding-top: 4px;
+    margin: 3px;
+    border-radius: 5px;
+    text-align: center;
+}
+table.a_letters a:hover{
+    opacity:0.6;
+    text-decoration:none;
+}
+/* Buttons */
+a.btn{
+    color:#FFF;
+    margin:0;
+    text-align: center;
+    padding-top:0px;
+    background:#c3c3c3;
+    border-radius: 4px;
+    font-family:"Tahoma";
+    font-weight:normal;
+    font-size:12px;
+    padding:5px 15px;
+    color:#fff;
+    border:0;
+}
+a.btn:hover{
+    opacity: 0.6;
+    text-decoration:none;
+}
+a.btn-red{      background:#ed1c24;}
+a.btn-grey{     background:#939598;}
+a.btn-darkgrey{ background:#6D6E71;}
+a.btn-blue{     background:#ed1c24;}
+
+/* Inputs */
+input.v3-input-text{
+    height:24px;
+    padding-left:7px;
+    margin:0 10px 0 0;
+    border:1px solid #939598;
+    font-family:Calibri, Arial;
+    font-size:14px;
+}

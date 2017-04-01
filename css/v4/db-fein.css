@@ -1,0 +1,39 @@
+.db-fein-address,
+.db-fein-name{
+	margin-bottom: 5px;
+	border-bottom: 1px solid #DADADA;
+}
+
+.db-fein-address:last-child,
+.db-fein-name:last-child{
+	border-bottom: 0;
+	margin-bottom: 0;
+}
+
+.db-fein-address{
+	min-height: 38px;
+}
+
+.spacer{
+	height: 38px;
+}
+.row-eq-height > div {
+    float: left;
+    padding: 8px;
+    border-top: 1px solid #DDD;
+}
+.row-eq-height > div:first-child {
+    border-right: 1px solid #DADBDA;
+}
+.row-eq-height > div:last-child {
+    border-left: 1px solid #DADBDA;
+}
+.row-eq-height:first-child > div {
+    float: left;
+    border-top: 0px solid #DADBDA;
+}
+.row-eq-height > div + div {
+    border-left: 1px solid #DADBDA;
+    border-right: none;
+    margin-left: -1px;
+}

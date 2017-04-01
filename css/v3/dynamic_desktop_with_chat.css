@@ -1,0 +1,26 @@
+#cometchat_base {
+    margin-bottom: 35px;
+    border-right: 1px solid #CCCCCC;
+}
+
+#cometchat_tooltip {
+    margin-bottom: 35px;
+}
+
+#cometchat_hidden {
+    margin-bottom: 35px;
+}
+
+.cometchat_tabpopup {
+    margin-bottom: 35px;
+}
+
+#dd_cometchat_manage_contacts {
+    border-left: 1px solid #333333;
+    border-right: 1px solid #333333;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 10px;
+    cursor: pointer;
+    padding: 5px 5px 2px 5px;
+}

@@ -1,0 +1,1 @@
+<a href="javascript:report_win('<TMPL_VAR NAME="ACTION_REPORT">?EVENT=COURT/COURT_REPORT&SESSION_ID=<TMPL_VAR NAME="SESSION_ID">&CSRF_TOKEN=<TMPL_VAR NAME="CSRF_TOKEN">&<TMPL_VAR NAME="URL_ENCODED_REC">&RECID_REPORT=<TMPL_VAR NAME="RECID">','CourtReportWin',780)"><img src="<TMPL_VAR NAME=IMGPATH>/crt_big.gif" border="0" width="21" height="21" alt="Run Court Report"></a>

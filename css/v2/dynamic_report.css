@@ -1,0 +1,15 @@
+#menu {position:fixed; display:block; top:2px; padding-left: 15px; left:0px; width:190px; height:100%; background-color:#F3F3E9}
+* html #menu {position:absolute;}
+
+#menu_button {
+    position:relative; display:block; top: 0px; left: -5px;
+}
+* html #menu_button {position:static; margin-left: -5px;}
+
+
+#nav_button {
+display: inline;
+position: static;
+left: 0px;
+}
+

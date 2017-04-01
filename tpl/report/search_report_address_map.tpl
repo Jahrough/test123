@@ -1,0 +1,4 @@
+<!-- begin search_report_address_map.tpl -->
+<TMPL_VAR NAME="space"><TMPL_INCLUDE NAME="search_report_address.tpl"><BR>
+<!-- <TMPL_IF NAME=key><TMPL_UNLESS NAME="NO_LINKS"><A HREF="javascript:history_back--;location.hash='ADDR-<TMPL_VAR NAME=key>'; void 0"><TMPL_VAR NAME="street_address"> <TMPL_VAR NAME=city> <TMPL_VAR NAME=state> <TMPL_VAR NAME=zip><TMPL_IF NAME=zip4>-<TMPL_VAR NAME=zip4></TMPL_IF><TMPL_IF NAME=county>,&nbsp;<TMPL_VAR NAME=county> COUNTY</TMPL_IF></A><TMPL_ELSE><font color="#0000ff"><TMPL_VAR NAME="street_address"> <TMPL_VAR NAME=city> <TMPL_VAR NAME=state> <TMPL_VAR NAME=zip><TMPL_IF NAME=zip4>-<TMPL_VAR NAME=zip4></TMPL_IF><TMPL_IF NAME=county>,&nbsp;<TMPL_VAR NAME=county> COUNTY</TMPL_IF></font></TMPL_UNLESS><BR></TMPL_IF> -->
+<!-- end search_report_address_map.tpl -->

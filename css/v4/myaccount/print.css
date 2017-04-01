@@ -1,0 +1,17 @@
+.doc_control{
+  display: none !important;
+  visibility: hidden !important;
+}
+.cloned{
+	display: none !important;
+}
+.original{
+	visibility: visible !important;
+}
+
+a[href]:after { display:none !important; }
+
+a[href] {
+   content:"" !important;
+}
+

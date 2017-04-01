@@ -1,0 +1,14 @@
+.bs { color: #000000; height: 25px; width: 93px; font-weight: bold; font-family: arial,helvetica; font-size: 9pt; background: #cccccc; cursor:pointer; cursor:hand; border-width: 3px; border-style: solid; border-color: #cfeeef #737373 #737373 #cfeeef; }
+.bsd { color: #000000; height: 25px; width: 93px; font-weight: bold; font-family: arial,helvetica; font-size: 9pt; background: #cccccc; cursor:pointer; cursor:hand; border-width: 3px; border-style: solid; border-color: #737373 #cfeeef #cfeeef #737373; }
+
+.rb { color: #000000; height: 32px; width: 115px; font-weight: bold; font-family: arial,helvetica; font-size: 8pt; background: #BCC1A9; cursor:pointer; cursor:hand; border-width: 3px; border-style: solid; border-color: #E8EAE0 #828575 #828575 #E8EAE0; display:block }
+.rbd { color: #000000; height: 32px; width: 115px; font-weight: bold; font-family: arial,helvetica; font-size: 8pt; background: #BCC1A9; cursor:pointer; cursor:hand; border-width: 3px; border-style: solid; border-color: #828575 #E8EAE0 #E8EAE0 #828575; display:block }
+.scrollbox {position:relative; width:350px; height:150px; overflow: auto;}
+
+.rbotp { color: #000000; height: 22px; width: 120px; font-weight: bold; font-family: arial,helvetica; font-size: 8pt; background: #BCC1A9; cursor:pointer; cursor:hand; border-width: 2px; border-style: solid; border-color: #000000; }
+
+.rb_otp { color: #000000; height: 32px; width: 180px; font-weight: bold; font-family: arial,helvetica; font-size: 8pt; background: #BCC1A9; cursor:pointer; cursor:hand; border-width: 3px; border-style: solid; border-color: #E8EAE0 #828575 #828575 #E8EAE0; display:block }
+.rbd_otp { color: #000000; height: 32px; width: 180px; font-weight: bold; font-family: arial,helvetica; font-size: 8pt; background: #BCC1A9; cursor:pointer; cursor:hand; border-width: 3px; border-style: solid; border-color: #828575 #E8EAE0 #E8EAE0 #828575; display:block }
+
+.rb_otp_small { color: #000000; height: 25px; width: 70px; font-weight: bold; font-family: arial,helvetica; font-size: 8pt; background: #BCC1A9; cursor:pointer; cursor:hand; border-width: 3px; border-style: solid; border-color: #E8EAE0 #828575 #828575 #E8EAE0; display:block }
+.rbd_otp_small { color: #000000; height: 25px; width: 70px; font-weight: bold; font-family: arial,helvetica; font-size: 8pt; background: #BCC1A9; cursor:pointer; cursor:hand; border-width: 3px; border-style: solid; border-color: #828575 #E8EAE0 #E8EAE0 #828575; display:block }

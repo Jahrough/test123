@@ -1,0 +1,29 @@
+/* Search Page Popups Style */
+body { background-color: #FCFAF5; }
+
+A:		{ color: #0000ff; text-decoration: none; FONT-SIZE: 8pt; FONT-FAMILY: Arial,Helvetica; }
+A:link		{ color: #0000ff; text-decoration: none; FONT-SIZE: 8pt; FONT-FAMILY: Arial,Helvetica; }
+A:visited	{ color: #0000ff; text-decoration: none; FONT-SIZE: 8pt; FONT-FAMILY: Arial,Helvetica; }
+A:hover		{ color: #0000ff; text-decoration: none; FONT-SIZE: 8pt; FONT-FAMILY: Arial,Helvetica; font-weight: bold; }
+A:active	{ color: #0000ff; text-decoration: none; FONT-SIZE: 8pt; FONT-FAMILY: Arial,Helvetica; }
+
+/* timezone links */
+A.tz:		{ color: #000000; text-decoration: none; FONT-SIZE: 8pt; FONT-FAMILY: Arial,Helvetica; }
+A.tz:link	{ color: #000000; text-decoration: none; FONT-SIZE: 8pt; FONT-FAMILY: Arial,Helvetica; }
+A.tz:visited	{ color: #000000; text-decoration: none; FONT-SIZE: 8pt; FONT-FAMILY: Arial,Helvetica; }
+A.tz:hover	{ color: #0000ff; text-decoration: none; FONT-SIZE: 8pt; FONT-FAMILY: Arial,Helvetica; font-weight: bold; }
+A.tz:active	{ color: #000000; text-decoration: none; FONT-SIZE: 8pt; FONT-FAMILY: Arial,Helvetica; }
+
+/* Generic Popup Fonts */
+.popuptitle { FONT-SIZE: 12pt; FONT-FAMILY: Arial; COLOR: #003399; }
+.popupbody { FONT-SIZE: 10pt; FONT-FAMILY: Verdana; COLOR: #000000; }
+.popupstates { FONT-SIZE: 8pt; FONT-FAMILY: Arial; COLOR: #000000; }
+.supplementaldata { font-family: arial; font-size: 8pt; color: #003399; }
+
+/* Error Popup Fonts */
+.errortitle {FONT-SIZE: 8pt; FONT-FAMILY: arial; color: #ffffff; font-weight: bold; }
+.errorbody {FONT-SIZE: 8pt; FONT-FAMILY: verdana; }
+
+/* Advanced Tip Popups */
+.advancedtipheader { font-weight: bold; FONT-SIZE: 10pt; FONT-FAMILY: Arial; COLOR: #ffffff; background-color: #333399 }
+.advancedtipbody {FONT-SIZE: 8pt; FONT-FAMILY: Arial; COLOR: #000000; }

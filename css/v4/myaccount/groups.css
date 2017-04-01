@@ -1,0 +1,212 @@
+/* CSS Document */
+
+@import url("tooltip.css");
+
+/* group management */
+.formfields
+{
+	background: #fff;
+	padding: 20px;
+	border: 1px solid #f1f1f1;
+}
+
+.chkbox_col2
+{
+	width: 65%;
+}
+
+.chkbox_col3
+{
+	width: 60px;
+}
+
+.data_table td:nth-child(3)
+{
+	text-align: center;
+	border-left: 1px dashed #e9e9e9;
+}
+
+.data_table th, .data_table td, .data_table th:nth-child(1)
+{
+	padding: 10px;
+}
+/* end group management */
+
+/* group create/edit page */
+.group_header
+{
+	background: #f7f7f7;
+	padding: 10px;
+}
+
+.group_content
+{
+	border-left: 1px solid #efefef;
+	border-right: 1px solid #efefef;
+	border-bottom: 1px solid #efefef;
+	padding: 25px;
+	margin-bottom: 5px;
+}
+
+.group_settings
+{
+	background: #e6e6e6; /* should match "group_inline_xxxx" */
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.group_selection_note
+{
+	font-size: 11px;
+}
+
+/*
+.edit_group_header
+{
+	margin-bottom: 15px;
+	font-weight: bold;
+	color: #e12726;
+}
+*/
+
+.group_section
+{
+	background: #f7f7f7;
+	border-bottom: 1px solid #d6d6d6;
+	cursor: pointer;
+	padding: 10px;
+}
+
+.group_section:hover
+{
+	background: #fdf1dc;
+}
+
+.group_section > strong > span {
+    line-height: 25px;
+}
+
+.group_section_content
+{
+	padding: 10px 25px;
+	background: #fff;
+}
+
+.group_section_dppa
+{
+	display: inline-block;
+	width: 150px;
+}
+
+#group_form_buttons
+{
+	margin-top: 20px;
+}
+
+.group_sub_input
+{
+	margin-left: 35px;
+	padding-left: 10px;
+	border-left: 1px dashed #e12726;
+}
+/* end group create/edit page */
+
+.group_sections
+{
+	display: table;
+	width: 100%;
+}
+
+.group_inline_left, .group_inline_right
+{
+	display: table-cell;
+	vertical-align: top;
+	background: #e6e6e6;
+}
+
+.group_inline_left
+{
+	width: 270px;
+	padding: 10px
+}
+
+#left_panel
+{
+	width: 270px;
+}
+
+.group_inline_right
+{
+	/* width: 75%; */
+	padding: 10px 10px 10px 0px;
+}
+
+.group_pick, .group_pick_all
+{
+	background: #f7f7f7;
+	border-bottom: 1px solid #e2e2e2;
+	padding: 10px;
+	cursor: pointer;
+}
+
+li.group_pick:hover , li.group_pick_all:hover 
+{
+	background: #56565a;
+	color: #fff;
+}
+
+li.group_pick:hover a, li.group_pick_all:hover a 
+{
+	background: #56565a;
+	color: #fff;
+}
+
+#group_left_nav li.active {
+    color: #ffffff;
+    background-color: #E12726;
+    font-weight: 700;
+}
+
+#group_left_nav li.active a {
+    background-color: #e12726;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.add_minus_arrow
+{
+	margin: auto;
+    padding: 60px 10px 0px 10px;	
+}
+
+.list_users
+{
+	background: #fff;
+	border: 1px solid #ccc;
+	padding: 5px;
+	width: 400px;
+	height: 200px;
+	overflow: auto;
+}
+
+.list_users_right
+{
+	background: #fff;
+	border: 1px solid #ccc;
+	padding: 5px;
+	width: 365px;
+	height: 200px;
+	overflow: auto;
+}
+
+#group_left_nav ul{
+  padding-inline-start: 0px;
+}
+
+#group_left_nav li a {
+    line-height: 15px;
+}
+
+.sect_01, .sect_02, .sect_03, .sect_04, .sect_05, .sect_06, .sect_07, .sect_08, .sect_09, .sect_10, .sect_11, .sect_12, .sect_13{
+  font-size: 1.7em;
+}

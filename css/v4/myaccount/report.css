@@ -1,0 +1,344 @@
+/* CSS Document */
+
+@import url("tooltip.css");
+
+/* search form/results ------------------------------------------------- */
+.formfields
+{
+	background: #fff;
+	padding: 20px;
+	border: 1px solid #f1f1f1;
+}
+
+.search_buttons
+{
+	background: #f7f7f7;
+	padding: 5px 20px;
+	margin-bottom: 10px;
+	border: 1px solid #f1f1f1;
+	border-top: none;
+}
+
+/* user report columns */
+.rpt_user_col3, .rpt_user_col4, .rpt_user_col5, .rpt_user_col6, .rpt_user_col7
+{
+	width: 150px;
+}
+
+.rpt_user_col8
+{
+	width: 90px;
+}
+
+.rpt_user_table td:nth-child(8)
+{
+	text-align: center;
+	border-left: 1px dashed #e9e9e9;
+}
+
+/* group report columns */
+.rpt_grp_col2
+{
+	width: 65%;
+}
+
+/* authentication svc columns */
+.auth_col1
+{
+	width: 300px;
+}
+
+.billgroups
+{
+	background: #fff;
+	border: 1px solid #ccc;
+	padding: 5px;
+	width: 480px;
+	height: 150px;
+	overflow: auto;
+}
+
+/* management report columns */
+.rpt_mgttbl_col1
+{
+	width: 60px;
+}
+
+/* activity report columns */
+.rpt_act_col1
+{
+	width: 60px;
+}
+
+/* saved billgroups columns */
+.saved_bgroup_table_col2, .saved_bgroup_table_col3, .saved_bgroup_table_col4, .saved_bgroup_table_col5
+{
+	width: 90px;
+}
+
+/* management report columns */
+.rpt_mgt_table th:nth-child(1), .rpt_mgt_table td:nth-child(1),
+.activity_table th:nth-child(1), .activity_table td:nth-child(1)
+{
+	text-align: center;
+}
+
+/* saved billgroups columns */
+.saved_billgroup_table th:nth-child(2), .saved_billgroup_table td:nth-child(2),
+.saved_billgroup_table th:nth-child(3), .saved_billgroup_table td:nth-child(3),
+.saved_billgroup_table th:nth-child(4), .saved_billgroup_table td:nth-child(4),
+.saved_billgroup_table th:nth-child(5), .saved_billgroup_table td:nth-child(5)
+{
+	text-align: center;
+}
+
+.saved_billgroup_table td:nth-child(2), .auth_table td:nth-child(2)
+{
+	border-left: 1px dashed #e9e9e9;
+}
+
+.list_table_scroll
+{
+	overflow: auto;
+	height: 200px;
+}
+
+.action_buttons a
+{
+	background: #56565a;
+	color: #fff;
+	border: 1px solid #56565a;
+	padding: 3px 20px;
+	margin: 0px 10px 0px 0px;
+
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+.action_buttons a:hover
+{
+	text-decoration: none;
+	background: #e12726;
+	border: 1px solid #e12726;
+}
+
+.list_cnt
+{
+	background: #e12726;
+	color: #fff;
+	padding: 0px 7px;
+	margin-left: 3px;
+
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+.add_minus_arrow
+{
+	margin: auto;
+	padding: 60px 10px 0px 10px;
+}
+
+.list_group
+{
+	background: #fff;
+	border: 1px solid #ccc;
+	padding: 5px;
+	width: 400px;
+	height: 200px;
+	overflow: auto;
+}
+
+/* end search form/results ------------------------------------------------- */
+
+/* report */
+.doc_control
+{
+	float: right;
+	padding: 0px 10px;
+	line-height: 34px;
+	vertical-align: middle;
+}
+/*
+.rpt_container_head2
+{
+	max-width: 1200px;
+}
+
+.report_header, .rpt_container_head, .rpt_container
+{
+	max-width: 1200px;
+}
+*/
+.report_header
+{
+	margin: auto;
+	margin-bottom: 20px;
+	background: #f7f7f7;
+	padding: 25px;
+	border: 1px solid #e9e9e9;
+}
+
+.rpt_container_head, .rpt_container_head2, .rpt_container_head3, .rpt_container_head4, .rpt_container_head5
+{
+	margin: auto;
+	padding: 10px 25px;
+	background: #f7f7f7;
+	border: 1px solid #e9e9e9;
+	border-bottom: none;
+	cursor: pointer;
+
+	border-radius: 5px  5px  0px  0px;
+	-moz-border-radius: 5px  5px  0px  0px;
+	-webkit-border-radius: 5px  5px  0px  0px;
+}
+
+.rpt_container, .rpt_container2
+{
+	margin: auto;
+	margin-bottom: 20px;
+	padding: 25px;
+	border: 1px solid #e9e9e9;
+}
+
+div#reportcontents.management table.rpt_table th:first-child,
+div#reportcontents.management table.rpt_table td:first-child
+{
+	width: 80%;
+}
+
+
+.rpt_table
+{
+	margin-bottom: 25px;
+}
+
+.rpt_table th
+{
+	background: #56565a; /* 81807a */
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.rpt_table td
+{
+	border-bottom: 1px solid #e2e2e2;
+}
+
+/*
+.rpt_table td:last-child
+{
+	border-left: 1px dashed #cdcdcd;
+}
+
+.rpt_table th:nth-child(2), .rpt_table td:nth-child(2)
+{
+	text-align: center;
+}
+*/
+
+.rpt_table tr
+{
+	background: #efefef;
+}
+
+/* report: sample table columns */
+.rpt_sample2_col2, .rpt_activity_col2
+{
+	width: 100px;
+}
+
+.rpt_sample4_col4
+{
+	width: 110px;
+}
+
+.total_count
+{
+	background: #e7e7e7 !important;
+}
+
+.total_count:hover
+{
+	background: #fff !important;
+	color: #e12726;
+}
+
+/* report: detail table columns */
+.mgtcol4 th:nth-child(2), .mgtcol4 td:nth-child(2),
+.mgtcol4 th:nth-child(3), .mgtcol4 td:nth-child(3),
+.mgtcol4 th:nth-child(4), .mgtcol4 td:nth-child(4)
+{
+	text-align: center;
+}
+
+.mgt_table td:nth-child(2)
+{
+	border-left: 1px dashed #e9e9e9;
+}
+
+.rpt_mgt2_col2
+{
+	width: 250px;
+}
+
+.rpt_alerts_col3
+{
+	width: 130px;
+}
+
+.alerts_table2 th:nth-child(3), .alerts_table2 td:nth-child(3)
+{
+	text-align: center;
+}
+
+/* admin report columns */
+.admin_users_sum td:nth-child(5)
+{
+	text-align: center;
+	border-left: 1px dashed #e9e9e9;
+}
+
+.admin_users_sum th:nth-child(5), .admin_users_sum td:nth-child(5), 
+.admin_users_sum th:nth-child(6), .admin_users_sum td:nth-child(6), 
+.admin_users_sum th:nth-child(7), .admin_users_sum td:nth-child(7), 
+.admin_users_sum th:nth-child(8), .admin_users_sum td:nth-child(8), 
+.admin_users_sum th:nth-child(9), .admin_users_sum td:nth-child(9),
+.admin_users_sum th:nth-child(10), .admin_users_sum td:nth-child(10)
+{
+	text-align: center;
+}
+
+.rpt_admins_col5, .rpt_admins_col6, .rpt_admins_col10
+{
+	width: 115px;
+}
+
+.rpt_admins_col9
+{
+	width: 130px;
+}
+
+.rpt_admins_col8
+{
+	width: 135px;
+}
+
+.rpt_admins_col7
+{
+	width: 150px;
+}
+
+.admin_users_detail th:nth-child(5), .admin_users_detail td:nth-child(5)
+{
+	text-align: center;
+}
+
+.rpt_admin_col4, .rpt_admin_col5
+{
+	width: 130px;
+}
+/* end report */

@@ -1,0 +1,3 @@
+<!-- BEGIN ftp_job_url.tpl -->
+<a class="unifont1" href="javascript:var thiswin=general_win('<TMPL_VAR NAME=ACTION_BATCH>?EVENT=BATCHFTP/SHOW_JOBS&SESSION_ID=<TMPL_VAR NAME=SESSION_ID>&CSRF_TOKEN=<TMPL_VAR NAME=CSRF_TOKEN>','FTPJobWindow',610,650,0,0,0,1);thiswin.focus();void(0);"><TMPL_IF EDIT_FTP><img src="<TMPL_VAR NAME=IMGPATH>/BATCH/vfj_button.gif" width="126" height="29" border="0"><TMPL_ELSE><TMPL_IF EDIT_XML><img src="<TMPL_VAR NAME=IMGPATH>/BATCH/vfj_button.gif" width="126" height="29" border="0"><TMPL_ELSE><img src="<TMPL_VAR NAME=IMGPATH>/BATCH/voj_button.gif" width="126 height="29" border="0"></TMPL_IF></TMPL_IF></a> 
+<!-- END ftp_job_url.tpl -->

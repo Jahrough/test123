@@ -1,0 +1,174 @@
+
+.modtitle {
+    background-color: #000;
+}
+
+.modtitle_text {
+    font-family: Verdana, sans-serif;
+    font-size: 11.2px;
+}
+
+.modboxin {
+    border-color: #000;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.search_terms {
+    padding-bottom: 5px;
+}
+
+.search_nav {
+    padding-bottom: 3px;
+}
+
+.zip-search-data {
+    color:#fff;
+    font-size: 86%;
+    line-height: 12px;
+}
+
+table.data_tables {
+    font-size: 86%;
+}
+
+.dd_scroll_page {
+    color: #007DCF;
+}
+
+.ddSearchResultsIcons {
+    float: right;
+    position: relative;
+    font-weight: bold;
+    padding-bottom: 8px;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0066CC;
+}
+
+.ddSearchResultsIcons td {
+    padding-right: 12px;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #007DCF;
+}
+
+.person_alerts {
+    font-family: Verdana, sans-serif;
+    color: #000;
+    padding-top:10px;
+    line-height: 12px;
+    font-size: 10.4px;
+}
+
+a.person_alerts {
+    color: #007DCF;
+}
+
+.alerts_detail {
+    color: #007DCF;
+}
+
+#rbnBarTabPopover {
+    position:fixed;
+    bottom: 35px;
+    z-index: 100;
+    width: 360px;
+    left: 215px;
+    background-color: #FFF;
+    font-size: 71%; 
+}
+
+.searchResultsTblHeader {
+    background-color: #444444;
+}
+.searchResultsTblHeader td{
+    height:25px !important;
+    color:#fff;
+}
+
+.ddClearSrch {
+    border-color: #000000;
+}
+
+#dd_most_wanted {
+    padding-bottom: 5px;
+}
+
+
+#dd_most_wanted_links li {
+    color: black;
+}
+
+.dd_most_wanted_blank {
+    opacity: 0.2;
+    filter:alpha(opacity=20);
+}
+
+.dd_most_wanted_nonblank {
+    opacity: 0.93;
+    filter:alpha(opacity=93);
+}
+
+.dd_lnin {
+    padding-bottom: 5px;
+}
+
+
+.dd_lnin_links li {
+    color: black;
+}
+.nsinputs input{
+    height: 25px !important;
+    float: left;
+    border:1px solid #939598;
+    padding-left:3px;
+}
+#STATE4{
+    float: left;
+    margin-right: 0;
+    border-right: 0;
+    width:60px;
+}
+.rbnBarPopoverBoxes{
+    background-color: #fff !important;
+}
+#rbnBarTabPopover{
+    border: 1px solid black;
+    border-bottom: 0;
+    border-radius: 8px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.rbnBarPopoverBoxes > .modtitle{
+    border:0;
+}
+#rbnBarTabPopover > .modbox{
+    border-radius: 5px;
+}
+#rbnBarTabPopover .dd_lnin_links{
+    border-radius: 5px;
+    color: #ed1c24;
+}
+#rbnBarTabPopover .dd_searches{
+    height: auto !important;
+}
+#rbnBarTabPopover .dd_searches i.collapseExpand-collapse,
+#rbnBarTabPopover .dd_searches i.collapseExpand-expand{
+    display: block;
+    float: left;
+    margin-top: -5px;
+    margin-right: 6px;
+}
+#rbnBarTabPopover .ddSearchBtn,
+#rbnBarTabPopover .ddClearSrch{
+    height: 25px !important;
+}
+.dd_search_results .tblHdr > span{
+    color: #000 !important;
+}
+#footbarTriangle > div > img{
+    margin-top: 4px !important;
+}

@@ -1,0 +1,108 @@
+body {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-color: #e6e6e6;
+	background-image: url(../images/mobile/red.gif);
+	background-position: top left;
+	background-repeat: repeat-x;
+	background-color: #e6e6e6;
+	text-align: center;
+	font-family: Arial Rounded MT Bold, Arial, Helvetica, sans-serif;
+}
+img {
+	border: 0px;
+}
+img.but {
+	border: 0px;
+	margin-bottom: 15px;
+}
+#container_iphone {
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	width: 100%;
+	margin-left: -50%; /*set to a negative number 1/2 of your width*/
+}
+.med {
+	font: normal 2.0em Arial Rounded MT Bold, Arial, Helvetica, sans-serif;
+	color: #fff;
+}
+.lg {
+	font: normal 3.0em Arial Rounded MT Bold, Arial, Helvetica, sans-serif;
+	color: #fff;
+}
+.reg {
+	font: normal 0.4em Arial Rounded MT Bold, Arial, Helvetica, sans-serif;
+	color: #fff;
+	position: relative;
+	top: -20px;
+	left: 2px;
+}
+.submit {
+	margin-top: 15px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.center {
+	text-align: center;
+}
+.right {
+	text-align: right;
+}
+.left {
+	text-align: left;
+}
+.close {
+	margin-top: 13px;
+}
+.bodytext {
+	font: bold 1.0em Arial, Helvetica, sans-serif;
+}
+.email_cont {
+	width: 270px;
+	height: 270px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+.emailinput {
+	width: 270px;
+	font: bold 1.0em Arial, Helvetica, sans-serif;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+.mobile_container {
+	border: 0px;
+	width: 640px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.mobile_images {
+	border: 0px;
+	width: 50%;
+	text-align: center;
+	vertical-align: bottom;
+}
+#blanket {
+	background-color: #111;
+	opacity: 0.65;
+	filter: alpha(opacity=65);
+	position: absolute;
+	z-index: 9001;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 960px;
+}
+#popUpDiv {
+	position: absolute;
+	background-color: #eee;
+	width: 300px;
+	height: 300px;
+	z-index: 9002;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}

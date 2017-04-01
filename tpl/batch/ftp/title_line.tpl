@@ -1,0 +1,1 @@
+<TMPL_VAR FTPBATCH_NAME> FTP Batch Wizard <b><TMPL_VAR TITLE_PAGE></b>

@@ -1,0 +1,268 @@
+/*.check_green, .nav_signout_on, .news, .option_edit, .option_export, .option_new, .option_print, .photos, .show, .check_red, .copy, .flag_green, .flag_red, .flag_yellow, .handshake_watermark, .hide, .indicator_criminal, .indicator_property, .logo, .map, .myacc_assets, .myacc_businesses, .myacc_courts, .myacc_licenses, .myacc_more, .myacc_people, .myacc_phones, .nav_account_on, .nav_home_off, .nav_legacy_on, .nav_main_on, .arrow, .myacc_assets_icon, .myacc_businesses_icon, .myacc_courts_icon, .myacc_licenses_icon, .myacc_more_icon, .myacc_people_icon, .myacc_phones_icon, .nav_account_off, .nav_home_on, .nav_signout_off, .nav_main_off, .nav_legacy_off{
+	background: url(sprites.png) no-repeat;
+}*/
+
+.check_green{
+	background-position: 0 0;
+	width: 10px;
+	height: 10px;
+}
+
+.nav_signout_on{
+	background-position: -48px -76px ;
+	width: 20px;
+	height: 17px;
+}
+
+.news{
+	background-position: -22px -77px ;
+	width: 18px;
+	height: 14px;
+}
+
+.option_edit{
+	background-position: -12px -42px ;
+	width: 17px;
+	height: 16px;
+}
+
+.option_export{
+	background-position: -32px -27px ;
+	width: 19px;
+	height: 17px;
+}
+
+.option_new{
+	background-position: -12px -22px ;
+	width: 17px;
+	height: 18px;
+}
+
+.option_print{
+	background-position: -73px -30px ;
+	width: 17px;
+	height: 16px;
+}
+
+.photos{
+	background-position: -183px -1px ;
+	width: 258px;
+	height: 65px;
+}
+
+.show{
+	background-position: -1px -88px ;
+	width: 14px;
+	height: 14px;
+}
+
+.check_red{
+	background-position: -1px -60px ;
+	width: 10px;
+	height: 10px;
+}
+
+.copy{
+	background-position: -52px -28px ;
+	width: 18px;
+	height: 23px;
+}
+
+.flag_green{
+	background-position: -2px -20px ;
+	width: 8px;
+	height: 11px;
+}
+
+.flag_red{
+	background-position: -1px -47px ;
+	width: 8px;
+	height: 11px;
+}
+
+.flag_yellow{
+	background-position: -1px -34px ;
+	width: 8px;
+	height: 11px;
+}
+
+.handshake_watermark{
+	background-position: -368px -69px ;
+	width: 74px;
+	height: 50px;
+}
+
+.hide{
+	background-position: -1px -72px ;
+	width: 14px;
+	height: 14px;
+}
+
+.indicator_criminal{
+	background-position: -68px -52px ;
+	width: 30px;
+	height: 20px;
+}
+
+.indicator_property{
+	background-position: -52px -4px ;
+	width: 34px;
+	height: 22px;
+}
+
+.logo{
+	background-position: -197px -92px ;
+	width: 153px;
+	height: 27px;
+}
+
+.map{
+	background-position: -247px -69px ;
+	width: 7px;
+	height: 12px;
+}
+
+.myacc_assets{
+	background-position: -142px -41px ;
+	width: 38px;
+	height: 38px;
+}
+
+.myacc_businesses{
+	background-position: -101px -41px ;
+	width: 38px;
+	height: 38px;
+}
+
+.myacc_courts{
+	background-position: -101px -1px ;
+	width: 38px;
+	height: 38px;
+}
+
+.myacc_licenses{
+	background-position: -153px -82px ;
+	width: 38px;
+	height: 38px;
+}
+
+.myacc_more{
+	background-position: -112px -82px ;
+	width: 38px;
+	height: 38px;
+}
+
+.myacc_people{
+	background-position: -72px -82px ;
+	width: 38px;
+	height: 38px;
+}
+
+.myacc_phones{
+	background-position: -142px -1px ;
+	width: 38px;
+	height: 38px;
+}
+
+.nav_account_on{
+	background-position: -306px -69px ;
+	width: 20px;
+	height: 22px;
+}
+
+.nav_home_off{
+	background-position: -300px -124px ;
+	width: 24px;
+	height: 20px;
+}
+
+.nav_legacy_on{
+	background-position: -327px -68px ;
+	width: 20px;
+	height: 20px;
+}
+
+.nav_main_on{
+	background-position: -11px 0;
+	width: 29px;
+	height: 20px;
+}
+
+.arrow{
+	background-position: -351px -69px ;
+	width: 13px;
+	height: 21px;
+}
+
+.myacc_assets_icon{
+	background-position: -159px -123px ;
+	width: 11px;
+	height: 21px;
+}
+
+.myacc_businesses_icon{
+	background-position: -180px -122px ;
+	width: 18px;
+	height: 21px;
+}
+
+.myacc_courts_icon{
+	background-position: -210px -122px ;
+	width: 22px;
+	height: 20px;
+}
+
+.myacc_licenses_icon{
+	background-position: -24px -124px ;
+	width: 21px;
+	height: 14px;
+}
+
+.myacc_more_icon{
+	background-position: -111px -125px ;
+	width: 18px;
+	height: 14px;
+}
+
+.myacc_people_icon{
+	background-position: -61px -125px ;
+	width: 14px;
+	height: 20px;
+}
+
+.myacc_phones_icon{
+	background-position: -2px -124px ;
+	width: 20px;
+	height: 21px;
+}
+
+.nav_account_off{
+	background-position: -44px -52px ;
+	width: 20px;
+	height: 22px;
+}
+
+.nav_home_on{
+	background-position: -192px -68px ;
+	width: 24px;
+	height: 22px;
+}
+
+.nav_signout_off{
+	background-position: -330px -124px ;
+	width: 20px;
+	height: 17px;
+}
+
+.nav_main_off{
+	background-position: -245px -125px ;
+	width: 29px;
+	height: 20px;
+}
+
+.nav_legacy_off{
+	background-position: -277px -125px ;
+	width: 20px;
+	height: 20px;
+}
+

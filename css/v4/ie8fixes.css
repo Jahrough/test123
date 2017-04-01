@@ -1,0 +1,626 @@
+.smart-form .toggle i.on:after{
+    content: attr(data-swchon-text);
+    text-align:right;
+}
+.smart-form .toggle i.on:before{
+    background-color: #6ACC5D;
+    right:85px;
+}
+
+.callout {
+    position: relative;
+    background-color: red;
+}
+.callout .notch {
+    position: absolute;
+    margin: 0;
+    top: -25px;
+    left: 11px;
+    border-top: 5px solid #000;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 0;
+    display:inline;
+}
+
+.callout .textarea-notch {
+    position: absolute;
+    left: 11px;
+    top: -51px;
+    border-top: 5px solid #000;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 0;
+}
+
+.smart-form .radio i {
+}
+
+.inputunselected:after{ display:none; }
+
+.pace-activity{
+    border-left: none !important;
+    border-top: none !important;
+}
+
+div.ie8-fixed-200px{
+    width: 200px;
+}
+div.ie8-fixed-210px{
+    width: 210px;
+}
+button#search-menu{
+    width: 130px !important;
+}
+
+.jarviswidget-ctrls {
+}
+
+.jarviswidget-ctrls .button-icon {
+    border-left: grey 1px dotted !important;
+}
+
+#additional-content-container > h3, #search-options-container > h3 {
+    border-bottom: 1px dashed #000000;
+}
+
+label[input] b {
+    display: inline-block;
+}
+
+.input-sm {
+    padding-bottom: 5px; 
+    padding-left: 5px; 
+    padding-right: 5px; 
+    padding-top: 5px; 
+    height: 20px;
+}
+
+.smart-form footer {
+    border-top: 1px solid #d6d6d6;
+    background: rgb(248,248,248);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    opacity:.9;
+}
+
+.page-footer {
+    widht: 100%;
+}
+
+.widget-body.no-padding{ 
+    position: relative;
+}
+.search_rad_sel {
+    position: absolute;
+    width: 100px;
+    right: 15px;
+}
+.search_rad_label{
+    font-size: 12px;
+    line-height: 25px;
+    color: #404040;
+}
+
+.smart-form .select select {
+    width: 95%;
+    overflow: visible !important;
+    /*border: 1px #BDBDBD solid;*/
+    /*border: none !important;*/ 
+    display: inline-block !important;
+}
+.ie8-fix-95-width{
+    width: 95% important;
+}
+
+.report_section > div.section_container > table {
+    width: 98% !important;
+}
+
+/* PNG replacements for SVG icons */
+.announcements_icon:before{background-image:url(../../images/v4/PNGs/announcement-12x12.png)}
+.education-icon:before{background-image: url(../../images/v4/PNGs/education-20x20.png);}
+.person_icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/People-35x35.png)}
+.person_icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/People-30x30.png)}
+.person_icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/People-25x25.png)}
+.person_icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/People-20x20.png)}
+.person_icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/People-15x15.png)}
+.person_icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/People-10x10.png)}
+.btn-danger .person_icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/People-Grey-35x35.png)}
+.btn-danger .person_icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/People-Grey-30x30.png)}
+.btn-danger .person_icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/People-Grey-25x25.png)}
+.btn-danger .person_icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/People-Grey-20x20.png)}
+.btn-danger .person_icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/People-Grey-15x15.png)}
+.btn-danger .person_icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/People-Grey-10x10.png)}
+.bus_icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/Business-35x35.png)}
+.bus_icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/Business-30x30.png)}
+.bus_icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/Business-25x25.png)}
+.bus_icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/Business-20x20.png)}
+.bus_icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/Business-15x15.png)}
+.bus_icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/Business-10x10.png)}
+.btn-danger .bus_icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/BusinessGrey-35x35.png)}
+.btn-danger .bus_icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/BusinessGrey-30x30.png)}
+.btn-danger .bus_icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/BusinessGrey-25x25.png)}
+.btn-danger .bus_icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/BusinessGrey-20x20.png)}
+.btn-danger .bus_icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/BusinessGrey-15x15.png)}
+.btn-danger .bus_icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/BusinessGrey-10x10.png)}
+.news_icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/News-35x35.png)}
+.news_icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/News-30x30.png)}
+.news_icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/News-25x25.png)}
+.news_icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/News-20x20.png)}
+.news_icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/News-15x15.png)}
+.news_icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/News-10x10.png)}
+.btn-danger .news_icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/News-Grey-35x35.png)}
+.btn-danger .news_icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/News-Grey-30x30.png)}
+.btn-danger .news_icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/News-Grey-25x25.png)}
+.btn-danger .news_icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/News-Grey-20x20.png)}
+.btn-danger .news_icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/News-Grey-15x15.png)}
+.btn-danger .news_icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/News-Grey-10x10.png)}
+.favorites-star-white.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/FavoriteSearchesWhite-35x35.png)}
+.favorites-star-white.svg-icon-large:before{background-image:url(../../images/v4/PNGs/FavoriteSearchesWhite-30x30.png)}
+.favorites-star-white.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/FavoriteSearchesWhite-25x25.png)}
+.favorites-star-white.svg-icon-small:before{background-image:url(../../images/v4/PNGs/FavoriteSearchesWhite-20x20.png)}
+.favorites-star-white.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/FavoriteSearchesWhite-15x15.png)}
+.favorites-star-white.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/FavoriteSearchesWhite-10x10.png)}
+.favorites-star-red.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/FavoriteSearchesRed-35x35.png)}
+.favorites-star-red.svg-icon-large:before{background-image:url(../../images/v4/PNGs/FavoriteSearchesRed-30x30.png)}
+.favorites-star-red.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/FavoriteSearchesRed-25x25.png)}
+.favorites-star-red.svg-icon-small:before{background-image:url(../../images/v4/PNGs/FavoriteSearchesRed-20x20.png)}
+.favorites-star-red.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/FavoriteSearchesRed-15x15.png)}
+.favorites-star-red.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/FavoriteSearchesRed-10x10.png)}
+.favorites-star-red-filled.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/FavoriteSearches-Selected-35x35.png)}
+.favorites-star-red-filled.svg-icon-large:before{background-image:url(../../images/v4/PNGs/FavoriteSearches-Selected-30x30.png)}
+.favorites-star-red-filled.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/FavoriteSearches-Selected-25x25.png)}
+.favorites-star-red-filled.svg-icon-small:before{background-image:url(../../images/v4/PNGs/FavoriteSearches-Selected-20x20.png)}
+.favorites-star-red-filled.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/FavoriteSearches-Selected-15x15.png)}
+.favorites-star-red-filled.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/FavoriteSearches-Selected-10x10.png)}
+.favorites-star-grey.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/FavoriteSearchesGrey-35x35.png)}
+.favorites-star-grey.svg-icon-large:before{background-image:url(../../images/v4/PNGs/FavoriteSearchesGrey-30x30.png)}
+.favorites-star-grey.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/FavoriteSearchesGrey-25x25.png)}
+.favorites-star-grey.svg-icon-small:before{background-image:url(../../images/v4/PNGs/FavoriteSearchesGrey-20x20.png)}
+.favorites-star-grey.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/FavoriteSearchesGrey-15x15.png)}
+.favorites-star-grey.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/FavoriteSearchesGrey-10x10.png)}
+.frequent-star.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/FrequentSearchesRed-35x35.png)}
+.frequent-star.svg-icon-large:before{background-image:url(../../images/v4/PNGs/FrequentSearchesRed-30x30.png)}
+.frequent-star.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/FrequentSearchesRed-25x25.png)}
+.frequent-star.svg-icon-small:before{background-image:url(../../images/v4/PNGs/FrequentSearchesRed-20x20.png)}
+.frequent-star.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/FrequentSearchesRed-15x15.png)}
+.frequent-star.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/FrequentSearchesRed-10x10.png)}
+.property_icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/PropertyandAssets-35x35.png)}
+.property_icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/PropertyandAssets-30x30.png)}
+.property_icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/PropertyandAssets-25x25.png)}
+.property_icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/PropertyandAssets-20x20.png)}
+.property_icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/PropertyandAssets-15x15.png)}
+.property_icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/PropertyandAssets-10x10.png)}
+.btn-danger .property_icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/PropertyandAssetsGrey-35x35.png)}
+.btn-danger .property_icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/PropertyandAssetsGrey-30x30.png)}
+.btn-danger .property_icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/PropertyandAssetsGrey-25x25.png)}
+.btn-danger .property_icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/PropertyandAssetsGrey-20x20.png)}
+.btn-danger .property_icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/PropertyandAssetsGrey-15x15.png)}
+.btn-danger .property_icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/PropertyandAssetsGrey-10x10.png)}
+.court_icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/CourtandAdminFilings-35x35.png)}
+.court_icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/CourtandAdminFilings-30x30.png)}
+.court_icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/CourtandAdminFilings-25x25.png)}
+.court_icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/CourtandAdminFilings-20x20.png)}
+.court_icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/CourtandAdminFilings-15x15.png)}
+.court_icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/CourtandAdminFilings-10x10.png)}
+.btn-danger .court_icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/CourtandAdminFilings-Grey-35x35.png)}
+.btn-danger .court_icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/CourtandAdminFilings-Grey-30x30.png)}
+.btn-danger .court_icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/CourtandAdminFilings-Grey-25x25.png)}
+.btn-danger .court_icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/CourtandAdminFilings-Grey-20x20.png)}
+.btn-danger .court_icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/CourtandAdminFilings-Grey-15x15.png)}
+.btn-danger .court_icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/CourtandAdminFilings-Grey-10x10.png)}
+.international_icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/International-35x35.png)}
+.international_icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/International-30x30.png)}
+.international_icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/International-25x25.png)}
+.international_icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/International-20x20.png)}
+.international_icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/International-15x15.png)}
+.international_icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/International-10x10.png)}
+.btn-danger .international_icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/International-Grey-35x35.png)}
+.btn-danger .international_icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/International-Grey-30x30.png)}
+.btn-danger .international_icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/International-Grey-25x25.png)}
+.btn-danger .international_icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/International-Grey-20x20.png)}
+.btn-danger .international_icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/International-Grey-15x15.png)}
+.btn-danger .international_icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/International-Grey-10x10.png)}
+.regulations_icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/RegulationsandCompliance-35x35.png)}
+.regulations_icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/RegulationsandCompliance-30x30.png)}
+.regulations_icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/RegulationsandCompliance-25x25.png)}
+.regulations_icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/RegulationsandCompliance-20x20.png)}
+.regulations_icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/RegulationsandCompliance-15x15.png)}
+.regulations_icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/RegulationsandCompliance-10x10.png)}
+.btn-danger .regulations_icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/RegulationsandCompliance-Grey-35x35.png)}
+.btn-danger .regulations_icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/RegulationsandCompliance-Grey-30x30.png)}
+.btn-danger .regulations_icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/RegulationsandCompliance-Grey-25x25.png)}
+.btn-danger .regulations_icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/RegulationsandCompliance-Grey-20x20.png)}
+.btn-danger .regulations_icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/RegulationsandCompliance-Grey-15x15.png)}
+.btn-danger .regulations_icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/RegulationsandCompliance-Grey-10x10.png)}
+.direct_to_source_icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/Directtosource-35x35.png)}
+.direct_to_source_icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/Directtosource-30x30.png)}
+.direct_to_source_icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/Directtosource-25x25.png)}
+.direct_to_source_icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/Directtosource-20x20.png)}
+.direct_to_source_icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/Directtosource-15x15.png)}
+.direct_to_source_icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/Directtosource-10x10.png)}
+.authentication_services_icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/authentication-35x35.png)}
+.authentication_services_icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/authentication-30x30.png)}
+.authentication_services_icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/authentication-25x25.png)}
+.authentication_services_icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/authentication-20x20.png)}
+.authentication_services_icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/authentication-15x15.png)}
+.authentication_services_icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/authentication-10x10.png)}
+.btn-danger .authentication_services_icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/authentication-grey-35x35.png)}
+.btn-danger .authentication_services_icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/authentication-grey-30x30.png)}
+.btn-danger .authentication_services_icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/authentication-grey-25x25.png)}
+.btn-danger .authentication_services_icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/authentication-grey-20x20.png)}
+.btn-danger .authentication_services_icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/authentication-grey-15x15.png)}
+.btn-danger .authentication_services_icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/authentication-grey-10x10.png)}
+.fcra_icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/FCRA-35x35.png)}
+.fcra_icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/FCRA-30x30.png)}
+.fcra_icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/FCRA-25x25.png)}
+.fcra_icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/FCRA-20x20.png)}
+.fcra_icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/FCRA-15x15.png)}
+.fcra_icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/FCRA-10x10.png)}
+.phone_icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/PhoneSearchForm-35x35.png)}
+.phone_icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/PhoneSearchForm-30x30.png)}
+.phone_icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/PhoneSearchForm-25x25.png)}
+.phone_icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/PhoneSearchForm-20x20.png)}
+.phone_icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/PhoneSearchForm-15x15.png)}
+.phone_icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/PhoneSearchForm-10x10.png)}
+.external_link_icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/NewWindow-35x35.png)}
+.external_link_icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/NewWindow-30x30.png)}
+.external_link_icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/NewWindow-25x25.png)}
+.external_link_icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/NewWindow-20x20.png)}
+.external_link_icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/NewWindow-15x15.png)}
+.external_link_icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/NewWindow-10x10.png)}
+.unlock_icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/Unlock-35x35.png)}
+.unlock_icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/Unlock-30x30.png)}
+.unlock_icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/Unlock-25x25.png)}
+.unlock_icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/Unlock-20x20.png)}
+.unlock_icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/Unlock-15x15.png)}
+.unlock_icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/Unlock-10x10.png)}
+.lock_icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/Lock-35x35.png)}
+.lock_icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/Lock-30x30.png)}
+.lock_icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/Lock-25x25.png)}
+.lock_icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/Lock-20x20.png)}
+.lock_icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/Lock-15x15.png)}
+.lock_icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/Lock-10x10.png)}
+.grey_lock_icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/LockGrey-35x35.png)}
+.grey_lock_icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/LockGrey-30x30.png)}
+.grey_lock_icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/LockGrey-25x25.png)}
+.grey_lock_icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/LockGrey-20x20.png)}
+.grey_lock_icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/LockGrey-15x15.png)}
+.grey_lock_icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/LockGrey-10x10.png)}
+.home-icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/Home-35x35.png)}
+.home-icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/Home-30x30.png)}
+.home-icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/Home-25x25.png)}
+.home-icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/Home-20x20.png)}
+.home-icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/Home-15x15.png)}
+.home-icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/Home-10x10.png)}
+.search-icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/AdditionalQuickSearch-35x35.png)}
+.search-icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/AdditionalQuickSearch-30x30.png)}
+.search-icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/AdditionalQuickSearch-25x25.png)}
+.search-icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/AdditionalQuickSearch-20x20.png)}
+.search-icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/AdditionalQuickSearch-15x15.png)}
+.search-icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/AdditionalQuickSearch-10x10.png)}
+.manage-tabs.svg-icon-x-large:after{background-image:url(../../images/v4/PNGs/ManageTabs-35x35.png)}
+.manage-tabs.svg-icon-large:after{background-image:url(../../images/v4/PNGs/ManageTabs-30x30.png)}
+.manage-tabs.svg-icon-normal:after{background-image:url(../../images/v4/PNGs/ManageTabs-27x27.png)}
+.manage-tabs.svg-icon-small:after{background-image:url(../../images/v4/PNGs/ManageTabs-20x20.png)}
+.manage-tabs.svg-icon-tiny:after{background-image:url(../../images/v4/PNGs/ManageTabs-15x15.png)}
+.manage-tabs.svg-icon-x-tiny:after{background-image:url(../../images/v4/PNGs/ManageTabs-10x10.png)}
+.help-icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/Help-35x35.png)}
+.help-icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/Help-30x30.png)}
+.help-icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/Help-25x25.png)}
+.help-icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/Help-20x20.png)}
+.help-icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/Help-15x15.png)}
+.help-icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/Help-10x10.png)}
+.info-icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/Information-35x35.png)}
+.info-icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/Information-30x30.png)}
+.info-icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/Information-25x25.png)}
+.info-icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/Information-20x20.png)}
+.info-icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/Information-15x15.png)}
+.info-icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/Information-10x10.png)}
+.search-within-icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/AdditionalSearches-35x35.png)}
+.search-within-icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/AdditionalSearches-30x30.png)}
+.search-within-icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/AdditionalSearches-25x25.png)}
+.search-within-icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/AdditionalSearches-20x20.png)}
+.search-within-icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/AdditionalSearches-15x15.png)}
+.search-within-icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/AdditionalSearches-10x10.png)}
+.print-icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/Print-35x35.png)}
+.print-icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/Print-30x30.png)}
+.print-icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/Print-25x25.png)}
+.print-icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/Print-20x20.png)}
+.print-icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/Print-15x15.png)}
+.print-icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/Print-10x10.png)}
+.download-icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/Download-35x35.png)}
+.download-icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/Download-30x30.png)}
+.download-icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/Download-25x25.png)}
+.download-icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/Download-20x20.png)}
+.download-icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/Download-15x15.png)}
+.download-icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/Download-10x10.png)}
+.copy-icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/Copy-35x35.png)}
+.copy-icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/Copy-30x30.png)}
+.copy-icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/Copy-25x25.png)}
+.copy-icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/Copy-20x20.png)}
+.copy-icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/Copy-15x15.png)}
+.copy-icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/Copy-10x10.png)}
+.high-risk-icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/HighRisk-35x35.png)}
+.high-risk-icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/HighRisk-30x30.png)}
+.high-risk-icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/HighRisk-25x25.png)}
+.high-risk-icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/HighRisk-20x20.png)}
+.high-risk-icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/HighRisk-15x15.png)}
+.high-risk-icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/HighRisk-10x10.png)}
+.medium-risk-icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/MediumRisk-35x35.png)}
+.medium-risk-icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/MediumRisk-30x30.png)}
+.medium-risk-icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/MediumRisk-25x25.png)}
+.medium-risk-icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/MediumRisk-20x20.png)}
+.medium-risk-icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/MediumRisk-15x15.png)}
+.medium-risk-icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/MediumRisk-10x10.png)}
+.minimal-risk-icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/MinimalRisk-35x35.png)}
+.minimal-risk-icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/MinimalRisk-30x30.png)}
+.minimal-risk-icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/MinimalRisk-25x25.png)}
+.minimal-risk-icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/MinimalRisk-20x20.png)}
+.minimal-risk-icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/MinimalRisk-15x15.png)}
+.minimal-risk-icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/MinimalRisk-10x10.png)}
+.edit-icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/Edit-35x35.png)}
+.edit-icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/Edit-30x30.png)}
+.edit-icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/Edit-25x25.png)}
+.edit-icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/Edit-20x20.png)}
+.edit-icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/Edit-15x15.png)}
+.edit-icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/Edit-10x10.png)}
+.my-tasks-icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/MyTasksRed-35x35.png)}
+.my-tasks-icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/MyTasksRed-30x30.png)}
+.my-tasks-icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/MyTasksRed-25x25.png)}
+.my-tasks-icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/MyTasksRed-20x20.png)}
+.my-tasks-icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/MyTasksRed-15x15.png)}
+.my-tasks-icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/MyTasksRed-10x10.png)}
+.wireless-phone-icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/WirelessPhone-35x35.png)}
+.wireless-phone-icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/WirelessPhone-30x30.png)}
+.wireless-phone-icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/WirelessPhone-25x25.png)}
+.wireless-phone-icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/WirelessPhone-20x20.png)}
+.wireless-phone-icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/WirelessPhone-15x15.png)}
+.wireless-phone-icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/WirelessPhone-10x10.png)}
+.green-check-icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/greencheckmark-35x35.png)}
+.green-check-icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/greencheckmark-30x30.png)}
+.green-check-icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/greencheckmark-25x25.png)}
+.green-check-icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/greencheckmark-20x20.png)}
+.green-check-icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/greencheckmark-15x15.png)}
+.green-check-icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/greencheckmark-10x10.png)}
+.green-check-circle-icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/greencheckmark-circle-35x35.png)}
+.green-check-circle-icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/greencheckmark-circle-30x30.png)}
+.green-check-circle-icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/greencheckmark-circle-25x25.png)}
+.green-check-circle-icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/greencheckmark-circle-20x20.png)}
+.green-check-circle-icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/greencheckmark-circle-15x15.png)}
+.green-check-circle-icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/greencheckmark-circle-10x10.png)}
+.red-x-icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/Red-X-35x35.png)}
+.red-x-icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/Red-X-30x30.png)}
+.red-x-icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/Red-X-25x25.png)}
+.red-x-icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/Red-X-20x20.png)}
+.red-x-icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/Red-X-15x15.png)}
+.red-x-icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/Red-X-10x10.png)}
+.red-x-circle-icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/failuremark-circle-35x35.png)}
+.red-x-circle-icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/failuremark-circle-30x30.png)}
+.red-x-circle-icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/failuremark-circle-25x25.png)}
+.red-x-circle-icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/failuremark-circle-20x20.png)}
+.red-x-circle-icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/failuremark-circle-15x15.png)}
+.red-x-circle-icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/failuremark-circle-10x10.png)}
+.premium-phone-icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/PremiumPhone-35x35.png)}
+.premium-phone-icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/PremiumPhone-30x30.png)}
+.premium-phone-icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/PremiumPhone-25x25.png)}
+.premium-phone-icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/PremiumPhone-20x20.png)}
+.premium-phone-icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/PremiumPhone-15x15.png)}
+.premium-phone-icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/PremiumPhone-10x10.png)}
+.residential-phone-icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/ResidentialPhone-35x35.png)}
+.residential-phone-icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/ResidentialPhone-30x30.png)}
+.residential-phone-icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/ResidentialPhone-25x25.png)}
+.residential-phone-icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/ResidentialPhone-20x20.png)}
+.residential-phone-icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/ResidentialPhone-15x15.png)}
+.residential-phone-icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/ResidentialPhone-10x10.png)}
+.business-phone-icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/BusinessPhone-35x35.png)}
+.business-phone-icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/BusinessPhone-30x30.png)}
+.business-phone-icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/BusinessPhone-25x25.png)}
+.business-phone-icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/BusinessPhone-20x20.png)}
+.business-phone-icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/BusinessPhone-15x15.png)}
+.business-phone-icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/BusinessPhone-10x10.png)}
+.document-icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/DocumentFormat-35x35.png)}
+.document-icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/DocumentFormat-30x30.png)}
+.document-icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/DocumentFormat-25x25.png)}
+.document-icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/DocumentFormat-20x20.png)}
+.document-icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/DocumentFormat-15x15.png)}
+.document-icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/DocumentFormat-10x10.png)}
+.gear.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/Settings-35x35.png)}
+.gear.svg-icon-large:before{background-image:url(../../images/v4/PNGs/Settings-30x30.png)}
+.gear.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/Settings-25x25.png)}
+.gear.svg-icon-small:before{background-image:url(../../images/v4/PNGs/Settings-20x20.png)}
+.gear.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/Settings-15x15.png)}
+.gear.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/Settings-10x10.png)}
+.key-icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/Key-35x35.png)}
+.key-icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/Key-30x30.png)}
+.key-icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/Key-25x25.png)}
+.key-icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/Key-20x20.png)}
+.key-icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/Key-15x15.png)}
+.key-icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/Key-10x10.png)}
+.fax-icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/Fax-35x35.png)}
+.fax-icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/Fax-30x30.png)}
+.fax-icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/Fax-25x25.png)}
+.fax-icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/Fax-20x20.png)}
+.fax-icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/Fax-15x15.png)}
+.fax-icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/Fax-10x10.png)}
+.government-icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/GovernmentPhone-35x35.png)}
+.government-icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/GovernmentPhone-30x30.png)}
+.government-icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/GovernmentPhone-25x25.png)}
+.government-icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/GovernmentPhone-20x20.png)}
+.government-icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/GovernmentPhone-15x15.png)}
+.government-icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/GovernmentPhone-10x10.png)}
+.shared-phone-icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/SharedPhone-35x35.png)}
+.shared-phone-icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/SharedPhone-30x30.png)}
+.shared-phone-icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/SharedPhone-25x25.png)}
+.shared-phone-icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/SharedPhone-20x20.png)}
+.shared-phone-icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/SharedPhone-15x15.png)}
+.shared-phone-icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/SharedPhone-10x10.png)}
+.general-info-alert.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/GeneralInformationAlert-35x35.png)}
+.general-info-alert.svg-icon-large:before{background-image:url(../../images/v4/PNGs/GeneralInformationAlert-30x30.png)}
+.general-info-alert.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/GeneralInformationAlert-25x25.png)}
+.general-info-alert.svg-icon-small:before{background-image:url(../../images/v4/PNGs/GeneralInformationAlert-20x20.png)}
+.general-info-alert.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/GeneralInformationAlert-15x15.png)}
+.general-info-alert.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/GeneralInformationAlert-10x10.png)}
+.associated-with-icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/AssociatedwithCompanies-35x35.png)}
+.associated-with-icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/AssociatedwithCompanies-30x30.png)}
+.associated-with-icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/AssociatedwithCompanies-25x25.png)}
+.associated-with-icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/AssociatedwithCompanies-20x20.png)}
+.associated-with-icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/AssociatedwithCompanies-15x15.png)}
+.associated-with-icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/AssociatedwithCompanies-10x10.png)}
+.deceased-icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/aml-Deceased-35x35.png)}
+.deceased-icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/aml-Deceased-30x30.png)}
+.deceased-icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/aml-Deceased-25x25.png)}
+.deceased-icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/aml-Deceased-20x20.png)}
+.deceased-icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/aml-Deceased-15x15.png)}
+.deceased-icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/aml-Deceased-10x10.png)}
+.otp-icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/OTP-35x35.png)}
+.otp-icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/OTP-30x30.png)}
+.otp-icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/OTP-25x25.png)}
+.otp-icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/OTP-20x20.png)}
+.otp-icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/OTP-15x15.png)}
+.otp-icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/OTP-10x10.png)}
+.general-info-icon.svg-icon-x-large:before{background-image:url(../../images/v4/PNGs/Information-indicator-35x35.png)}
+.general-info-icon.svg-icon-large:before{background-image:url(../../images/v4/PNGs/Information-indicator-30x30.png)}
+.general-info-icon.svg-icon-normal:before{background-image:url(../../images/v4/PNGs/Information-indicator-25x25.png)}
+.general-info-icon.svg-icon-small:before{background-image:url(../../images/v4/PNGs/Information-indicator-20x20.png)}
+.general-info-icon.svg-icon-tiny:before{background-image:url(../../images/v4/PNGs/Information-indicator-15x15.png)}
+.general-info-icon.svg-icon-x-tiny:before{background-image:url(../../images/v4/PNGs/Information-indicator-10x10.png)}
+
+.svg-icon-x-large:before,
+.svg-icon-large:before,
+.svg-icon-normal:before,
+.svg-icon-small:before,
+.svg-icon-tiny:before,
+.svg-icon-x-tiny:before{
+    background-repeat:no-repeat!important;
+    background-size:100%;
+}
+
+/* Toggle Switch IE Hack */
+
+.checkbox-toggle .toggle > .toggle-switch{
+  background: linear-gradient(#C8C9C7, #FFFFFF);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#C8C9C7', endColorstr='#FFFFFF',GradientType=0 );
+    
+}
+
+label.checkbox-toggle {
+    cursor: pointer
+}
+
+.checkbox-toggle.switch-on .toggle-off{
+  color: #E4E5E4;
+}
+      
+.checkbox-toggle.switch-on .toggle{
+  background-color: #A0CD4C;
+}
+      
+.checkbox-toggle.switch-off .toggle-on{
+  color: #C8C9C7;
+}
+      
+.checkbox-toggle.switch-on .toggle-switch{
+  left: 45%;
+}
+
+/* fix pref header right justification */
+#pref_header {
+    clear: both;  
+}
+
+/* removes extra | after contact us in IE8 */
+footer a.last-child, .inline-link-list > li.last-child {
+    border-right: none;
+}
+
+/* fixes login page icons */
+.cust-support:before{
+  background-image: url(../../images/v4/PNGs/Resources1-35x35.png);
+  background-repeat: no-repeat;
+}
+
+.education:before{
+  background-image: url(../../images/v4/PNGs/education-40x23.png);
+  background-repeat: no-repeat;
+}
+
+/* fix nav alignment */
+#main {
+  clear:both;
+}
+
+.top-section {
+  height:34px!important;
+  width:100%;
+}
+
+#nav-fav-bar > li{
+  margin-top:0px!important;
+}
+
+.qualtrics {
+    float:right;
+}
+
+.placeholder {
+    color:#6d6e71;
+}
+
+.tooltip { /* bootstrap override. required to allow the arrow to pop out. */
+    -ms-filter: none;
+    filter: none;
+}
+
+div.dataTables_length > label { /* lengthMenu */
+    display: inline;
+}
+
+div.dataTables_wrapper table th {
+    width:auto!important;
+}
+
+.pull-container {
+    display: table;
+    width: 100%;
+}
+.pull-container  > .pull-left {
+    display: table-cell;
+    float: none !important;
+    vertical-align: top;
+}
+.pull-container  > .pull-right {
+    display: table-cell;
+    float: none !important;
+    vertical-align: top;
+    text-align: right;    
+}
+
+.checkbox-toggle input[type="checkbox"]:focus + .toggle{
+    filter: progid:DXImageTransform.Microsoft.DropShadow(OffX=2, OffY=2, Color=#66afe9),
+            progid:DXImageTransform.Microsoft.Chroma(Color='#ffffff');
+    
+}
+.checkbox-toggle .toggle{
+    background-color: #ffffff;
+} 
+
+.checkbox-toggle input[type="checkbox"]{
+    filter: alpha(opacity = 0);
+} 
+
+
+/* PROP PLUS: ie8 crashes if these images are auto-resized in this manner, so stack them instead */
+.property-maps {
+    white-space: inherit !important;
+}
+.property-maps > li {
+    display: inherit !important;
+    max-width: inherit !important;
+}
+.property-maps > li + li {
+    margin-top: 10px;
+}
+.property-maps .preview img {
+    max-width: inherit !important;
+}

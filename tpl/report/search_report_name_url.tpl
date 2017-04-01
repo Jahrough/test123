@@ -1,0 +1,3 @@
+<TMPL_IF NAME=ssn><TMPL_UNLESS NAME="NO_LINKS"><a href="javascript:set_vars('RECID|<TMPL_VAR NAME=RECID>', 1);"<TMPL_IF NAME=relative_key> NAME="REL-<TMPL_VAR NAME=relative_key>"</TMPL_IF>></TMPL_UNLESS><TMPL_VAR NAME=first><TMPL_IF NAME=middle>&nbsp;<TMPL_VAR name=middle></TMPL_IF>&nbsp;<TMPL_VAR name=last><TMPL_IF NAME=suffix>&nbsp;<TMPL_VAR name=suffix></TMPL_IF><TMPL_UNLESS NAME="NO_LINKS"></a></TMPL_UNLESS>
+<TMPL_ELSE><TMPL_IF NAME=relative_key><TMPL_UNLESS NAME="NO_LINKS"><a name="REL-<TMPL_VAR NAME=relative_key>"></TMPL_UNLESS><TMPL_UNLESS NAME="NO_LINKS"></a></TMPL_UNLESS></TMPL_IF><TMPL_VAR NAME=first><TMPL_IF NAME=middle>&nbsp;<TMPL_VAR name=middle></TMPL_IF>&nbsp;<TMPL_VAR name=last><TMPL_IF NAME=suffix>&nbsp;<TMPL_VAR name=suffix></TMPL_IF>
+</TMPL_IF>

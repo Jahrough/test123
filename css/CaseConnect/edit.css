@@ -1,0 +1,57 @@
+    .box_lbl{
+        display: inline-block;
+        width: auto;
+    }
+    .field{
+        margin: 10px 15px 10px 15px;
+        font-family: Arial;
+        font-size: 9pt;
+    }
+    .ib{
+        display: inline-block;
+    }
+    .lbl{
+        width: 30%;
+        display: inline-block;
+        font-weight: bold;
+        vertical-align: top;
+    }
+    .cb_line{
+        margin: 10px;
+        display: inline-block;
+        font-size: 8pt;
+    }
+    #mm2{
+        font-weight: bold;
+    }
+    #tt_bar{
+        background-color: #999999;
+        font-size: 16px;
+        font-weight: bolder;
+        padding: 10px;
+    }
+    #title_span{
+        float: left;
+    }
+    #help_span{
+        float: right;
+    }
+    #error{
+        color:#FF3300;
+    }
+    #CC_HELP_LNK{
+        cursor: help;
+        border: none;
+        height: 18px;
+        width: 43px;
+    }
+    #CC_HELP_OVER{
+        border: none;
+        height: 18px;
+        width: 43px;
+    }
+    #CC_HELP_ON{
+        border: none;
+        height: 18px;
+        width: 43px;        
+    }

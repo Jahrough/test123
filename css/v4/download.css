@@ -1,0 +1,111 @@
+@page {
+  size:8.5in 11in; 
+  margin-left: .75in;
+  margin-right: .75in;  
+}
+input{
+	display:none;
+}
+#header {
+  display: table-header-group;
+}
+.add-actions{
+	display:none;
+}
+.no-print{
+	display:none;
+}
+.caret_up{
+  display:none;	
+}
+.collapse{
+  display:block!important;	
+}
+
+/* For NO table haader on each page */
+thead, tfoot {
+  display: table-row-group;
+}
+
+/*thead { display: table-header-group }
+tfoot { display: table-row-group }*/
+/*tr.hidden{
+  display:block!important;
+}*/
+
+.pgbreak{
+  display: block;
+  clear: both;
+  page-break-after: always;
+}
+
+/* ul.report_help_links{
+	display: none !important;
+} */
+
+li.report_help_link{
+	display: none  !important;
+}
+
+.svg-icon-tiny.notes, .show-more-button, .external_link_icon{
+	display: none !important;
+}
+
+.collapsible.closed:before,
+.expando.collapsed:before{	
+	content: "";
+}
+
+
+#search-results-con table {
+    border-top-style: none;
+    border-top-color: ;
+    border-top-width: ;
+    border-right:;
+    border-collapse:;
+}
+
+
+#search-history-today thead .sorting_asc:after,
+#search-history-today thead .sorting_desc:after,
+#search-history-today thead .sorting:after {
+    content: ""!important;
+}
+
+#search-history-previous thead .sorting_asc:after,
+#search-history-previous thead .sorting_desc:after,
+#search-history-previous thead .sorting:after {
+    content: ""!important;
+}
+
+#search-terms > * {
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+
+.history_chart {
+    overflow: auto;
+    text-align: center;
+}
+.history_chart > div {
+    height: 250px;
+    width: 100%;
+}
+
+#source_doc_container {
+    position: relative;
+}
+
+#report_navigation {
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.navAnchor {
+    top: -10px !important;
+}

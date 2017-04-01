@@ -1,0 +1,20 @@
+.sos-filings-address,
+.sos-filings-name{
+	margin-bottom: 5px;
+	border-bottom: 1px solid #DADADA;
+	min-height: 100px;
+}
+
+.sos-filings-address:last-child,
+.sos-filings-name:last-child{
+	border-bottom: 0;
+	margin-bottom: 0;
+}
+
+.sos-filings-address{
+	min-height: 100px;
+}
+
+.spacer{
+	height: 0px;
+}
